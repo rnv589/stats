@@ -1,0 +1,343 @@
+{
+  "deck_id": "stats_2_1_1",
+  "subject": "ap_statistics",
+  "title": "Association Basics",
+  "skill_band_id": "stats_band_2",
+  "skill_id": "stats_2_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "scatterplot",
+    "association"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "If points tend to rise from left to right, the association is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Negative"
+        },
+        {
+          "id": "b",
+          "text": "Positive"
+        },
+        {
+          "id": "c",
+          "text": "None"
+        },
+        {
+          "id": "d",
+          "text": "Curved only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Rising left to right means positive association.",
+      "hint": "Think direction.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "association",
+        "direction"
+      ],
+      "media": {
+        "image": "media/images/stats_2_1_1_association_basics_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If points tend to fall from left to right, the association is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Positive"
+        },
+        {
+          "id": "b",
+          "text": "Negative"
+        },
+        {
+          "id": "c",
+          "text": "Strong positive"
+        },
+        {
+          "id": "d",
+          "text": "No association"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Falling left to right means negative association.",
+      "hint": "Look at the overall slope.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "association",
+        "direction"
+      ],
+      "media": {
+        "image": "media/images/stats_2_1_1_association_basics_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A scatterplot with points tightly clustered around a line shows:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Weak association"
+        },
+        {
+          "id": "b",
+          "text": "Strong association"
+        },
+        {
+          "id": "c",
+          "text": "No association"
+        },
+        {
+          "id": "d",
+          "text": "Bimodal shape"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Tight clustering means strong association.",
+      "hint": "Think closeness to a pattern.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "association",
+        "strength"
+      ],
+      "media": {
+        "image": "media/images/stats_2_1_1_association_basics_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A scatterplot with points widely scattered shows:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strong association"
+        },
+        {
+          "id": "b",
+          "text": "Weak association"
+        },
+        {
+          "id": "c",
+          "text": "Perfect association"
+        },
+        {
+          "id": "d",
+          "text": "No possible trend"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "More scatter means weaker association.",
+      "hint": "Compare tightness.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "association",
+        "strength"
+      ],
+      "media": {
+        "image": "media/images/stats_2_1_1_association_basics_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If the pattern bends, the form is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Linear"
+        },
+        {
+          "id": "b",
+          "text": "Nonlinear"
+        },
+        {
+          "id": "c",
+          "text": "Categorical"
+        },
+        {
+          "id": "d",
+          "text": "Symmetric"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A bend indicates nonlinear form.",
+      "hint": "Straight vs curved is the key.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "association",
+        "form"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which three words are commonly used to describe a scatterplot?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Center, spread, outliers"
+        },
+        {
+          "id": "b",
+          "text": "Direction, form, strength"
+        },
+        {
+          "id": "c",
+          "text": "Mean, median, mode"
+        },
+        {
+          "id": "d",
+          "text": "Bias, variation, shape"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Scatterplots are described by direction, form, and strength.",
+      "hint": "Use the standard trio.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "association",
+        "description"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "A scatterplot with no clear upward or downward pattern has:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Positive association"
+        },
+        {
+          "id": "b",
+          "text": "Negative association"
+        },
+        {
+          "id": "c",
+          "text": "Little to no association"
+        },
+        {
+          "id": "d",
+          "text": "Perfect line"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "No visible trend means little to no association.",
+      "hint": "Think absence of pattern.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "association"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which variable goes on the x-axis in a scatterplot?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Response by rule"
+        },
+        {
+          "id": "b",
+          "text": "Either one randomly"
+        },
+        {
+          "id": "c",
+          "text": "Explanatory variable"
+        },
+        {
+          "id": "d",
+          "text": "Categorical total"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The explanatory variable is plotted on the x-axis.",
+      "hint": "Think cause/predictor first.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "association",
+        "axes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which statement is strongest?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The points go up, so x causes y"
+        },
+        {
+          "id": "b",
+          "text": "There is a positive association between x and y"
+        },
+        {
+          "id": "c",
+          "text": "The graph proves causation"
+        },
+        {
+          "id": "d",
+          "text": "The graph is symmetric"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Scatterplots support association statements, not automatic causation.",
+      "hint": "Association is safer than causation.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "association",
+        "causation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which graph type is used for two quantitative variables?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Boxplot"
+        },
+        {
+          "id": "b",
+          "text": "Histogram"
+        },
+        {
+          "id": "c",
+          "text": "Scatterplot"
+        },
+        {
+          "id": "d",
+          "text": "Bar chart"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Scatterplots are for two quantitative variables.",
+      "hint": "Match graph to variable types.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "association",
+        "graph"
+      ],
+      "media": null
+    }
+  ]
+}

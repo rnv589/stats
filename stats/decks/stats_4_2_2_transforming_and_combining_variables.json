@@ -1,0 +1,319 @@
+{
+  "deck_id": "stats_4_2_2",
+  "subject": "ap_statistics",
+  "title": "Transforming and Combining Variables",
+  "skill_band_id": "stats_band_4",
+  "skill_id": "stats_4_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "random-variable",
+    "transform",
+    "combine"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "If Y = X + 5, then the mean of Y is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mean of X minus 5"
+        },
+        {
+          "id": "b",
+          "text": "Mean of X plus 5"
+        },
+        {
+          "id": "c",
+          "text": "Unchanged"
+        },
+        {
+          "id": "d",
+          "text": "Multiplied by 5"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Adding a constant shifts the mean by that constant.",
+      "hint": "Means shift with additions.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transform",
+        "mean"
+      ],
+      "media": {
+        "image": "media/images/stats_4_2_2_transforming_and_combining_variables_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If Y = 3X, then the mean of Y is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mean of X + 3"
+        },
+        {
+          "id": "b",
+          "text": "3 times mean of X"
+        },
+        {
+          "id": "c",
+          "text": "Unchanged"
+        },
+        {
+          "id": "d",
+          "text": "Mean of X / 3"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Multiplying by 3 multiplies the mean by 3.",
+      "hint": "Scale the mean.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transform",
+        "mean"
+      ],
+      "media": {
+        "image": "media/images/stats_4_2_2_transforming_and_combining_variables_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If 5 is added to every observation, the standard deviation:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increases by 5"
+        },
+        {
+          "id": "b",
+          "text": "Decreases by 5"
+        },
+        {
+          "id": "c",
+          "text": "Stays the same"
+        },
+        {
+          "id": "d",
+          "text": "Doubles"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Adding a constant shifts location but not spread.",
+      "hint": "Spread does not change with shifts.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transform",
+        "sd"
+      ],
+      "media": {
+        "image": "media/images/stats_4_2_2_transforming_and_combining_variables_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If every value is multiplied by 2, the standard deviation:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stays the same"
+        },
+        {
+          "id": "b",
+          "text": "Is multiplied by 2"
+        },
+        {
+          "id": "c",
+          "text": "Adds 2"
+        },
+        {
+          "id": "d",
+          "text": "Is divided by 2"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Scaling data scales the standard deviation by the same factor.",
+      "hint": "Spread scales with multiplication.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transform",
+        "sd"
+      ],
+      "media": {
+        "image": "media/images/stats_4_2_2_transforming_and_combining_variables_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "prompt": "If mean(X)=4, what is mean(2X+1)?",
+      "correct_numeric": 9,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Mean(2X+1)=2\u00b74+1=9.",
+      "hint": "Apply linear transformation to the mean.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transform",
+        "mean"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "For independent random variables, the mean of X + Y is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "mean(X) + mean(Y)"
+        },
+        {
+          "id": "b",
+          "text": "mean(X)mean(Y)"
+        },
+        {
+          "id": "c",
+          "text": "undefined"
+        },
+        {
+          "id": "d",
+          "text": "Needs equal SDs"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Means add when variables are combined.",
+      "hint": "Add the centers.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "combine",
+        "mean"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "For independent random variables, the variance of X + Y is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "var(X)+var(Y)"
+        },
+        {
+          "id": "b",
+          "text": "sd(X)+sd(Y)"
+        },
+        {
+          "id": "c",
+          "text": "var(X)var(Y)"
+        },
+        {
+          "id": "d",
+          "text": "Always 0"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Independent variances add.",
+      "hint": "Variance, not SD, adds directly.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "combine",
+        "variance"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which quantity stays unchanged when you add a constant to every value?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mean"
+        },
+        {
+          "id": "b",
+          "text": "Median"
+        },
+        {
+          "id": "c",
+          "text": "Standard deviation changes"
+        },
+        {
+          "id": "d",
+          "text": "Standard deviation"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "Adding a constant does not affect standard deviation.",
+      "hint": "Spread is unchanged by shifts.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transform",
+        "sd"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "numeric",
+      "prompt": "If mean(X)=10 and mean(Y)=6, what is mean(X\u2212Y)?",
+      "correct_numeric": 4,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Mean(X\u2212Y)=mean(X)\u2212mean(Y)=4.",
+      "hint": "Means subtract too.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "combine",
+        "mean"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "When combining independent variables, standard deviations:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Add directly"
+        },
+        {
+          "id": "b",
+          "text": "Require variances first"
+        },
+        {
+          "id": "c",
+          "text": "Always stay same"
+        },
+        {
+          "id": "d",
+          "text": "Can never be found"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Add variances first, then take square root for SD.",
+      "hint": "Do not add SDs directly.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "combine",
+        "sd"
+      ],
+      "media": null
+    }
+  ]
+}

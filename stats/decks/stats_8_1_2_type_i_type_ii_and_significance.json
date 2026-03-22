@@ -1,0 +1,345 @@
+{
+  "deck_id": "stats_8_1_2",
+  "subject": "ap_statistics",
+  "title": "Type I, Type II, and Significance",
+  "skill_band_id": "stats_band_8",
+  "skill_id": "stats_8_1",
+  "difficulty": "hard",
+  "recommended_timer": 25,
+  "question_count": 10,
+  "tags": [
+    "hypothesis-test",
+    "errors",
+    "power"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "A Type I error means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Failing to reject a false null"
+        },
+        {
+          "id": "b",
+          "text": "Rejecting a true null"
+        },
+        {
+          "id": "c",
+          "text": "Using the wrong graph"
+        },
+        {
+          "id": "d",
+          "text": "Computing the wrong mean"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Type I error is a false positive.",
+      "hint": "Rejecting truth.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "type1"
+      ],
+      "media": {
+        "image": "media/images/stats_8_1_2_type_i_type_ii_and_significance_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A Type II error means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rejecting a true null"
+        },
+        {
+          "id": "b",
+          "text": "Failing to reject a false null"
+        },
+        {
+          "id": "c",
+          "text": "Proving the null"
+        },
+        {
+          "id": "d",
+          "text": "Having large n"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Type II error is a false negative.",
+      "hint": "Missing a real effect.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "type2"
+      ],
+      "media": {
+        "image": "media/images/stats_8_1_2_type_i_type_ii_and_significance_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "The significance level \u03b1 is the probability of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Type I error"
+        },
+        {
+          "id": "b",
+          "text": "Type II error"
+        },
+        {
+          "id": "c",
+          "text": "Power"
+        },
+        {
+          "id": "d",
+          "text": "Random assignment"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Alpha sets the Type I error rate.",
+      "hint": "Think false positive rate.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "alpha"
+      ],
+      "media": {
+        "image": "media/images/stats_8_1_2_type_i_type_ii_and_significance_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Power is the probability of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rejecting a true null"
+        },
+        {
+          "id": "b",
+          "text": "Failing to reject a false null"
+        },
+        {
+          "id": "c",
+          "text": "Rejecting a false null"
+        },
+        {
+          "id": "d",
+          "text": "Making a Type I error"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Power measures the chance of detecting a real effect.",
+      "hint": "True positive rate.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "power"
+      ],
+      "media": {
+        "image": "media/images/stats_8_1_2_type_i_type_ii_and_significance_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If \u03b1 is lowered, Type I error becomes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More likely"
+        },
+        {
+          "id": "b",
+          "text": "Less likely"
+        },
+        {
+          "id": "c",
+          "text": "Unchanged"
+        },
+        {
+          "id": "d",
+          "text": "Equal to power"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Smaller alpha makes false positives less likely.",
+      "hint": "Stricter threshold.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "alpha"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Increasing sample size generally makes power:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Smaller"
+        },
+        {
+          "id": "b",
+          "text": "Larger"
+        },
+        {
+          "id": "c",
+          "text": "Exactly \u03b1"
+        },
+        {
+          "id": "d",
+          "text": "Zero"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Larger samples make real effects easier to detect.",
+      "hint": "More information boosts power.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "power"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which is a Type I error in context?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Concluding a medicine works when it really does not"
+        },
+        {
+          "id": "b",
+          "text": "Missing a medicine effect that is real"
+        },
+        {
+          "id": "c",
+          "text": "Estimating \u03bc incorrectly"
+        },
+        {
+          "id": "d",
+          "text": "Sampling randomly"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "That is rejecting a true null of no effect.",
+      "hint": "False alarm.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "type1"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which is a Type II error in context?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Concluding a treatment has no effect when it really does"
+        },
+        {
+          "id": "b",
+          "text": "Concluding a treatment works when it does not"
+        },
+        {
+          "id": "c",
+          "text": "Using \u03b1 = 0.05"
+        },
+        {
+          "id": "d",
+          "text": "Constructing a confidence interval"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "That is failing to detect a real effect.",
+      "hint": "Missed detection.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "type2"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Statistical significance means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The effect is practically important"
+        },
+        {
+          "id": "b",
+          "text": "The p-value is below \u03b1"
+        },
+        {
+          "id": "c",
+          "text": "The null is impossible"
+        },
+        {
+          "id": "d",
+          "text": "The sample is unbiased"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Significance is defined relative to the chosen alpha level.",
+      "hint": "It does not guarantee practical importance.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "significance"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Practical significance is about:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Whether p-value is under 0.05 only"
+        },
+        {
+          "id": "b",
+          "text": "Whether the effect size matters in real life"
+        },
+        {
+          "id": "c",
+          "text": "Whether H0 was written correctly"
+        },
+        {
+          "id": "d",
+          "text": "Whether the sample was random only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "An effect can be statistically significant but too small to matter practically.",
+      "hint": "Real-world importance.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "practical-significance"
+      ],
+      "media": null
+    }
+  ]
+}

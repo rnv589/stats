@@ -1,0 +1,368 @@
+{
+  "subject": "ap_statistics",
+  "title": "AP Statistics",
+  "skill_bands": [
+    {
+      "id": "stats_band_1",
+      "title": "Exploring One-Variable Data",
+      "order": 1,
+      "level": "foundational",
+      "skills": [
+        {
+          "id": "stats_1_1",
+          "title": "Describing Distributions",
+          "order": 1,
+          "decks": [
+            {
+              "id": "stats_1_1_1",
+              "title": "Shape Basics",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "stats_1_1_2",
+              "title": "Center: Mean vs Median",
+              "order": 2,
+              "difficulty": "easy"
+            },
+            {
+              "id": "stats_1_1_3",
+              "title": "Spread and Outliers",
+              "order": 3,
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "id": "stats_1_2",
+          "title": "Comparing Distributions",
+          "order": 2,
+          "decks": [
+            {
+              "id": "stats_1_2_1",
+              "title": "Compare Center and Spread",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "stats_1_2_2",
+              "title": "Graph Type Matchups",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats_band_2",
+      "title": "Two-Variable Data",
+      "order": 2,
+      "level": "foundational",
+      "skills": [
+        {
+          "id": "stats_2_1",
+          "title": "Scatterplots and Association",
+          "order": 1,
+          "decks": [
+            {
+              "id": "stats_2_1_1",
+              "title": "Association Basics",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "stats_2_1_2",
+              "title": "Outliers and Form",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "stats_2_2",
+          "title": "Regression and Correlation",
+          "order": 2,
+          "decks": [
+            {
+              "id": "stats_2_2_1",
+              "title": "Slope and Intercept",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "stats_2_2_2",
+              "title": "Correlation and Residuals",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats_band_3",
+      "title": "Collecting Data",
+      "order": 3,
+      "level": "foundational",
+      "skills": [
+        {
+          "id": "stats_3_1",
+          "title": "Study Design",
+          "order": 1,
+          "decks": [
+            {
+              "id": "stats_3_1_1",
+              "title": "Experiment vs Observational Study",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "stats_3_1_2",
+              "title": "Random Assignment and Confounding",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "stats_3_2",
+          "title": "Sampling Methods and Bias",
+          "order": 2,
+          "decks": [
+            {
+              "id": "stats_3_2_1",
+              "title": "Sampling Methods",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "stats_3_2_2",
+              "title": "Sources of Bias",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats_band_4",
+      "title": "Probability Foundations",
+      "order": 4,
+      "level": "intermediate",
+      "skills": [
+        {
+          "id": "stats_4_1",
+          "title": "Probability Rules",
+          "order": 1,
+          "decks": [
+            {
+              "id": "stats_4_1_1",
+              "title": "Basic Probability Rules",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "stats_4_1_2",
+              "title": "Conditional Probability",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "stats_4_2",
+          "title": "Random Variables",
+          "order": 2,
+          "decks": [
+            {
+              "id": "stats_4_2_1",
+              "title": "Expected Value",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "stats_4_2_2",
+              "title": "Transforming and Combining Variables",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats_band_5",
+      "title": "Binomial and Geometric Models",
+      "order": 5,
+      "level": "intermediate",
+      "skills": [
+        {
+          "id": "stats_5_1",
+          "title": "Binomial Models",
+          "order": 1,
+          "decks": [
+            {
+              "id": "stats_5_1_1",
+              "title": "BINS Recognition",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "stats_5_1_2",
+              "title": "Binomial Mean and Probability",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "stats_5_2",
+          "title": "Geometric Models",
+          "order": 2,
+          "decks": [
+            {
+              "id": "stats_5_2_1",
+              "title": "Geometric Recognition and Mean",
+              "order": 1,
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats_band_6",
+      "title": "Sampling Distributions",
+      "order": 6,
+      "level": "intermediate",
+      "skills": [
+        {
+          "id": "stats_6_1",
+          "title": "Sampling Distributions for Proportions",
+          "order": 1,
+          "decks": [
+            {
+              "id": "stats_6_1_1",
+              "title": "p-hat Mean and SD",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "stats_6_1_2",
+              "title": "Normal Approximation Logic",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "stats_6_2",
+          "title": "Sampling Distributions for Means",
+          "order": 2,
+          "decks": [
+            {
+              "id": "stats_6_2_1",
+              "title": "x-bar Mean and SD",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "stats_6_2_2",
+              "title": "Central Limit Theorem",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats_band_7",
+      "title": "Confidence Intervals",
+      "order": 7,
+      "level": "advanced",
+      "skills": [
+        {
+          "id": "stats_7_1",
+          "title": "Confidence Interval Logic",
+          "order": 1,
+          "decks": [
+            {
+              "id": "stats_7_1_1",
+              "title": "Confidence Level and Margin of Error",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "stats_7_1_2",
+              "title": "z vs t Interval Selection",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "stats_7_2",
+          "title": "Two-Sample Intervals",
+          "order": 2,
+          "decks": [
+            {
+              "id": "stats_7_2_1",
+              "title": "Two-Sample Interval Choice and Interpretation",
+              "order": 1,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats_band_8",
+      "title": "Significance Testing",
+      "order": 8,
+      "level": "advanced",
+      "skills": [
+        {
+          "id": "stats_8_1",
+          "title": "Hypothesis Test Structure",
+          "order": 1,
+          "decks": [
+            {
+              "id": "stats_8_1_1",
+              "title": "Null, Alternative, and p-values",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "stats_8_1_2",
+              "title": "Type I, Type II, and Significance",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "stats_8_2",
+          "title": "Selecting and Interpreting Tests",
+          "order": 2,
+          "decks": [
+            {
+              "id": "stats_8_2_1",
+              "title": "Choose the Correct Test",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "stats_8_2_2",
+              "title": "Conclusions in Context",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

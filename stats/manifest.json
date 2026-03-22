@@ -1,0 +1,485 @@
+{
+  "subject": "ap_statistics",
+  "decks": [
+    {
+      "id": "stats_1_1_1",
+      "file": "decks/stats_1_1_1_shape_basics.json",
+      "skill_id": "stats_1_1",
+      "skill_band_id": "stats_band_1",
+      "title": "Shape Basics",
+      "difficulty": "easy",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "distribution",
+        "shape",
+        "graph-reading"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_1_1_2",
+      "file": "decks/stats_1_1_2_center_mean_vs_median.json",
+      "skill_id": "stats_1_1",
+      "skill_band_id": "stats_band_1",
+      "title": "Center: Mean vs Median",
+      "difficulty": "easy",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "distribution",
+        "center"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_1_1_3",
+      "file": "decks/stats_1_1_3_spread_and_outliers.json",
+      "skill_id": "stats_1_1",
+      "skill_band_id": "stats_band_1",
+      "title": "Spread and Outliers",
+      "difficulty": "easy",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "distribution",
+        "spread",
+        "outliers"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_1_2_1",
+      "file": "decks/stats_1_2_1_compare_center_and_spread.json",
+      "skill_id": "stats_1_2",
+      "skill_band_id": "stats_band_1",
+      "title": "Compare Center and Spread",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "comparison",
+        "center",
+        "spread"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_1_2_2",
+      "file": "decks/stats_1_2_2_graph_type_matchups.json",
+      "skill_id": "stats_1_2",
+      "skill_band_id": "stats_band_1",
+      "title": "Graph Type Matchups",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "graphs",
+        "display-choice"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_2_1_1",
+      "file": "decks/stats_2_1_1_association_basics.json",
+      "skill_id": "stats_2_1",
+      "skill_band_id": "stats_band_2",
+      "title": "Association Basics",
+      "difficulty": "easy",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "scatterplot",
+        "association"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_2_1_2",
+      "file": "decks/stats_2_1_2_outliers_and_form.json",
+      "skill_id": "stats_2_1",
+      "skill_band_id": "stats_band_2",
+      "title": "Outliers and Form",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "scatterplot",
+        "outliers",
+        "nonlinear"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_2_2_1",
+      "file": "decks/stats_2_2_1_slope_and_intercept.json",
+      "skill_id": "stats_2_2",
+      "skill_band_id": "stats_band_2",
+      "title": "Slope and Intercept",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "regression",
+        "slope",
+        "intercept"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_2_2_2",
+      "file": "decks/stats_2_2_2_correlation_and_residuals.json",
+      "skill_id": "stats_2_2",
+      "skill_band_id": "stats_band_2",
+      "title": "Correlation and Residuals",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "correlation",
+        "residuals"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_3_1_1",
+      "file": "decks/stats_3_1_1_experiment_vs_observational_study.json",
+      "skill_id": "stats_3_1",
+      "skill_band_id": "stats_band_3",
+      "title": "Experiment vs Observational Study",
+      "difficulty": "easy",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "study-design",
+        "experiment"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_3_1_2",
+      "file": "decks/stats_3_1_2_random_assignment_and_confounding.json",
+      "skill_id": "stats_3_1",
+      "skill_band_id": "stats_band_3",
+      "title": "Random Assignment and Confounding",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "study-design",
+        "randomization",
+        "confounding"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_3_2_1",
+      "file": "decks/stats_3_2_1_sampling_methods.json",
+      "skill_id": "stats_3_2",
+      "skill_band_id": "stats_band_3",
+      "title": "Sampling Methods",
+      "difficulty": "easy",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "sampling",
+        "srs",
+        "stratified",
+        "cluster",
+        "systematic"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_3_2_2",
+      "file": "decks/stats_3_2_2_sources_of_bias.json",
+      "skill_id": "stats_3_2",
+      "skill_band_id": "stats_band_3",
+      "title": "Sources of Bias",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "sampling",
+        "bias",
+        "validity"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_4_1_1",
+      "file": "decks/stats_4_1_1_basic_probability_rules.json",
+      "skill_id": "stats_4_1",
+      "skill_band_id": "stats_band_4",
+      "title": "Basic Probability Rules",
+      "difficulty": "easy",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "probability",
+        "complement",
+        "addition"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_4_1_2",
+      "file": "decks/stats_4_1_2_conditional_probability.json",
+      "skill_id": "stats_4_1",
+      "skill_band_id": "stats_band_4",
+      "title": "Conditional Probability",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "probability",
+        "conditional",
+        "independence"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_4_2_1",
+      "file": "decks/stats_4_2_1_expected_value.json",
+      "skill_id": "stats_4_2",
+      "skill_band_id": "stats_band_4",
+      "title": "Expected Value",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "random-variable",
+        "expected-value"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_4_2_2",
+      "file": "decks/stats_4_2_2_transforming_and_combining_variables.json",
+      "skill_id": "stats_4_2",
+      "skill_band_id": "stats_band_4",
+      "title": "Transforming and Combining Variables",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "random-variable",
+        "transform",
+        "combine"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_5_1_1",
+      "file": "decks/stats_5_1_1_bins_recognition.json",
+      "skill_id": "stats_5_1",
+      "skill_band_id": "stats_band_5",
+      "title": "BINS Recognition",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "binomial",
+        "conditions"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_5_1_2",
+      "file": "decks/stats_5_1_2_binomial_mean_and_probability.json",
+      "skill_id": "stats_5_1",
+      "skill_band_id": "stats_band_5",
+      "title": "Binomial Mean and Probability",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "binomial",
+        "mean",
+        "probability"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_5_2_1",
+      "file": "decks/stats_5_2_1_geometric_recognition_and_mean.json",
+      "skill_id": "stats_5_2",
+      "skill_band_id": "stats_band_5",
+      "title": "Geometric Recognition and Mean",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "geometric",
+        "first-success"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_6_1_1",
+      "file": "decks/stats_6_1_1_p_hat_mean_and_sd.json",
+      "skill_id": "stats_6_1",
+      "skill_band_id": "stats_band_6",
+      "title": "p-hat Mean and SD",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "sampling-distribution",
+        "proportion"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_6_1_2",
+      "file": "decks/stats_6_1_2_normal_approximation_logic.json",
+      "skill_id": "stats_6_1",
+      "skill_band_id": "stats_band_6",
+      "title": "Normal Approximation Logic",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "sampling-distribution",
+        "conditions"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_6_2_1",
+      "file": "decks/stats_6_2_1_x_bar_mean_and_sd.json",
+      "skill_id": "stats_6_2",
+      "skill_band_id": "stats_band_6",
+      "title": "x-bar Mean and SD",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "tags": [
+        "sampling-distribution",
+        "mean"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_6_2_2",
+      "file": "decks/stats_6_2_2_central_limit_theorem.json",
+      "skill_id": "stats_6_2",
+      "skill_band_id": "stats_band_6",
+      "title": "Central Limit Theorem",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 25,
+      "question_count": 10,
+      "tags": [
+        "clt",
+        "sampling-distribution"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_7_1_1",
+      "file": "decks/stats_7_1_1_confidence_level_and_margin_of_error.json",
+      "skill_id": "stats_7_1",
+      "skill_band_id": "stats_band_7",
+      "title": "Confidence Level and Margin of Error",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 25,
+      "question_count": 10,
+      "tags": [
+        "confidence-interval",
+        "interpretation"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_7_1_2",
+      "file": "decks/stats_7_1_2_z_vs_t_interval_selection.json",
+      "skill_id": "stats_7_1",
+      "skill_band_id": "stats_band_7",
+      "title": "z vs t Interval Selection",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 25,
+      "question_count": 10,
+      "tags": [
+        "confidence-interval",
+        "procedure-selection"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_7_2_1",
+      "file": "decks/stats_7_2_1_two_sample_interval_choice_and_interpretation.json",
+      "skill_id": "stats_7_2",
+      "skill_band_id": "stats_band_7",
+      "title": "Two-Sample Interval Choice and Interpretation",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 25,
+      "question_count": 10,
+      "tags": [
+        "confidence-interval",
+        "two-sample"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_8_1_1",
+      "file": "decks/stats_8_1_1_null_alternative_and_p_values.json",
+      "skill_id": "stats_8_1",
+      "skill_band_id": "stats_band_8",
+      "title": "Null, Alternative, and p-values",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 25,
+      "question_count": 10,
+      "tags": [
+        "hypothesis-test",
+        "p-value"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_8_1_2",
+      "file": "decks/stats_8_1_2_type_i_type_ii_and_significance.json",
+      "skill_id": "stats_8_1",
+      "skill_band_id": "stats_band_8",
+      "title": "Type I, Type II, and Significance",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 25,
+      "question_count": 10,
+      "tags": [
+        "hypothesis-test",
+        "errors",
+        "power"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_8_2_1",
+      "file": "decks/stats_8_2_1_choose_the_correct_test.json",
+      "skill_id": "stats_8_2",
+      "skill_band_id": "stats_band_8",
+      "title": "Choose the Correct Test",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 25,
+      "question_count": 10,
+      "tags": [
+        "hypothesis-test",
+        "procedure-selection"
+      ],
+      "media_count": 4
+    },
+    {
+      "id": "stats_8_2_2",
+      "file": "decks/stats_8_2_2_conclusions_in_context.json",
+      "skill_id": "stats_8_2",
+      "skill_band_id": "stats_band_8",
+      "title": "Conclusions in Context",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 25,
+      "question_count": 10,
+      "tags": [
+        "hypothesis-test",
+        "conclusion"
+      ],
+      "media_count": 4
+    }
+  ]
+}

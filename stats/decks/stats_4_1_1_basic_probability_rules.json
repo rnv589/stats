@@ -1,0 +1,279 @@
+{
+  "deck_id": "stats_4_1_1",
+  "subject": "ap_statistics",
+  "title": "Basic Probability Rules",
+  "skill_band_id": "stats_band_4",
+  "skill_id": "stats_4_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "probability",
+    "complement",
+    "addition"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "prompt": "If P(A) = 0.3, what is P(not A)?",
+      "correct_numeric": 0.7,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "decimal"
+      ],
+      "explanation": "Use the complement rule: 1 - 0.3 = 0.7.",
+      "hint": "Subtract from 1.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "probability",
+        "complement"
+      ],
+      "media": {
+        "image": "media/images/stats_4_1_1_basic_probability_rules_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "prompt": "A fair die is rolled. What is P(rolling a 4)?",
+      "correct_numeric": 0.16666666666666666,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "One favorable outcome out of six equally likely outcomes.",
+      "hint": "Count favorable over total.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "probability",
+        "basic"
+      ],
+      "media": {
+        "image": "media/images/stats_4_1_1_basic_probability_rules_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "prompt": "A fair coin is flipped. What is P(heads)?",
+      "correct_numeric": 0.5,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "A fair coin has two equally likely outcomes.",
+      "hint": "Half the outcomes are heads.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "probability",
+        "basic"
+      ],
+      "media": {
+        "image": "media/images/stats_4_1_1_basic_probability_rules_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If A and B are disjoint, then P(A or B) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "P(A)P(B)"
+        },
+        {
+          "id": "b",
+          "text": "P(A)+P(B)"
+        },
+        {
+          "id": "c",
+          "text": "1-P(A)"
+        },
+        {
+          "id": "d",
+          "text": "P(A)-P(B)"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Disjoint events do not overlap, so add their probabilities.",
+      "hint": "No overlap means simple addition.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "probability",
+        "addition"
+      ],
+      "media": {
+        "image": "media/images/stats_4_1_1_basic_probability_rules_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "prompt": "If P(A)=0.4 and P(B)=0.2 and A,B are disjoint, what is P(A or B)?",
+      "correct_numeric": 0.6,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Add disjoint probabilities: 0.4 + 0.2 = 0.6.",
+      "hint": "Disjoint means no overlap to subtract.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "probability",
+        "addition"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A probability can never be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0.2"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "-0.1"
+        },
+        {
+          "id": "d",
+          "text": "0.75"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Probabilities must be between 0 and 1 inclusive.",
+      "hint": "Check the valid range.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "probability",
+        "rules"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If an event is certain, its probability is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "0.5"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "Cannot tell"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "A certain event has probability 1.",
+      "hint": "Certain means always.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "probability",
+        "rules"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "prompt": "If P(A)=0.65, what is P(A^c)?",
+      "correct_numeric": 0.35,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Complement rule: 1 - 0.65 = 0.35.",
+      "hint": "Subtract from 1.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "probability",
+        "complement"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which expression represents the probability of at least one success in one trial?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "P(no success)"
+        },
+        {
+          "id": "b",
+          "text": "1 - P(no success)"
+        },
+        {
+          "id": "c",
+          "text": "P(success)^2"
+        },
+        {
+          "id": "d",
+          "text": "Always 0.5"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "At least one success is the complement of no success.",
+      "hint": "Use complement logic.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "probability",
+        "complement"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "For equally likely outcomes, probability equals:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Favorable minus total"
+        },
+        {
+          "id": "b",
+          "text": "Favorable divided by total"
+        },
+        {
+          "id": "c",
+          "text": "Total divided by favorable"
+        },
+        {
+          "id": "d",
+          "text": "Always 1/2"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Probability is favorable outcomes over total outcomes.",
+      "hint": "Classic ratio.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "probability",
+        "basic"
+      ],
+      "media": null
+    }
+  ]
+}

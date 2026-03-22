@@ -1,0 +1,342 @@
+{
+  "deck_id": "stats_6_2_2",
+  "subject": "ap_statistics",
+  "title": "Central Limit Theorem",
+  "skill_band_id": "stats_band_6",
+  "skill_id": "stats_6_2",
+  "difficulty": "hard",
+  "recommended_timer": 25,
+  "question_count": 10,
+  "tags": [
+    "clt",
+    "sampling-distribution"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "The Central Limit Theorem says that for large n, the distribution of x-bar is approximately normal when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The population is categorical"
+        },
+        {
+          "id": "b",
+          "text": "The population distribution can be any shape, under suitable conditions"
+        },
+        {
+          "id": "c",
+          "text": "n = 2 only"
+        },
+        {
+          "id": "d",
+          "text": "The sample is biased"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "For sufficiently large samples, x-bar is approximately normal even from nonnormal populations.",
+      "hint": "Large n smooths things out.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "clt"
+      ],
+      "media": {
+        "image": "media/images/stats_6_2_2_central_limit_theorem_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If the population is already normal, the distribution of x-bar is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Approximately normal only for large n"
+        },
+        {
+          "id": "b",
+          "text": "Exactly normal for any n"
+        },
+        {
+          "id": "c",
+          "text": "Skewed right always"
+        },
+        {
+          "id": "d",
+          "text": "Uniform"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Normal populations produce normal sample means for any sample size.",
+      "hint": "This is stronger than the CLT.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "clt",
+        "normal-population"
+      ],
+      "media": {
+        "image": "media/images/stats_6_2_2_central_limit_theorem_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "As n increases, the sampling distribution of x-bar typically becomes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Less normal"
+        },
+        {
+          "id": "b",
+          "text": "More nearly normal"
+        },
+        {
+          "id": "c",
+          "text": "More skewed"
+        },
+        {
+          "id": "d",
+          "text": "Categorical"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Larger sample sizes make x-bar more nearly normal.",
+      "hint": "CLT effect.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "clt",
+        "sample-size"
+      ],
+      "media": {
+        "image": "media/images/stats_6_2_2_central_limit_theorem_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "The CLT is about the distribution of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Raw data values"
+        },
+        {
+          "id": "b",
+          "text": "Sample means"
+        },
+        {
+          "id": "c",
+          "text": "Population parameters"
+        },
+        {
+          "id": "d",
+          "text": "Residuals"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The theorem describes sample means.",
+      "hint": "Statistic, not raw data.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "clt",
+        "definition"
+      ],
+      "media": {
+        "image": "media/images/stats_6_2_2_central_limit_theorem_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If the population is strongly skewed, what helps x-bar become more normal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Smaller n"
+        },
+        {
+          "id": "b",
+          "text": "Larger n"
+        },
+        {
+          "id": "c",
+          "text": "Changing units"
+        },
+        {
+          "id": "d",
+          "text": "Using a boxplot"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A larger sample size helps overcome skewness in the population.",
+      "hint": "Need enough sample size.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "clt",
+        "sample-size"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which statement is true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The CLT guarantees the sample data are normal"
+        },
+        {
+          "id": "b",
+          "text": "The CLT concerns sample means, not individual observations"
+        },
+        {
+          "id": "c",
+          "text": "The CLT makes bias disappear"
+        },
+        {
+          "id": "d",
+          "text": "The CLT only works for proportions"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The theorem is about the distribution of x-bar.",
+      "hint": "Do not confuse raw data with the statistic.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "clt"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If n is small and the population is heavily skewed, using a normal model for x-bar may be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reasonable"
+        },
+        {
+          "id": "b",
+          "text": "Questionable"
+        },
+        {
+          "id": "c",
+          "text": "Guaranteed"
+        },
+        {
+          "id": "d",
+          "text": "Required"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Small n may not overcome strong skewness.",
+      "hint": "Be cautious when n is small.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "clt",
+        "limitations"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "The center of the sampling distribution of x-bar under the CLT is still:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\u03c3"
+        },
+        {
+          "id": "b",
+          "text": "\u03bc"
+        },
+        {
+          "id": "c",
+          "text": "n"
+        },
+        {
+          "id": "d",
+          "text": "1"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The CLT changes the shape behavior, not the center.",
+      "hint": "Center remains \u03bc.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "clt",
+        "center"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "The spread of x-bar under the CLT is still:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\u03c3\u221an"
+        },
+        {
+          "id": "b",
+          "text": "\u03c3/n"
+        },
+        {
+          "id": "c",
+          "text": "\u03c3/\u221an"
+        },
+        {
+          "id": "d",
+          "text": "\u03bc/\u221an"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The standard deviation of x-bar is \u03c3/\u221an.",
+      "hint": "CLT does not change this formula.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "clt",
+        "spread"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which is the best summary of the CLT?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Large samples make sample means more nearly normal"
+        },
+        {
+          "id": "b",
+          "text": "All data become normal"
+        },
+        {
+          "id": "c",
+          "text": "All probabilities equal 0.5"
+        },
+        {
+          "id": "d",
+          "text": "It only applies to experiments"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "That is the main idea of the CLT.",
+      "hint": "Think sample means and large n.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "clt",
+        "summary"
+      ],
+      "media": null
+    }
+  ]
+}

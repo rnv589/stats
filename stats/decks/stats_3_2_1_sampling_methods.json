@@ -1,0 +1,347 @@
+{
+  "deck_id": "stats_3_2_1",
+  "subject": "ap_statistics",
+  "title": "Sampling Methods",
+  "skill_band_id": "stats_band_3",
+  "skill_id": "stats_3_2",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "sampling",
+    "srs",
+    "stratified",
+    "cluster",
+    "systematic"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "In a simple random sample, every sample of a given size has:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Different chance"
+        },
+        {
+          "id": "b",
+          "text": "The same chance"
+        },
+        {
+          "id": "c",
+          "text": "No chance"
+        },
+        {
+          "id": "d",
+          "text": "A biased chance"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "SRS means all samples of that size are equally likely.",
+      "hint": "Equal chance is the key.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sampling",
+        "srs"
+      ],
+      "media": {
+        "image": "media/images/stats_3_2_1_sampling_methods_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A stratified sample divides the population into groups and then:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chooses whole groups only"
+        },
+        {
+          "id": "b",
+          "text": "Randomly samples within each group"
+        },
+        {
+          "id": "c",
+          "text": "Uses convenience sampling"
+        },
+        {
+          "id": "d",
+          "text": "Surveys volunteers"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Stratified sampling samples within each stratum.",
+      "hint": "Think split then sample.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sampling",
+        "stratified"
+      ],
+      "media": {
+        "image": "media/images/stats_3_2_1_sampling_methods_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A cluster sample typically:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Samples individuals from every group"
+        },
+        {
+          "id": "b",
+          "text": "Randomly selects whole groups and surveys everyone in them"
+        },
+        {
+          "id": "c",
+          "text": "Uses every 10th person only"
+        },
+        {
+          "id": "d",
+          "text": "Chooses people by convenience"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Cluster sampling selects whole groups.",
+      "hint": "Whole groups are the clue.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sampling",
+        "cluster"
+      ],
+      "media": {
+        "image": "media/images/stats_3_2_1_sampling_methods_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A systematic sample might select:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every 10th name on a roster after a random start"
+        },
+        {
+          "id": "b",
+          "text": "Only seniors"
+        },
+        {
+          "id": "c",
+          "text": "All volunteers"
+        },
+        {
+          "id": "d",
+          "text": "One random class from each grade"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Systematic sampling uses every kth item after a random start.",
+      "hint": "Think pattern interval.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sampling",
+        "systematic"
+      ],
+      "media": {
+        "image": "media/images/stats_3_2_1_sampling_methods_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If a school separates students by grade level and samples randomly from each grade, that is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cluster"
+        },
+        {
+          "id": "b",
+          "text": "Convenience"
+        },
+        {
+          "id": "c",
+          "text": "Stratified"
+        },
+        {
+          "id": "d",
+          "text": "Systematic"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Grade levels are strata.",
+      "hint": "Sample inside each group.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sampling",
+        "stratified"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If 5 classrooms are randomly chosen and every student in those rooms is surveyed, that is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "SRS"
+        },
+        {
+          "id": "b",
+          "text": "Cluster"
+        },
+        {
+          "id": "c",
+          "text": "Systematic"
+        },
+        {
+          "id": "d",
+          "text": "Voluntary response"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Whole classrooms were selected, so it is cluster sampling.",
+      "hint": "Entire groups chosen.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sampling",
+        "cluster"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which sampling method usually gives the most representative sample when important groups differ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Convenience"
+        },
+        {
+          "id": "b",
+          "text": "Stratified"
+        },
+        {
+          "id": "c",
+          "text": "Voluntary response"
+        },
+        {
+          "id": "d",
+          "text": "Undercoverage"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Stratified sampling ensures key groups are represented.",
+      "hint": "Useful when groups differ.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sampling",
+        "stratified"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which method relies on a numbered list and a random process to pick individuals?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "SRS"
+        },
+        {
+          "id": "b",
+          "text": "Convenience"
+        },
+        {
+          "id": "c",
+          "text": "Voluntary response"
+        },
+        {
+          "id": "d",
+          "text": "Quota"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "SRS often uses numbering and random selection.",
+      "hint": "Think fair random pick.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sampling",
+        "srs"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A sample of students standing near the front entrance at lunch is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "SRS"
+        },
+        {
+          "id": "b",
+          "text": "Convenience"
+        },
+        {
+          "id": "c",
+          "text": "Stratified"
+        },
+        {
+          "id": "d",
+          "text": "Cluster"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Nearby easy-to-reach people make it convenience sampling.",
+      "hint": "Easy to access = convenience.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sampling",
+        "convenience"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "In systematic sampling, the first selection should usually be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chosen by convenience"
+        },
+        {
+          "id": "b",
+          "text": "Randomly chosen"
+        },
+        {
+          "id": "c",
+          "text": "The first item always"
+        },
+        {
+          "id": "d",
+          "text": "The largest group"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A random start prevents bias in systematic sampling.",
+      "hint": "Start fairly.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sampling",
+        "systematic"
+      ],
+      "media": null
+    }
+  ]
+}
