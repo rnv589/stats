@@ -1,0 +1,344 @@
+{
+  "deck_id": "stats_1_2_2",
+  "subject": "ap_statistics",
+  "title": "Graph Type Matchups",
+  "skill_band_id": "stats_band_1",
+  "skill_id": "stats_1_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "graphs",
+    "display-choice"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which display is best for showing the shape of one quantitative distribution?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Histogram"
+        },
+        {
+          "id": "b",
+          "text": "Pie chart"
+        },
+        {
+          "id": "c",
+          "text": "Two-way table"
+        },
+        {
+          "id": "d",
+          "text": "Segmented bar chart"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Histograms show the shape of quantitative data well.",
+      "hint": "Choose a quantitative graph.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graphs",
+        "histogram"
+      ],
+      "media": {
+        "image": "media/images/stats_1_2_2_graph_type_matchups_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Which display is best for comparing medians and IQRs across groups?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Scatterplot"
+        },
+        {
+          "id": "b",
+          "text": "Boxplot"
+        },
+        {
+          "id": "c",
+          "text": "Pie chart"
+        },
+        {
+          "id": "d",
+          "text": "Line chart"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Boxplots make medians and quartiles easy to compare.",
+      "hint": "Think five-number summaries.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graphs",
+        "boxplot"
+      ],
+      "media": {
+        "image": "media/images/stats_1_2_2_graph_type_matchups_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Which graph is best for displaying association between two quantitative variables?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Scatterplot"
+        },
+        {
+          "id": "b",
+          "text": "Bar chart"
+        },
+        {
+          "id": "c",
+          "text": "Histogram"
+        },
+        {
+          "id": "d",
+          "text": "Boxplot"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Scatterplots are built for two quantitative variables.",
+      "hint": "Two variables both quantitative.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graphs",
+        "scatterplot"
+      ],
+      "media": {
+        "image": "media/images/stats_1_2_2_graph_type_matchups_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Which display is least useful for spotting outliers in quantitative data?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Boxplot"
+        },
+        {
+          "id": "b",
+          "text": "Dotplot"
+        },
+        {
+          "id": "c",
+          "text": "Histogram"
+        },
+        {
+          "id": "d",
+          "text": "Pie chart"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "Pie charts are for categorical proportions, not quantitative outliers.",
+      "hint": "Wrong graph type for this task.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graphs",
+        "outliers"
+      ],
+      "media": {
+        "image": "media/images/stats_1_2_2_graph_type_matchups_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A teacher wants to compare distributions of quiz scores for two classes. Best choice?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two side-by-side boxplots"
+        },
+        {
+          "id": "b",
+          "text": "One pie chart"
+        },
+        {
+          "id": "c",
+          "text": "One circle graph"
+        },
+        {
+          "id": "d",
+          "text": "Stem list only"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Side-by-side boxplots allow fast comparison of center and spread.",
+      "hint": "Compare groups visually.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graphs",
+        "comparison"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which display is best for a single categorical variable?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Histogram"
+        },
+        {
+          "id": "b",
+          "text": "Scatterplot"
+        },
+        {
+          "id": "c",
+          "text": "Bar chart"
+        },
+        {
+          "id": "d",
+          "text": "Boxplot"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Bar charts are standard for categorical counts or proportions.",
+      "hint": "Identify categorical data.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graphs",
+        "categorical"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Dotplots are especially useful when the data set is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Huge and continuous"
+        },
+        {
+          "id": "b",
+          "text": "Small and discrete enough to show individual values"
+        },
+        {
+          "id": "c",
+          "text": "Categorical only"
+        },
+        {
+          "id": "d",
+          "text": "Always bivariate"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Dotplots show individual observations well for smaller data sets.",
+      "hint": "Think visible individual points.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graphs",
+        "dotplot"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A stemplot is most like a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Table for categories"
+        },
+        {
+          "id": "b",
+          "text": "Display of raw quantitative values"
+        },
+        {
+          "id": "c",
+          "text": "Scatterplot for two variables"
+        },
+        {
+          "id": "d",
+          "text": "Pie chart alternative"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Stemplots keep much of the original quantitative information.",
+      "hint": "It preserves actual data values.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graphs",
+        "stemplot"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which graph would best reveal whether a quantitative distribution is skewed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Histogram"
+        },
+        {
+          "id": "b",
+          "text": "Pie chart"
+        },
+        {
+          "id": "c",
+          "text": "Two-way table"
+        },
+        {
+          "id": "d",
+          "text": "Mosaic plot"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Histograms make skew easy to see.",
+      "hint": "Look for shape.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graphs",
+        "shape"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "If the goal is to compare the entire distributions, not just averages, which graph is better than a table of means?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Side-by-side plots"
+        },
+        {
+          "id": "b",
+          "text": "A single number summary only"
+        },
+        {
+          "id": "c",
+          "text": "One median value"
+        },
+        {
+          "id": "d",
+          "text": "No graph"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Plots show shape and spread, not just center.",
+      "hint": "Visual comparison matters.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graphs",
+        "comparison"
+      ],
+      "media": null
+    }
+  ]
+}

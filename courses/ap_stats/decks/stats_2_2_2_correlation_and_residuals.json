@@ -1,0 +1,324 @@
+{
+  "deck_id": "stats_2_2_2",
+  "subject": "ap_statistics",
+  "title": "Correlation and Residuals",
+  "skill_band_id": "stats_band_2",
+  "skill_id": "stats_2_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "correlation",
+    "residuals"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Correlation r measures the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Slope of the line"
+        },
+        {
+          "id": "b",
+          "text": "Direction and strength of linear association"
+        },
+        {
+          "id": "c",
+          "text": "Cause-and-effect strength"
+        },
+        {
+          "id": "d",
+          "text": "Spread of one variable"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Correlation describes direction and strength of a linear relationship.",
+      "hint": "It is about linear association.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "correlation"
+      ],
+      "media": {
+        "image": "media/images/stats_2_2_2_correlation_and_residuals_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If r is close to 1, the linear association is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strong positive"
+        },
+        {
+          "id": "b",
+          "text": "Strong negative"
+        },
+        {
+          "id": "c",
+          "text": "Weak"
+        },
+        {
+          "id": "d",
+          "text": "Nonlinear"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "r near 1 means strong positive linear association.",
+      "hint": "Think sign and closeness to 1.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "correlation"
+      ],
+      "media": {
+        "image": "media/images/stats_2_2_2_correlation_and_residuals_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If r is close to -1, the linear association is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strong positive"
+        },
+        {
+          "id": "b",
+          "text": "Strong negative"
+        },
+        {
+          "id": "c",
+          "text": "No association"
+        },
+        {
+          "id": "d",
+          "text": "Curved"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "r near -1 means strong negative linear association.",
+      "hint": "Negative and strong.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "correlation"
+      ],
+      "media": {
+        "image": "media/images/stats_2_2_2_correlation_and_residuals_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A residual equals:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Observed y minus predicted y"
+        },
+        {
+          "id": "b",
+          "text": "Predicted y minus observed y"
+        },
+        {
+          "id": "c",
+          "text": "x minus mean"
+        },
+        {
+          "id": "d",
+          "text": "y minus median"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Residual = observed - predicted.",
+      "hint": "Remember actual minus fit.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "residuals"
+      ],
+      "media": {
+        "image": "media/images/stats_2_2_2_correlation_and_residuals_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A positive residual means the actual point is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Below the line"
+        },
+        {
+          "id": "b",
+          "text": "On the line"
+        },
+        {
+          "id": "c",
+          "text": "Above the line"
+        },
+        {
+          "id": "d",
+          "text": "Not in the data"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "If observed > predicted, the point is above the line.",
+      "hint": "Positive means actual is larger.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "residuals"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A residual of 0 means the point lies:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Above the line"
+        },
+        {
+          "id": "b",
+          "text": "Below the line"
+        },
+        {
+          "id": "c",
+          "text": "Exactly on the regression line"
+        },
+        {
+          "id": "d",
+          "text": "At the intercept"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Observed equals predicted, so the point is on the line.",
+      "hint": "No error from the line.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "residuals"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Correlation does NOT change when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Units are changed linearly"
+        },
+        {
+          "id": "b",
+          "text": "One point is added far away"
+        },
+        {
+          "id": "c",
+          "text": "The form becomes curved"
+        },
+        {
+          "id": "d",
+          "text": "Outliers appear"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "r is unitless and unchanged by linear unit conversions.",
+      "hint": "Think standardization.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "correlation",
+        "units"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which statement is true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A high correlation proves causation"
+        },
+        {
+          "id": "b",
+          "text": "A high correlation proves no outliers"
+        },
+        {
+          "id": "c",
+          "text": "Correlation describes linear pattern only"
+        },
+        {
+          "id": "d",
+          "text": "Correlation works for categorical variables"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Correlation is about linear association, not causation.",
+      "hint": "Keep scope narrow.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "correlation",
+        "causation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "numeric",
+      "prompt": "If observed y = 12 and predicted y = 9, the residual is:",
+      "correct_numeric": 3,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Residual = observed - predicted = 12 - 9 = 3.",
+      "hint": "Actual minus predicted.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "residuals"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "A residual plot with random scatter around 0 suggests:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A linear model may be reasonable"
+        },
+        {
+          "id": "b",
+          "text": "The model is definitely nonlinear"
+        },
+        {
+          "id": "c",
+          "text": "Correlation is 0"
+        },
+        {
+          "id": "d",
+          "text": "There are no data"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Random residual scatter supports a reasonable linear fit.",
+      "hint": "Look for pattern vs no pattern.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "residuals",
+        "model-check"
+      ],
+      "media": null
+    }
+  ]
+}

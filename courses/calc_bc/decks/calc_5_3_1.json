@@ -1,0 +1,319 @@
+{
+  "deck_id": "calc_5_3_1",
+  "subject": "ap_calculus_bc",
+  "title": "Derivative of an Integral",
+  "skill_band_id": "calc_band_5",
+  "skill_id": "calc_5_3",
+  "difficulty": "hard",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "accumulation-functions",
+    "integrals"
+  ],
+  "questions": [
+    {
+      "id": "calc_5_3_1_q1",
+      "type": "multiple_choice",
+      "prompt": "An antiderivative of f is a function F such that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "F'=f"
+        },
+        {
+          "id": "b",
+          "text": "F=f'"
+        },
+        {
+          "id": "c",
+          "text": "F''=f"
+        },
+        {
+          "id": "d",
+          "text": "\u222bF=f"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Antiderivative means derivative reverses to the original function.",
+      "hint": "Use the definition.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "antiderivative"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_3_1_q2",
+      "type": "multiple_choice",
+      "prompt": "\u222b x^3 dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4x^3 + C"
+        },
+        {
+          "id": "b",
+          "text": "x^4/4 + C"
+        },
+        {
+          "id": "c",
+          "text": "3x^2 + C"
+        },
+        {
+          "id": "d",
+          "text": "x^2/2 + C"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Reverse the power rule.",
+      "hint": "Add 1 to the exponent and divide.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "reverse-power"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_3_1_q3",
+      "type": "graph_multiple_choice",
+      "prompt": "The shaded region on the graph represents:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a derivative value"
+        },
+        {
+          "id": "b",
+          "text": "a definite integral"
+        },
+        {
+          "id": "c",
+          "text": "a slope field"
+        },
+        {
+          "id": "d",
+          "text": "a sequence"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Area under a rate or curve corresponds to a definite integral.",
+      "hint": "Think accumulation.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "area"
+      ],
+      "media": {
+        "image": "media/images/calc_5_3_1_2.png"
+      }
+    },
+    {
+      "id": "calc_5_3_1_q4",
+      "type": "multiple_choice",
+      "prompt": "A definite integral can represent:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "instantaneous slope"
+        },
+        {
+          "id": "b",
+          "text": "net signed area"
+        },
+        {
+          "id": "c",
+          "text": "only positive area"
+        },
+        {
+          "id": "d",
+          "text": "a y-intercept"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Definite integrals track signed accumulation.",
+      "hint": "Areas below the axis count negative.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "signed-area"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_3_1_q5",
+      "type": "multiple_choice",
+      "prompt": "By the Fundamental Theorem of Calculus, d/dx \u222b_1^x f(t)dt =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f(1)"
+        },
+        {
+          "id": "b",
+          "text": "f(x)"
+        },
+        {
+          "id": "c",
+          "text": "1/f(x)"
+        },
+        {
+          "id": "d",
+          "text": "F(x)+C"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The derivative of an accumulation function is the integrand evaluated at x.",
+      "hint": "FTC Part 1.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "ftc"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_3_1_q6",
+      "type": "numeric",
+      "prompt": "If \u222b_0^2 3 dx, enter the value.",
+      "correct_numeric": 6,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Area of a rectangle with height 3 and width 2 is 6.",
+      "hint": "Constant integrand makes a rectangle.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "definite-integral"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_3_1_q7",
+      "type": "multiple_choice",
+      "prompt": "If a rate is negative on an interval, the definite integral over that interval contributes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "positive change"
+        },
+        {
+          "id": "b",
+          "text": "negative change"
+        },
+        {
+          "id": "c",
+          "text": "no change"
+        },
+        {
+          "id": "d",
+          "text": "undefined change"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Negative rate gives negative net change.",
+      "hint": "Below-axis area counts negative.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "net-change"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_3_1_q8",
+      "type": "graph_multiple_choice",
+      "prompt": "Which graph would have the greatest positive integral on the shown interval?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Graph 1"
+        },
+        {
+          "id": "b",
+          "text": "Graph 2"
+        },
+        {
+          "id": "c",
+          "text": "Graph 3"
+        },
+        {
+          "id": "d",
+          "text": "Graph 4"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The largest above-axis region gives the greatest positive integral.",
+      "hint": "Compare net area.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "compare-integrals"
+      ],
+      "media": {
+        "image": "media/images/calc_5_3_1_3.png"
+      }
+    },
+    {
+      "id": "calc_5_3_1_q9",
+      "type": "multiple_choice",
+      "prompt": "An initial value problem with F'(x)=f(x) and F(2)=5 needs:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a derivative rule only"
+        },
+        {
+          "id": "b",
+          "text": "an antiderivative plus the given point"
+        },
+        {
+          "id": "c",
+          "text": "a limit"
+        },
+        {
+          "id": "d",
+          "text": "a series test"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Find the family of antiderivatives, then use the condition.",
+      "hint": "Use the constant of integration.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "ivp"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_3_1_q10",
+      "type": "graph_multiple_choice",
+      "prompt": "For d/dx \u222b_1^x t^2 dt, which output is correct at x=3?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "27"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "FTC gives x^2, so at x=3 the value is 9.",
+      "hint": "Differentiate first, then substitute.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "ftc-value"
+      ],
+      "media": {
+        "image": "media/images/calc_5_3_1_4.png"
+      }
+    }
+  ]
+}

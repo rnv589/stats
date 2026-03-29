@@ -1,0 +1,344 @@
+{
+  "deck_id": "stats_7_1_1",
+  "subject": "ap_statistics",
+  "title": "Confidence Level and Margin of Error",
+  "skill_band_id": "stats_band_7",
+  "skill_id": "stats_7_1",
+  "difficulty": "hard",
+  "recommended_timer": 25,
+  "question_count": 10,
+  "tags": [
+    "confidence-interval",
+    "interpretation"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "A 95% confidence interval means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "95% of sample values lie in the interval"
+        },
+        {
+          "id": "b",
+          "text": "In repeated sampling, about 95% of intervals from the method capture the true parameter"
+        },
+        {
+          "id": "c",
+          "text": "There is a 95% chance this fixed parameter changes"
+        },
+        {
+          "id": "d",
+          "text": "95% of the population is in the interval"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Confidence level refers to long-run capture rate of the method.",
+      "hint": "It is about the method, not the parameter moving.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "interpretation"
+      ],
+      "media": {
+        "image": "media/images/stats_7_1_1_confidence_level_and_margin_of_error_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "The margin of error is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Half the width of the interval"
+        },
+        {
+          "id": "b",
+          "text": "The full width of the interval"
+        },
+        {
+          "id": "c",
+          "text": "Always equal to the statistic"
+        },
+        {
+          "id": "d",
+          "text": "The p-value"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Margin of error is the distance from the estimate to either endpoint.",
+      "hint": "Half-width.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "moe"
+      ],
+      "media": {
+        "image": "media/images/stats_7_1_1_confidence_level_and_margin_of_error_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If confidence level increases from 90% to 99%, the interval usually becomes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Narrower"
+        },
+        {
+          "id": "b",
+          "text": "Wider"
+        },
+        {
+          "id": "c",
+          "text": "Unchanged"
+        },
+        {
+          "id": "d",
+          "text": "Negative"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "More confidence requires a wider interval.",
+      "hint": "More certainty costs width.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "confidence-level"
+      ],
+      "media": {
+        "image": "media/images/stats_7_1_1_confidence_level_and_margin_of_error_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If sample size increases, the margin of error generally:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increases"
+        },
+        {
+          "id": "b",
+          "text": "Decreases"
+        },
+        {
+          "id": "c",
+          "text": "Stays same"
+        },
+        {
+          "id": "d",
+          "text": "Becomes the parameter"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Larger samples reduce standard error and margin of error.",
+      "hint": "More data, less uncertainty.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "sample-size"
+      ],
+      "media": {
+        "image": "media/images/stats_7_1_1_confidence_level_and_margin_of_error_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which is a correct interpretation? ",
+      "choices": [
+        {
+          "id": "a",
+          "text": "There is a 95% chance the true mean is in this interval after it is computed"
+        },
+        {
+          "id": "b",
+          "text": "We are 95% confident the method used would capture the true mean in the long run"
+        },
+        {
+          "id": "c",
+          "text": "95% of observations are inside the interval"
+        },
+        {
+          "id": "d",
+          "text": "95% of sample means equal the parameter"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "This phrasing respects frequentist confidence logic.",
+      "hint": "Avoid probability on a fixed parameter.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "interpretation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A narrower confidence interval indicates:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More precision"
+        },
+        {
+          "id": "b",
+          "text": "Less precision"
+        },
+        {
+          "id": "c",
+          "text": "Higher bias always"
+        },
+        {
+          "id": "d",
+          "text": "Higher confidence always"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Narrower intervals are more precise.",
+      "hint": "Precision is about width.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "precision"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "To reduce margin of error without lowering confidence level, a researcher should usually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Use a smaller sample"
+        },
+        {
+          "id": "b",
+          "text": "Use a larger sample"
+        },
+        {
+          "id": "c",
+          "text": "Increase variability"
+        },
+        {
+          "id": "d",
+          "text": "Use biased wording"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Bigger samples shrink standard error.",
+      "hint": "Best practical fix.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "moe"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which statement is false?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Higher confidence gives wider intervals"
+        },
+        {
+          "id": "b",
+          "text": "Larger samples give narrower intervals"
+        },
+        {
+          "id": "c",
+          "text": "Margin of error is half-width"
+        },
+        {
+          "id": "d",
+          "text": "Confidence level tells the chance the parameter changes"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "The parameter is fixed; the interval procedure varies across samples.",
+      "hint": "Do not let the parameter 'move'.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "interpretation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "If two methods have the same confidence level, the more precise one has:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The wider interval"
+        },
+        {
+          "id": "b",
+          "text": "The narrower interval"
+        },
+        {
+          "id": "c",
+          "text": "The larger p-value"
+        },
+        {
+          "id": "d",
+          "text": "The larger sample mean"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "More precision means narrower interval.",
+      "hint": "Think width.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "precision"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Confidence intervals are built around a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Test statistic only"
+        },
+        {
+          "id": "b",
+          "text": "Point estimate"
+        },
+        {
+          "id": "c",
+          "text": "Population always known"
+        },
+        {
+          "id": "d",
+          "text": "Histogram bar"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "An interval centers around the sample estimate plus/minus margin of error.",
+      "hint": "Estimate first, then uncertainty.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "construction"
+      ],
+      "media": null
+    }
+  ]
+}

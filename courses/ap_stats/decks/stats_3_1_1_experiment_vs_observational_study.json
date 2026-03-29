@@ -1,0 +1,342 @@
+{
+  "deck_id": "stats_3_1_1",
+  "subject": "ap_statistics",
+  "title": "Experiment vs Observational Study",
+  "skill_band_id": "stats_band_3",
+  "skill_id": "stats_3_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "study-design",
+    "experiment"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "In an experiment, researchers:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only observe and record"
+        },
+        {
+          "id": "b",
+          "text": "Impose treatments on subjects"
+        },
+        {
+          "id": "c",
+          "text": "Use no groups"
+        },
+        {
+          "id": "d",
+          "text": "Avoid randomization"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Experiments impose treatments.",
+      "hint": "Intervention is the key.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "study-design",
+        "experiment"
+      ],
+      "media": {
+        "image": "media/images/stats_3_1_1_experiment_vs_observational_study_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "In an observational study, researchers:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Assign treatments"
+        },
+        {
+          "id": "b",
+          "text": "Only observe without imposing treatments"
+        },
+        {
+          "id": "c",
+          "text": "Always prove cause and effect"
+        },
+        {
+          "id": "d",
+          "text": "Must use volunteers only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Observational studies do not assign treatments.",
+      "hint": "No imposed treatment.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "study-design",
+        "observational"
+      ],
+      "media": {
+        "image": "media/images/stats_3_1_1_experiment_vs_observational_study_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Which design can best support cause-and-effect conclusions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Observational study"
+        },
+        {
+          "id": "b",
+          "text": "Experiment with random assignment"
+        },
+        {
+          "id": "c",
+          "text": "Census"
+        },
+        {
+          "id": "d",
+          "text": "Convenience sample"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Randomized experiments are strongest for causation.",
+      "hint": "Think treatment plus random assignment.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "study-design",
+        "causation"
+      ],
+      "media": {
+        "image": "media/images/stats_3_1_1_experiment_vs_observational_study_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A researcher records students' sleep hours and test scores without changing anything. This is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Experiment"
+        },
+        {
+          "id": "b",
+          "text": "Observational study"
+        },
+        {
+          "id": "c",
+          "text": "Simulation"
+        },
+        {
+          "id": "d",
+          "text": "Census"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Nothing was imposed, so it is observational.",
+      "hint": "Only watching, not assigning.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "study-design"
+      ],
+      "media": {
+        "image": "media/images/stats_3_1_1_experiment_vs_observational_study_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A treatment in an experiment is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The response variable"
+        },
+        {
+          "id": "b",
+          "text": "A specific condition imposed on subjects"
+        },
+        {
+          "id": "c",
+          "text": "Any graph used"
+        },
+        {
+          "id": "d",
+          "text": "The sample size"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A treatment is the condition applied to subjects.",
+      "hint": "Think assigned condition.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "study-design",
+        "treatment"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "The response variable is the variable that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Explains the changes"
+        },
+        {
+          "id": "b",
+          "text": "Measures the outcome"
+        },
+        {
+          "id": "c",
+          "text": "Chooses the sample"
+        },
+        {
+          "id": "d",
+          "text": "Causes confounding"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The response variable records the outcome measured.",
+      "hint": "Outcome is the clue.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "study-design",
+        "variables"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "The explanatory variable is the variable that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Is expected to explain changes in the response"
+        },
+        {
+          "id": "b",
+          "text": "Is always categorical"
+        },
+        {
+          "id": "c",
+          "text": "Is the same as a residual"
+        },
+        {
+          "id": "d",
+          "text": "Cannot be controlled"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The explanatory variable helps explain or predict the response.",
+      "hint": "Think predictor.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "study-design",
+        "variables"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which is an experiment?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Surveying students about phone use"
+        },
+        {
+          "id": "b",
+          "text": "Randomly assigning people to two diets"
+        },
+        {
+          "id": "c",
+          "text": "Recording weather temperatures"
+        },
+        {
+          "id": "d",
+          "text": "Using past records only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Random assignment to diets makes it an experiment.",
+      "hint": "Treatments are assigned.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "study-design",
+        "experiment"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which is observational?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Randomly assigning medicine doses"
+        },
+        {
+          "id": "b",
+          "text": "Assigning study plans"
+        },
+        {
+          "id": "c",
+          "text": "Watching whether people who choose to exercise have lower stress"
+        },
+        {
+          "id": "d",
+          "text": "Flipping a coin for treatment"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "People chose exercise themselves, so no treatment was imposed.",
+      "hint": "No assignment means observational.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "study-design"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "A control group is used to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increase bias"
+        },
+        {
+          "id": "b",
+          "text": "Provide a baseline for comparison"
+        },
+        {
+          "id": "c",
+          "text": "Guarantee no error"
+        },
+        {
+          "id": "d",
+          "text": "Make variables categorical"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A control group provides a comparison baseline.",
+      "hint": "Think reference group.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "study-design",
+        "control"
+      ],
+      "media": null
+    }
+  ]
+}

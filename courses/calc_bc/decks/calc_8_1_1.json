@@ -1,0 +1,319 @@
+{
+  "deck_id": "calc_8_1_1",
+  "subject": "ap_calculus_bc",
+  "title": "dy/dx from Parametric Equations",
+  "skill_band_id": "calc_band_8",
+  "skill_id": "calc_8_1",
+  "difficulty": "hard",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "parametric-equations",
+    "parametric"
+  ],
+  "questions": [
+    {
+      "id": "calc_8_1_1_q1",
+      "type": "multiple_choice",
+      "prompt": "For parametric equations, dy/dx equals:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "dx/dt divided by dy/dt"
+        },
+        {
+          "id": "b",
+          "text": "dy/dt divided by dx/dt"
+        },
+        {
+          "id": "c",
+          "text": "d^2y/dt^2"
+        },
+        {
+          "id": "d",
+          "text": "x/y"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Parametric slope is y-rate over x-rate.",
+      "hint": "Use the ratio of rates.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "parametric"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_8_1_1_q2",
+      "type": "graph_multiple_choice",
+      "prompt": "The graph shown is most like a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "circle"
+        },
+        {
+          "id": "b",
+          "text": "rose curve"
+        },
+        {
+          "id": "c",
+          "text": "line"
+        },
+        {
+          "id": "d",
+          "text": "parabola"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Recognize the classic polar shape.",
+      "hint": "Look at the petals or symmetry.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "graph-recognition"
+      ],
+      "media": {
+        "image": "media/images/calc_8_1_1_2.png"
+      }
+    },
+    {
+      "id": "calc_8_1_1_q3",
+      "type": "multiple_choice",
+      "prompt": "If dx/dt=0 and dy/dt\u22600, then dy/dx is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "undefined"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "negative"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Division by 0 in the denominator makes the slope undefined.",
+      "hint": "Horizontal vs vertical tangent idea.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "slope"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_8_1_1_q4",
+      "type": "multiple_choice",
+      "prompt": "Polar area from \u03b8=a to \u03b8=b is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\u222b r d\u03b8"
+        },
+        {
+          "id": "b",
+          "text": "1/2 \u222b r^2 d\u03b8"
+        },
+        {
+          "id": "c",
+          "text": "\u03c0r^2"
+        },
+        {
+          "id": "d",
+          "text": "2\u03c0\u222brh"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Polar area uses one-half the integral of r squared.",
+      "hint": "Use the standard formula.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "polar-area"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_8_1_1_q5",
+      "type": "multiple_choice",
+      "prompt": "A parametric particle\u2019s direction of motion is determined by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "sign of x only"
+        },
+        {
+          "id": "b",
+          "text": "the parameter t increasing"
+        },
+        {
+          "id": "c",
+          "text": "the y-intercept"
+        },
+        {
+          "id": "d",
+          "text": "the area enclosed"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Trace the curve as t increases.",
+      "hint": "Direction follows parameter change.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "motion"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_8_1_1_q6",
+      "type": "graph_multiple_choice",
+      "prompt": "Which graph is symmetric about the polar axis?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Graph 1"
+        },
+        {
+          "id": "b",
+          "text": "Graph 2"
+        },
+        {
+          "id": "c",
+          "text": "Graph 3"
+        },
+        {
+          "id": "d",
+          "text": "Graph 4"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The shown polar graph mirrors across the horizontal axis.",
+      "hint": "Check symmetry visually.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "symmetry"
+      ],
+      "media": {
+        "image": "media/images/calc_8_1_1_1.png"
+      }
+    },
+    {
+      "id": "calc_8_1_1_q7",
+      "type": "multiple_choice",
+      "prompt": "If x=t^2 and y=t^3, then dy/dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3t/2"
+        },
+        {
+          "id": "b",
+          "text": "2t/3"
+        },
+        {
+          "id": "c",
+          "text": "3t^2/2t"
+        },
+        {
+          "id": "d",
+          "text": "t"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "dy/dx=(3t^2)/(2t)=3t/2 for t\u22600.",
+      "hint": "Differentiate each coordinate first.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "parametric-slope"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_8_1_1_q8",
+      "type": "graph_multiple_choice",
+      "prompt": "The card with x=t^2+1 and y=2t-3 is mainly useful for computing:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "distance formula only"
+        },
+        {
+          "id": "b",
+          "text": "dy/dx"
+        },
+        {
+          "id": "c",
+          "text": "a p-series"
+        },
+        {
+          "id": "d",
+          "text": "a probability"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That ratio formula leads straight to dy/dx.",
+      "hint": "Use the displayed relationship.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "formula-card"
+      ],
+      "media": {
+        "image": "media/images/calc_8_1_1_1.png"
+      }
+    },
+    {
+      "id": "calc_8_1_1_q9",
+      "type": "multiple_choice",
+      "prompt": "A rose curve with more than one petal is a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "polar graph"
+        },
+        {
+          "id": "b",
+          "text": "parametric graph only"
+        },
+        {
+          "id": "c",
+          "text": "sequence"
+        },
+        {
+          "id": "d",
+          "text": "slope field"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Rose curves are a classic polar family.",
+      "hint": "Think r=f(\u03b8).",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "polar"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_8_1_1_q10",
+      "type": "numeric",
+      "prompt": "Using 1/2\u222b r^2 d\u03b8, if r=2 constant on an interval of length \u03c0, the area is:",
+      "correct_numeric": 6.283185307179586,
+      "tolerance": 0.05,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Area = 1/2 * 4 * \u03c0 = 2\u03c0.",
+      "hint": "Square r, then multiply by interval length and 1/2.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "polar-area"
+      ],
+      "media": null
+    }
+  ]
+}

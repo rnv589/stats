@@ -1,0 +1,309 @@
+{
+  "deck_id": "calc_2_1_2",
+  "subject": "ap_calculus_bc",
+  "title": "Derivative from a Graph",
+  "skill_band_id": "calc_band_2",
+  "skill_id": "calc_2_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "meaning-of-the-derivative",
+    "derivative"
+  ],
+  "questions": [
+    {
+      "id": "calc_2_1_2_q1",
+      "type": "multiple_choice",
+      "prompt": "The derivative represents the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "average value"
+        },
+        {
+          "id": "b",
+          "text": "instantaneous rate of change"
+        },
+        {
+          "id": "c",
+          "text": "area under a curve"
+        },
+        {
+          "id": "d",
+          "text": "y-intercept"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The derivative measures instantaneous change.",
+      "hint": "Think tangent slope.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "meaning"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_2_1_2_q2",
+      "type": "numeric",
+      "prompt": "Find d/dx of x^4.",
+      "correct_numeric": 4.0,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "By the power rule, d/dx x^4 = 4x^3. Enter the coefficient.",
+      "hint": "Bring down the exponent.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "power-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_2_1_2_q3",
+      "type": "multiple_choice",
+      "prompt": "Which rule is needed for d/dx[(3x^2)(sin x)]?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Product rule"
+        },
+        {
+          "id": "b",
+          "text": "Quotient rule"
+        },
+        {
+          "id": "c",
+          "text": "Chain rule only"
+        },
+        {
+          "id": "d",
+          "text": "No rule"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A product of two functions needs the product rule.",
+      "hint": "See two multiplied functions.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "product-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_2_1_2_q4",
+      "type": "multiple_choice",
+      "prompt": "d/dx[sin x] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "cos x"
+        },
+        {
+          "id": "b",
+          "text": "-cos x"
+        },
+        {
+          "id": "c",
+          "text": "sin x"
+        },
+        {
+          "id": "d",
+          "text": "e^x"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The derivative of sin x is cos x.",
+      "hint": "Recall the basic trig pair.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "trig"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_2_1_2_q5",
+      "type": "multiple_choice",
+      "prompt": "d/dx[e^x] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "xe^(x-1)"
+        },
+        {
+          "id": "b",
+          "text": "e^x"
+        },
+        {
+          "id": "c",
+          "text": "ln x"
+        },
+        {
+          "id": "d",
+          "text": "1/x"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The derivative of e^x is itself.",
+      "hint": "This one stays the same.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "exponential"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_2_1_2_q6",
+      "type": "graph_multiple_choice",
+      "prompt": "At the shown point, the derivative is positive.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A rising tangent line means positive derivative.",
+      "hint": "Check local slope.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graph-slope"
+      ],
+      "media": {
+        "image": "media/images/calc_2_1_2_1.png"
+      }
+    },
+    {
+      "id": "calc_2_1_2_q7",
+      "type": "multiple_choice",
+      "prompt": "Which expression requires the chain rule?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x^3+2x"
+        },
+        {
+          "id": "b",
+          "text": "(2x-1)^5"
+        },
+        {
+          "id": "c",
+          "text": "sin x + x"
+        },
+        {
+          "id": "d",
+          "text": "3x^2"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A function inside another function signals chain rule.",
+      "hint": "Look for outer and inner layers.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "chain-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_2_1_2_q8",
+      "type": "multiple_choice",
+      "prompt": "If f'(a)=0, then f must have:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a relative maximum"
+        },
+        {
+          "id": "b",
+          "text": "a relative minimum"
+        },
+        {
+          "id": "c",
+          "text": "a horizontal tangent"
+        },
+        {
+          "id": "d",
+          "text": "an inflection point"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Derivative 0 guarantees a horizontal tangent, not necessarily an extremum.",
+      "hint": "Zero slope is the guaranteed fact.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "critical-points"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_2_1_2_q9",
+      "type": "graph_multiple_choice",
+      "prompt": "Which graph could be f' if f is a parabola opening up?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A line"
+        },
+        {
+          "id": "b",
+          "text": "A parabola"
+        },
+        {
+          "id": "c",
+          "text": "A circle"
+        },
+        {
+          "id": "d",
+          "text": "A constant negative line"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The derivative of a quadratic is linear.",
+      "hint": "Degree drops by one.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "graph-match"
+      ],
+      "media": {
+        "image": "media/images/calc_2_1_2_4.png"
+      }
+    },
+    {
+      "id": "calc_2_1_2_q10",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(1/x)] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/x^2"
+        },
+        {
+          "id": "b",
+          "text": "-1/x^2"
+        },
+        {
+          "id": "c",
+          "text": "ln x"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Rewrite as x^-1 and apply the power rule.",
+      "hint": "Use the negative exponent.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "power-rule-negative"
+      ],
+      "media": null
+    }
+  ]
+}

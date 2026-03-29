@@ -1,0 +1,20 @@
+{
+  "subject": "ap_biology",
+  "skill_bands": [
+    {
+      "id": "bio_band_1",
+      "title": "Cells",
+      "skills": [
+        {
+          "id": "bio_1",
+          "title": "Cell Structure",
+          "decks": [
+            {
+              "id": "bio_1_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "deck_id": "stats_1_1_1",
+  "subject": "ap_statistics",
+  "title": "Shape Basics",
+  "skill_band_id": "stats_band_1",
+  "skill_id": "stats_1_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "distribution",
+    "shape",
+    "graph-reading"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "A distribution with a long tail to the right is best described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Skewed left"
+        },
+        {
+          "id": "b",
+          "text": "Skewed right"
+        },
+        {
+          "id": "c",
+          "text": "Symmetric"
+        },
+        {
+          "id": "d",
+          "text": "Uniform"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A long right tail means the distribution is skewed right.",
+      "hint": "Look at the direction of the tail.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "shape",
+        "skew"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_1_shape_basics_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A mound-shaped distribution with roughly equal tails is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bimodal"
+        },
+        {
+          "id": "b",
+          "text": "Uniform"
+        },
+        {
+          "id": "c",
+          "text": "Symmetric"
+        },
+        {
+          "id": "d",
+          "text": "Skewed left"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Roughly equal tails suggest symmetry.",
+      "hint": "Think about mirror-image shape.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "shape",
+        "symmetric"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_1_shape_basics_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A distribution with two clear peaks is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Uniform"
+        },
+        {
+          "id": "b",
+          "text": "Bimodal"
+        },
+        {
+          "id": "c",
+          "text": "Symmetric"
+        },
+        {
+          "id": "d",
+          "text": "Skewed right"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Two peaks means bimodal.",
+      "hint": "Count the peaks.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "shape",
+        "modality"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_1_shape_basics_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If most values are small and a few very large values stretch the graph rightward, the shape is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Skewed right"
+        },
+        {
+          "id": "b",
+          "text": "Skewed left"
+        },
+        {
+          "id": "c",
+          "text": "Symmetric"
+        },
+        {
+          "id": "d",
+          "text": "No pattern"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A few large values create a right tail.",
+      "hint": "Focus on where the tail extends.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "shape",
+        "skew"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_1_shape_basics_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A histogram where bars are about the same height across the range is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Uniform"
+        },
+        {
+          "id": "b",
+          "text": "Skewed left"
+        },
+        {
+          "id": "c",
+          "text": "Bimodal"
+        },
+        {
+          "id": "d",
+          "text": "Right-skewed"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Uniform distributions stay fairly level across intervals.",
+      "hint": "Think flat rather than peaked.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "shape",
+        "uniform"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which feature is about the overall shape of a distribution?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Median"
+        },
+        {
+          "id": "b",
+          "text": "Skewness"
+        },
+        {
+          "id": "c",
+          "text": "IQR"
+        },
+        {
+          "id": "d",
+          "text": "Range"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Skewness describes the shape.",
+      "hint": "Center and spread are different ideas.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "shape"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If the left tail is longer than the right tail, the distribution is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Skewed right"
+        },
+        {
+          "id": "b",
+          "text": "Symmetric"
+        },
+        {
+          "id": "c",
+          "text": "Skewed left"
+        },
+        {
+          "id": "d",
+          "text": "Uniform"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "A longer left tail means skewed left.",
+      "hint": "Name the side with the tail.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "shape",
+        "skew"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which word best describes a graph with one main peak?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bimodal"
+        },
+        {
+          "id": "b",
+          "text": "Unimodal"
+        },
+        {
+          "id": "c",
+          "text": "Uniform"
+        },
+        {
+          "id": "d",
+          "text": "Skewed"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "One peak means unimodal.",
+      "hint": "Count the number of peaks.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "shape",
+        "modality"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which statement is true for a symmetric distribution?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both tails are about equal"
+        },
+        {
+          "id": "b",
+          "text": "It must have no outliers"
+        },
+        {
+          "id": "c",
+          "text": "It always has one peak"
+        },
+        {
+          "id": "d",
+          "text": "The mean is always smaller than the median"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Symmetry means the two sides balance visually.",
+      "hint": "Only one of these is guaranteed by symmetry.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "shape",
+        "symmetric"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which description fits a right-skewed distribution?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tail extends toward smaller values"
+        },
+        {
+          "id": "b",
+          "text": "Tail extends toward larger values"
+        },
+        {
+          "id": "c",
+          "text": "No tail at all"
+        },
+        {
+          "id": "d",
+          "text": "Same as bimodal"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Right-skewed means the tail points toward larger values.",
+      "hint": "Think about the x-axis direction.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "shape",
+        "skew"
+      ],
+      "media": null
+    }
+  ]
+}

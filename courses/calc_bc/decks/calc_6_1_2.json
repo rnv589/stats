@@ -1,0 +1,326 @@
+{
+  "deck_id": "calc_6_1_2",
+  "subject": "ap_calculus_bc",
+  "title": "Matching Differential Equations",
+  "skill_band_id": "calc_band_6",
+  "skill_id": "calc_6_1",
+  "difficulty": "hard",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "slope-fields",
+    "differential"
+  ],
+  "questions": [
+    {
+      "id": "calc_6_1_2_q1",
+      "type": "multiple_choice",
+      "prompt": "Matching Differential Equations: concept question 1?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Explanation 1.",
+      "hint": "Hint.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_1_2_q2",
+      "type": "multiple_choice",
+      "prompt": "Matching Differential Equations: concept question 2?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Explanation 2.",
+      "hint": "Hint.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_1_2_q3",
+      "type": "multiple_choice",
+      "prompt": "Matching Differential Equations: concept question 3?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Explanation 3.",
+      "hint": "Hint.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_1_2_q4",
+      "type": "multiple_choice",
+      "prompt": "Matching Differential Equations: concept question 4?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "Explanation 4.",
+      "hint": "Hint.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_1_2_q5",
+      "type": "multiple_choice",
+      "prompt": "Matching Differential Equations: concept question 5?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Explanation 5.",
+      "hint": "Hint.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_1_2_q6",
+      "type": "multiple_choice",
+      "prompt": "Matching Differential Equations: concept question 6?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Explanation 6.",
+      "hint": "Hint.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_1_2_q7",
+      "type": "multiple_choice",
+      "prompt": "Matching Differential Equations: concept question 7?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Explanation 7.",
+      "hint": "Hint.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_1_2_q8",
+      "type": "multiple_choice",
+      "prompt": "Matching Differential Equations: concept question 8?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "Explanation 8.",
+      "hint": "Hint.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_1_2_q9",
+      "type": "multiple_choice",
+      "prompt": "Matching Differential Equations: concept question 9?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Explanation 9.",
+      "hint": "Hint.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_1_2_q10",
+      "type": "multiple_choice",
+      "prompt": "Matching Differential Equations: concept question 10?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Explanation 10.",
+      "hint": "Hint.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    }
+  ]
+}

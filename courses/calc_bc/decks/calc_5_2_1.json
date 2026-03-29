@@ -1,0 +1,326 @@
+{
+  "deck_id": "calc_5_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Area and Signed Area",
+  "skill_band_id": "calc_band_5",
+  "skill_id": "calc_5_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "definite-integrals",
+    "integrals"
+  ],
+  "questions": [
+    {
+      "id": "calc_5_2_1_q1",
+      "type": "multiple_choice",
+      "prompt": "Area and Signed Area: concept question 1?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Explanation 1.",
+      "hint": "Hint.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_2_1_q2",
+      "type": "multiple_choice",
+      "prompt": "Area and Signed Area: concept question 2?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Explanation 2.",
+      "hint": "Hint.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_2_1_q3",
+      "type": "multiple_choice",
+      "prompt": "Area and Signed Area: concept question 3?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Explanation 3.",
+      "hint": "Hint.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_2_1_q4",
+      "type": "multiple_choice",
+      "prompt": "Area and Signed Area: concept question 4?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "Explanation 4.",
+      "hint": "Hint.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_2_1_q5",
+      "type": "multiple_choice",
+      "prompt": "Area and Signed Area: concept question 5?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Explanation 5.",
+      "hint": "Hint.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_2_1_q6",
+      "type": "multiple_choice",
+      "prompt": "Area and Signed Area: concept question 6?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Explanation 6.",
+      "hint": "Hint.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_2_1_q7",
+      "type": "multiple_choice",
+      "prompt": "Area and Signed Area: concept question 7?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Explanation 7.",
+      "hint": "Hint.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_2_1_q8",
+      "type": "multiple_choice",
+      "prompt": "Area and Signed Area: concept question 8?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "Explanation 8.",
+      "hint": "Hint.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_2_1_q9",
+      "type": "multiple_choice",
+      "prompt": "Area and Signed Area: concept question 9?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Explanation 9.",
+      "hint": "Hint.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_5_2_1_q10",
+      "type": "multiple_choice",
+      "prompt": "Area and Signed Area: concept question 10?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Explanation 10.",
+      "hint": "Hint.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    }
+  ]
+}

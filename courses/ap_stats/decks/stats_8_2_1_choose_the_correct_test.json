@@ -1,0 +1,344 @@
+{
+  "deck_id": "stats_8_2_1",
+  "subject": "ap_statistics",
+  "title": "Choose the Correct Test",
+  "skill_band_id": "stats_band_8",
+  "skill_id": "stats_8_2",
+  "difficulty": "hard",
+  "recommended_timer": 25,
+  "question_count": 10,
+  "tags": [
+    "hypothesis-test",
+    "procedure-selection"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "A random sample of students is used to test whether the population proportion who prefer online homework is 0.6. Which test?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One-proportion z-test"
+        },
+        {
+          "id": "b",
+          "text": "One-sample t-test"
+        },
+        {
+          "id": "c",
+          "text": "Two-proportion z-test"
+        },
+        {
+          "id": "d",
+          "text": "Matched-pairs t-test"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "One categorical sample and one proportion parameter means a one-proportion z-test.",
+      "hint": "Identify variable type and number of samples.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "procedure-selection"
+      ],
+      "media": {
+        "image": "media/images/stats_8_2_1_choose_the_correct_test_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A sample of 20 plants is used to test whether the mean height differs from 15 cm. Population SD unknown. Which test?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One-proportion z-test"
+        },
+        {
+          "id": "b",
+          "text": "One-sample t-test"
+        },
+        {
+          "id": "c",
+          "text": "Two-sample t-test"
+        },
+        {
+          "id": "d",
+          "text": "Chi-square test"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "One quantitative sample with unknown \u03c3 means a one-sample t-test.",
+      "hint": "Mean + one sample = t.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "procedure-selection"
+      ],
+      "media": {
+        "image": "media/images/stats_8_2_1_choose_the_correct_test_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Two independent groups are compared on the proportion who passed. Which test?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two-proportion z-test"
+        },
+        {
+          "id": "b",
+          "text": "Two-sample t-test"
+        },
+        {
+          "id": "c",
+          "text": "One-proportion z-test"
+        },
+        {
+          "id": "d",
+          "text": "Matched-pairs t-test"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Two groups with categorical pass/fail outcomes means a two-proportion z-test.",
+      "hint": "Proportions use z.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "procedure-selection"
+      ],
+      "media": {
+        "image": "media/images/stats_8_2_1_choose_the_correct_test_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Two independent classes are compared on mean quiz score. Which test?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two-proportion z-test"
+        },
+        {
+          "id": "b",
+          "text": "Two-sample t-test"
+        },
+        {
+          "id": "c",
+          "text": "One-sample t-test"
+        },
+        {
+          "id": "d",
+          "text": "Chi-square GOF"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Two independent means require a two-sample t-test.",
+      "hint": "Quantitative means.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "procedure-selection"
+      ],
+      "media": {
+        "image": "media/images/stats_8_2_1_choose_the_correct_test_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Before-and-after blood pressure on the same patients should use:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two-sample t-test"
+        },
+        {
+          "id": "b",
+          "text": "Matched-pairs t-test"
+        },
+        {
+          "id": "c",
+          "text": "Two-proportion z-test"
+        },
+        {
+          "id": "d",
+          "text": "One-proportion z-test"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Same subjects measured twice create paired differences.",
+      "hint": "Analyze the differences.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "matched-pairs"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which clue points to a z-test rather than a t-test?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Quantitative data"
+        },
+        {
+          "id": "b",
+          "text": "Categorical success/failure proportions"
+        },
+        {
+          "id": "c",
+          "text": "Unknown \u03c3 for a mean"
+        },
+        {
+          "id": "d",
+          "text": "Paired differences"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Proportion tests use z.",
+      "hint": "z goes with p.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "procedure-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which clue points to a t-test?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes/no outcome"
+        },
+        {
+          "id": "b",
+          "text": "Quantitative data about a mean"
+        },
+        {
+          "id": "c",
+          "text": "A single proportion"
+        },
+        {
+          "id": "d",
+          "text": "A color category"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "t-tests are for means from quantitative data.",
+      "hint": "Means need t when \u03c3 is unknown.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "procedure-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A sample of differences from matched pairs is treated like:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two proportions"
+        },
+        {
+          "id": "b",
+          "text": "One sample of quantitative differences"
+        },
+        {
+          "id": "c",
+          "text": "A cluster sample only"
+        },
+        {
+          "id": "d",
+          "text": "A geometric model"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Matched pairs reduce to one sample of differences.",
+      "hint": "One list of differences.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "matched-pairs"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "When selecting a test, the first classification should be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Timer length"
+        },
+        {
+          "id": "b",
+          "text": "Categorical vs quantitative and one sample vs two samples/paired"
+        },
+        {
+          "id": "c",
+          "text": "The p-value"
+        },
+        {
+          "id": "d",
+          "text": "The confidence level"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Procedure choice begins with variable type and sample structure.",
+      "hint": "Classify before computing.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "procedure-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Testing whether a coin is fair based on heads in 100 flips uses a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One-proportion z-test"
+        },
+        {
+          "id": "b",
+          "text": "One-sample t-test"
+        },
+        {
+          "id": "c",
+          "text": "Two-sample t-test"
+        },
+        {
+          "id": "d",
+          "text": "Matched-pairs t-test"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "One proportion compared to 0.5 means one-proportion z-test.",
+      "hint": "Heads is categorical success/failure.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "procedure-selection"
+      ],
+      "media": null
+    }
+  ]
+}

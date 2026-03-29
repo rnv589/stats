@@ -1,0 +1,321 @@
+{
+  "deck_id": "calc_1_3_2",
+  "subject": "ap_calculus_bc",
+  "title": "IVT and Discontinuities",
+  "skill_band_id": "calc_band_1",
+  "skill_id": "calc_1_3",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "continuity",
+    "function"
+  ],
+  "questions": [
+    {
+      "id": "calc_1_3_2_q1",
+      "type": "multiple_choice",
+      "prompt": "A function is continuous at x=a if:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "the graph has a sharp turn"
+        },
+        {
+          "id": "b",
+          "text": "the limit exists and equals f(a)"
+        },
+        {
+          "id": "c",
+          "text": "f'(a)=0"
+        },
+        {
+          "id": "d",
+          "text": "the function is increasing"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Continuity needs existence of the function, the limit, and equality of the two.",
+      "hint": "Use the continuity checklist.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "continuity"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_1_3_2_q2",
+      "type": "graph_multiple_choice",
+      "prompt": "Which graph is discontinuous at the marked x-value?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Graph 1"
+        },
+        {
+          "id": "b",
+          "text": "Graph 2"
+        },
+        {
+          "id": "c",
+          "text": "Graph 3"
+        },
+        {
+          "id": "d",
+          "text": "Graph 4"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "A jump or hole breaks continuity.",
+      "hint": "Look for a break.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "discontinuity"
+      ],
+      "media": {
+        "image": "media/images/calc_1_3_2_1.png"
+      }
+    },
+    {
+      "id": "calc_1_3_2_q3",
+      "type": "multiple_choice",
+      "prompt": "A removable discontinuity usually looks like:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a vertical asymptote"
+        },
+        {
+          "id": "b",
+          "text": "a hole"
+        },
+        {
+          "id": "c",
+          "text": "a cusp"
+        },
+        {
+          "id": "d",
+          "text": "an endpoint"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Removable discontinuities are holes.",
+      "hint": "Think 'missing point.'",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "removable"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_1_3_2_q4",
+      "type": "graph_multiple_choice",
+      "prompt": "If the graph is continuous on [a,b], IVT guarantees:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "every slope occurs"
+        },
+        {
+          "id": "b",
+          "text": "every y-value between f(a) and f(b) occurs"
+        },
+        {
+          "id": "c",
+          "text": "the derivative exists"
+        },
+        {
+          "id": "d",
+          "text": "the function is linear"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "IVT guarantees intermediate output values on a closed interval.",
+      "hint": "Think outputs between endpoint outputs.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "ivt"
+      ],
+      "media": {
+        "image": "media/images/calc_1_3_2_2.png"
+      }
+    },
+    {
+      "id": "calc_1_3_2_q5",
+      "type": "multiple_choice",
+      "prompt": "Which feature causes continuity to fail?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A constant slope"
+        },
+        {
+          "id": "b",
+          "text": "A hole at x=a"
+        },
+        {
+          "id": "c",
+          "text": "Being positive"
+        },
+        {
+          "id": "d",
+          "text": "Having a maximum"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A hole means the function value is missing or mismatched.",
+      "hint": "Look for a missing point.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "continuity-fail"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_1_3_2_q6",
+      "type": "graph_multiple_choice",
+      "prompt": "For the piecewise function card, continuity at x=2 would require the two sides to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "be increasing"
+        },
+        {
+          "id": "b",
+          "text": "have the same limit value"
+        },
+        {
+          "id": "c",
+          "text": "have opposite signs"
+        },
+        {
+          "id": "d",
+          "text": "both equal 0"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The left and right must meet at one common value.",
+      "hint": "Match the one-sided limits.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "piecewise"
+      ],
+      "media": {
+        "image": "media/images/calc_1_3_2_3.png"
+      }
+    },
+    {
+      "id": "calc_1_3_2_q7",
+      "type": "multiple_choice",
+      "prompt": "A jump discontinuity happens when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "outputs blow up"
+        },
+        {
+          "id": "b",
+          "text": "the one-sided limits exist but are unequal"
+        },
+        {
+          "id": "c",
+          "text": "the graph only touches the x-axis"
+        },
+        {
+          "id": "d",
+          "text": "the derivative is 0"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A jump has two finite but different side limits.",
+      "hint": "Think separate levels.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "jump"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_1_3_2_q8",
+      "type": "graph_multiple_choice",
+      "prompt": "Which graph is continuous everywhere shown?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Graph 1"
+        },
+        {
+          "id": "b",
+          "text": "Graph 2"
+        },
+        {
+          "id": "c",
+          "text": "Graph 3"
+        },
+        {
+          "id": "d",
+          "text": "Graph 4"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "An unbroken curve is continuous on the shown interval.",
+      "hint": "Look for no gaps or jumps.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "continuous-graph"
+      ],
+      "media": {
+        "image": "media/images/calc_1_3_2_4.png"
+      }
+    },
+    {
+      "id": "calc_1_3_2_q9",
+      "type": "multiple_choice",
+      "prompt": "If a polynomial is given, it is continuous for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x>0 only"
+        },
+        {
+          "id": "b",
+          "text": "all real numbers"
+        },
+        {
+          "id": "c",
+          "text": "integers only"
+        },
+        {
+          "id": "d",
+          "text": "except at x=0"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Polynomials are continuous everywhere.",
+      "hint": "Recall standard function families.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "polynomial"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_1_3_2_q10",
+      "type": "numeric",
+      "prompt": "If f is continuous and f(1)=2, f(3)=8, one value guaranteed by IVT is:",
+      "correct_numeric": 5,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Any value between 2 and 8 must occur.",
+      "hint": "Choose a middle output.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "ivt-values"
+      ],
+      "media": null
+    }
+  ]
+}

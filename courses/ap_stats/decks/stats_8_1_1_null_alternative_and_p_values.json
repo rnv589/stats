@@ -1,0 +1,344 @@
+{
+  "deck_id": "stats_8_1_1",
+  "subject": "ap_statistics",
+  "title": "Null, Alternative, and p-values",
+  "skill_band_id": "stats_band_8",
+  "skill_id": "stats_8_1",
+  "difficulty": "hard",
+  "recommended_timer": 25,
+  "question_count": 10,
+  "tags": [
+    "hypothesis-test",
+    "p-value"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "The null hypothesis usually represents:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "What the researcher hopes is true"
+        },
+        {
+          "id": "b",
+          "text": "No effect or no difference"
+        },
+        {
+          "id": "c",
+          "text": "A biased sample"
+        },
+        {
+          "id": "d",
+          "text": "The sample result"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The null usually states no change, no effect, or no difference.",
+      "hint": "Baseline claim.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "null"
+      ],
+      "media": {
+        "image": "media/images/stats_8_1_1_null_alternative_and_p_values_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "The alternative hypothesis represents:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The population parameter value under no change"
+        },
+        {
+          "id": "b",
+          "text": "The claim of an effect, difference, or direction"
+        },
+        {
+          "id": "c",
+          "text": "The sample size"
+        },
+        {
+          "id": "d",
+          "text": "The randomization method"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The alternative is what the data may support instead of the null.",
+      "hint": "Competing claim.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "alternative"
+      ],
+      "media": {
+        "image": "media/images/stats_8_1_1_null_alternative_and_p_values_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A p-value is the probability of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The null being true"
+        },
+        {
+          "id": "b",
+          "text": "Getting results at least as extreme as the sample result, assuming the null is true"
+        },
+        {
+          "id": "c",
+          "text": "Making a Type I error"
+        },
+        {
+          "id": "d",
+          "text": "The parameter changing"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That is the formal meaning of a p-value.",
+      "hint": "Condition on the null being true.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "p-value"
+      ],
+      "media": {
+        "image": "media/images/stats_8_1_1_null_alternative_and_p_values_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A small p-value suggests:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The observed result would be unusual if the null were true"
+        },
+        {
+          "id": "b",
+          "text": "The null is definitely true"
+        },
+        {
+          "id": "c",
+          "text": "The sample was biased"
+        },
+        {
+          "id": "d",
+          "text": "The confidence level is low"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Small p-values indicate evidence against the null.",
+      "hint": "Unusual under null = evidence against null.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "p-value"
+      ],
+      "media": {
+        "image": "media/images/stats_8_1_1_null_alternative_and_p_values_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If p-value < \u03b1, the usual decision is to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fail to reject H0"
+        },
+        {
+          "id": "b",
+          "text": "Reject H0"
+        },
+        {
+          "id": "c",
+          "text": "Increase sample size automatically"
+        },
+        {
+          "id": "d",
+          "text": "Accept H0 as true"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A p-value below alpha is considered statistically significant.",
+      "hint": "Compare p to alpha.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "decision"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The p-value is the probability H0 is true"
+        },
+        {
+          "id": "b",
+          "text": "The p-value is a measure of evidence against H0"
+        },
+        {
+          "id": "c",
+          "text": "The p-value is the margin of error"
+        },
+        {
+          "id": "d",
+          "text": "The p-value proves causation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "It measures how incompatible the data are with H0.",
+      "hint": "Evidence, not proof.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "p-value"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "A one-sided alternative is used when the researcher cares about:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Any difference in either direction"
+        },
+        {
+          "id": "b",
+          "text": "A specific direction only"
+        },
+        {
+          "id": "c",
+          "text": "The sample median only"
+        },
+        {
+          "id": "d",
+          "text": "Two populations at once"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "One-sided tests focus on one direction.",
+      "hint": "Greater than or less than.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "one-sided"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A two-sided alternative is appropriate when the researcher wants to detect:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only increases"
+        },
+        {
+          "id": "b",
+          "text": "Only decreases"
+        },
+        {
+          "id": "c",
+          "text": "Any difference from the null value"
+        },
+        {
+          "id": "d",
+          "text": "Only a positive trend"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Not equal alternatives look for differences in either direction.",
+      "hint": "Both sides matter.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "two-sided"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which hypothesis statement uses a parameter, not a statistic?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "p-hat = 0.5"
+        },
+        {
+          "id": "b",
+          "text": "\u03bc = 10"
+        },
+        {
+          "id": "c",
+          "text": "x-bar > 20"
+        },
+        {
+          "id": "d",
+          "text": "s = 3"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Hypotheses are written about population parameters.",
+      "hint": "Use \u03bc or p, not sample symbols.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "parameter-vs-statistic"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Failing to reject H0 means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "H0 is proven true"
+        },
+        {
+          "id": "b",
+          "text": "There is not strong enough evidence against H0"
+        },
+        {
+          "id": "c",
+          "text": "Ha is proven false"
+        },
+        {
+          "id": "d",
+          "text": "The data were incorrect"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Failing to reject means insufficient evidence, not proof of truth.",
+      "hint": "Do not overstate.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "hypothesis-test",
+        "decision"
+      ],
+      "media": null
+    }
+  ]
+}

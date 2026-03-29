@@ -1,0 +1,321 @@
+{
+  "deck_id": "calc_6_3_1",
+  "subject": "ap_calculus_bc",
+  "title": "One-Step Euler",
+  "skill_band_id": "calc_band_6",
+  "skill_id": "calc_6_3",
+  "difficulty": "hard",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "euler's-method",
+    "differential"
+  ],
+  "questions": [
+    {
+      "id": "calc_6_3_1_q1",
+      "type": "graph_multiple_choice",
+      "prompt": "In a slope field, the short segment at each point shows the value of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "y"
+        },
+        {
+          "id": "b",
+          "text": "dy/dx"
+        },
+        {
+          "id": "c",
+          "text": "x"
+        },
+        {
+          "id": "d",
+          "text": "\u222by dx"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Each little line indicates local slope.",
+      "hint": "Think tangent direction.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "slope-field"
+      ],
+      "media": {
+        "image": "media/images/calc_6_3_1_1.png"
+      }
+    },
+    {
+      "id": "calc_6_3_1_q2",
+      "type": "multiple_choice",
+      "prompt": "A differential equation is separable if variables can be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "added"
+        },
+        {
+          "id": "b",
+          "text": "separated to opposite sides"
+        },
+        {
+          "id": "c",
+          "text": "graphed only"
+        },
+        {
+          "id": "d",
+          "text": "made constant"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Separable equations let you put y-terms with dy and x-terms with dx.",
+      "hint": "Move terms by variable.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "separable"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_3_1_q3",
+      "type": "multiple_choice",
+      "prompt": "Euler\u2019s method updates y using:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "y_{n+1}=y_n+h f(x_n,y_n)"
+        },
+        {
+          "id": "b",
+          "text": "y_{n+1}=f'(x_n)"
+        },
+        {
+          "id": "c",
+          "text": "y_{n+1}=\u222bf"
+        },
+        {
+          "id": "d",
+          "text": "y_{n+1}=y_n/h"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Euler uses current slope times step size.",
+      "hint": "Slope times step.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "euler"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_3_1_q4",
+      "type": "multiple_choice",
+      "prompt": "Solutions to y'=ky with k>0 generally show:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "oscillation"
+        },
+        {
+          "id": "b",
+          "text": "exponential growth"
+        },
+        {
+          "id": "c",
+          "text": "constant slope"
+        },
+        {
+          "id": "d",
+          "text": "periodicity"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A positive growth constant leads to exponential growth.",
+      "hint": "Think classic growth model.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "growth"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_3_1_q5",
+      "type": "graph_multiple_choice",
+      "prompt": "Which differential equation best matches the slope field look?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "y'=x-y"
+        },
+        {
+          "id": "b",
+          "text": "y'=0"
+        },
+        {
+          "id": "c",
+          "text": "y'=x^2+y^2"
+        },
+        {
+          "id": "d",
+          "text": "y'=1/x"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The segments flatten near y=x and change sign across that line.",
+      "hint": "Compare slope patterns.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "match-de"
+      ],
+      "media": {
+        "image": "media/images/calc_6_3_1_2.png"
+      }
+    },
+    {
+      "id": "calc_6_3_1_q6",
+      "type": "numeric",
+      "prompt": "Using Euler with y(0)=1, h=1, and y'=2y, estimate y(1).",
+      "correct_numeric": 3,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Start at 1 with slope 2, so y increases by 2 over one step.",
+      "hint": "Use y1=y0+h\u00b7f.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "euler-step"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_3_1_q7",
+      "type": "multiple_choice",
+      "prompt": "For exponential decay, the constant k in y'=ky is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "positive"
+        },
+        {
+          "id": "b",
+          "text": "negative"
+        },
+        {
+          "id": "c",
+          "text": "0"
+        },
+        {
+          "id": "d",
+          "text": "undefined"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Decay requires negative proportional change.",
+      "hint": "The solution falls over time.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "decay"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_3_1_q8",
+      "type": "graph_multiple_choice",
+      "prompt": "From the table card, the solution values are growing by an increasing amount, which suggests:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "decay"
+        },
+        {
+          "id": "b",
+          "text": "linear growth"
+        },
+        {
+          "id": "c",
+          "text": "exponential-type growth"
+        },
+        {
+          "id": "d",
+          "text": "constant behavior"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The jumps get larger, which is consistent with exponential growth.",
+      "hint": "Look at differences.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "growth-pattern"
+      ],
+      "media": {
+        "image": "media/images/calc_6_3_1_3.png"
+      }
+    },
+    {
+      "id": "calc_6_3_1_q9",
+      "type": "multiple_choice",
+      "prompt": "After separating variables, the next main step is to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "differentiate again"
+        },
+        {
+          "id": "b",
+          "text": "integrate both sides"
+        },
+        {
+          "id": "c",
+          "text": "take a limit"
+        },
+        {
+          "id": "d",
+          "text": "find a tangent line"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Integration solves the separated equation.",
+      "hint": "Separate then integrate.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "solve-de"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_6_3_1_q10",
+      "type": "graph_multiple_choice",
+      "prompt": "For y(0)=2 and y'=3y, the solution curve through the point should:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "decrease through time"
+        },
+        {
+          "id": "b",
+          "text": "stay horizontal"
+        },
+        {
+          "id": "c",
+          "text": "rise rapidly"
+        },
+        {
+          "id": "d",
+          "text": "cross the x-axis soon"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Positive proportional growth rises quickly from a positive start.",
+      "hint": "Use the sign and size of slope.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "solution-curve"
+      ],
+      "media": {
+        "image": "media/images/calc_6_3_1_4.png"
+      }
+    }
+  ]
+}

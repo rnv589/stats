@@ -1,0 +1,591 @@
+{
+  "subject": "ap_calculus_bc",
+  "title": "AP Calculus BC",
+  "skill_bands": [
+    {
+      "id": "calc_band_1",
+      "title": "Function Foundations and Limits",
+      "order": 1,
+      "level": "foundational",
+      "skills": [
+        {
+          "id": "calc_1_1",
+          "title": "Function Behavior",
+          "order": 1,
+          "decks": [
+            {
+              "id": "calc_1_1_1",
+              "title": "Function Notation and Features",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "calc_1_1_2",
+              "title": "Average Rate of Change",
+              "order": 2,
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "id": "calc_1_2",
+          "title": "Limits from Graphs and Tables",
+          "order": 2,
+          "decks": [
+            {
+              "id": "calc_1_2_1",
+              "title": "Estimating Limits",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "calc_1_2_2",
+              "title": "One-Sided and Infinite Limits",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "calc_1_3",
+          "title": "Continuity",
+          "order": 3,
+          "decks": [
+            {
+              "id": "calc_1_3_1",
+              "title": "Continuous or Not",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "calc_1_3_2",
+              "title": "IVT and Discontinuities",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calc_band_2",
+      "title": "Derivative Basics",
+      "order": 2,
+      "level": "foundational",
+      "skills": [
+        {
+          "id": "calc_2_1",
+          "title": "Meaning of the Derivative",
+          "order": 1,
+          "decks": [
+            {
+              "id": "calc_2_1_1",
+              "title": "Derivative as Slope",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "calc_2_1_2",
+              "title": "Derivative from a Graph",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "calc_2_2",
+          "title": "Basic Derivative Rules",
+          "order": 2,
+          "decks": [
+            {
+              "id": "calc_2_2_1",
+              "title": "Power Rule",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "calc_2_2_2",
+              "title": "Trig and Exponential Derivatives",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "calc_2_3",
+          "title": "Product, Quotient, and Chain Rule",
+          "order": 3,
+          "decks": [
+            {
+              "id": "calc_2_3_1",
+              "title": "Rule Recognition",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "calc_2_3_2",
+              "title": "Mixed Differentiation",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calc_band_3",
+      "title": "Derivatives and Graph Analysis",
+      "order": 3,
+      "level": "intermediate",
+      "skills": [
+        {
+          "id": "calc_3_1",
+          "title": "First Derivative Interpretation",
+          "order": 1,
+          "decks": [
+            {
+              "id": "calc_3_1_1",
+              "title": "Increasing and Decreasing",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "calc_3_1_2",
+              "title": "Relative Extrema",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "calc_3_2",
+          "title": "Second Derivative Interpretation",
+          "order": 2,
+          "decks": [
+            {
+              "id": "calc_3_2_1",
+              "title": "Concavity",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "calc_3_2_2",
+              "title": "Inflection Points",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "calc_3_3",
+          "title": "Tangent Line Applications",
+          "order": 3,
+          "decks": [
+            {
+              "id": "calc_3_3_1",
+              "title": "Tangent Line Equation",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "calc_3_3_2",
+              "title": "Linearization",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calc_band_4",
+      "title": "Applications of Derivatives",
+      "order": 4,
+      "level": "intermediate",
+      "skills": [
+        {
+          "id": "calc_4_1",
+          "title": "Motion Along a Line",
+          "order": 1,
+          "decks": [
+            {
+              "id": "calc_4_1_1",
+              "title": "Position Velocity Acceleration",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "calc_4_1_2",
+              "title": "Direction and Speed",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "calc_4_2",
+          "title": "Related Rates",
+          "order": 2,
+          "decks": [
+            {
+              "id": "calc_4_2_1",
+              "title": "Setup Recognition",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_4_2_2",
+              "title": "Quick Related Rates",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "calc_4_3",
+          "title": "Optimization Logic",
+          "order": 3,
+          "decks": [
+            {
+              "id": "calc_4_3_1",
+              "title": "Maximum or Minimum",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_4_3_2",
+              "title": "Optimization Setup",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calc_band_5",
+      "title": "Integrals and Accumulation",
+      "order": 5,
+      "level": "intermediate",
+      "skills": [
+        {
+          "id": "calc_5_1",
+          "title": "Antiderivatives",
+          "order": 1,
+          "decks": [
+            {
+              "id": "calc_5_1_1",
+              "title": "Reverse Power Rule",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "calc_5_1_2",
+              "title": "Initial Value Problems",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "calc_5_2",
+          "title": "Definite Integrals",
+          "order": 2,
+          "decks": [
+            {
+              "id": "calc_5_2_1",
+              "title": "Area and Signed Area",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "calc_5_2_2",
+              "title": "FTC Basics",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "calc_5_3",
+          "title": "Accumulation Functions",
+          "order": 3,
+          "decks": [
+            {
+              "id": "calc_5_3_1",
+              "title": "Derivative of an Integral",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_5_3_2",
+              "title": "Total Change from a Rate",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calc_band_6",
+      "title": "Differential Equations",
+      "order": 6,
+      "level": "advanced",
+      "skills": [
+        {
+          "id": "calc_6_1",
+          "title": "Slope Fields",
+          "order": 1,
+          "decks": [
+            {
+              "id": "calc_6_1_1",
+              "title": "Reading Slope Fields",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_6_1_2",
+              "title": "Matching Differential Equations",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "calc_6_2",
+          "title": "Separable Differential Equations",
+          "order": 2,
+          "decks": [
+            {
+              "id": "calc_6_2_1",
+              "title": "Separable Form",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_6_2_2",
+              "title": "Growth and Decay",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "calc_6_3",
+          "title": "Euler's Method",
+          "order": 3,
+          "decks": [
+            {
+              "id": "calc_6_3_1",
+              "title": "One-Step Euler",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_6_3_2",
+              "title": "Multiple-Step Euler",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calc_band_7",
+      "title": "Applications of Integrals",
+      "order": 7,
+      "level": "advanced",
+      "skills": [
+        {
+          "id": "calc_7_1",
+          "title": "Area Between Curves",
+          "order": 1,
+          "decks": [
+            {
+              "id": "calc_7_1_1",
+              "title": "Top Minus Bottom",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_7_1_2",
+              "title": "Setup Recognition",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "calc_7_2",
+          "title": "Volume",
+          "order": 2,
+          "decks": [
+            {
+              "id": "calc_7_2_1",
+              "title": "Disk and Washer",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_7_2_2",
+              "title": "Shell Method",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "calc_7_3",
+          "title": "Average Value and Accumulation",
+          "order": 3,
+          "decks": [
+            {
+              "id": "calc_7_3_1",
+              "title": "Average Value of a Function",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_7_3_2",
+              "title": "Distance vs Displacement",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calc_band_8",
+      "title": "Parametric and Polar",
+      "order": 8,
+      "level": "advanced",
+      "skills": [
+        {
+          "id": "calc_8_1",
+          "title": "Parametric Equations",
+          "order": 1,
+          "decks": [
+            {
+              "id": "calc_8_1_1",
+              "title": "dy/dx from Parametric Equations",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_8_1_2",
+              "title": "Motion in the Plane",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "calc_8_2",
+          "title": "Polar Functions",
+          "order": 2,
+          "decks": [
+            {
+              "id": "calc_8_2_1",
+              "title": "Polar Graph Recognition",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_8_2_2",
+              "title": "Area in Polar Coordinates",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calc_band_9",
+      "title": "Sequences and Series",
+      "order": 9,
+      "level": "advanced",
+      "skills": [
+        {
+          "id": "calc_9_1",
+          "title": "Sequences",
+          "order": 1,
+          "decks": [
+            {
+              "id": "calc_9_1_1",
+              "title": "Convergence of Sequences",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_9_1_2",
+              "title": "Recursive vs Explicit",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "calc_9_2",
+          "title": "Series Basics",
+          "order": 2,
+          "decks": [
+            {
+              "id": "calc_9_2_1",
+              "title": "Geometric and Telescoping",
+              "order": 1,
+              "difficulty": "hard"
+            },
+            {
+              "id": "calc_9_2_2",
+              "title": "p-Series and Harmonic",
+              "order": 2,
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "id": "calc_9_3",
+          "title": "Convergence Tests",
+          "order": 3,
+          "decks": [
+            {
+              "id": "calc_9_3_1",
+              "title": "Picking the Right Test",
+              "order": 1,
+              "difficulty": "boss"
+            },
+            {
+              "id": "calc_9_3_2",
+              "title": "Alternating and Ratio Tests",
+              "order": 2,
+              "difficulty": "boss"
+            }
+          ]
+        },
+        {
+          "id": "calc_9_4",
+          "title": "Taylor and Maclaurin Series",
+          "order": 4,
+          "decks": [
+            {
+              "id": "calc_9_4_1",
+              "title": "Common Series Recognition",
+              "order": 1,
+              "difficulty": "boss"
+            },
+            {
+              "id": "calc_9_4_2",
+              "title": "Intervals of Convergence",
+              "order": 2,
+              "difficulty": "boss"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

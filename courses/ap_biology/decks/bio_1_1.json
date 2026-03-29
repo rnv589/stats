@@ -1,0 +1,52 @@
+{
+  "deck_id": "bio_1_1",
+  "subject": "ap_biology",
+  "title": "Cell Structure Basics",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "Which structure controls what enters and exits the cell?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nucleus"
+        },
+        {
+          "id": "b",
+          "text": "Cell membrane"
+        },
+        {
+          "id": "c",
+          "text": "Ribosome"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The membrane regulates transport.",
+      "media": {
+        "image": "media/images/cell_membrane.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "DNA is primarily located in which organelle?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mitochondria"
+        },
+        {
+          "id": "b",
+          "text": "Nucleus"
+        },
+        {
+          "id": "c",
+          "text": "Golgi"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "DNA is stored in nucleus."
+    }
+  ]
+}

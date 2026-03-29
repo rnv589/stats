@@ -1,0 +1,321 @@
+{
+  "deck_id": "calc_1_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Estimating Limits",
+  "skill_band_id": "calc_band_1",
+  "skill_id": "calc_1_2",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "limits-from-graphs-and-tables",
+    "function"
+  ],
+  "questions": [
+    {
+      "id": "calc_1_2_1_q1",
+      "type": "graph_multiple_choice",
+      "prompt": "As x approaches the marked value, what does f(x) approach?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "Does not exist"
+        },
+        {
+          "id": "d",
+          "text": "\u221e"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The graph approaches y=4 from both sides.",
+      "hint": "Follow the y-values near the point.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "limits"
+      ],
+      "media": {
+        "image": "media/images/calc_1_2_1_1.png"
+      }
+    },
+    {
+      "id": "calc_1_2_1_q2",
+      "type": "multiple_choice",
+      "prompt": "A one-sided limit looks at values from:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "both sides at once"
+        },
+        {
+          "id": "b",
+          "text": "the left or the right only"
+        },
+        {
+          "id": "c",
+          "text": "only integers"
+        },
+        {
+          "id": "d",
+          "text": "only exact substitution"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "One-sided limits isolate one direction.",
+      "hint": "Think x\u2192a^- or x\u2192a^+.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "one-sided"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_1_2_1_q3",
+      "type": "graph_multiple_choice",
+      "prompt": "Which statement is true about the limit shown?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Left-hand and right-hand limits match"
+        },
+        {
+          "id": "b",
+          "text": "Only the left-hand limit exists"
+        },
+        {
+          "id": "c",
+          "text": "The function value determines the limit"
+        },
+        {
+          "id": "d",
+          "text": "The limit is always 0"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The two sides approach the same y-value.",
+      "hint": "Compare both approaches.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "limit-logic"
+      ],
+      "media": {
+        "image": "media/images/calc_1_2_1_2.png"
+      }
+    },
+    {
+      "id": "calc_1_2_1_q4",
+      "type": "multiple_choice",
+      "prompt": "If the left-hand limit is 3 and the right-hand limit is 5, then the limit as x\u2192a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "is 4"
+        },
+        {
+          "id": "b",
+          "text": "is 8"
+        },
+        {
+          "id": "c",
+          "text": "does not exist"
+        },
+        {
+          "id": "d",
+          "text": "is 3"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Two-sided limits exist only when both one-sided limits agree.",
+      "hint": "Mismatch means DNE.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "dne"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_1_2_1_q5",
+      "type": "graph_multiple_choice",
+      "prompt": "From the table, as x\u21922, f(x) seems to approach:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The nearby values close in on 4.",
+      "hint": "Use the trend, not exact substitution.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "table-limit"
+      ],
+      "media": {
+        "image": "media/images/calc_1_2_1_3.png"
+      }
+    },
+    {
+      "id": "calc_1_2_1_q6",
+      "type": "multiple_choice",
+      "prompt": "An infinite limit means the function values:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "approach a finite number"
+        },
+        {
+          "id": "b",
+          "text": "grow without bound in magnitude"
+        },
+        {
+          "id": "c",
+          "text": "become constant"
+        },
+        {
+          "id": "d",
+          "text": "must be negative"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Infinite limits occur when outputs blow up.",
+      "hint": "Think vertical asymptote behavior.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "infinite-limit"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_1_2_1_q7",
+      "type": "graph_multiple_choice",
+      "prompt": "Which graph suggests a vertical asymptote?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Graph 1"
+        },
+        {
+          "id": "b",
+          "text": "Graph 2"
+        },
+        {
+          "id": "c",
+          "text": "Graph 3"
+        },
+        {
+          "id": "d",
+          "text": "Graph 4"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "A reciprocal-style blow-up indicates a vertical asymptote.",
+      "hint": "Look for values shooting up or down.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "asymptote"
+      ],
+      "media": {
+        "image": "media/images/calc_1_2_1_4.png"
+      }
+    },
+    {
+      "id": "calc_1_2_1_q8",
+      "type": "multiple_choice",
+      "prompt": "The limit as x\u2192\u221e describes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "instantaneous slope"
+        },
+        {
+          "id": "b",
+          "text": "end behavior"
+        },
+        {
+          "id": "c",
+          "text": "the y-intercept"
+        },
+        {
+          "id": "d",
+          "text": "continuity at a point"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Limits at infinity focus on long-run behavior.",
+      "hint": "Think far to the right.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "end-behavior"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_1_2_1_q9",
+      "type": "numeric",
+      "prompt": "If lim x\u21922 f(x)=7, enter the limit value.",
+      "correct_numeric": 7,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "The limit is the approached output value.",
+      "hint": "Read the statement directly.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "direct"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_1_2_1_q10",
+      "type": "multiple_choice",
+      "prompt": "Which method is best when a graph is given?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Differentiate first"
+        },
+        {
+          "id": "b",
+          "text": "Use nearby y-values"
+        },
+        {
+          "id": "c",
+          "text": "Find an antiderivative"
+        },
+        {
+          "id": "d",
+          "text": "Use the quadratic formula"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "For graph-based limits, inspect values near the x-value.",
+      "hint": "Use the visual.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "strategy"
+      ],
+      "media": null
+    }
+  ]
+}

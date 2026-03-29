@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "mastery_rule": {
+    "correct_in_a_row_required": 3
+  },
+  "timers": {
+    "training": [
+      30,
+      20,
+      15
+    ]
+  }
+}

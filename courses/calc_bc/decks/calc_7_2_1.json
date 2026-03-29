@@ -1,0 +1,319 @@
+{
+  "deck_id": "calc_7_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Disk and Washer",
+  "skill_band_id": "calc_band_7",
+  "skill_id": "calc_7_2",
+  "difficulty": "hard",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "volume",
+    "applications"
+  ],
+  "questions": [
+    {
+      "id": "calc_7_2_1_q1",
+      "type": "multiple_choice",
+      "prompt": "Area between curves with respect to x is usually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\u222b(left-right)dx"
+        },
+        {
+          "id": "b",
+          "text": "\u222b(top-bottom)dx"
+        },
+        {
+          "id": "c",
+          "text": "\u222b(radius)dx"
+        },
+        {
+          "id": "d",
+          "text": "\u222bf'(x)dx"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "For vertical slices, subtract bottom from top.",
+      "hint": "Top minus bottom.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "area-between"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_7_2_1_q2",
+      "type": "graph_multiple_choice",
+      "prompt": "On the two-graph setup, which function is on top over the interval?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The line"
+        },
+        {
+          "id": "b",
+          "text": "The parabola"
+        },
+        {
+          "id": "c",
+          "text": "Neither"
+        },
+        {
+          "id": "d",
+          "text": "They are equal everywhere"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The line sits above the parabola on the marked interval.",
+      "hint": "Compare vertical order.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "top-bottom"
+      ],
+      "media": {
+        "image": "media/images/calc_7_2_1_1.png"
+      }
+    },
+    {
+      "id": "calc_7_2_1_q3",
+      "type": "multiple_choice",
+      "prompt": "The washer method uses:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "outer radius and inner radius"
+        },
+        {
+          "id": "b",
+          "text": "just one radius only"
+        },
+        {
+          "id": "c",
+          "text": "height and width only"
+        },
+        {
+          "id": "d",
+          "text": "secant slopes"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Washers have a hole, so use two radii.",
+      "hint": "Outer minus inner.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "washer"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_7_2_1_q4",
+      "type": "multiple_choice",
+      "prompt": "The shell method formula includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\u03c0(R^2-r^2)"
+        },
+        {
+          "id": "b",
+          "text": "2\u03c0(radius)(height)"
+        },
+        {
+          "id": "c",
+          "text": "f'(x)g'(x)"
+        },
+        {
+          "id": "d",
+          "text": "top-bottom only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Cylindrical shells use circumference times height.",
+      "hint": "Think shells wrapping around.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "shell"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_7_2_1_q5",
+      "type": "multiple_choice",
+      "prompt": "Displacement over an interval is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "total distance traveled"
+        },
+        {
+          "id": "b",
+          "text": "net change in position"
+        },
+        {
+          "id": "c",
+          "text": "always positive"
+        },
+        {
+          "id": "d",
+          "text": "the same as speed"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Displacement keeps sign and measures net position change.",
+      "hint": "Direction matters.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "displacement"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_7_2_1_q6",
+      "type": "multiple_choice",
+      "prompt": "Distance traveled differs from displacement because distance:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "uses signed area"
+        },
+        {
+          "id": "b",
+          "text": "adds absolute changes"
+        },
+        {
+          "id": "c",
+          "text": "is always smaller"
+        },
+        {
+          "id": "d",
+          "text": "ignores velocity"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Distance sums total movement without canceling negatives.",
+      "hint": "Use absolute value of velocity.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "distance"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_7_2_1_q7",
+      "type": "graph_multiple_choice",
+      "prompt": "If velocity is above the axis then below it, the displacement is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "sum of signed areas"
+        },
+        {
+          "id": "b",
+          "text": "sum of absolute areas only"
+        },
+        {
+          "id": "c",
+          "text": "definitely positive"
+        },
+        {
+          "id": "d",
+          "text": "definitely zero"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Displacement is net signed area under v(t).",
+      "hint": "Areas below the axis subtract.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "velocity-area"
+      ],
+      "media": {
+        "image": "media/images/calc_7_2_1_4.png"
+      }
+    },
+    {
+      "id": "calc_7_2_1_q8",
+      "type": "multiple_choice",
+      "prompt": "Average value of f on [a,b] is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/(b-a) \u222b_a^b f(x)dx"
+        },
+        {
+          "id": "b",
+          "text": "\u222b_a^b f(x)dx"
+        },
+        {
+          "id": "c",
+          "text": "f(b)-f(a)"
+        },
+        {
+          "id": "d",
+          "text": "f'(a)"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Average value is total accumulation divided by interval length.",
+      "hint": "Integral over width.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "avg-value"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_7_2_1_q9",
+      "type": "graph_multiple_choice",
+      "prompt": "Which setup best matches shells about the y-axis?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2\u03c0\u222bx\u00b7height dx"
+        },
+        {
+          "id": "b",
+          "text": "\u03c0\u222b(R^2-r^2)dy"
+        },
+        {
+          "id": "c",
+          "text": "\u222b(top-bottom)dx"
+        },
+        {
+          "id": "d",
+          "text": "\u222bf'(x)dx"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "For shells about the y-axis using x-slices, radius is x.",
+      "hint": "Shells use radius times height.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "shell-setup"
+      ],
+      "media": {
+        "image": "media/images/calc_7_2_1_3.png"
+      }
+    },
+    {
+      "id": "calc_7_2_1_q10",
+      "type": "numeric",
+      "prompt": "If velocity is 3 on 0\u2264t\u22644, displacement is:",
+      "correct_numeric": 12,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Constant velocity gives rectangle area 3\u00b74.",
+      "hint": "Area under velocity curve.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "displacement"
+      ],
+      "media": null
+    }
+  ]
+}

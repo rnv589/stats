@@ -1,0 +1,344 @@
+{
+  "deck_id": "stats_1_2_1",
+  "subject": "ap_statistics",
+  "title": "Compare Center and Spread",
+  "skill_band_id": "stats_band_1",
+  "skill_id": "stats_1_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "comparison",
+    "center",
+    "spread"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Two boxplots have the same median, but Plot A has a larger IQR. Which is true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A has more spread in the middle 50%"
+        },
+        {
+          "id": "b",
+          "text": "A has less spread"
+        },
+        {
+          "id": "c",
+          "text": "Both have same variability"
+        },
+        {
+          "id": "d",
+          "text": "Cannot compare"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Larger IQR means more middle spread.",
+      "hint": "Compare box lengths.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "comparison",
+        "iqr"
+      ],
+      "media": {
+        "image": "media/images/stats_1_2_1_compare_center_and_spread_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Distribution A has a higher median than B. This means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A is more skewed"
+        },
+        {
+          "id": "b",
+          "text": "A has a larger typical value"
+        },
+        {
+          "id": "c",
+          "text": "A must have larger range"
+        },
+        {
+          "id": "d",
+          "text": "A has no outliers"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A higher median means a higher central value.",
+      "hint": "Center is the key idea.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "comparison",
+        "center"
+      ],
+      "media": {
+        "image": "media/images/stats_1_2_1_compare_center_and_spread_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If one histogram is right-skewed and another is symmetric, the best comparison should mention:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the sample size"
+        },
+        {
+          "id": "b",
+          "text": "Shape as well as center/spread"
+        },
+        {
+          "id": "c",
+          "text": "Only the means"
+        },
+        {
+          "id": "d",
+          "text": "Nothing about variability"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Good comparisons include shape, center, and spread.",
+      "hint": "Use the full comparison formula.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "comparison",
+        "shape"
+      ],
+      "media": {
+        "image": "media/images/stats_1_2_1_compare_center_and_spread_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Two classes have the same mean score, but Class A has a smaller standard deviation. Which is true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A is more consistent"
+        },
+        {
+          "id": "b",
+          "text": "A has a higher center"
+        },
+        {
+          "id": "c",
+          "text": "A is more skewed"
+        },
+        {
+          "id": "d",
+          "text": "A must have outliers"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Smaller standard deviation means less variability.",
+      "hint": "Think consistency.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "comparison",
+        "sd"
+      ],
+      "media": {
+        "image": "media/images/stats_1_2_1_compare_center_and_spread_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is strongest? ",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A is better"
+        },
+        {
+          "id": "b",
+          "text": "A has a higher median and smaller IQR than B"
+        },
+        {
+          "id": "c",
+          "text": "A looks nice"
+        },
+        {
+          "id": "d",
+          "text": "B has bars"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A good comparison names actual distribution features.",
+      "hint": "Choose the precise statement.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "comparison",
+        "communication"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If Distribution A has many high outliers, which center is safer for comparing to B?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mean"
+        },
+        {
+          "id": "b",
+          "text": "Median"
+        },
+        {
+          "id": "c",
+          "text": "Range"
+        },
+        {
+          "id": "d",
+          "text": "Variance"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Median resists the pull from outliers.",
+      "hint": "Choose the resistant center.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "comparison",
+        "center"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which distribution is more variable?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The one with the smaller range"
+        },
+        {
+          "id": "b",
+          "text": "The one with the larger spread of values"
+        },
+        {
+          "id": "c",
+          "text": "The one with the lower median"
+        },
+        {
+          "id": "d",
+          "text": "The one with fewer bars"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Variability is about spread, not center.",
+      "hint": "Focus on spread.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "comparison",
+        "variability"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A full comparison statement for two distributions should usually include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only shape"
+        },
+        {
+          "id": "b",
+          "text": "Only center"
+        },
+        {
+          "id": "c",
+          "text": "Center, spread, and shape"
+        },
+        {
+          "id": "d",
+          "text": "Only sample size"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Comparing distributions means center, spread, and shape.",
+      "hint": "Remember the standard trio.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "comparison"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "If two distributions have similar medians but one has many outliers, what differs most clearly?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Center"
+        },
+        {
+          "id": "b",
+          "text": "Spread/unusual features"
+        },
+        {
+          "id": "c",
+          "text": "Sample size"
+        },
+        {
+          "id": "d",
+          "text": "Units"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Outliers are unusual features and affect the spread story.",
+      "hint": "Think beyond center.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "comparison",
+        "outliers"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "If Boxplot A has longer whiskers than Boxplot B, that suggests:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A may have greater overall spread"
+        },
+        {
+          "id": "b",
+          "text": "A must have a larger IQR"
+        },
+        {
+          "id": "c",
+          "text": "A has a smaller maximum"
+        },
+        {
+          "id": "d",
+          "text": "A is symmetric"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Longer whiskers suggest more spread outside the middle box.",
+      "hint": "Whiskers reflect tail spread.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "comparison",
+        "boxplot"
+      ],
+      "media": null
+    }
+  ]
+}

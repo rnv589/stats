@@ -1,0 +1,319 @@
+{
+  "deck_id": "calc_4_1_2",
+  "subject": "ap_calculus_bc",
+  "title": "Direction and Speed",
+  "skill_band_id": "calc_band_4",
+  "skill_id": "calc_4_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "motion-along-a-line",
+    "applications"
+  ],
+  "questions": [
+    {
+      "id": "calc_4_1_2_q1",
+      "type": "multiple_choice",
+      "prompt": "If s(t) is position, then s'(t) is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "acceleration"
+        },
+        {
+          "id": "b",
+          "text": "speed"
+        },
+        {
+          "id": "c",
+          "text": "velocity"
+        },
+        {
+          "id": "d",
+          "text": "distance"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The derivative of position is velocity.",
+      "hint": "One derivative gives velocity.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "motion"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_4_1_2_q2",
+      "type": "multiple_choice",
+      "prompt": "An object moves left when velocity is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "positive"
+        },
+        {
+          "id": "b",
+          "text": "negative"
+        },
+        {
+          "id": "c",
+          "text": "zero"
+        },
+        {
+          "id": "d",
+          "text": "undefined"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Negative velocity means motion to the left on the number line.",
+      "hint": "Use sign of v.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "direction"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_4_1_2_q3",
+      "type": "multiple_choice",
+      "prompt": "Speed is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "always the same as velocity"
+        },
+        {
+          "id": "b",
+          "text": "the derivative of acceleration"
+        },
+        {
+          "id": "c",
+          "text": "the absolute value of velocity"
+        },
+        {
+          "id": "d",
+          "text": "position divided by time"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Speed ignores direction.",
+      "hint": "Use |v|.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "speed"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_4_1_2_q4",
+      "type": "graph_multiple_choice",
+      "prompt": "If the graph shown is velocity vs time and lies below the axis, the object is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "moving right"
+        },
+        {
+          "id": "b",
+          "text": "moving left"
+        },
+        {
+          "id": "c",
+          "text": "stopped"
+        },
+        {
+          "id": "d",
+          "text": "speeding up for sure"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Velocity below the axis is negative.",
+      "hint": "Below means left.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "velocity-graph"
+      ],
+      "media": {
+        "image": "media/images/calc_4_1_2_1.png"
+      }
+    },
+    {
+      "id": "calc_4_1_2_q5",
+      "type": "multiple_choice",
+      "prompt": "Acceleration is the derivative of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "position"
+        },
+        {
+          "id": "b",
+          "text": "velocity"
+        },
+        {
+          "id": "c",
+          "text": "speed"
+        },
+        {
+          "id": "d",
+          "text": "time"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Acceleration is rate of change of velocity.",
+      "hint": "Second derivative of position.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "acceleration"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_4_1_2_q6",
+      "type": "multiple_choice",
+      "prompt": "An object changes direction when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "position is positive"
+        },
+        {
+          "id": "b",
+          "text": "velocity changes sign"
+        },
+        {
+          "id": "c",
+          "text": "acceleration is constant"
+        },
+        {
+          "id": "d",
+          "text": "speed is large"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Direction depends on sign of velocity.",
+      "hint": "Need a sign change.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "change-direction"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_4_1_2_q7",
+      "type": "graph_multiple_choice",
+      "prompt": "From the table card, between which times is average velocity negative?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0 to 1"
+        },
+        {
+          "id": "b",
+          "text": "1 to 2"
+        },
+        {
+          "id": "c",
+          "text": "2 to 3"
+        },
+        {
+          "id": "d",
+          "text": "all intervals"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Position drops from 2 to -1 on [2,3].",
+      "hint": "Look for falling position.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "average-velocity"
+      ],
+      "media": {
+        "image": "media/images/calc_4_1_2_3.png"
+      }
+    },
+    {
+      "id": "calc_4_1_2_q8",
+      "type": "multiple_choice",
+      "prompt": "If velocity and acceleration are both positive, the object is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "moving left and slowing down"
+        },
+        {
+          "id": "b",
+          "text": "moving right and speeding up"
+        },
+        {
+          "id": "c",
+          "text": "moving right and slowing down"
+        },
+        {
+          "id": "d",
+          "text": "stopped"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Same sign for v and a means speeding up.",
+      "hint": "Both positive means rightward faster.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "speeding-up"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_4_1_2_q9",
+      "type": "numeric",
+      "prompt": "If v(t)=2t and a(t)=v'(t), find a(3).",
+      "correct_numeric": 2,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Differentiate 2t to get constant acceleration 2.",
+      "hint": "Take one derivative.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "acceleration"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_4_1_2_q10",
+      "type": "graph_multiple_choice",
+      "prompt": "If the velocity graph crosses the axis, what happens?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Direction may change"
+        },
+        {
+          "id": "b",
+          "text": "Position must be 0"
+        },
+        {
+          "id": "c",
+          "text": "Acceleration is undefined"
+        },
+        {
+          "id": "d",
+          "text": "Speed is constant"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A sign change in velocity indicates a direction change.",
+      "hint": "Check the sign around the crossing.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "direction-change"
+      ],
+      "media": {
+        "image": "media/images/calc_4_1_2_4.png"
+      }
+    }
+  ]
+}

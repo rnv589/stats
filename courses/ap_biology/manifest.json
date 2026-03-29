@@ -1,0 +1,9 @@
+{
+  "subject": "ap_biology",
+  "decks": [
+    {
+      "id": "bio_1_1",
+      "file": "decks/bio_1_1.json"
+    }
+  ]
+}

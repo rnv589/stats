@@ -1,0 +1,344 @@
+{
+  "deck_id": "stats_7_2_1",
+  "subject": "ap_statistics",
+  "title": "Two-Sample Interval Choice and Interpretation",
+  "skill_band_id": "stats_band_7",
+  "skill_id": "stats_7_2",
+  "difficulty": "hard",
+  "recommended_timer": 25,
+  "question_count": 10,
+  "tags": [
+    "confidence-interval",
+    "two-sample"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "If a 95% confidence interval for \u03bc1\u2212\u03bc2 is entirely above 0, that suggests:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\u03bc1 may be less than \u03bc2"
+        },
+        {
+          "id": "b",
+          "text": "\u03bc1 is likely greater than \u03bc2"
+        },
+        {
+          "id": "c",
+          "text": "There is no difference"
+        },
+        {
+          "id": "d",
+          "text": "The sample means are equal"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "An interval above 0 suggests the true difference \u03bc1\u2212\u03bc2 is positive.",
+      "hint": "Sign of the interval matters.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "interpretation"
+      ],
+      "media": {
+        "image": "media/images/stats_7_2_1_two_sample_interval_choice_and_interpretation_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If a confidence interval for p1\u2212p2 includes 0, that suggests:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A significant difference is supported"
+        },
+        {
+          "id": "b",
+          "text": "No clear evidence of a difference at that confidence level"
+        },
+        {
+          "id": "c",
+          "text": "p1 must equal p2 exactly"
+        },
+        {
+          "id": "d",
+          "text": "The interval is wrong"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Including 0 means no clear nonzero difference is supported.",
+      "hint": "Zero is a plausible difference.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "interpretation"
+      ],
+      "media": {
+        "image": "media/images/stats_7_2_1_two_sample_interval_choice_and_interpretation_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Two-sample procedures require the samples to be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Always equal size"
+        },
+        {
+          "id": "b",
+          "text": "Independent or appropriately paired"
+        },
+        {
+          "id": "c",
+          "text": "Normally distributed populations only"
+        },
+        {
+          "id": "d",
+          "text": "Drawn from the same person"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Independence or valid pairing is the structural requirement.",
+      "hint": "Check sample relationship.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "conditions"
+      ],
+      "media": {
+        "image": "media/images/stats_7_2_1_two_sample_interval_choice_and_interpretation_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Which situation calls for a matched-pairs interval?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Comparing heights of two unrelated classes"
+        },
+        {
+          "id": "b",
+          "text": "Before-and-after blood pressure on the same patients"
+        },
+        {
+          "id": "c",
+          "text": "Comparing two schools chosen independently"
+        },
+        {
+          "id": "d",
+          "text": "Comparing two brands with different shoppers"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Same subjects measured twice create paired data.",
+      "hint": "One subject, two measurements.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "matched-pairs"
+      ],
+      "media": {
+        "image": "media/images/stats_7_2_1_two_sample_interval_choice_and_interpretation_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which is a correct interpretation of a CI for \u03bc1\u2212\u03bc2?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "95% of sample differences are in the interval"
+        },
+        {
+          "id": "b",
+          "text": "We are 95% confident the true difference in population means lies in the interval"
+        },
+        {
+          "id": "c",
+          "text": "95% of population values are in the interval"
+        },
+        {
+          "id": "d",
+          "text": "The null is definitely false"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Interpret the interval in terms of the parameter difference.",
+      "hint": "Parameter, not sample values.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "interpretation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A two-proportion interval should be used when the response variable is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Quantitative"
+        },
+        {
+          "id": "b",
+          "text": "Categorical with success/failure for two groups"
+        },
+        {
+          "id": "c",
+          "text": "Always normal"
+        },
+        {
+          "id": "d",
+          "text": "Continuous only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Proportions come from categorical success/failure data.",
+      "hint": "Think yes/no by group.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "procedure-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "A two-sample t-interval should be used when comparing:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two means from quantitative data"
+        },
+        {
+          "id": "b",
+          "text": "Two categorical proportions"
+        },
+        {
+          "id": "c",
+          "text": "One proportion to 0.5"
+        },
+        {
+          "id": "d",
+          "text": "One matched proportion"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Quantitative means suggest t-based procedures.",
+      "hint": "Means, not proportions.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "procedure-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "If the interval for \u03bc1\u2212\u03bc2 is (-4, -1), the data suggest:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\u03bc1 may be larger than \u03bc2"
+        },
+        {
+          "id": "b",
+          "text": "\u03bc1 is likely smaller than \u03bc2"
+        },
+        {
+          "id": "c",
+          "text": "No difference"
+        },
+        {
+          "id": "d",
+          "text": "The sample size is too small"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A negative interval suggests \u03bc1\u2212\u03bc2 is negative.",
+      "hint": "Negative difference means group 1 is lower.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "interpretation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which phrase best explains why 0 matters in a difference interval?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0 means no overlap in samples"
+        },
+        {
+          "id": "b",
+          "text": "0 means no difference in the parameter"
+        },
+        {
+          "id": "c",
+          "text": "0 means no outliers"
+        },
+        {
+          "id": "d",
+          "text": "0 means equal sample sizes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "For a difference, 0 represents no effect or no difference.",
+      "hint": "Zero is the null value for a difference.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "logic"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Two independent random samples mostly support:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Causal conclusions automatically"
+        },
+        {
+          "id": "b",
+          "text": "Comparative inference about population differences"
+        },
+        {
+          "id": "c",
+          "text": "Matched-pairs analysis"
+        },
+        {
+          "id": "d",
+          "text": "Only descriptive statistics"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Independent samples allow inference about differences between populations.",
+      "hint": "Inference, but not automatic causation.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "inference"
+      ],
+      "media": null
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "deck_id": "stats_7_1_2",
+  "subject": "ap_statistics",
+  "title": "z vs t Interval Selection",
+  "skill_band_id": "stats_band_7",
+  "skill_id": "stats_7_1",
+  "difficulty": "hard",
+  "recommended_timer": 25,
+  "question_count": 10,
+  "tags": [
+    "confidence-interval",
+    "procedure-selection"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which interval is used for a population mean when \u03c3 is unknown and data are roughly normal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "z-interval for p"
+        },
+        {
+          "id": "b",
+          "text": "t-interval for a mean"
+        },
+        {
+          "id": "c",
+          "text": "Two-proportion z-interval"
+        },
+        {
+          "id": "d",
+          "text": "No interval possible"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Unknown \u03c3 for a mean leads to a t-interval.",
+      "hint": "Think mean + unknown population SD.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "procedure-selection"
+      ],
+      "media": {
+        "image": "media/images/stats_7_1_2_z_vs_t_interval_selection_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Which interval is used for a population proportion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "t-interval"
+        },
+        {
+          "id": "b",
+          "text": "z-interval for p"
+        },
+        {
+          "id": "c",
+          "text": "t-interval for matched pairs only"
+        },
+        {
+          "id": "d",
+          "text": "Chi-square interval"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "One-proportion confidence intervals use z procedures.",
+      "hint": "Proportions use z, not t.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "procedure-selection"
+      ],
+      "media": {
+        "image": "media/images/stats_7_1_2_z_vs_t_interval_selection_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "The t distribution is used instead of the z distribution mainly because:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is easier to calculate"
+        },
+        {
+          "id": "b",
+          "text": "\u03c3 is unknown and estimated by s"
+        },
+        {
+          "id": "c",
+          "text": "The sample is categorical"
+        },
+        {
+          "id": "d",
+          "text": "The mean is always 0"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "t accounts for extra uncertainty from using s instead of \u03c3.",
+      "hint": "Unknown \u03c3 is the reason.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "t-distribution"
+      ],
+      "media": {
+        "image": "media/images/stats_7_1_2_z_vs_t_interval_selection_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "As degrees of freedom increase, the t distribution becomes more like the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Uniform distribution"
+        },
+        {
+          "id": "b",
+          "text": "Normal distribution"
+        },
+        {
+          "id": "c",
+          "text": "Binomial distribution"
+        },
+        {
+          "id": "d",
+          "text": "Geometric distribution"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "With more df, t approaches the standard normal.",
+      "hint": "Large samples make t close to z.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "t-distribution"
+      ],
+      "media": {
+        "image": "media/images/stats_7_1_2_z_vs_t_interval_selection_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A confidence interval for \u03bc1\u2212\u03bc2 from two independent means typically uses:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two-sample t-interval"
+        },
+        {
+          "id": "b",
+          "text": "Two-proportion z-interval"
+        },
+        {
+          "id": "c",
+          "text": "One-sample z-interval"
+        },
+        {
+          "id": "d",
+          "text": "Chi-square test"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Two means with unknown \u03c3 values use a two-sample t-interval.",
+      "hint": "Means suggest t.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "two-sample"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A confidence interval for p1\u2212p2 uses:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two-sample t-interval"
+        },
+        {
+          "id": "b",
+          "text": "Two-proportion z-interval"
+        },
+        {
+          "id": "c",
+          "text": "Matched-pairs t-interval"
+        },
+        {
+          "id": "d",
+          "text": "One-sample t-interval"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Two proportions use a z-interval.",
+      "hint": "Categorical proportions use z.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "two-sample"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which clue points to a t-interval?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Categorical yes/no outcome"
+        },
+        {
+          "id": "b",
+          "text": "Quantitative data and unknown population SD"
+        },
+        {
+          "id": "c",
+          "text": "Two independent proportions"
+        },
+        {
+          "id": "d",
+          "text": "Population proportion p"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Quantitative mean inference with unknown \u03c3 calls for t.",
+      "hint": "Think means and s.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "procedure-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which clue points to a z-interval for a proportion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Measured weights"
+        },
+        {
+          "id": "b",
+          "text": "Sample proportion of students who passed"
+        },
+        {
+          "id": "c",
+          "text": "Differences in matched scores"
+        },
+        {
+          "id": "d",
+          "text": "Unknown \u03c3 for a mean"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Pass/fail proportions are categorical, so use a z-interval for p.",
+      "hint": "Proportion problem.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "procedure-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Matched pairs data for a mean difference usually use a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One-sample t-interval on the differences"
+        },
+        {
+          "id": "b",
+          "text": "Two-proportion z-interval"
+        },
+        {
+          "id": "c",
+          "text": "One-proportion z-interval"
+        },
+        {
+          "id": "d",
+          "text": "Chi-square interval"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Matched pairs turn into one sample of differences.",
+      "hint": "Analyze the differences.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "matched-pairs"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "When choosing an interval, the first question should be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "What is the sample size"
+        },
+        {
+          "id": "b",
+          "text": "Is the variable quantitative or categorical, and how many samples are there"
+        },
+        {
+          "id": "c",
+          "text": "What color is the graph"
+        },
+        {
+          "id": "d",
+          "text": "What is the p-value"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Procedure choice starts with variable type and sampling structure.",
+      "hint": "Classify the problem first.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "confidence-interval",
+        "procedure-selection"
+      ],
+      "media": null
+    }
+  ]
+}

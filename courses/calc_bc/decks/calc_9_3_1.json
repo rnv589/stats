@@ -1,0 +1,326 @@
+{
+  "deck_id": "calc_9_3_1",
+  "subject": "ap_calculus_bc",
+  "title": "Picking the Right Test",
+  "skill_band_id": "calc_band_9",
+  "skill_id": "calc_9_3",
+  "difficulty": "boss",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "convergence-tests",
+    "sequences"
+  ],
+  "questions": [
+    {
+      "id": "calc_9_3_1_q1",
+      "type": "multiple_choice",
+      "prompt": "Picking the Right Test: concept question 1?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Explanation 1.",
+      "hint": "Hint.",
+      "difficulty": "boss",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_9_3_1_q2",
+      "type": "multiple_choice",
+      "prompt": "Picking the Right Test: concept question 2?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Explanation 2.",
+      "hint": "Hint.",
+      "difficulty": "boss",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_9_3_1_q3",
+      "type": "multiple_choice",
+      "prompt": "Picking the Right Test: concept question 3?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Explanation 3.",
+      "hint": "Hint.",
+      "difficulty": "boss",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_9_3_1_q4",
+      "type": "multiple_choice",
+      "prompt": "Picking the Right Test: concept question 4?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "Explanation 4.",
+      "hint": "Hint.",
+      "difficulty": "boss",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_9_3_1_q5",
+      "type": "multiple_choice",
+      "prompt": "Picking the Right Test: concept question 5?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Explanation 5.",
+      "hint": "Hint.",
+      "difficulty": "boss",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_9_3_1_q6",
+      "type": "multiple_choice",
+      "prompt": "Picking the Right Test: concept question 6?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Explanation 6.",
+      "hint": "Hint.",
+      "difficulty": "boss",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_9_3_1_q7",
+      "type": "multiple_choice",
+      "prompt": "Picking the Right Test: concept question 7?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Explanation 7.",
+      "hint": "Hint.",
+      "difficulty": "boss",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_9_3_1_q8",
+      "type": "multiple_choice",
+      "prompt": "Picking the Right Test: concept question 8?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "Explanation 8.",
+      "hint": "Hint.",
+      "difficulty": "boss",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_9_3_1_q9",
+      "type": "multiple_choice",
+      "prompt": "Picking the Right Test: concept question 9?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Explanation 9.",
+      "hint": "Hint.",
+      "difficulty": "boss",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    },
+    {
+      "id": "calc_9_3_1_q10",
+      "type": "multiple_choice",
+      "prompt": "Picking the Right Test: concept question 10?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Explanation 10.",
+      "hint": "Hint.",
+      "difficulty": "boss",
+      "subskill_tags": [
+        "generic"
+      ],
+      "media": null
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "deck_id": "stats_1_1_3",
+  "subject": "ap_statistics",
+  "title": "Spread and Outliers",
+  "skill_band_id": "stats_band_1",
+  "skill_id": "stats_1_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "distribution",
+    "spread",
+    "outliers"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which measure describes the spread of the middle 50% of data?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Range"
+        },
+        {
+          "id": "b",
+          "text": "IQR"
+        },
+        {
+          "id": "c",
+          "text": "Mean"
+        },
+        {
+          "id": "d",
+          "text": "Median"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The IQR is Q3 minus Q1 and covers the middle half.",
+      "hint": "Think quartiles.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "spread",
+        "iqr"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_3_spread_and_outliers_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Which measure uses the maximum and minimum only?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "IQR"
+        },
+        {
+          "id": "b",
+          "text": "Range"
+        },
+        {
+          "id": "c",
+          "text": "Standard deviation"
+        },
+        {
+          "id": "d",
+          "text": "Median"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Range is max minus min.",
+      "hint": "Only two endpoints are used.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "spread",
+        "range"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_3_spread_and_outliers_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "prompt": "If Q1 = 10 and Q3 = 18, what is the IQR?",
+      "correct_numeric": 8,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "IQR = Q3 - Q1 = 18 - 10 = 8.",
+      "hint": "Subtract Q1 from Q3.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "spread",
+        "iqr"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_3_spread_and_outliers_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "prompt": "If the minimum is 3 and the maximum is 15, what is the range?",
+      "correct_numeric": 12,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Range = max - min = 15 - 3 = 12.",
+      "hint": "Use endpoints only.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "spread",
+        "range"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_3_spread_and_outliers_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "An outlier is a value that is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Exactly the median"
+        },
+        {
+          "id": "b",
+          "text": "Unusually far from the rest"
+        },
+        {
+          "id": "c",
+          "text": "Always the maximum"
+        },
+        {
+          "id": "d",
+          "text": "Always below Q1"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Outliers stand apart from the rest of the data.",
+      "hint": "Think unusual distance.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "outliers"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which measure of spread is more resistant to outliers?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Range"
+        },
+        {
+          "id": "b",
+          "text": "IQR"
+        },
+        {
+          "id": "c",
+          "text": "Standard deviation"
+        },
+        {
+          "id": "d",
+          "text": "Mean deviation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "IQR is resistant because it ignores the extreme tails.",
+      "hint": "Think middle 50%.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "spread",
+        "resistance"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If all values in a data set are the same, the range is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "Equal to the mean"
+        },
+        {
+          "id": "d",
+          "text": "Undefined"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Maximum and minimum are equal, so range is 0.",
+      "hint": "No spread means no distance between endpoints.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "spread"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which statement is true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A larger IQR means less variability"
+        },
+        {
+          "id": "b",
+          "text": "A larger IQR means more variability"
+        },
+        {
+          "id": "c",
+          "text": "IQR measures center"
+        },
+        {
+          "id": "d",
+          "text": "IQR is always larger than range"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "More middle spread means a larger IQR.",
+      "hint": "Think variability.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "spread",
+        "interpretation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which graph is especially good for spotting outliers?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Boxplot"
+        },
+        {
+          "id": "b",
+          "text": "Pie chart"
+        },
+        {
+          "id": "c",
+          "text": "Bar chart"
+        },
+        {
+          "id": "d",
+          "text": "Stem title"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Boxplots highlight quartiles and flagged outliers clearly.",
+      "hint": "Think five-number summary picture.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "outliers",
+        "graph"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "If a distribution has one extreme high value, which spread measure changes most?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "IQR"
+        },
+        {
+          "id": "b",
+          "text": "Range"
+        },
+        {
+          "id": "c",
+          "text": "Median"
+        },
+        {
+          "id": "d",
+          "text": "Q1"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The range uses the maximum directly, so one extreme value changes it fast.",
+      "hint": "Which one depends on endpoints?",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "spread",
+        "outliers"
+      ],
+      "media": null
+    }
+  ]
+}

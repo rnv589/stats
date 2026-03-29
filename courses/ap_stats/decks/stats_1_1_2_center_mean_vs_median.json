@@ -1,0 +1,343 @@
+{
+  "deck_id": "stats_1_1_2",
+  "subject": "ap_statistics",
+  "title": "Center: Mean vs Median",
+  "skill_band_id": "stats_band_1",
+  "skill_id": "stats_1_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "distribution",
+    "center"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which measure of center is more resistant to outliers?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mean"
+        },
+        {
+          "id": "b",
+          "text": "Median"
+        },
+        {
+          "id": "c",
+          "text": "Range"
+        },
+        {
+          "id": "d",
+          "text": "Standard deviation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The median is resistant because extreme values do not pull it much.",
+      "hint": "Think resistant to extreme values.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "center",
+        "median"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_2_center_mean_vs_median_1.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "In a strongly right-skewed distribution, which is usually larger?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Median"
+        },
+        {
+          "id": "b",
+          "text": "Mean"
+        },
+        {
+          "id": "c",
+          "text": "IQR"
+        },
+        {
+          "id": "d",
+          "text": "Minimum"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Large high-end values pull the mean to the right.",
+      "hint": "Outliers affect the mean more.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "center",
+        "mean-vs-median"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_2_center_mean_vs_median_2.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "For a symmetric distribution with no outliers, the mean and median are usually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Very different"
+        },
+        {
+          "id": "b",
+          "text": "About the same"
+        },
+        {
+          "id": "c",
+          "text": "Always both zero"
+        },
+        {
+          "id": "d",
+          "text": "Impossible to compare"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Symmetry usually places mean and median near the same spot.",
+      "hint": "Think balance.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "center"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_2_center_mean_vs_median_3.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Which measure is found by averaging all values?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Median"
+        },
+        {
+          "id": "b",
+          "text": "Mean"
+        },
+        {
+          "id": "c",
+          "text": "IQR"
+        },
+        {
+          "id": "d",
+          "text": "Range"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The mean is the arithmetic average.",
+      "hint": "Average is the keyword.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "center",
+        "mean"
+      ],
+      "media": {
+        "image": "media/images/stats_1_1_2_center_mean_vs_median_4.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which measure is the middle value when data are ordered?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mean"
+        },
+        {
+          "id": "b",
+          "text": "Range"
+        },
+        {
+          "id": "c",
+          "text": "Median"
+        },
+        {
+          "id": "d",
+          "text": "Variance"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The median is the middle ordered value.",
+      "hint": "Order the data mentally.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "center",
+        "median"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A few extremely low values mainly affect the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Median more than mean"
+        },
+        {
+          "id": "b",
+          "text": "Mean more than median"
+        },
+        {
+          "id": "c",
+          "text": "Both equally"
+        },
+        {
+          "id": "d",
+          "text": "Neither"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Extreme values pull the mean more than the median.",
+      "hint": "Which one uses all values directly?",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "center",
+        "outliers"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If a teacher wants a measure of typical score that ignores one unusually high score, use the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mean"
+        },
+        {
+          "id": "b",
+          "text": "Median"
+        },
+        {
+          "id": "c",
+          "text": "Range"
+        },
+        {
+          "id": "d",
+          "text": "Mode only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Median is better when one extreme value is present.",
+      "hint": "Think resistant center.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "center",
+        "resistance"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "When comparing two skewed distributions, the safer center measure is often the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Median"
+        },
+        {
+          "id": "b",
+          "text": "Mean"
+        },
+        {
+          "id": "c",
+          "text": "Variance"
+        },
+        {
+          "id": "d",
+          "text": "z-score"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The median works better with skew and outliers.",
+      "hint": "Choose the resistant option.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "center",
+        "comparison"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which statement about the mean is true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It uses only the middle value"
+        },
+        {
+          "id": "b",
+          "text": "It ignores extreme values"
+        },
+        {
+          "id": "c",
+          "text": "It uses every observation"
+        },
+        {
+          "id": "d",
+          "text": "It is always resistant"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The mean includes every observation in the calculation.",
+      "hint": "Think full-data measure.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "center",
+        "mean"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "If mean < median, the distribution is often:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Skewed right"
+        },
+        {
+          "id": "b",
+          "text": "Skewed left"
+        },
+        {
+          "id": "c",
+          "text": "Uniform"
+        },
+        {
+          "id": "d",
+          "text": "Bimodal"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A left tail can pull the mean below the median.",
+      "hint": "Think which tail drags the mean.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "center",
+        "shape-connection"
+      ],
+      "media": null
+    }
+  ]
+}
