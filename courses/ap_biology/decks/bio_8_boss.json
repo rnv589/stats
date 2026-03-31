@@ -1,0 +1,316 @@
+{
+  "deck_id": "bio_8_boss",
+  "subject": "ap_biology",
+  "title": "Unit 8 Boss: Ecology",
+  "skill_band_id": "bio_band_8",
+  "skill_id": "bio_8_boss",
+  "difficulty": "hard",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "unit8"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Why does energy decrease at higher trophic levels?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Energy is destroyed by predators"
+        },
+        {
+          "id": "b",
+          "text": "Much is used in metabolism and lost as heat"
+        },
+        {
+          "id": "c",
+          "text": "DNA removes it"
+        },
+        {
+          "id": "d",
+          "text": "Producers keep all of it"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Only a small portion of energy is incorporated into biomass available to the next level.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "energy-flow"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Which growth model includes carrying capacity?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Exponential"
+        },
+        {
+          "id": "b",
+          "text": "Logistic"
+        },
+        {
+          "id": "c",
+          "text": "Hardy-Weinberg"
+        },
+        {
+          "id": "d",
+          "text": "Survivorship"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Logistic growth includes environmental limits.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "population-growth"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A severe storm affecting a population regardless of density is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Density dependent"
+        },
+        {
+          "id": "b",
+          "text": "Density independent"
+        },
+        {
+          "id": "c",
+          "text": "A niche"
+        },
+        {
+          "id": "d",
+          "text": "Mutualism"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Weather events usually affect populations without regard to density.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "population-ecology"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "What is a likely consequence of removing a top predator from a food web?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No change at all"
+        },
+        {
+          "id": "b",
+          "text": "A trophic cascade affecting lower levels"
+        },
+        {
+          "id": "c",
+          "text": "Immediate extinction of all producers"
+        },
+        {
+          "id": "d",
+          "text": "An increase in carrying capacity for every species"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Predators can strongly influence prey abundance and community structure.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "food-web"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which interaction benefits both species?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Competition"
+        },
+        {
+          "id": "b",
+          "text": "Predation"
+        },
+        {
+          "id": "c",
+          "text": "Mutualism"
+        },
+        {
+          "id": "d",
+          "text": "Parasitism"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Mutualistic interactions increase fitness for both partners.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "species-interactions"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Why are decomposers critical in ecosystems?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They produce sunlight"
+        },
+        {
+          "id": "b",
+          "text": "They recycle nutrients in dead organic matter"
+        },
+        {
+          "id": "c",
+          "text": "They fix all atmospheric carbon"
+        },
+        {
+          "id": "d",
+          "text": "They stop succession"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Matter is recycled through decomposition even though energy is not.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "decomposers"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which process directly returns carbon dioxide to the atmosphere?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Photosynthesis"
+        },
+        {
+          "id": "b",
+          "text": "Respiration"
+        },
+        {
+          "id": "c",
+          "text": "Nitrogen fixation"
+        },
+        {
+          "id": "d",
+          "text": "Transpiration"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Respiration releases CO₂ as organic molecules are broken down.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "carbon-cycle"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "If two species use identical resources in the same place, long-term coexistence is unlikely because of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Competitive exclusion"
+        },
+        {
+          "id": "b",
+          "text": "Gene flow"
+        },
+        {
+          "id": "c",
+          "text": "Crossing over"
+        },
+        {
+          "id": "d",
+          "text": "Chemiosmosis"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Strong niche overlap leads to competitive exclusion or niche differentiation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "competition"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Type III survivorship is characterized by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Low mortality early in life"
+        },
+        {
+          "id": "b",
+          "text": "Constant mortality across life"
+        },
+        {
+          "id": "c",
+          "text": "High mortality early in life"
+        },
+        {
+          "id": "d",
+          "text": "No mortality"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Many offspring die young, but survivors may live much longer.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "survivorship"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Carrying capacity can change over time because it depends on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only chromosome number"
+        },
+        {
+          "id": "b",
+          "text": "Resource availability and environmental conditions"
+        },
+        {
+          "id": "c",
+          "text": "The number of codons"
+        },
+        {
+          "id": "d",
+          "text": "Whether the species is dominant"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Environmental conditions and resources are not fixed.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "population-growth"
+      ],
+      "media": null
+    }
+  ]
+}

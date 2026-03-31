@@ -1,0 +1,316 @@
+{
+  "deck_id": "bio_1_boss",
+  "subject": "ap_biology",
+  "title": "Unit 1 Boss: Chemistry of Life",
+  "skill_band_id": "bio_band_1",
+  "skill_id": "bio_1_boss",
+  "difficulty": "hard",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "unit1"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which property of water most directly supports transpiration in plants?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cohesion"
+        },
+        {
+          "id": "b",
+          "text": "Low vapor pressure"
+        },
+        {
+          "id": "c",
+          "text": "Neutral pH"
+        },
+        {
+          "id": "d",
+          "text": "Hydrolysis"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Cohesion helps pull columns of water upward through xylem.",
+      "difficulty": "hard",
+      "subskill_tags": [
+        "water"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A student raises substrate concentration and sees no further increase in reaction rate. The most likely explanation is that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The enzyme is saturated"
+        },
+        {
+          "id": "b",
+          "text": "The pH doubled"
+        },
+        {
+          "id": "c",
+          "text": "The products became reactants"
+        },
+        {
+          "id": "d",
+          "text": "ATP was produced"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "At saturation, all active sites are occupied and rate plateaus.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "enzymes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Which pair is matched correctly?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Starch — structural support in plants"
+        },
+        {
+          "id": "b",
+          "text": "Cellulose — energy storage in animals"
+        },
+        {
+          "id": "c",
+          "text": "Glycogen — energy storage in animals"
+        },
+        {
+          "id": "d",
+          "text": "Triglyceride — enzyme"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Glycogen is the main carbohydrate storage polymer in animals.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "macromolecules"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A molecule with many carbon-hydrogen bonds is most likely to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Store substantial chemical energy"
+        },
+        {
+          "id": "b",
+          "text": "Dissolve instantly in water"
+        },
+        {
+          "id": "c",
+          "text": "Act as a buffer"
+        },
+        {
+          "id": "d",
+          "text": "Be highly ionic"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "C-H bonds contain stored chemical energy often tapped in metabolism.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "chemistry"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which change would most directly disrupt secondary protein structure?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Breaking hydrogen bonds along the backbone"
+        },
+        {
+          "id": "b",
+          "text": "Changing the DNA code for an unrelated gene"
+        },
+        {
+          "id": "c",
+          "text": "Removing all peptide bonds in a different protein"
+        },
+        {
+          "id": "d",
+          "text": "Adding more ATP"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Secondary structure depends heavily on backbone hydrogen bonding.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "proteins"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If a buffer is added to a solution, the main result should be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The solution becomes nonpolar"
+        },
+        {
+          "id": "b",
+          "text": "The solution resists rapid pH change"
+        },
+        {
+          "id": "c",
+          "text": "Hydrogen bonding stops"
+        },
+        {
+          "id": "d",
+          "text": "All enzymes work at maximum rate"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Buffers stabilize pH rather than eliminating change entirely.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "buffers"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Phospholipids spontaneously form bilayers in water because they are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Amphipathic"
+        },
+        {
+          "id": "b",
+          "text": "Covalent polymers"
+        },
+        {
+          "id": "c",
+          "text": "Always charged negatively"
+        },
+        {
+          "id": "d",
+          "text": "Enzymes"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Their hydrophilic heads and hydrophobic tails drive bilayer formation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "membranes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which statement about enzyme-catalyzed reactions is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Enzymes make endergonic reactions exergonic"
+        },
+        {
+          "id": "b",
+          "text": "Enzymes are consumed by the reaction"
+        },
+        {
+          "id": "c",
+          "text": "Enzymes lower activation energy without changing ΔG"
+        },
+        {
+          "id": "d",
+          "text": "Enzymes work equally well at all temperatures"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Catalysts affect activation energy, not the overall free-energy change.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "enzymes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A carbohydrate monomer is a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Monosaccharide"
+        },
+        {
+          "id": "b",
+          "text": "Nucleotide"
+        },
+        {
+          "id": "c",
+          "text": "Amino acid"
+        },
+        {
+          "id": "d",
+          "text": "Glycerol"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Monosaccharides are the building blocks of larger carbohydrates.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "carbohydrates"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Why is carbon especially important in biological molecules?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It forms four covalent bonds and many stable skeletons"
+        },
+        {
+          "id": "b",
+          "text": "It is always positively charged"
+        },
+        {
+          "id": "c",
+          "text": "It dissolves only in lipids"
+        },
+        {
+          "id": "d",
+          "text": "It can never bond with hydrogen"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Carbon's four valence electrons allow diverse molecular structures.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "carbon"
+      ],
+      "media": null
+    }
+  ]
+}

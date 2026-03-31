@@ -1,0 +1,318 @@
+{
+  "deck_id": "bio_7_2_1",
+  "subject": "ap_biology",
+  "title": "Evolutionary Evidence and Phylogeny",
+  "skill_band_id": "bio_band_7",
+  "skill_id": "bio_7_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "phylogeny",
+    "evidence"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "In the cladogram, which group shares a more recent common ancestor with birds: reptiles or fish?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fish"
+        },
+        {
+          "id": "b",
+          "text": "Reptiles"
+        },
+        {
+          "id": "c",
+          "text": "Both equally"
+        },
+        {
+          "id": "d",
+          "text": "Neither"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Birds branch more recently with reptiles than with fish.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "cladogram"
+      ],
+      "media": {
+        "image": "media/images/cladogram.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A clade includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Any organisms that look alike"
+        },
+        {
+          "id": "b",
+          "text": "An ancestor and all of its descendants"
+        },
+        {
+          "id": "c",
+          "text": "Only extinct species"
+        },
+        {
+          "id": "d",
+          "text": "Only vertebrates"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A clade is a monophyletic group.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "phylogeny"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Homologous structures provide evidence for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shared ancestry"
+        },
+        {
+          "id": "b",
+          "text": "Identical function only"
+        },
+        {
+          "id": "c",
+          "text": "No relationship"
+        },
+        {
+          "id": "d",
+          "text": "Instant speciation"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Similar underlying structures often indicate common ancestry.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "evidence"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Analogous structures arise mainly because of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shared ancestry"
+        },
+        {
+          "id": "b",
+          "text": "Convergent evolution"
+        },
+        {
+          "id": "c",
+          "text": "Gene flow"
+        },
+        {
+          "id": "d",
+          "text": "Independent assortment"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Similar selective pressures can produce similar functions in unrelated groups.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "convergent-evolution"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Molecular comparisons such as DNA sequence similarity are useful in building phylogenies because they:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Replace fossils entirely"
+        },
+        {
+          "id": "b",
+          "text": "Provide evidence of relatedness"
+        },
+        {
+          "id": "c",
+          "text": "Prevent mutation"
+        },
+        {
+          "id": "d",
+          "text": "Show phenotype directly"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "More similar sequences usually suggest closer evolutionary relationships.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "molecular-evidence"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Speciation is most likely when populations become reproductively:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More similar"
+        },
+        {
+          "id": "b",
+          "text": "Isolated"
+        },
+        {
+          "id": "c",
+          "text": "Larger"
+        },
+        {
+          "id": "d",
+          "text": "Polyploid only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Reproductive isolation allows populations to diverge.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "speciation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Allopatric speciation commonly begins with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Geographic separation"
+        },
+        {
+          "id": "b",
+          "text": "Identical habitats and constant mixing"
+        },
+        {
+          "id": "c",
+          "text": "No mutations"
+        },
+        {
+          "id": "d",
+          "text": "Universal mating"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A physical barrier can reduce gene flow and start divergence.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "speciation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A vestigial structure is one that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Has lost much of its ancestral function"
+        },
+        {
+          "id": "b",
+          "text": "Never had a function"
+        },
+        {
+          "id": "c",
+          "text": "Always improves survival"
+        },
+        {
+          "id": "d",
+          "text": "Prevents evolution"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Vestigial structures can persist even after their original function is reduced.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "evidence"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which is strong evidence for evolution by natural selection?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Static allele frequencies forever"
+        },
+        {
+          "id": "b",
+          "text": "Observed changes in populations under selective pressure"
+        },
+        {
+          "id": "c",
+          "text": "The absence of variation"
+        },
+        {
+          "id": "d",
+          "text": "No heredity"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Selection can be observed directly in changing populations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "natural-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Reproductive isolation means populations:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Never live in the same place"
+        },
+        {
+          "id": "b",
+          "text": "Can no longer exchange genes effectively"
+        },
+        {
+          "id": "c",
+          "text": "Share identical alleles"
+        },
+        {
+          "id": "d",
+          "text": "Always look different"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "If gene exchange stops, populations can evolve separately.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "speciation"
+      ],
+      "media": null
+    }
+  ]
+}

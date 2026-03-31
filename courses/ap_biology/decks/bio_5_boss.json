@@ -1,0 +1,316 @@
+{
+  "deck_id": "bio_5_boss",
+  "subject": "ap_biology",
+  "title": "Unit 5 Boss: Heredity",
+  "skill_band_id": "bio_band_5",
+  "skill_id": "bio_5_boss",
+  "difficulty": "hard",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "unit5"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which event generates variation by exchanging DNA between homologous chromosomes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Independent assortment"
+        },
+        {
+          "id": "b",
+          "text": "Crossing over"
+        },
+        {
+          "id": "c",
+          "text": "Fertilization"
+        },
+        {
+          "id": "d",
+          "text": "Mitosis"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Crossing over reshuffles alleles between homologs.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "variation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Why does independent assortment increase genetic variation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each homologous pair aligns randomly in meiosis I"
+        },
+        {
+          "id": "b",
+          "text": "DNA never replicates"
+        },
+        {
+          "id": "c",
+          "text": "All genes are on different chromosomes"
+        },
+        {
+          "id": "d",
+          "text": "Gametes become diploid"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Random orientation of chromosome pairs produces many possible combinations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "independent-assortment"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A heterozygous individual has:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two identical alleles"
+        },
+        {
+          "id": "b",
+          "text": "Two different alleles"
+        },
+        {
+          "id": "c",
+          "text": "No alleles"
+        },
+        {
+          "id": "d",
+          "text": "Three alleles"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Heterozygous means carrying two different alleles for a gene.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "genetics"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If a recessive disorder is autosomal, unaffected parents can have an affected child when both are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Homozygous dominant"
+        },
+        {
+          "id": "b",
+          "text": "Carriers"
+        },
+        {
+          "id": "c",
+          "text": "Affected"
+        },
+        {
+          "id": "d",
+          "text": "Male"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Two carriers can produce a homozygous recessive offspring.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "recessive"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which inheritance pattern often shows affected sons from unaffected carrier mothers?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Autosomal dominant"
+        },
+        {
+          "id": "b",
+          "text": "X-linked recessive"
+        },
+        {
+          "id": "c",
+          "text": "Y-linked"
+        },
+        {
+          "id": "d",
+          "text": "Mitochondrial"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Carrier mothers can pass a recessive X-linked allele to sons.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "sex-linked"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Meiosis II is most similar to mitosis because both involve:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pairing of homologous chromosomes"
+        },
+        {
+          "id": "b",
+          "text": "Separation of sister chromatids"
+        },
+        {
+          "id": "c",
+          "text": "Reduction from diploid to haploid"
+        },
+        {
+          "id": "d",
+          "text": "Crossing over"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Both processes separate sister chromatids.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "meiosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Nondisjunction can cause offspring to have:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A new dominant allele"
+        },
+        {
+          "id": "b",
+          "text": "An abnormal chromosome number"
+        },
+        {
+          "id": "c",
+          "text": "No DNA"
+        },
+        {
+          "id": "d",
+          "text": "A guaranteed lethal mutation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Improper chromosome separation can produce aneuploid gametes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "nondisjunction"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Codominance is best represented by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A heterozygote showing both alleles fully"
+        },
+        {
+          "id": "b",
+          "text": "A heterozygote showing an intermediate blend"
+        },
+        {
+          "id": "c",
+          "text": "Only recessive expression"
+        },
+        {
+          "id": "d",
+          "text": "No gene expression"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "In codominance, both alleles are clearly expressed.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "inheritance-patterns"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A pedigree that shows equal male/female frequency and vertical transmission often suggests:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Autosomal dominant inheritance"
+        },
+        {
+          "id": "b",
+          "text": "Y-linked inheritance"
+        },
+        {
+          "id": "c",
+          "text": "Mitochondrial inheritance only"
+        },
+        {
+          "id": "d",
+          "text": "No genetic basis"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Autosomal dominant traits commonly appear in every generation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "pedigree"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Random fertilization adds variation because:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only one sperm ever reaches the egg"
+        },
+        {
+          "id": "b",
+          "text": "Any one of many genetically distinct sperm can fuse with any one of many eggs"
+        },
+        {
+          "id": "c",
+          "text": "It changes chromosome number"
+        },
+        {
+          "id": "d",
+          "text": "It prevents mutation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The combination of two randomly formed gametes is highly variable.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "variation"
+      ],
+      "media": null
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "deck_id": "bio_1_2_1",
+  "subject": "ap_biology",
+  "title": "pH, Buffers, and Biological Molecules",
+  "skill_band_id": "bio_band_1",
+  "skill_id": "bio_1_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "pH",
+    "buffers"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "On the scale shown, which value is neutral at 25°C?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "14"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Pure water is neutral at pH 7 under standard conditions.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "pH"
+      ],
+      "media": {
+        "image": "media/images/ph_scale.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A solution that resists pH change when acid or base is added is a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Catalyst"
+        },
+        {
+          "id": "b",
+          "text": "Buffer"
+        },
+        {
+          "id": "c",
+          "text": "Solute"
+        },
+        {
+          "id": "d",
+          "text": "Monomer"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Buffers minimize abrupt pH changes in biological systems.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "buffers"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If a solution changes from pH 6 to pH 5, the H⁺ concentration becomes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10 times higher"
+        },
+        {
+          "id": "b",
+          "text": "10 times lower"
+        },
+        {
+          "id": "c",
+          "text": "2 times higher"
+        },
+        {
+          "id": "d",
+          "text": "2 times lower"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Each pH unit represents a tenfold change in hydrogen ion concentration.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "pH"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Which molecule is least likely to dissolve well in water?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glucose"
+        },
+        {
+          "id": "b",
+          "text": "Sodium chloride"
+        },
+        {
+          "id": "c",
+          "text": "A phospholipid tail"
+        },
+        {
+          "id": "d",
+          "text": "An amino acid with charged groups"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Hydrocarbon tails are nonpolar and hydrophobic.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "polarity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Disulfide bonds form between the side chains of which amino acid?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glycine"
+        },
+        {
+          "id": "b",
+          "text": "Serine"
+        },
+        {
+          "id": "c",
+          "text": "Cysteine"
+        },
+        {
+          "id": "d",
+          "text": "Valine"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Cysteine side chains can form covalent disulfide bridges.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "proteins"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "The primary structure of a protein is its:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Overall 3D shape"
+        },
+        {
+          "id": "b",
+          "text": "Sequence of amino acids"
+        },
+        {
+          "id": "c",
+          "text": "Interaction of multiple subunits"
+        },
+        {
+          "id": "d",
+          "text": "Number of hydrogen bonds"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Primary structure refers to amino acid order.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "proteins"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which carbohydrate is a structural polymer in plant cell walls?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Starch"
+        },
+        {
+          "id": "b",
+          "text": "Glycogen"
+        },
+        {
+          "id": "c",
+          "text": "Cellulose"
+        },
+        {
+          "id": "d",
+          "text": "Sucrose"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Cellulose provides structural support in plant cell walls.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "carbohydrates"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "The bond connecting amino acids in a polypeptide is a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glycosidic bond"
+        },
+        {
+          "id": "b",
+          "text": "Hydrogen bond"
+        },
+        {
+          "id": "c",
+          "text": "Peptide bond"
+        },
+        {
+          "id": "d",
+          "text": "Phosphodiester bond"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Peptide bonds link amino acids together.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "proteins"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which statement about saturated fatty acids is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They contain one or more double bonds"
+        },
+        {
+          "id": "b",
+          "text": "They pack tightly and are often solid at room temperature"
+        },
+        {
+          "id": "c",
+          "text": "They are always hydrophilic"
+        },
+        {
+          "id": "d",
+          "text": "They are polymers of glucose"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Saturated fatty acids lack double bonds and pack more tightly.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "lipids"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "A nucleotide contains a sugar, a phosphate group, and a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fatty acid"
+        },
+        {
+          "id": "b",
+          "text": "Nitrogenous base"
+        },
+        {
+          "id": "c",
+          "text": "Peptide"
+        },
+        {
+          "id": "d",
+          "text": "Carboxyl group"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Nucleotides are made of a sugar, phosphate, and nitrogenous base.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "nucleic-acids"
+      ],
+      "media": null
+    }
+  ]
+}

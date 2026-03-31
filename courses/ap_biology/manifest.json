@@ -2,8 +2,474 @@
   "subject": "ap_biology",
   "decks": [
     {
-      "id": "bio_1_1",
-      "file": "decks/bio_1_1.json"
+      "id": "bio_1_1_1",
+      "file": "decks/bio_1_1_1.json",
+      "skill_id": "bio_1_1",
+      "skill_band_id": "bio_band_1",
+      "title": "Water and Macromolecules",
+      "difficulty": "easy",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 2,
+      "tags": [
+        "water",
+        "macromolecules"
+      ]
+    },
+    {
+      "id": "bio_1_1_2",
+      "file": "decks/bio_1_1_2.json",
+      "skill_id": "bio_1_1",
+      "skill_band_id": "bio_band_1",
+      "title": "Enzymes and Reaction Rates",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "enzymes",
+        "catalysis"
+      ]
+    },
+    {
+      "id": "bio_1_2_1",
+      "file": "decks/bio_1_2_1.json",
+      "skill_id": "bio_1_2",
+      "skill_band_id": "bio_band_1",
+      "title": "pH, Buffers, and Biological Molecules",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "pH",
+        "buffers"
+      ]
+    },
+    {
+      "id": "bio_1_boss",
+      "file": "decks/bio_1_boss.json",
+      "skill_id": "bio_1_boss",
+      "skill_band_id": "bio_band_1",
+      "title": "Unit 1 Boss: Chemistry of Life",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 15,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "boss",
+        "unit1"
+      ]
+    },
+    {
+      "id": "bio_2_1_1",
+      "file": "decks/bio_2_1_1.json",
+      "skill_id": "bio_2_1",
+      "skill_band_id": "bio_band_2",
+      "title": "Cell Organelles and Compartments",
+      "difficulty": "easy",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 2,
+      "tags": [
+        "cells",
+        "organelles"
+      ]
+    },
+    {
+      "id": "bio_2_1_2",
+      "file": "decks/bio_2_1_2.json",
+      "skill_id": "bio_2_1",
+      "skill_band_id": "bio_band_2",
+      "title": "Membranes and Transport",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "membrane",
+        "transport"
+      ]
+    },
+    {
+      "id": "bio_2_2_1",
+      "file": "decks/bio_2_2_1.json",
+      "skill_id": "bio_2_2",
+      "skill_band_id": "bio_band_2",
+      "title": "Surface Area, Size, and Cell Specialization",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "surface-area",
+        "specialization"
+      ]
+    },
+    {
+      "id": "bio_2_boss",
+      "file": "decks/bio_2_boss.json",
+      "skill_id": "bio_2_boss",
+      "skill_band_id": "bio_band_2",
+      "title": "Unit 2 Boss: Cells",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 15,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "boss",
+        "unit2"
+      ]
+    },
+    {
+      "id": "bio_3_1_1",
+      "file": "decks/bio_3_1_1.json",
+      "skill_id": "bio_3_1",
+      "skill_band_id": "bio_band_3",
+      "title": "Photosynthesis",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "bio_3_1_2",
+      "file": "decks/bio_3_1_2.json",
+      "skill_id": "bio_3_1",
+      "skill_band_id": "bio_band_3",
+      "title": "Cellular Respiration",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "respiration"
+      ]
+    },
+    {
+      "id": "bio_3_2_1",
+      "file": "decks/bio_3_2_1.json",
+      "skill_id": "bio_3_2",
+      "skill_band_id": "bio_band_3",
+      "title": "Energy Flow and Metabolism",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "energy",
+        "metabolism"
+      ]
+    },
+    {
+      "id": "bio_3_boss",
+      "file": "decks/bio_3_boss.json",
+      "skill_id": "bio_3_boss",
+      "skill_band_id": "bio_band_3",
+      "title": "Unit 3 Boss: Energetics",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 15,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "boss",
+        "unit3"
+      ]
+    },
+    {
+      "id": "bio_4_1_1",
+      "file": "decks/bio_4_1_1.json",
+      "skill_id": "bio_4_1",
+      "skill_band_id": "bio_band_4",
+      "title": "Cell Communication",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 2,
+      "tags": [
+        "signaling"
+      ]
+    },
+    {
+      "id": "bio_4_1_2",
+      "file": "decks/bio_4_1_2.json",
+      "skill_id": "bio_4_1",
+      "skill_band_id": "bio_band_4",
+      "title": "Cell Cycle and Mitosis",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 2,
+      "tags": [
+        "cell-cycle",
+        "mitosis"
+      ]
+    },
+    {
+      "id": "bio_4_2_1",
+      "file": "decks/bio_4_2_1.json",
+      "skill_id": "bio_4_2",
+      "skill_band_id": "bio_band_4",
+      "title": "Feedback, Homeostasis, and Response",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "feedback",
+        "homeostasis"
+      ]
+    },
+    {
+      "id": "bio_4_boss",
+      "file": "decks/bio_4_boss.json",
+      "skill_id": "bio_4_boss",
+      "skill_band_id": "bio_band_4",
+      "title": "Unit 4 Boss: Communication and Cell Cycle",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 15,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "boss",
+        "unit4"
+      ]
+    },
+    {
+      "id": "bio_5_1_1",
+      "file": "decks/bio_5_1_1.json",
+      "skill_id": "bio_5_1",
+      "skill_band_id": "bio_band_5",
+      "title": "Meiosis and Genetic Variation",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "meiosis",
+        "variation"
+      ]
+    },
+    {
+      "id": "bio_5_1_2",
+      "file": "decks/bio_5_1_2.json",
+      "skill_id": "bio_5_1",
+      "skill_band_id": "bio_band_5",
+      "title": "Mendelian Genetics",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "mendelian-genetics"
+      ]
+    },
+    {
+      "id": "bio_5_2_1",
+      "file": "decks/bio_5_2_1.json",
+      "skill_id": "bio_5_2",
+      "skill_band_id": "bio_band_5",
+      "title": "Pedigrees and Inheritance Patterns",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "pedigrees"
+      ]
+    },
+    {
+      "id": "bio_5_boss",
+      "file": "decks/bio_5_boss.json",
+      "skill_id": "bio_5_boss",
+      "skill_band_id": "bio_band_5",
+      "title": "Unit 5 Boss: Heredity",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 15,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "boss",
+        "unit5"
+      ]
+    },
+    {
+      "id": "bio_6_1_1",
+      "file": "decks/bio_6_1_1.json",
+      "skill_id": "bio_6_1",
+      "skill_band_id": "bio_band_6",
+      "title": "DNA Structure and Replication",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "dna",
+        "replication"
+      ]
+    },
+    {
+      "id": "bio_6_1_2",
+      "file": "decks/bio_6_1_2.json",
+      "skill_id": "bio_6_1",
+      "skill_band_id": "bio_band_6",
+      "title": "Transcription and Translation",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 2,
+      "tags": [
+        "transcription",
+        "translation"
+      ]
+    },
+    {
+      "id": "bio_6_2_1",
+      "file": "decks/bio_6_2_1.json",
+      "skill_id": "bio_6_2",
+      "skill_band_id": "bio_band_6",
+      "title": "Gene Regulation",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "gene-regulation"
+      ]
+    },
+    {
+      "id": "bio_6_boss",
+      "file": "decks/bio_6_boss.json",
+      "skill_id": "bio_6_boss",
+      "skill_band_id": "bio_band_6",
+      "title": "Unit 6 Boss: Gene Expression",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 15,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "boss",
+        "unit6"
+      ]
+    },
+    {
+      "id": "bio_7_1_1",
+      "file": "decks/bio_7_1_1.json",
+      "skill_id": "bio_7_1",
+      "skill_band_id": "bio_band_7",
+      "title": "Natural Selection and Adaptation",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 2,
+      "tags": [
+        "natural-selection"
+      ]
+    },
+    {
+      "id": "bio_7_1_2",
+      "file": "decks/bio_7_1_2.json",
+      "skill_id": "bio_7_1",
+      "skill_band_id": "bio_band_7",
+      "title": "Population Genetics and Hardy-Weinberg",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "population-genetics"
+      ]
+    },
+    {
+      "id": "bio_7_2_1",
+      "file": "decks/bio_7_2_1.json",
+      "skill_id": "bio_7_2",
+      "skill_band_id": "bio_band_7",
+      "title": "Evolutionary Evidence and Phylogeny",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "phylogeny",
+        "evidence"
+      ]
+    },
+    {
+      "id": "bio_7_boss",
+      "file": "decks/bio_7_boss.json",
+      "skill_id": "bio_7_boss",
+      "skill_band_id": "bio_band_7",
+      "title": "Unit 7 Boss: Evolution",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 15,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "boss",
+        "unit7"
+      ]
+    },
+    {
+      "id": "bio_8_1_1",
+      "file": "decks/bio_8_1_1.json",
+      "skill_id": "bio_8_1",
+      "skill_band_id": "bio_band_8",
+      "title": "Food Webs and Energy Flow",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 3,
+      "tags": [
+        "ecology",
+        "energy-flow"
+      ]
+    },
+    {
+      "id": "bio_8_1_2",
+      "file": "decks/bio_8_1_2.json",
+      "skill_id": "bio_8_1",
+      "skill_band_id": "bio_band_8",
+      "title": "Population Ecology",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 2,
+      "tags": [
+        "population-ecology"
+      ]
+    },
+    {
+      "id": "bio_8_2_1",
+      "file": "decks/bio_8_2_1.json",
+      "skill_id": "bio_8_2",
+      "skill_band_id": "bio_band_8",
+      "title": "Community Interactions and Cycles",
+      "difficulty": "medium",
+      "estimated_seconds_per_question": 20,
+      "question_count": 10,
+      "media_count": 1,
+      "tags": [
+        "community-ecology"
+      ]
+    },
+    {
+      "id": "bio_8_boss",
+      "file": "decks/bio_8_boss.json",
+      "skill_id": "bio_8_boss",
+      "skill_band_id": "bio_band_8",
+      "title": "Unit 8 Boss: Ecology",
+      "difficulty": "hard",
+      "estimated_seconds_per_question": 15,
+      "question_count": 10,
+      "media_count": 0,
+      "tags": [
+        "boss",
+        "unit8"
+      ]
     }
   ]
 }

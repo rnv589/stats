@@ -1,0 +1,318 @@
+{
+  "deck_id": "bio_5_1_1",
+  "subject": "ap_biology",
+  "title": "Meiosis and Genetic Variation",
+  "skill_band_id": "bio_band_5",
+  "skill_id": "bio_5_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "meiosis",
+    "variation"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "The image highlights crossing over during which stage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Metaphase II"
+        },
+        {
+          "id": "b",
+          "text": "Prophase I"
+        },
+        {
+          "id": "c",
+          "text": "Anaphase II"
+        },
+        {
+          "id": "d",
+          "text": "G1"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Crossing over occurs when homologous chromosomes pair in prophase I.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "meiosis"
+      ],
+      "media": {
+        "image": "media/images/crossing_over.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Meiosis differs from mitosis because meiosis:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Produces two diploid cells"
+        },
+        {
+          "id": "b",
+          "text": "Reduces chromosome number by half"
+        },
+        {
+          "id": "c",
+          "text": "Never replicates DNA"
+        },
+        {
+          "id": "d",
+          "text": "Occurs only in plants"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Meiosis produces haploid gametes from diploid cells.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "meiosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Independent assortment occurs because homologous chromosome pairs:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Replicate at random"
+        },
+        {
+          "id": "b",
+          "text": "Align independently during metaphase I"
+        },
+        {
+          "id": "c",
+          "text": "Always stay together"
+        },
+        {
+          "id": "d",
+          "text": "Exchange ATP"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Each homologous pair orients randomly relative to the poles.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "independent-assortment"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Crossing over increases genetic variation by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deleting all genes"
+        },
+        {
+          "id": "b",
+          "text": "Exchanging DNA between homologous chromosomes"
+        },
+        {
+          "id": "c",
+          "text": "Stopping fertilization"
+        },
+        {
+          "id": "d",
+          "text": "Doubling chromosome number"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Crossing over creates new allele combinations on chromosomes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "crossing-over"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A gamete is typically:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Diploid"
+        },
+        {
+          "id": "b",
+          "text": "Haploid"
+        },
+        {
+          "id": "c",
+          "text": "Polyploid"
+        },
+        {
+          "id": "d",
+          "text": "Tetraploid only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Gametes carry one set of chromosomes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gametes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Nondisjunction occurs when chromosomes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Replicate too slowly"
+        },
+        {
+          "id": "b",
+          "text": "Fail to separate properly during meiosis"
+        },
+        {
+          "id": "c",
+          "text": "Cross over excessively"
+        },
+        {
+          "id": "d",
+          "text": "Mutate in all cells"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Improper separation can produce gametes with abnormal chromosome numbers.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "nondisjunction"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Fertilization restores the chromosome number by combining:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two diploid gametes"
+        },
+        {
+          "id": "b",
+          "text": "Two haploid gametes"
+        },
+        {
+          "id": "c",
+          "text": "A haploid somatic cell and ATP"
+        },
+        {
+          "id": "d",
+          "text": "Two mitochondria"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Fusion of two haploid gametes forms a diploid zygote.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "fertilization"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A major source of variation among offspring is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mitosis only"
+        },
+        {
+          "id": "b",
+          "text": "Random fertilization"
+        },
+        {
+          "id": "c",
+          "text": "Identical chromosome alignment every time"
+        },
+        {
+          "id": "d",
+          "text": "Lack of meiosis"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Which sperm and egg meet is random and adds variation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "variation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Sister chromatids separate during:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Meiosis I only"
+        },
+        {
+          "id": "b",
+          "text": "Meiosis II"
+        },
+        {
+          "id": "c",
+          "text": "Interphase"
+        },
+        {
+          "id": "d",
+          "text": "Fertilization"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Meiosis II separates sister chromatids much like mitosis.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "meiosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Homologous chromosomes are similar because they:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Are identical copies made in S phase"
+        },
+        {
+          "id": "b",
+          "text": "Carry genes for the same traits at corresponding loci"
+        },
+        {
+          "id": "c",
+          "text": "Always come from the mother"
+        },
+        {
+          "id": "d",
+          "text": "Are found only in gametes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Homologs share gene loci but can carry different alleles.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "chromosomes"
+      ],
+      "media": null
+    }
+  ]
+}

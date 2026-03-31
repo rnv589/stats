@@ -1,0 +1,323 @@
+{
+  "deck_id": "bio_1_1_2",
+  "subject": "ap_biology",
+  "title": "Enzymes and Reaction Rates",
+  "skill_band_id": "bio_band_1",
+  "skill_id": "bio_1_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "enzymes",
+    "catalysis"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "In the diagram, the pocket where the substrate binds is the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Active site"
+        },
+        {
+          "id": "b",
+          "text": "Ribosome"
+        },
+        {
+          "id": "c",
+          "text": "Allosteric site"
+        },
+        {
+          "id": "d",
+          "text": "Cofactor"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The substrate fits into the enzyme's active site.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "enzymes"
+      ],
+      "media": {
+        "image": "media/images/enzyme_active_site.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Enzymes speed reactions mainly by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Adding energy to products"
+        },
+        {
+          "id": "b",
+          "text": "Lowering activation energy"
+        },
+        {
+          "id": "c",
+          "text": "Changing ΔG of the reaction"
+        },
+        {
+          "id": "d",
+          "text": "Raising temperature"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Enzymes reduce the activation energy needed to start a reaction.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "enzymes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If temperature rises above an enzyme's optimum, activity often drops because the enzyme:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gains more substrate"
+        },
+        {
+          "id": "b",
+          "text": "Denatures"
+        },
+        {
+          "id": "c",
+          "text": "Makes more ATP"
+        },
+        {
+          "id": "d",
+          "text": "Becomes an acid"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "High temperatures can disrupt protein shape and denature the enzyme.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "enzymes",
+        "temperature"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Competitive inhibitors usually work by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Binding at the active site"
+        },
+        {
+          "id": "b",
+          "text": "Destroying the substrate"
+        },
+        {
+          "id": "c",
+          "text": "Removing water"
+        },
+        {
+          "id": "d",
+          "text": "Breaking peptide bonds"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Competitive inhibitors compete with the substrate for the active site.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "enzymes",
+        "inhibition"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A noncompetitive inhibitor most directly changes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Substrate concentration"
+        },
+        {
+          "id": "b",
+          "text": "The shape of the enzyme"
+        },
+        {
+          "id": "c",
+          "text": "The products formed"
+        },
+        {
+          "id": "d",
+          "text": "The pH of the cell"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Noncompetitive inhibitors bind elsewhere and alter enzyme shape.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "enzymes",
+        "inhibition"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "When substrate concentration increases but enzyme concentration stays fixed, reaction rate will eventually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Drop below zero"
+        },
+        {
+          "id": "b",
+          "text": "Level off"
+        },
+        {
+          "id": "c",
+          "text": "Become random"
+        },
+        {
+          "id": "d",
+          "text": "Equal the pH"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Once all active sites are occupied, the enzyme is saturated and rate plateaus.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "enzymes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which best explains enzyme specificity?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every enzyme uses ATP"
+        },
+        {
+          "id": "b",
+          "text": "The active site has a particular shape and chemistry"
+        },
+        {
+          "id": "c",
+          "text": "Enzymes always work in lysosomes"
+        },
+        {
+          "id": "d",
+          "text": "Enzymes are lipids"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Substrates bind because the active site matches them in shape and chemistry.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "enzymes",
+        "specificity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which change would most likely increase the rate of an enzyme-catalyzed reaction in a cell already at optimal temperature and pH?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Add more substrate when enzymes are unsaturated"
+        },
+        {
+          "id": "b",
+          "text": "Lower substrate concentration"
+        },
+        {
+          "id": "c",
+          "text": "Remove the active site"
+        },
+        {
+          "id": "d",
+          "text": "Denature the enzyme"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "If enzymes are not saturated, adding substrate can increase collision frequency and rate.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "enzymes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A mutation that alters amino acids in the active site is most likely to affect:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Substrate binding"
+        },
+        {
+          "id": "b",
+          "text": "DNA replication only"
+        },
+        {
+          "id": "c",
+          "text": "Membrane polarity"
+        },
+        {
+          "id": "d",
+          "text": "Water cohesion"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Changing active-site amino acids often changes substrate binding and catalysis.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "enzymes",
+        "mutation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "ATP is often described as an energy currency because:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its hydrolysis can be coupled to cellular work"
+        },
+        {
+          "id": "b",
+          "text": "It permanently stores all cellular energy"
+        },
+        {
+          "id": "c",
+          "text": "It is a protein enzyme"
+        },
+        {
+          "id": "d",
+          "text": "It never needs to be regenerated"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "ATP hydrolysis releases usable energy that can drive endergonic processes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "ATP"
+      ],
+      "media": null
+    }
+  ]
+}

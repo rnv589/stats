@@ -1,0 +1,320 @@
+{
+  "deck_id": "bio_4_1_2",
+  "subject": "ap_biology",
+  "title": "Cell Cycle and Mitosis",
+  "skill_band_id": "bio_band_4",
+  "skill_id": "bio_4_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "cell-cycle",
+    "mitosis"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "Which stage in the image shows chromosomes lined up at the cell equator?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Prophase"
+        },
+        {
+          "id": "b",
+          "text": "Metaphase"
+        },
+        {
+          "id": "c",
+          "text": "Anaphase"
+        },
+        {
+          "id": "d",
+          "text": "Telophase"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "During metaphase, chromosomes align at the metaphase plate.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "mitosis"
+      ],
+      "media": {
+        "image": "media/images/mitosis_stages.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "Which stage shows sister chromatids separating and moving apart?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Prophase"
+        },
+        {
+          "id": "b",
+          "text": "Metaphase"
+        },
+        {
+          "id": "c",
+          "text": "Anaphase"
+        },
+        {
+          "id": "d",
+          "text": "Cytokinesis"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Sister chromatids separate during anaphase.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "mitosis"
+      ],
+      "media": {
+        "image": "media/images/mitosis_stages.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "DNA replication occurs during which phase of the cell cycle?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "G1"
+        },
+        {
+          "id": "b",
+          "text": "S"
+        },
+        {
+          "id": "c",
+          "text": "G2"
+        },
+        {
+          "id": "d",
+          "text": "M"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The S phase is when DNA is synthesized.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cell-cycle"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "One major purpose of mitosis in multicellular organisms is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gamete production"
+        },
+        {
+          "id": "b",
+          "text": "Growth and tissue repair"
+        },
+        {
+          "id": "c",
+          "text": "Crossing over"
+        },
+        {
+          "id": "d",
+          "text": "Reduction of chromosome number"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Mitosis produces genetically similar somatic cells for growth and repair.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mitosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Checkpoints in the cell cycle help ensure that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every cell becomes a neuron"
+        },
+        {
+          "id": "b",
+          "text": "Damaged DNA or improper conditions can halt division"
+        },
+        {
+          "id": "c",
+          "text": "Crossing over always occurs"
+        },
+        {
+          "id": "d",
+          "text": "ATP never changes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Checkpoint proteins regulate progression based on internal and external signals.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cell-cycle"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Cancer can result when mutations disrupt genes that regulate:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water polarity"
+        },
+        {
+          "id": "b",
+          "text": "Cell cycle control"
+        },
+        {
+          "id": "c",
+          "text": "Transpiration only"
+        },
+        {
+          "id": "d",
+          "text": "Photosystems"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Loss of cell-cycle regulation can cause uncontrolled cell division.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cancer"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "A cell plate forms during cytokinesis in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Animal cells"
+        },
+        {
+          "id": "b",
+          "text": "Plant cells"
+        },
+        {
+          "id": "c",
+          "text": "Bacterial cells only"
+        },
+        {
+          "id": "d",
+          "text": "All cells equally"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Plant cells build a cell plate that develops into a new wall.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cytokinesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Sister chromatids are held together until anaphase by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ATP synthase"
+        },
+        {
+          "id": "b",
+          "text": "Cohesive linkages such as cohesin"
+        },
+        {
+          "id": "c",
+          "text": "Cell walls"
+        },
+        {
+          "id": "d",
+          "text": "Peptidoglycan"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Cohesin and related mechanisms help keep chromatids paired until separation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mitosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Mitosis produces daughter cells that are usually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Haploid and varied"
+        },
+        {
+          "id": "b",
+          "text": "Diploid and genetically similar"
+        },
+        {
+          "id": "c",
+          "text": "Always mutant"
+        },
+        {
+          "id": "d",
+          "text": "Unrelated to the parent"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Mitosis preserves chromosome number and usually genetic similarity.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mitosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Cyclins help regulate the cell cycle by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Serving as transport channels"
+        },
+        {
+          "id": "b",
+          "text": "Activating cyclin-dependent kinases"
+        },
+        {
+          "id": "c",
+          "text": "Breaking down DNA"
+        },
+        {
+          "id": "d",
+          "text": "Producing ATP"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Cyclins bind and activate CDKs that control progression through checkpoints.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cell-cycle"
+      ],
+      "media": null
+    }
+  ]
+}

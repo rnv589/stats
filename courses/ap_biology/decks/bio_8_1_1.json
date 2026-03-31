@@ -1,0 +1,322 @@
+{
+  "deck_id": "bio_8_1_1",
+  "subject": "ap_biology",
+  "title": "Food Webs and Energy Flow",
+  "skill_band_id": "bio_band_8",
+  "skill_id": "bio_8_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "ecology",
+    "energy-flow"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "In the food web, arrows point from prey to predator because they show the direction of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mass only"
+        },
+        {
+          "id": "b",
+          "text": "Energy transfer"
+        },
+        {
+          "id": "c",
+          "text": "Mutation"
+        },
+        {
+          "id": "d",
+          "text": "Mitosis"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Food web arrows show the direction that energy moves.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "food-web"
+      ],
+      "media": {
+        "image": "media/images/food_web.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "Which organism in the web is the primary producer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Grass"
+        },
+        {
+          "id": "b",
+          "text": "Rabbit"
+        },
+        {
+          "id": "c",
+          "text": "Snake"
+        },
+        {
+          "id": "d",
+          "text": "Hawk"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Producers convert light energy into chemical energy and form the base of the web.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "food-web"
+      ],
+      "media": {
+        "image": "media/images/food_web.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "graph_multiple_choice",
+      "prompt": "In the energy pyramid, which level has the greatest total available energy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tertiary consumers"
+        },
+        {
+          "id": "b",
+          "text": "Secondary consumers"
+        },
+        {
+          "id": "c",
+          "text": "Primary consumers"
+        },
+        {
+          "id": "d",
+          "text": "Producers"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "Energy is greatest at the producer level and decreases upward.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "energy-pyramid"
+      ],
+      "media": {
+        "image": "media/images/energy_pyramid.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Only a small fraction of energy is transferred from one trophic level to the next mainly because much energy is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Destroyed by decomposers"
+        },
+        {
+          "id": "b",
+          "text": "Lost as heat and used in metabolism"
+        },
+        {
+          "id": "c",
+          "text": "Turned into DNA"
+        },
+        {
+          "id": "d",
+          "text": "Converted into mutation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Metabolic processes release energy as heat at each level.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "energy-flow"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Primary consumers eat:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only carnivores"
+        },
+        {
+          "id": "b",
+          "text": "Producers"
+        },
+        {
+          "id": "c",
+          "text": "Secondary consumers"
+        },
+        {
+          "id": "d",
+          "text": "Decomposers only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Primary consumers feed directly on producers.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "trophic-levels"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Decomposers are important because they:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Create sunlight"
+        },
+        {
+          "id": "b",
+          "text": "Recycle nutrients back into ecosystems"
+        },
+        {
+          "id": "c",
+          "text": "Prevent all competition"
+        },
+        {
+          "id": "d",
+          "text": "Eliminate producers"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Decomposers return matter to the environment.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "decomposers"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Biomass generally decreases at higher trophic levels because:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Predators never eat enough"
+        },
+        {
+          "id": "b",
+          "text": "Energy transfer is inefficient"
+        },
+        {
+          "id": "c",
+          "text": "Consumers cannot reproduce"
+        },
+        {
+          "id": "d",
+          "text": "Producers lack genes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Much energy is lost between levels, limiting biomass at the top.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "energy-flow"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "If the producer population declines sharply, the most likely long-term effect is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Higher biomass at all consumer levels"
+        },
+        {
+          "id": "b",
+          "text": "Reduced energy available to the rest of the web"
+        },
+        {
+          "id": "c",
+          "text": "No effect on consumers"
+        },
+        {
+          "id": "d",
+          "text": "Immediate speciation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Less producer biomass means less energy entering the system.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "food-web"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A keystone species is one whose removal:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Has little effect"
+        },
+        {
+          "id": "b",
+          "text": "Causes disproportionately large ecosystem change"
+        },
+        {
+          "id": "c",
+          "text": "Always increases biodiversity"
+        },
+        {
+          "id": "d",
+          "text": "Stops nutrient cycling worldwide"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Keystone species strongly influence community structure.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "ecology"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Trophic cascades occur when changes at one trophic level:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Never affect others"
+        },
+        {
+          "id": "b",
+          "text": "Ripple through other trophic levels"
+        },
+        {
+          "id": "c",
+          "text": "Only change pH"
+        },
+        {
+          "id": "d",
+          "text": "Always increase producer biomass"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Predator-prey interactions can cascade through ecosystems.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "ecology"
+      ],
+      "media": null
+    }
+  ]
+}

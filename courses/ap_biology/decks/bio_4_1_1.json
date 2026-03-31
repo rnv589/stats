@@ -1,0 +1,319 @@
+{
+  "deck_id": "bio_4_1_1",
+  "subject": "ap_biology",
+  "title": "Cell Communication",
+  "skill_band_id": "bio_band_4",
+  "skill_id": "bio_4_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "signaling"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "In the signaling diagram, the molecule that first binds the receptor is the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ligand"
+        },
+        {
+          "id": "b",
+          "text": "Second messenger"
+        },
+        {
+          "id": "c",
+          "text": "Protein kinase"
+        },
+        {
+          "id": "d",
+          "text": "Ion channel"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A ligand binds the receptor to initiate the signaling pathway.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "signaling"
+      ],
+      "media": {
+        "image": "media/images/cell_signaling.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "The chain of proteins shown after receptor activation best represents:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DNA replication"
+        },
+        {
+          "id": "b",
+          "text": "Signal transduction"
+        },
+        {
+          "id": "c",
+          "text": "Osmosis"
+        },
+        {
+          "id": "d",
+          "text": "Transcription only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Signal transduction relays and amplifies the message inside the cell.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "signal-transduction"
+      ],
+      "media": {
+        "image": "media/images/cell_signaling.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Cells respond differently to the same signal largely because they have different:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ribosomes"
+        },
+        {
+          "id": "b",
+          "text": "Receptors and downstream proteins"
+        },
+        {
+          "id": "c",
+          "text": "Sizes"
+        },
+        {
+          "id": "d",
+          "text": "Amounts of water"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Response depends on receptor presence and cellular context.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cell-communication"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A steroid hormone can often cross the plasma membrane because it is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly polar"
+        },
+        {
+          "id": "b",
+          "text": "Lipid-soluble"
+        },
+        {
+          "id": "c",
+          "text": "A protein enzyme"
+        },
+        {
+          "id": "d",
+          "text": "A polysaccharide"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Steroid hormones are nonpolar enough to diffuse through membranes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "hormones"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Second messengers such as cAMP are important because they often:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Store DNA"
+        },
+        {
+          "id": "b",
+          "text": "Amplify the signal inside the cell"
+        },
+        {
+          "id": "c",
+          "text": "Build membranes directly"
+        },
+        {
+          "id": "d",
+          "text": "Destroy ATP synthase"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Second messengers help spread and amplify signaling cascades.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "signaling"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Local signaling between nearby cells often uses:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Paracrine signals"
+        },
+        {
+          "id": "b",
+          "text": "Ocean tides"
+        },
+        {
+          "id": "c",
+          "text": "Mitosis"
+        },
+        {
+          "id": "d",
+          "text": "Cell walls"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Paracrine signaling involves signaling molecules acting on nearby cells.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "signaling"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Negative feedback in a signaling pathway generally:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Amplifies without limit"
+        },
+        {
+          "id": "b",
+          "text": "Reduces the response when enough output accumulates"
+        },
+        {
+          "id": "c",
+          "text": "Prevents all cell communication"
+        },
+        {
+          "id": "d",
+          "text": "Causes mutation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Negative feedback stabilizes systems around a set point.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "feedback"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which pathway is most likely to trigger gene expression changes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A receptor activating transcription factors"
+        },
+        {
+          "id": "b",
+          "text": "Osmosis only"
+        },
+        {
+          "id": "c",
+          "text": "Simple diffusion of oxygen"
+        },
+        {
+          "id": "d",
+          "text": "Water cohesion"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Many signaling pathways alter transcription factor activity to change gene expression.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-expression"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Apoptosis is best described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Random cell bursting"
+        },
+        {
+          "id": "b",
+          "text": "Programmed cell death"
+        },
+        {
+          "id": "c",
+          "text": "Uncontrolled cell division"
+        },
+        {
+          "id": "d",
+          "text": "DNA repair"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Apoptosis is controlled self-destruction important in development and homeostasis.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "apoptosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Quorum sensing in bacteria depends on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cell size alone"
+        },
+        {
+          "id": "b",
+          "text": "Signal molecules reflecting population density"
+        },
+        {
+          "id": "c",
+          "text": "Mitosis checkpoints"
+        },
+        {
+          "id": "d",
+          "text": "Crossing over"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Bacteria use shared signaling molecules to coordinate responses at high density.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "bacteria"
+      ],
+      "media": null
+    }
+  ]
+}

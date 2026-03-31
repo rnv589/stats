@@ -1,0 +1,316 @@
+{
+  "deck_id": "bio_4_2_1",
+  "subject": "ap_biology",
+  "title": "Feedback, Homeostasis, and Response",
+  "skill_band_id": "bio_band_4",
+  "skill_id": "bio_4_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "feedback",
+    "homeostasis"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Homeostasis refers to the maintenance of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A constant external environment"
+        },
+        {
+          "id": "b",
+          "text": "Relatively stable internal conditions"
+        },
+        {
+          "id": "c",
+          "text": "Identical gene expression in all cells"
+        },
+        {
+          "id": "d",
+          "text": "Only body temperature"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Homeostasis keeps internal conditions within workable ranges.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "homeostasis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "When blood glucose rises and insulin promotes uptake of glucose by cells, the system is showing:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Positive feedback"
+        },
+        {
+          "id": "b",
+          "text": "Negative feedback"
+        },
+        {
+          "id": "c",
+          "text": "No regulation"
+        },
+        {
+          "id": "d",
+          "text": "Cell differentiation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The response counteracts the initial change, which is negative feedback.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "feedback"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Positive feedback is best illustrated by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blood glucose regulation"
+        },
+        {
+          "id": "b",
+          "text": "Amplification of labor contractions"
+        },
+        {
+          "id": "c",
+          "text": "Regulation of membrane fluidity"
+        },
+        {
+          "id": "d",
+          "text": "Water diffusion"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Positive feedback strengthens the original signal until a process is completed.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "feedback"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Cell specialization in multicellular organisms depends heavily on differences in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DNA sequence between every somatic cell"
+        },
+        {
+          "id": "b",
+          "text": "Gene expression patterns"
+        },
+        {
+          "id": "c",
+          "text": "Cellular water content only"
+        },
+        {
+          "id": "d",
+          "text": "The number of phospholipids"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Most cells share DNA but express different genes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-expression"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Signal amplification is useful because it allows:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One ligand to produce a larger cellular response"
+        },
+        {
+          "id": "b",
+          "text": "Cells to ignore signals"
+        },
+        {
+          "id": "c",
+          "text": "Mutations to spread faster"
+        },
+        {
+          "id": "d",
+          "text": "ATP to be unnecessary"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A small initial signal can trigger a large response through a cascade.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "signaling"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If a receptor is missing from a target cell, that cell will usually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Respond more strongly to the signal"
+        },
+        {
+          "id": "b",
+          "text": "Fail to respond to that signal"
+        },
+        {
+          "id": "c",
+          "text": "Begin photosynthesis"
+        },
+        {
+          "id": "d",
+          "text": "Automatically divide"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Receptors are required for signal detection.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "signaling"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Apoptosis is important in development because it can:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Create uncontrolled tumors"
+        },
+        {
+          "id": "b",
+          "text": "Remove unnecessary cells in shaping tissues"
+        },
+        {
+          "id": "c",
+          "text": "Stop all signaling"
+        },
+        {
+          "id": "d",
+          "text": "Double chromosome number"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Programmed cell death sculpts structures and removes damaged cells.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "apoptosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which statement about signal transduction cascades is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They often involve phosphorylation steps"
+        },
+        {
+          "id": "b",
+          "text": "They occur only in plants"
+        },
+        {
+          "id": "c",
+          "text": "They require no proteins"
+        },
+        {
+          "id": "d",
+          "text": "They always end in apoptosis"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Protein kinases frequently relay signals by phosphorylation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "signal-transduction"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A mutation that keeps a growth-factor receptor permanently active could contribute to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reduced cell division"
+        },
+        {
+          "id": "b",
+          "text": "Cancer"
+        },
+        {
+          "id": "c",
+          "text": "Stronger cell walls"
+        },
+        {
+          "id": "d",
+          "text": "Loss of ATP"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A constitutively active growth signal can drive uncontrolled proliferation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cancer"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "A multicellular organism can coordinate body-wide responses most directly through:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Endocrine signaling"
+        },
+        {
+          "id": "b",
+          "text": "Simple diffusion across all cells"
+        },
+        {
+          "id": "c",
+          "text": "Hydrogen bonding"
+        },
+        {
+          "id": "d",
+          "text": "Crossing over"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Endocrine signals travel through the circulatory system to distant targets.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "endocrine"
+      ],
+      "media": null
+    }
+  ]
+}

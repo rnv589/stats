@@ -1,0 +1,317 @@
+{
+  "deck_id": "bio_6_2_1",
+  "subject": "ap_biology",
+  "title": "Gene Regulation",
+  "skill_band_id": "bio_band_6",
+  "skill_id": "bio_6_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "gene-regulation"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "In the lac operon image, the protein shown above the DNA is the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ligand"
+        },
+        {
+          "id": "b",
+          "text": "Repressor"
+        },
+        {
+          "id": "c",
+          "text": "Ribosome"
+        },
+        {
+          "id": "d",
+          "text": "Polymerase"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The lac repressor can block transcription when lactose is absent.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "operon"
+      ],
+      "media": {
+        "image": "media/images/lac_operon.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "The lac operon is usually activated when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lactose is absent"
+        },
+        {
+          "id": "b",
+          "text": "Lactose is present"
+        },
+        {
+          "id": "c",
+          "text": "ATP is zero"
+        },
+        {
+          "id": "d",
+          "text": "DNA is single stranded"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Lactose inactivates the repressor, allowing transcription of lactose-metabolism genes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "operon"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A transcription factor most directly affects gene expression by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Changing the ribosome's amino acids"
+        },
+        {
+          "id": "b",
+          "text": "Helping RNA polymerase bind or function"
+        },
+        {
+          "id": "c",
+          "text": "Breaking glucose"
+        },
+        {
+          "id": "d",
+          "text": "Moving ions across membranes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Transcription factors regulate whether genes are transcribed.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-regulation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Cells in a multicellular organism usually contain the same DNA but differ because they:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Have different membranes only"
+        },
+        {
+          "id": "b",
+          "text": "Express different genes"
+        },
+        {
+          "id": "c",
+          "text": "Use different base pairs"
+        },
+        {
+          "id": "d",
+          "text": "Lack chromosomes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Different patterns of gene expression produce different cell types.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "differentiation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "MicroRNAs can regulate gene expression by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Serving as cell walls"
+        },
+        {
+          "id": "b",
+          "text": "Binding mRNA and affecting translation"
+        },
+        {
+          "id": "c",
+          "text": "Making ATP in chloroplasts"
+        },
+        {
+          "id": "d",
+          "text": "Splitting water"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "miRNAs can silence genes post-transcriptionally.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-regulation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "An enhancer is a DNA region that can:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Always stop replication"
+        },
+        {
+          "id": "b",
+          "text": "Increase transcription when bound by regulatory proteins"
+        },
+        {
+          "id": "c",
+          "text": "Code directly for lipids"
+        },
+        {
+          "id": "d",
+          "text": "Replace a promoter"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Enhancers help increase transcription of specific genes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-regulation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Epigenetic changes such as DNA methylation often:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Change the nucleotide sequence directly"
+        },
+        {
+          "id": "b",
+          "text": "Alter gene expression without changing the sequence"
+        },
+        {
+          "id": "c",
+          "text": "Always activate every gene"
+        },
+        {
+          "id": "d",
+          "text": "Remove chromosomes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Epigenetic marks affect accessibility and expression.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "epigenetics"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Cell differentiation in embryos relies heavily on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Identical gene expression in all cells"
+        },
+        {
+          "id": "b",
+          "text": "Selective activation of specific genes"
+        },
+        {
+          "id": "c",
+          "text": "Loss of DNA from most cells"
+        },
+        {
+          "id": "d",
+          "text": "Removal of all signaling"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Different genes are turned on in different cells during development.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "development"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Mutations in regulatory regions can matter because they may change:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only protein folding after translation"
+        },
+        {
+          "id": "b",
+          "text": "When, where, or how much a gene is expressed"
+        },
+        {
+          "id": "c",
+          "text": "The amount of water in a cell only"
+        },
+        {
+          "id": "d",
+          "text": "The chromosome number"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Regulatory DNA controls expression patterns.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-regulation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "A housekeeping gene is one that is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Expressed in many cells because it supports basic functions"
+        },
+        {
+          "id": "b",
+          "text": "Present only in liver cells"
+        },
+        {
+          "id": "c",
+          "text": "Always turned off"
+        },
+        {
+          "id": "d",
+          "text": "Found only in bacteria"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Housekeeping genes perform essential cellular roles in many cell types.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-regulation"
+      ],
+      "media": null
+    }
+  ]
+}

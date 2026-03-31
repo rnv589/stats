@@ -1,0 +1,316 @@
+{
+  "deck_id": "bio_4_boss",
+  "subject": "ap_biology",
+  "title": "Unit 4 Boss: Communication and Cell Cycle",
+  "skill_band_id": "bio_band_4",
+  "skill_id": "bio_4_boss",
+  "difficulty": "hard",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "unit4"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which event most directly starts a cell-signaling pathway?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A ligand binds a receptor"
+        },
+        {
+          "id": "b",
+          "text": "ATP synthase spins"
+        },
+        {
+          "id": "c",
+          "text": "DNA mutates"
+        },
+        {
+          "id": "d",
+          "text": "A cell wall dissolves"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Reception begins when a signaling molecule binds its receptor.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "signaling"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "What is the main advantage of a signaling cascade?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It always produces ATP"
+        },
+        {
+          "id": "b",
+          "text": "It can amplify and refine a response"
+        },
+        {
+          "id": "c",
+          "text": "It replaces DNA"
+        },
+        {
+          "id": "d",
+          "text": "It stops gene expression"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Cascades allow one signal to affect many downstream molecules.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "signal-transduction"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "During which stage are chromosomes duplicated?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "G1"
+        },
+        {
+          "id": "b",
+          "text": "S"
+        },
+        {
+          "id": "c",
+          "text": "G2"
+        },
+        {
+          "id": "d",
+          "text": "M"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "DNA replication occurs during S phase.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cell-cycle"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Uncontrolled division is most likely if checkpoint proteins lose function because the cell:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can no longer regulate cycle progression well"
+        },
+        {
+          "id": "b",
+          "text": "Stops all transcription"
+        },
+        {
+          "id": "c",
+          "text": "Becomes prokaryotic"
+        },
+        {
+          "id": "d",
+          "text": "Loses all ATP"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Checkpoint failure can allow damaged cells to divide.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cancer"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which is true of apoptosis?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is always harmful"
+        },
+        {
+          "id": "b",
+          "text": "It is a regulated process that can benefit the organism"
+        },
+        {
+          "id": "c",
+          "text": "It is the same as necrosis"
+        },
+        {
+          "id": "d",
+          "text": "It doubles chromosome number"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Apoptosis helps development and removes damaged cells.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "apoptosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Why can the same hormone produce different effects in different cell types?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hormones mutate in transit"
+        },
+        {
+          "id": "b",
+          "text": "Cells differ in receptors and downstream machinery"
+        },
+        {
+          "id": "c",
+          "text": "All cells respond identically"
+        },
+        {
+          "id": "d",
+          "text": "Only pH matters"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The response depends on cell-specific proteins.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "signaling"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Plant cytokinesis differs from animal cytokinesis because plants:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Use a cleavage furrow instead of a cell plate"
+        },
+        {
+          "id": "b",
+          "text": "Form a cell plate"
+        },
+        {
+          "id": "c",
+          "text": "Skip mitosis"
+        },
+        {
+          "id": "d",
+          "text": "Do not replicate DNA"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Rigid walls require plant cells to build a new partition from the center outward.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cytokinesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A permanently active proto-oncogene can contribute to cancer because it may:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Overstimulate cell division"
+        },
+        {
+          "id": "b",
+          "text": "Block ATP production only"
+        },
+        {
+          "id": "c",
+          "text": "Eliminate all receptors"
+        },
+        {
+          "id": "d",
+          "text": "Convert RNA to DNA"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Proto-oncogene activation can push cells to divide when they should not.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cancer"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Negative feedback in homeostasis generally works by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increasing the original stimulus"
+        },
+        {
+          "id": "b",
+          "text": "Counteracting a deviation from a set point"
+        },
+        {
+          "id": "c",
+          "text": "Destroying receptors"
+        },
+        {
+          "id": "d",
+          "text": "Eliminating all signaling"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Negative feedback stabilizes the internal environment.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "homeostasis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Mitosis is essential in multicellular organisms mostly because it:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Creates genetic variation in gametes"
+        },
+        {
+          "id": "b",
+          "text": "Produces new somatic cells for growth and repair"
+        },
+        {
+          "id": "c",
+          "text": "Reduces chromosome number"
+        },
+        {
+          "id": "d",
+          "text": "Splits water"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Mitosis maintains tissues by producing similar body cells.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mitosis"
+      ],
+      "media": null
+    }
+  ]
+}

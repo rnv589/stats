@@ -1,0 +1,318 @@
+{
+  "deck_id": "bio_3_1_1",
+  "subject": "ap_biology",
+  "title": "Photosynthesis",
+  "skill_band_id": "bio_band_3",
+  "skill_id": "bio_3_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "photosynthesis"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "Based on the graph, what happens to photosynthesis rate at high light intensity?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It becomes negative"
+        },
+        {
+          "id": "b",
+          "text": "It keeps increasing linearly forever"
+        },
+        {
+          "id": "c",
+          "text": "It levels off"
+        },
+        {
+          "id": "d",
+          "text": "It drops to zero immediately"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "At high light intensity, some other factor becomes limiting and the curve plateaus.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/photosynthesis_light_curve.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "The light-dependent reactions of photosynthesis occur in the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stroma"
+        },
+        {
+          "id": "b",
+          "text": "Thylakoid membranes"
+        },
+        {
+          "id": "c",
+          "text": "Nucleus"
+        },
+        {
+          "id": "d",
+          "text": "Cytosol"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Photosystems and the electron transport chain are embedded in thylakoid membranes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "The Calvin cycle uses ATP and NADPH to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Split water"
+        },
+        {
+          "id": "b",
+          "text": "Fix carbon dioxide into sugars"
+        },
+        {
+          "id": "c",
+          "text": "Release oxygen gas"
+        },
+        {
+          "id": "d",
+          "text": "Generate acetyl-CoA"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The Calvin cycle incorporates CO₂ into carbohydrate intermediates.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Water is directly split during photosynthesis to provide:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carbon atoms"
+        },
+        {
+          "id": "b",
+          "text": "Electrons and protons"
+        },
+        {
+          "id": "c",
+          "text": "ATP and glucose"
+        },
+        {
+          "id": "d",
+          "text": "NADP⁺ only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Photolysis of water replaces electrons lost by photosystem II.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "The oxygen released by plants comes directly from:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "CO₂"
+        },
+        {
+          "id": "b",
+          "text": "Glucose"
+        },
+        {
+          "id": "c",
+          "text": "Water"
+        },
+        {
+          "id": "d",
+          "text": "Chlorophyll"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The O₂ comes from splitting water molecules.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which pigment primarily reflects green light?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chlorophyll"
+        },
+        {
+          "id": "b",
+          "text": "ATP synthase"
+        },
+        {
+          "id": "c",
+          "text": "RuBisCO"
+        },
+        {
+          "id": "d",
+          "text": "NADPH"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Chlorophyll absorbs mainly red and blue wavelengths and reflects green.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If carbon dioxide availability decreases, which process is most directly limited?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ATP hydrolysis"
+        },
+        {
+          "id": "b",
+          "text": "The Calvin cycle"
+        },
+        {
+          "id": "c",
+          "text": "Water splitting"
+        },
+        {
+          "id": "d",
+          "text": "Chemiosmosis in mitochondria"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "CO₂ is a reactant for carbon fixation in the Calvin cycle.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "The proton gradient in chloroplasts is used mainly to drive:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DNA replication"
+        },
+        {
+          "id": "b",
+          "text": "ATP synthase"
+        },
+        {
+          "id": "c",
+          "text": "RuBisCO inhibition"
+        },
+        {
+          "id": "d",
+          "text": "Cell division"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Chemiosmosis powers ATP production through ATP synthase.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "chemiosmosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which best explains why chloroplasts are green?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They absorb green wavelengths strongly"
+        },
+        {
+          "id": "b",
+          "text": "They reflect green wavelengths"
+        },
+        {
+          "id": "c",
+          "text": "They contain only green ATP"
+        },
+        {
+          "id": "d",
+          "text": "They lack pigments"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Green light is reflected more than it is absorbed.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "pigments"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "An increase in light intensity with all other factors constant will usually increase photosynthesis rate until:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pigments disappear"
+        },
+        {
+          "id": "b",
+          "text": "Another factor becomes limiting"
+        },
+        {
+          "id": "c",
+          "text": "ATP is destroyed"
+        },
+        {
+          "id": "d",
+          "text": "Oxygen blocks all transport"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Rate rises until a new limiting factor is reached.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    }
+  ]
+}

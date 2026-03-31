@@ -1,0 +1,316 @@
+{
+  "deck_id": "bio_7_boss",
+  "subject": "ap_biology",
+  "title": "Unit 7 Boss: Evolution",
+  "skill_band_id": "bio_band_7",
+  "skill_id": "bio_7_boss",
+  "difficulty": "hard",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "unit7"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which statement about natural selection is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Individuals adapt because they need to"
+        },
+        {
+          "id": "b",
+          "text": "Individuals with heritable traits that improve fitness leave more offspring"
+        },
+        {
+          "id": "c",
+          "text": "All traits are equally favored"
+        },
+        {
+          "id": "d",
+          "text": "Selection changes alleles directly by intention"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Selection acts on heritable variation and changes populations over generations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "natural-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "What does genetic drift describe?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Adaptive change caused by selection"
+        },
+        {
+          "id": "b",
+          "text": "Random change in allele frequencies, especially in small populations"
+        },
+        {
+          "id": "c",
+          "text": "Movement of alleles between populations"
+        },
+        {
+          "id": "d",
+          "text": "DNA replication errors only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Drift is chance-based rather than adaptive.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "genetic-drift"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Which process most directly increases similarity between populations?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Speciation"
+        },
+        {
+          "id": "b",
+          "text": "Gene flow"
+        },
+        {
+          "id": "c",
+          "text": "Directional selection"
+        },
+        {
+          "id": "d",
+          "text": "Bottleneck effect"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Migration tends to homogenize populations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-flow"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "What is the immediate source of new genetic variation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Natural selection"
+        },
+        {
+          "id": "b",
+          "text": "Mutation"
+        },
+        {
+          "id": "c",
+          "text": "Gene flow"
+        },
+        {
+          "id": "d",
+          "text": "Meiosis II"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Mutation creates new alleles.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mutation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If two populations can no longer interbreed successfully, they are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "In Hardy-Weinberg equilibrium"
+        },
+        {
+          "id": "b",
+          "text": "Reproductively isolated"
+        },
+        {
+          "id": "c",
+          "text": "Under gene flow"
+        },
+        {
+          "id": "d",
+          "text": "Members of the same deme"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Reproductive isolation is central to speciation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "speciation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A bottleneck and founder effect are both examples of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gene flow"
+        },
+        {
+          "id": "b",
+          "text": "Genetic drift"
+        },
+        {
+          "id": "c",
+          "text": "Sexual selection"
+        },
+        {
+          "id": "d",
+          "text": "Artificial selection"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Both involve random shifts in allele frequencies due to small population size.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "genetic-drift"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would best support common ancestry?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Identical habitats"
+        },
+        {
+          "id": "b",
+          "text": "Homologous genes and structures"
+        },
+        {
+          "id": "c",
+          "text": "Similar body size only"
+        },
+        {
+          "id": "d",
+          "text": "Different niches"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Homology reflects descent from a shared ancestor.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "evidence"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Directional selection tends to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Favor the average phenotype only"
+        },
+        {
+          "id": "b",
+          "text": "Shift the distribution toward one extreme"
+        },
+        {
+          "id": "c",
+          "text": "Favor both extremes equally"
+        },
+        {
+          "id": "d",
+          "text": "Keep allele frequencies fixed"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Directional selection changes the population mean toward one side.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Under Hardy-Weinberg conditions, allele frequencies should:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Change every generation"
+        },
+        {
+          "id": "b",
+          "text": "Remain constant from generation to generation"
+        },
+        {
+          "id": "c",
+          "text": "Always become 0.5"
+        },
+        {
+          "id": "d",
+          "text": "Depend only on population size"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The model predicts no evolution under its assumptions.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "hardy-weinberg"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Antibiotic-resistant bacteria becoming more common after treatment is an example of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Artificial fertilization"
+        },
+        {
+          "id": "b",
+          "text": "Natural selection"
+        },
+        {
+          "id": "c",
+          "text": "Genetic drift only"
+        },
+        {
+          "id": "d",
+          "text": "Osmosis"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Antibiotics create selection pressure favoring resistant variants.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "selection"
+      ],
+      "media": null
+    }
+  ]
+}

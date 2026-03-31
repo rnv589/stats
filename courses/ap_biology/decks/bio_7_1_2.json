@@ -1,0 +1,289 @@
+{
+  "deck_id": "bio_7_1_2",
+  "subject": "ap_biology",
+  "title": "Population Genetics and Hardy-Weinberg",
+  "skill_band_id": "bio_band_7",
+  "skill_id": "bio_7_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "population-genetics"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Hardy-Weinberg equilibrium describes a population that is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Evolving rapidly"
+        },
+        {
+          "id": "b",
+          "text": "Not changing allele frequencies across generations under ideal conditions"
+        },
+        {
+          "id": "c",
+          "text": "Always increasing in size"
+        },
+        {
+          "id": "d",
+          "text": "Under strong natural selection"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "It is a null model for non-evolving populations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "hardy-weinberg"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If p represents the frequency of one allele and q the frequency of the other, then in a two-allele system:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "p + q = 2"
+        },
+        {
+          "id": "b",
+          "text": "p + q = 1"
+        },
+        {
+          "id": "c",
+          "text": "p² + q² = 1"
+        },
+        {
+          "id": "d",
+          "text": "pq = 1"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Allele frequencies must sum to 1.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "hardy-weinberg"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Which condition is required for Hardy-Weinberg equilibrium?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nonrandom mating"
+        },
+        {
+          "id": "b",
+          "text": "Very small population"
+        },
+        {
+          "id": "c",
+          "text": "No mutation"
+        },
+        {
+          "id": "d",
+          "text": "Strong gene flow"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "No mutation is one of the assumptions of the model.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "hardy-weinberg"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "prompt": "If p = 0.6, what is q in a two-allele population?",
+      "correct_numeric": 0.4,
+      "tolerance": 0.001,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "Because p + q = 1, q = 1 - 0.6 = 0.4.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "hardy-weinberg"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "prompt": "If p = 0.7 and q = 0.3, what is the expected frequency of heterozygotes (2pq)?",
+      "correct_numeric": 0.42,
+      "tolerance": 0.001,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "2pq = 2(0.7)(0.3) = 0.42.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "hardy-weinberg"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which process introduces completely new alleles into a population?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gene flow"
+        },
+        {
+          "id": "b",
+          "text": "Mutation"
+        },
+        {
+          "id": "c",
+          "text": "Genetic drift"
+        },
+        {
+          "id": "d",
+          "text": "Nonrandom mating"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Mutation is the ultimate source of new genetic variation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mutation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "A bottleneck event can reduce variation mainly because:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Natural selection stops"
+        },
+        {
+          "id": "b",
+          "text": "Population size drops sharply by chance"
+        },
+        {
+          "id": "c",
+          "text": "Every allele becomes dominant"
+        },
+        {
+          "id": "d",
+          "text": "All individuals migrate"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Random survival after a drastic reduction changes allele frequencies.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "genetic-drift"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "The founder effect occurs when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A large population stops mating"
+        },
+        {
+          "id": "b",
+          "text": "A small group starts a new population"
+        },
+        {
+          "id": "c",
+          "text": "Mutations stop"
+        },
+        {
+          "id": "d",
+          "text": "Selection removes all recessive alleles"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A new population may differ by chance because it begins with few individuals.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "genetic-drift"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Nonrandom mating alone most directly changes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Allele frequencies always"
+        },
+        {
+          "id": "b",
+          "text": "Genotype frequencies more than allele frequencies"
+        },
+        {
+          "id": "c",
+          "text": "Mutation rate"
+        },
+        {
+          "id": "d",
+          "text": "Population size"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "It changes how alleles combine, often affecting genotype proportions.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "hardy-weinberg"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Gene flow tends to make populations:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More genetically similar"
+        },
+        {
+          "id": "b",
+          "text": "More isolated genetically"
+        },
+        {
+          "id": "c",
+          "text": "Immediately speciate"
+        },
+        {
+          "id": "d",
+          "text": "Lose all variation"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Migration often homogenizes allele frequencies across populations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-flow"
+      ],
+      "media": null
+    }
+  ]
+}

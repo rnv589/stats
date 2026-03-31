@@ -1,0 +1,315 @@
+{
+  "deck_id": "bio_5_1_2",
+  "subject": "ap_biology",
+  "title": "Mendelian Genetics",
+  "skill_band_id": "bio_band_5",
+  "skill_id": "bio_5_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "mendelian-genetics"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "If T is dominant to t, what is the phenotype of Tt?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Recessive trait"
+        },
+        {
+          "id": "b",
+          "text": "Dominant trait"
+        },
+        {
+          "id": "c",
+          "text": "A blend of both traits"
+        },
+        {
+          "id": "d",
+          "text": "No trait"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A heterozygote expresses the dominant phenotype.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "dominance"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A cross of two heterozygotes for one gene usually gives a genotypic ratio of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1:1"
+        },
+        {
+          "id": "b",
+          "text": "3:1"
+        },
+        {
+          "id": "c",
+          "text": "1:2:1"
+        },
+        {
+          "id": "d",
+          "text": "9:3:3:1"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Tt × Tt yields TT, Tt, Tt, and tt.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "punnett"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A testcross is used to determine whether an individual with a dominant phenotype is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Homozygous dominant or heterozygous"
+        },
+        {
+          "id": "b",
+          "text": "Male or female"
+        },
+        {
+          "id": "c",
+          "text": "Diploid or haploid"
+        },
+        {
+          "id": "d",
+          "text": "Mutant or wild type"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Crossing with a homozygous recessive reveals the unknown genotype.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "testcross"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Law of segregation states that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Alleles for a gene separate during gamete formation"
+        },
+        {
+          "id": "b",
+          "text": "All genes assort independently"
+        },
+        {
+          "id": "c",
+          "text": "Traits blend in offspring"
+        },
+        {
+          "id": "d",
+          "text": "Mutations are inherited by all gametes"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Each gamete receives one allele of a gene.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "segregation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If two genes assort independently in a dihybrid cross, the classic phenotypic ratio is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3:1"
+        },
+        {
+          "id": "b",
+          "text": "1:2:1"
+        },
+        {
+          "id": "c",
+          "text": "9:3:3:1"
+        },
+        {
+          "id": "d",
+          "text": "1:1"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "A dihybrid cross with complete dominance yields the 9:3:3:1 ratio.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "independent-assortment"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A recessive trait appears in an individual only if the individual is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Homozygous recessive"
+        },
+        {
+          "id": "b",
+          "text": "Heterozygous"
+        },
+        {
+          "id": "c",
+          "text": "Homozygous dominant"
+        },
+        {
+          "id": "d",
+          "text": "Polyploid"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The recessive phenotype requires two recessive alleles in simple Mendelian inheritance.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "recessive"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Incomplete dominance differs from complete dominance because heterozygotes show:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The recessive phenotype"
+        },
+        {
+          "id": "b",
+          "text": "An intermediate phenotype"
+        },
+        {
+          "id": "c",
+          "text": "No phenotype"
+        },
+        {
+          "id": "d",
+          "text": "Two unrelated traits"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "In incomplete dominance, neither allele fully masks the other.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "inheritance-patterns"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Codominance is shown when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One allele hides the other"
+        },
+        {
+          "id": "b",
+          "text": "Both alleles are fully expressed in the phenotype"
+        },
+        {
+          "id": "c",
+          "text": "No alleles are expressed"
+        },
+        {
+          "id": "d",
+          "text": "Only proteins are inherited"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Both alleles contribute visibly, as in AB blood type.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "inheritance-patterns"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A carrier of a recessive disorder is usually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Homozygous dominant"
+        },
+        {
+          "id": "b",
+          "text": "Heterozygous"
+        },
+        {
+          "id": "c",
+          "text": "Homozygous recessive"
+        },
+        {
+          "id": "d",
+          "text": "Never affected genetically"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Carriers have one recessive allele without expressing the disorder phenotype.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "genetics"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Many traits in real populations do not follow simple Mendelian ratios because of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only crossing over"
+        },
+        {
+          "id": "b",
+          "text": "Polygenic inheritance and environmental effects"
+        },
+        {
+          "id": "c",
+          "text": "The absence of DNA"
+        },
+        {
+          "id": "d",
+          "text": "A lack of reproduction"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Complex traits often involve many genes and environmental influences.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "complex-traits"
+      ],
+      "media": null
+    }
+  ]
+}

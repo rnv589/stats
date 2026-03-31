@@ -1,16 +1,426 @@
 {
   "subject": "ap_biology",
+  "title": "AP Biology",
   "skill_bands": [
     {
       "id": "bio_band_1",
-      "title": "Cells",
+      "title": "Chemistry of Life",
+      "order": 1,
+      "level": "foundational",
       "skills": [
         {
-          "id": "bio_1",
-          "title": "Cell Structure",
+          "id": "bio_1_1",
+          "title": "Water, Macromolecules, and Enzymes",
+          "order": 1,
           "decks": [
             {
-              "id": "bio_1_1"
+              "id": "bio_1_1_1",
+              "title": "Water and Macromolecules",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "bio_1_1_2",
+              "title": "Enzymes and Reaction Rates",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_1_2",
+          "title": "Biological Molecules and pH",
+          "order": 2,
+          "decks": [
+            {
+              "id": "bio_1_2_1",
+              "title": "pH, Buffers, and Biological Molecules",
+              "order": 1,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_1_boss",
+          "title": "Boss Deck",
+          "order": 3,
+          "decks": [
+            {
+              "id": "bio_1_boss",
+              "title": "Unit 1 Boss: Chemistry of Life",
+              "order": 1,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_band_2",
+      "title": "Cell Structure and Function",
+      "order": 2,
+      "level": "foundational",
+      "skills": [
+        {
+          "id": "bio_2_1",
+          "title": "Organelles and Membranes",
+          "order": 1,
+          "decks": [
+            {
+              "id": "bio_2_1_1",
+              "title": "Cell Organelles and Compartments",
+              "order": 1,
+              "difficulty": "easy"
+            },
+            {
+              "id": "bio_2_1_2",
+              "title": "Membranes and Transport",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_2_2",
+          "title": "Surface Area and Specialization",
+          "order": 2,
+          "decks": [
+            {
+              "id": "bio_2_2_1",
+              "title": "Surface Area, Size, and Cell Specialization",
+              "order": 1,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_2_boss",
+          "title": "Boss Deck",
+          "order": 3,
+          "decks": [
+            {
+              "id": "bio_2_boss",
+              "title": "Unit 2 Boss: Cells",
+              "order": 1,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_band_3",
+      "title": "Cellular Energetics",
+      "order": 3,
+      "level": "intermediate",
+      "skills": [
+        {
+          "id": "bio_3_1",
+          "title": "Photosynthesis and Respiration",
+          "order": 1,
+          "decks": [
+            {
+              "id": "bio_3_1_1",
+              "title": "Photosynthesis",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "bio_3_1_2",
+              "title": "Cellular Respiration",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_3_2",
+          "title": "Energy Flow and Metabolism",
+          "order": 2,
+          "decks": [
+            {
+              "id": "bio_3_2_1",
+              "title": "Energy Flow and Metabolism",
+              "order": 1,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_3_boss",
+          "title": "Boss Deck",
+          "order": 3,
+          "decks": [
+            {
+              "id": "bio_3_boss",
+              "title": "Unit 3 Boss: Energetics",
+              "order": 1,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_band_4",
+      "title": "Cell Communication and Cell Cycle",
+      "order": 4,
+      "level": "intermediate",
+      "skills": [
+        {
+          "id": "bio_4_1",
+          "title": "Cell Communication and Mitosis",
+          "order": 1,
+          "decks": [
+            {
+              "id": "bio_4_1_1",
+              "title": "Cell Communication",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "bio_4_1_2",
+              "title": "Cell Cycle and Mitosis",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_4_2",
+          "title": "Feedback and Homeostasis",
+          "order": 2,
+          "decks": [
+            {
+              "id": "bio_4_2_1",
+              "title": "Feedback, Homeostasis, and Response",
+              "order": 1,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_4_boss",
+          "title": "Boss Deck",
+          "order": 3,
+          "decks": [
+            {
+              "id": "bio_4_boss",
+              "title": "Unit 4 Boss: Communication and Cell Cycle",
+              "order": 1,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_band_5",
+      "title": "Heredity",
+      "order": 5,
+      "level": "intermediate",
+      "skills": [
+        {
+          "id": "bio_5_1",
+          "title": "Meiosis and Mendelian Genetics",
+          "order": 1,
+          "decks": [
+            {
+              "id": "bio_5_1_1",
+              "title": "Meiosis and Genetic Variation",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "bio_5_1_2",
+              "title": "Mendelian Genetics",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_5_2",
+          "title": "Pedigrees and Inheritance Patterns",
+          "order": 2,
+          "decks": [
+            {
+              "id": "bio_5_2_1",
+              "title": "Pedigrees and Inheritance Patterns",
+              "order": 1,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_5_boss",
+          "title": "Boss Deck",
+          "order": 3,
+          "decks": [
+            {
+              "id": "bio_5_boss",
+              "title": "Unit 5 Boss: Heredity",
+              "order": 1,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_band_6",
+      "title": "Gene Expression and Regulation",
+      "order": 6,
+      "level": "intermediate",
+      "skills": [
+        {
+          "id": "bio_6_1",
+          "title": "DNA, Replication, and Translation",
+          "order": 1,
+          "decks": [
+            {
+              "id": "bio_6_1_1",
+              "title": "DNA Structure and Replication",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "bio_6_1_2",
+              "title": "Transcription and Translation",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_6_2",
+          "title": "Gene Regulation",
+          "order": 2,
+          "decks": [
+            {
+              "id": "bio_6_2_1",
+              "title": "Gene Regulation",
+              "order": 1,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_6_boss",
+          "title": "Boss Deck",
+          "order": 3,
+          "decks": [
+            {
+              "id": "bio_6_boss",
+              "title": "Unit 6 Boss: Gene Expression",
+              "order": 1,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_band_7",
+      "title": "Natural Selection",
+      "order": 7,
+      "level": "advanced",
+      "skills": [
+        {
+          "id": "bio_7_1",
+          "title": "Selection and Population Genetics",
+          "order": 1,
+          "decks": [
+            {
+              "id": "bio_7_1_1",
+              "title": "Natural Selection and Adaptation",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "bio_7_1_2",
+              "title": "Population Genetics and Hardy-Weinberg",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_7_2",
+          "title": "Evidence and Phylogeny",
+          "order": 2,
+          "decks": [
+            {
+              "id": "bio_7_2_1",
+              "title": "Evolutionary Evidence and Phylogeny",
+              "order": 1,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_7_boss",
+          "title": "Boss Deck",
+          "order": 3,
+          "decks": [
+            {
+              "id": "bio_7_boss",
+              "title": "Unit 7 Boss: Evolution",
+              "order": 1,
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_band_8",
+      "title": "Ecology",
+      "order": 8,
+      "level": "advanced",
+      "skills": [
+        {
+          "id": "bio_8_1",
+          "title": "Energy Flow and Populations",
+          "order": 1,
+          "decks": [
+            {
+              "id": "bio_8_1_1",
+              "title": "Food Webs and Energy Flow",
+              "order": 1,
+              "difficulty": "medium"
+            },
+            {
+              "id": "bio_8_1_2",
+              "title": "Population Ecology",
+              "order": 2,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_8_2",
+          "title": "Communities and Cycles",
+          "order": 2,
+          "decks": [
+            {
+              "id": "bio_8_2_1",
+              "title": "Community Interactions and Cycles",
+              "order": 1,
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "id": "bio_8_boss",
+          "title": "Boss Deck",
+          "order": 3,
+          "decks": [
+            {
+              "id": "bio_8_boss",
+              "title": "Unit 8 Boss: Ecology",
+              "order": 1,
+              "difficulty": "hard"
             }
           ]
         }

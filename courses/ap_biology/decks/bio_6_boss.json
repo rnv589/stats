@@ -1,0 +1,316 @@
+{
+  "deck_id": "bio_6_boss",
+  "subject": "ap_biology",
+  "title": "Unit 6 Boss: Gene Expression",
+  "skill_band_id": "bio_band_6",
+  "skill_id": "bio_6_boss",
+  "difficulty": "hard",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "unit6"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which best explains the relationship between DNA and proteins?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Proteins store genes"
+        },
+        {
+          "id": "b",
+          "text": "DNA sequence influences RNA and amino acid sequence"
+        },
+        {
+          "id": "c",
+          "text": "Proteins make DNA unnecessary"
+        },
+        {
+          "id": "d",
+          "text": "RNA never participates"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Genetic information is expressed through transcription and translation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "central-dogma"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Why can one base substitution have little effect on a protein?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DNA is never read in triplets"
+        },
+        {
+          "id": "b",
+          "text": "The genetic code is redundant"
+        },
+        {
+          "id": "c",
+          "text": "Proteins do not use amino acids"
+        },
+        {
+          "id": "d",
+          "text": "RNA is made of lipids"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Multiple codons can specify the same amino acid.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "genetic-code"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Which mutation is most likely to alter all downstream codons?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Silent mutation"
+        },
+        {
+          "id": "b",
+          "text": "Frameshift mutation"
+        },
+        {
+          "id": "c",
+          "text": "Missense mutation"
+        },
+        {
+          "id": "d",
+          "text": "Neutral substitution"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Frameshifts change the reading frame after the mutation site.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mutations"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "RNA processing in eukaryotes typically occurs before:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Replication"
+        },
+        {
+          "id": "b",
+          "text": "Translation"
+        },
+        {
+          "id": "c",
+          "text": "Meiosis I"
+        },
+        {
+          "id": "d",
+          "text": "Crossing over"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Pre-mRNA is processed into mature mRNA before translation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "RNA-processing"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "The lac operon is a model for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Post-translational folding only"
+        },
+        {
+          "id": "b",
+          "text": "How prokaryotes regulate transcription based on environment"
+        },
+        {
+          "id": "c",
+          "text": "Mitosis checkpoints"
+        },
+        {
+          "id": "d",
+          "text": "Protein secretion"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "It shows how gene expression changes with lactose availability.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "operon"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Different cell types in the same organism usually have different functions because they:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Possess completely different genomes"
+        },
+        {
+          "id": "b",
+          "text": "Express different subsets of genes"
+        },
+        {
+          "id": "c",
+          "text": "Use different nucleotides"
+        },
+        {
+          "id": "d",
+          "text": "Have different genetic codes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Different expression patterns drive specialization.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "differentiation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Epigenetic modifications are important because they can:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Alter gene activity without changing base sequence"
+        },
+        {
+          "id": "b",
+          "text": "Replace genes permanently"
+        },
+        {
+          "id": "c",
+          "text": "Prevent all mutation"
+        },
+        {
+          "id": "d",
+          "text": "Make ribosomes unnecessary"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Epigenetic changes influence how accessible genes are for transcription.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "epigenetics"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A stop codon in mRNA signals the ribosome to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Begin transcription"
+        },
+        {
+          "id": "b",
+          "text": "End translation"
+        },
+        {
+          "id": "c",
+          "text": "Delete the gene"
+        },
+        {
+          "id": "d",
+          "text": "Splice introns"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Stop codons terminate protein synthesis.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "translation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which RNA directly carries amino acids to the ribosome?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "mRNA"
+        },
+        {
+          "id": "b",
+          "text": "rRNA"
+        },
+        {
+          "id": "c",
+          "text": "tRNA"
+        },
+        {
+          "id": "d",
+          "text": "miRNA"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Transfer RNA delivers amino acids during translation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "translation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Regulatory proteins that increase transcription typically interact with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cell walls"
+        },
+        {
+          "id": "b",
+          "text": "Promoters or enhancers"
+        },
+        {
+          "id": "c",
+          "text": "ATP synthase"
+        },
+        {
+          "id": "d",
+          "text": "Lysosomes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "These DNA regions help control how often transcription begins.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-regulation"
+      ],
+      "media": null
+    }
+  ]
+}

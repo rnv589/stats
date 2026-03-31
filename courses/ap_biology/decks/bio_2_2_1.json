@@ -1,0 +1,303 @@
+{
+  "deck_id": "bio_2_2_1",
+  "subject": "ap_biology",
+  "title": "Surface Area, Size, and Cell Specialization",
+  "skill_band_id": "bio_band_2",
+  "skill_id": "bio_2_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "surface-area",
+    "specialization"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Small cells generally exchange materials more efficiently because they have a higher:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DNA content"
+        },
+        {
+          "id": "b",
+          "text": "Surface area-to-volume ratio"
+        },
+        {
+          "id": "c",
+          "text": "Mutation rate"
+        },
+        {
+          "id": "d",
+          "text": "ATP requirement"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A higher surface area relative to volume improves exchange with the environment.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "surface-area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "As a cell grows larger, volume tends to increase:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More slowly than surface area"
+        },
+        {
+          "id": "b",
+          "text": "At the same rate as surface area"
+        },
+        {
+          "id": "c",
+          "text": "Faster than surface area"
+        },
+        {
+          "id": "d",
+          "text": "Only when ATP is low"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Volume increases faster than surface area, making transport less efficient.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "surface-area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "prompt": "A cube-shaped cell has side length 2. What is its surface area-to-volume ratio?",
+      "correct_numeric": 3,
+      "tolerance": 0.001,
+      "accepted_formats": [
+        "integer",
+        "decimal"
+      ],
+      "explanation": "A cube with side 2 has surface area 24 and volume 8, so the ratio is 3.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "surface-area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Microvilli on intestinal cells mainly increase:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DNA replication"
+        },
+        {
+          "id": "b",
+          "text": "Surface area for absorption"
+        },
+        {
+          "id": "c",
+          "text": "Cell division rate"
+        },
+        {
+          "id": "d",
+          "text": "Number of organelles"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Microvilli provide more membrane area for transport and absorption.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "specialization"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Multicellular organisms solve many surface-area limitations by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Using only one cell type"
+        },
+        {
+          "id": "b",
+          "text": "Specializing cells and tissues"
+        },
+        {
+          "id": "c",
+          "text": "Eliminating membranes"
+        },
+        {
+          "id": "d",
+          "text": "Stopping diffusion"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Specialization allows efficient division of labor and exchange.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "specialization"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which cell feature would best support rapid movement of oxygen into a cell?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Low surface area-to-volume ratio"
+        },
+        {
+          "id": "b",
+          "text": "Thick waxy wall"
+        },
+        {
+          "id": "c",
+          "text": "Large flat membrane surface"
+        },
+        {
+          "id": "d",
+          "text": "No membrane proteins"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "A large membrane area favors faster diffusion across the surface.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transport"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which is the best explanation for why cells remain microscopic?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Smaller cells avoid mutations"
+        },
+        {
+          "id": "b",
+          "text": "Transport and signaling become inefficient in very large cells"
+        },
+        {
+          "id": "c",
+          "text": "Large cells cannot contain DNA"
+        },
+        {
+          "id": "d",
+          "text": "Small cells do not need ATP"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Large cells face exchange and coordination problems because volume grows quickly.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "surface-area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Root hair cells are effective at absorbing water because they:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Contain less cytoplasm"
+        },
+        {
+          "id": "b",
+          "text": "Have an extended membrane surface"
+        },
+        {
+          "id": "c",
+          "text": "Lack membranes"
+        },
+        {
+          "id": "d",
+          "text": "Use only active transport"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The elongated shape increases surface area for uptake.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "specialization"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A cell becoming elongated instead of spherical can help increase:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Surface area relative to volume"
+        },
+        {
+          "id": "b",
+          "text": "Nuclear number"
+        },
+        {
+          "id": "c",
+          "text": "Mutation frequency"
+        },
+        {
+          "id": "d",
+          "text": "Hydrophobicity"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Shape changes can improve the surface area-to-volume ratio.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "surface-area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which example best illustrates cell specialization?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "All cells having identical shapes"
+        },
+        {
+          "id": "b",
+          "text": "Muscle cells packed with mitochondria for contraction"
+        },
+        {
+          "id": "c",
+          "text": "Every cell performing photosynthesis"
+        },
+        {
+          "id": "d",
+          "text": "A cell losing its membrane"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Structure and organelle content often reflect a cell's specific job.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "specialization"
+      ],
+      "media": null
+    }
+  ]
+}

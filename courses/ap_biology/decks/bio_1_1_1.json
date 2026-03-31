@@ -1,0 +1,323 @@
+{
+  "deck_id": "bio_1_1_1",
+  "subject": "ap_biology",
+  "title": "Water and Macromolecules",
+  "skill_band_id": "bio_band_1",
+  "skill_id": "bio_1_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "water",
+    "macromolecules"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "In the diagram, what property of water is created by the unequal distribution of charge?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Polarity"
+        },
+        {
+          "id": "b",
+          "text": "Radioactivity"
+        },
+        {
+          "id": "c",
+          "text": "Hydrolysis"
+        },
+        {
+          "id": "d",
+          "text": "Evaporation"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Unequal charge distribution makes water a polar molecule.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "water",
+        "polarity"
+      ],
+      "media": {
+        "image": "media/images/water_polarity.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "The dotted attraction shown between neighboring water molecules is a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Covalent bond"
+        },
+        {
+          "id": "b",
+          "text": "Peptide bond"
+        },
+        {
+          "id": "c",
+          "text": "Hydrogen bond"
+        },
+        {
+          "id": "d",
+          "text": "Ionic bond"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Hydrogen bonds form between the partially positive hydrogen of one water molecule and the partially negative oxygen of another.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "water",
+        "hydrogen-bond"
+      ],
+      "media": {
+        "image": "media/images/hydrogen_bonding.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Which macromolecule stores information for inheritance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carbohydrate"
+        },
+        {
+          "id": "b",
+          "text": "Lipid"
+        },
+        {
+          "id": "c",
+          "text": "Nucleic acid"
+        },
+        {
+          "id": "d",
+          "text": "Protein"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Nucleic acids such as DNA and RNA store genetic information.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "macromolecules"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A triglyceride is built mainly from:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Amino acids and phosphate"
+        },
+        {
+          "id": "b",
+          "text": "Glycerol and fatty acids"
+        },
+        {
+          "id": "c",
+          "text": "Glucose and fructose"
+        },
+        {
+          "id": "d",
+          "text": "Nucleotides and sugars"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Triglycerides contain one glycerol joined to three fatty acids.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "lipids"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which functional group helps make a molecule acidic by releasing H⁺?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Amino group"
+        },
+        {
+          "id": "b",
+          "text": "Methyl group"
+        },
+        {
+          "id": "c",
+          "text": "Carboxyl group"
+        },
+        {
+          "id": "d",
+          "text": "Phosphate group"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "A carboxyl group can donate hydrogen ions in solution.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "chemistry"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "The monomers of proteins are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Monosaccharides"
+        },
+        {
+          "id": "b",
+          "text": "Fatty acids"
+        },
+        {
+          "id": "c",
+          "text": "Nucleotides"
+        },
+        {
+          "id": "d",
+          "text": "Amino acids"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "Proteins are polymers built from amino acid monomers.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "proteins"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "A dehydration reaction usually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Breaks a polymer by adding water"
+        },
+        {
+          "id": "b",
+          "text": "Builds a polymer by removing water"
+        },
+        {
+          "id": "c",
+          "text": "Turns ATP into ADP"
+        },
+        {
+          "id": "d",
+          "text": "Creates ions from salts"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Dehydration synthesis removes water to link monomers.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "dehydration"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which level of protein structure is stabilized mainly by hydrogen bonds between backbone atoms?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Primary"
+        },
+        {
+          "id": "b",
+          "text": "Secondary"
+        },
+        {
+          "id": "c",
+          "text": "Tertiary"
+        },
+        {
+          "id": "d",
+          "text": "Quaternary"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "α-helices and β-sheets are secondary structures stabilized by backbone hydrogen bonds.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "proteins"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A phospholipid differs from a triglyceride because a phospholipid has a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Phosphate-containing polar head"
+        },
+        {
+          "id": "b",
+          "text": "Peptide backbone"
+        },
+        {
+          "id": "c",
+          "text": "Ribose sugar"
+        },
+        {
+          "id": "d",
+          "text": "Second glycerol"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Phospholipids have a hydrophilic phosphate head and two hydrophobic tails.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "lipids"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which statement best explains why water moderates temperature?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water has a low specific heat"
+        },
+        {
+          "id": "b",
+          "text": "Water has a high specific heat"
+        },
+        {
+          "id": "c",
+          "text": "Water is nonpolar"
+        },
+        {
+          "id": "d",
+          "text": "Water is always acidic"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Because water has a high specific heat, it resists sudden temperature change.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "water",
+        "specific-heat"
+      ],
+      "media": null
+    }
+  ]
+}

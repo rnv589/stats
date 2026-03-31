@@ -1,0 +1,316 @@
+{
+  "deck_id": "bio_3_boss",
+  "subject": "ap_biology",
+  "title": "Unit 3 Boss: Energetics",
+  "skill_band_id": "bio_band_3",
+  "skill_id": "bio_3_boss",
+  "difficulty": "hard",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "unit3"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which statement best links photosynthesis and respiration?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Photosynthesis destroys ATP permanently"
+        },
+        {
+          "id": "b",
+          "text": "Products of one can serve as reactants for the other"
+        },
+        {
+          "id": "c",
+          "text": "Both occur only in animals"
+        },
+        {
+          "id": "d",
+          "text": "Both require oxygen as an input"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Glucose and oxygen from photosynthesis feed respiration, while CO₂ and water from respiration feed photosynthesis.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "energetics"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Which process directly produces O₂?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Calvin cycle"
+        },
+        {
+          "id": "b",
+          "text": "Photolysis in photosystem II"
+        },
+        {
+          "id": "c",
+          "text": "Citric acid cycle"
+        },
+        {
+          "id": "d",
+          "text": "Fermentation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Water splitting in photosystem II releases oxygen gas.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If oxygen is absent, which stage of aerobic respiration stops first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glycolysis"
+        },
+        {
+          "id": "b",
+          "text": "The electron transport chain"
+        },
+        {
+          "id": "c",
+          "text": "ATP hydrolysis"
+        },
+        {
+          "id": "d",
+          "text": "Substrate-level phosphorylation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Without a final electron acceptor, the electron transport chain cannot continue.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "respiration"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "What is the immediate energy source that powers ATP synthase in both mitochondria and chloroplasts?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glucose"
+        },
+        {
+          "id": "b",
+          "text": "A proton gradient"
+        },
+        {
+          "id": "c",
+          "text": "Carbon dioxide"
+        },
+        {
+          "id": "d",
+          "text": "Light directly"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "ATP synthase is driven by protons flowing down their electrochemical gradient.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "chemiosmosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A decrease in light intensity would most directly reduce production of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "NADPH and ATP in chloroplasts"
+        },
+        {
+          "id": "b",
+          "text": "Acetyl-CoA in mitochondria"
+        },
+        {
+          "id": "c",
+          "text": "Lactic acid in muscle"
+        },
+        {
+          "id": "d",
+          "text": "DNA in nuclei"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The light reactions produce ATP and NADPH.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Why does fermentation allow glycolysis to continue?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It creates oxygen"
+        },
+        {
+          "id": "b",
+          "text": "It regenerates NAD⁺"
+        },
+        {
+          "id": "c",
+          "text": "It makes chlorophyll"
+        },
+        {
+          "id": "d",
+          "text": "It fixes carbon"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Fermentation restores NAD⁺ needed for glycolysis.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "fermentation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which pathway is anabolic?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Calvin cycle"
+        },
+        {
+          "id": "b",
+          "text": "Glycolysis"
+        },
+        {
+          "id": "c",
+          "text": "Citric acid cycle"
+        },
+        {
+          "id": "d",
+          "text": "Alcohol fermentation"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The Calvin cycle builds carbohydrate from carbon dioxide.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "anabolism"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Most ATP from aerobic respiration is produced by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Substrate-level phosphorylation alone"
+        },
+        {
+          "id": "b",
+          "text": "Oxidative phosphorylation"
+        },
+        {
+          "id": "c",
+          "text": "Photophosphorylation"
+        },
+        {
+          "id": "d",
+          "text": "Hydrolysis"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Oxidative phosphorylation combines ETC activity with chemiosmosis.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "respiration"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A high level of CO₂ with low O₂ in leaf tissue would most likely favor:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reduced photosynthesis"
+        },
+        {
+          "id": "b",
+          "text": "Increased carbon fixation relative to photorespiration"
+        },
+        {
+          "id": "c",
+          "text": "Immediate cell death"
+        },
+        {
+          "id": "d",
+          "text": "More mitosis"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "High CO₂ and low O₂ conditions reduce photorespiration and favor carbon fixation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which molecule donates electrons to the ETC in mitochondria?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ATP"
+        },
+        {
+          "id": "b",
+          "text": "NADH"
+        },
+        {
+          "id": "c",
+          "text": "CO₂"
+        },
+        {
+          "id": "d",
+          "text": "Pyruvate only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "NADH carries electrons harvested from earlier stages of respiration.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "electron-carriers"
+      ],
+      "media": null
+    }
+  ]
+}

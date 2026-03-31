@@ -1,0 +1,320 @@
+{
+  "deck_id": "bio_6_1_2",
+  "subject": "ap_biology",
+  "title": "Transcription and Translation",
+  "skill_band_id": "bio_band_6",
+  "skill_id": "bio_6_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "transcription",
+    "translation"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "According to the central dogma diagram, information flows from DNA to mRNA by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Translation"
+        },
+        {
+          "id": "b",
+          "text": "Replication"
+        },
+        {
+          "id": "c",
+          "text": "Transcription"
+        },
+        {
+          "id": "d",
+          "text": "Mutation"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Transcription produces RNA from a DNA template.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "transcription"
+      ],
+      "media": {
+        "image": "media/images/central_dogma.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "According to the diagram, protein is produced from mRNA by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Translation"
+        },
+        {
+          "id": "b",
+          "text": "DNA replication"
+        },
+        {
+          "id": "c",
+          "text": "Crossing over"
+        },
+        {
+          "id": "d",
+          "text": "Fermentation"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Translation uses ribosomes to build proteins from mRNA.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "translation"
+      ],
+      "media": {
+        "image": "media/images/central_dogma.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A codon is a sequence of three bases on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DNA only"
+        },
+        {
+          "id": "b",
+          "text": "mRNA"
+        },
+        {
+          "id": "c",
+          "text": "tRNA only"
+        },
+        {
+          "id": "d",
+          "text": "Protein"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "mRNA codons are read during translation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "translation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "An anticodon is found on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DNA polymerase"
+        },
+        {
+          "id": "b",
+          "text": "tRNA"
+        },
+        {
+          "id": "c",
+          "text": "mRNA"
+        },
+        {
+          "id": "d",
+          "text": "rRNA only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "tRNA anticodons pair with mRNA codons.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "translation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which RNA type is part of the ribosome?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "mRNA"
+        },
+        {
+          "id": "b",
+          "text": "tRNA"
+        },
+        {
+          "id": "c",
+          "text": "rRNA"
+        },
+        {
+          "id": "d",
+          "text": "miRNA"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Ribosomes are made partly of ribosomal RNA.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "RNA"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which process occurs in the nucleus of eukaryotic cells?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Translation only"
+        },
+        {
+          "id": "b",
+          "text": "Transcription and RNA processing"
+        },
+        {
+          "id": "c",
+          "text": "Glycolysis only"
+        },
+        {
+          "id": "d",
+          "text": "Citric acid cycle"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Eukaryotes transcribe and process RNA in the nucleus.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transcription"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Introns are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sequences removed from pre-mRNA"
+        },
+        {
+          "id": "b",
+          "text": "Amino acids added to proteins"
+        },
+        {
+          "id": "c",
+          "text": "Codons that end translation"
+        },
+        {
+          "id": "d",
+          "text": "Parts of the cell membrane"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Introns are spliced out before mature mRNA leaves the nucleus.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "RNA-processing"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A stop codon causes the ribosome to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Start replication"
+        },
+        {
+          "id": "b",
+          "text": "Release the polypeptide"
+        },
+        {
+          "id": "c",
+          "text": "Add another amino acid"
+        },
+        {
+          "id": "d",
+          "text": "Enter S phase"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Stop codons terminate translation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "translation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "The genetic code is described as redundant because:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every amino acid has exactly one codon"
+        },
+        {
+          "id": "b",
+          "text": "Several codons can specify the same amino acid"
+        },
+        {
+          "id": "c",
+          "text": "Proteins have no sequence"
+        },
+        {
+          "id": "d",
+          "text": "RNA is double-stranded"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Redundancy means more than one codon can code for the same amino acid.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "genetic-code"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "A mutation that changes one codon to a stop codon is a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Missense mutation"
+        },
+        {
+          "id": "b",
+          "text": "Silent mutation"
+        },
+        {
+          "id": "c",
+          "text": "Nonsense mutation"
+        },
+        {
+          "id": "d",
+          "text": "Frameshift"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Nonsense mutations prematurely terminate translation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mutations"
+      ],
+      "media": null
+    }
+  ]
+}

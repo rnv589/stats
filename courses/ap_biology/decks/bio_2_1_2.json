@@ -1,0 +1,319 @@
+{
+  "deck_id": "bio_2_1_2",
+  "subject": "ap_biology",
+  "title": "Membranes and Transport",
+  "skill_band_id": "bio_band_2",
+  "skill_id": "bio_2_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "membrane",
+    "transport"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "In the membrane diagram, which feature faces the watery environment on both sides of the membrane?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hydrophobic tails"
+        },
+        {
+          "id": "b",
+          "text": "Phosphate heads"
+        },
+        {
+          "id": "c",
+          "text": "Channel interiors only"
+        },
+        {
+          "id": "d",
+          "text": "Cholesterol rings only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The hydrophilic phosphate heads interact with water.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "membrane"
+      ],
+      "media": {
+        "image": "media/images/membrane_bilayer.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Diffusion is the net movement of molecules from:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Low concentration to high concentration"
+        },
+        {
+          "id": "b",
+          "text": "High concentration to low concentration"
+        },
+        {
+          "id": "c",
+          "text": "Inside to outside only"
+        },
+        {
+          "id": "d",
+          "text": "Outside to inside only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Diffusion moves particles down their concentration gradient.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transport"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Osmosis is specifically the diffusion of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ions"
+        },
+        {
+          "id": "b",
+          "text": "Proteins"
+        },
+        {
+          "id": "c",
+          "text": "Water"
+        },
+        {
+          "id": "d",
+          "text": "Glucose"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Osmosis refers to water movement across a selectively permeable membrane.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "osmosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Facilitated diffusion differs from simple diffusion because it requires:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ATP"
+        },
+        {
+          "id": "b",
+          "text": "Transport proteins"
+        },
+        {
+          "id": "c",
+          "text": "Vesicles"
+        },
+        {
+          "id": "d",
+          "text": "A cell wall"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Facilitated diffusion uses channels or carriers but not ATP.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transport"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which process moves substances against a concentration gradient?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Diffusion"
+        },
+        {
+          "id": "b",
+          "text": "Osmosis"
+        },
+        {
+          "id": "c",
+          "text": "Active transport"
+        },
+        {
+          "id": "d",
+          "text": "Filtration"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Active transport uses energy to move materials uphill against gradients.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "active-transport"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A plant cell placed in a hypotonic solution will most likely:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lose water and plasmolyze"
+        },
+        {
+          "id": "b",
+          "text": "Gain water and become turgid"
+        },
+        {
+          "id": "c",
+          "text": "Stay unchanged because of osmosis"
+        },
+        {
+          "id": "d",
+          "text": "Burst immediately without limit"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Water enters, and the cell becomes turgid because the wall resists bursting.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "plant-cells",
+        "osmosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "The sodium-potassium pump is an example of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Simple diffusion"
+        },
+        {
+          "id": "b",
+          "text": "Facilitated diffusion"
+        },
+        {
+          "id": "c",
+          "text": "Active transport"
+        },
+        {
+          "id": "d",
+          "text": "Endocytosis"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "It uses ATP to transport ions across the membrane.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "transport"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Endocytosis and exocytosis are important for moving:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only water"
+        },
+        {
+          "id": "b",
+          "text": "Large particles or bulk materials"
+        },
+        {
+          "id": "c",
+          "text": "Only oxygen"
+        },
+        {
+          "id": "d",
+          "text": "Only sodium ions"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Bulk transport handles materials too large for channels or pumps.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "vesicles"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Cholesterol in animal cell membranes helps:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Destroy phospholipids"
+        },
+        {
+          "id": "b",
+          "text": "Maintain membrane fluidity"
+        },
+        {
+          "id": "c",
+          "text": "Copy DNA"
+        },
+        {
+          "id": "d",
+          "text": "Build cell walls"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Cholesterol buffers membrane fluidity across temperatures.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "membrane"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Selective permeability means a membrane:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lets everything pass"
+        },
+        {
+          "id": "b",
+          "text": "Controls what enters and leaves"
+        },
+        {
+          "id": "c",
+          "text": "Contains no proteins"
+        },
+        {
+          "id": "d",
+          "text": "Has no phospholipids"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Membranes are selective because their structure and transport proteins regulate passage.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "membrane"
+      ],
+      "media": null
+    }
+  ]
+}

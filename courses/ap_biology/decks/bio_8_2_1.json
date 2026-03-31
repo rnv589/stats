@@ -1,0 +1,317 @@
+{
+  "deck_id": "bio_8_2_1",
+  "subject": "ap_biology",
+  "title": "Community Interactions and Cycles",
+  "skill_band_id": "bio_band_8",
+  "skill_id": "bio_8_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "community-ecology"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Competition occurs when organisms use the same limited:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gene"
+        },
+        {
+          "id": "b",
+          "text": "Resource"
+        },
+        {
+          "id": "c",
+          "text": "Chromosome"
+        },
+        {
+          "id": "d",
+          "text": "Ribosome"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Competition is strongest when species overlap in resource needs.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "competition"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Two species cannot occupy exactly the same niche indefinitely because of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hardy-Weinberg equilibrium"
+        },
+        {
+          "id": "b",
+          "text": "Competitive exclusion"
+        },
+        {
+          "id": "c",
+          "text": "Chemiosmosis"
+        },
+        {
+          "id": "d",
+          "text": "Independent assortment"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Competitive exclusion predicts that complete niche overlap is unstable.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "niche"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Mutualism is an interaction in which:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One species benefits and the other is harmed"
+        },
+        {
+          "id": "b",
+          "text": "Both species benefit"
+        },
+        {
+          "id": "c",
+          "text": "Neither species is affected"
+        },
+        {
+          "id": "d",
+          "text": "One species always dies"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Both species gain in a mutualistic interaction.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "species-interactions"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Commensalism is an interaction in which:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both benefit"
+        },
+        {
+          "id": "b",
+          "text": "One benefits and the other is unaffected"
+        },
+        {
+          "id": "c",
+          "text": "Both are harmed"
+        },
+        {
+          "id": "d",
+          "text": "One benefits and one is harmed"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Commensalism benefits one partner without significantly affecting the other.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "species-interactions"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Parasitism differs from predation because the parasite typically:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kills the host immediately"
+        },
+        {
+          "id": "b",
+          "text": "Lives on or in the host over time"
+        },
+        {
+          "id": "c",
+          "text": "Benefits the host"
+        },
+        {
+          "id": "d",
+          "text": "Is always microscopic"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Parasites exploit hosts but usually do not kill them immediately.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "species-interactions"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "graph_multiple_choice",
+      "prompt": "In the carbon cycle diagram, plants most directly remove carbon from the atmosphere by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Respiration"
+        },
+        {
+          "id": "b",
+          "text": "Combustion"
+        },
+        {
+          "id": "c",
+          "text": "Photosynthesis"
+        },
+        {
+          "id": "d",
+          "text": "Decomposition"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Plants take in atmospheric CO₂ during photosynthesis.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "biogeochemical-cycles"
+      ],
+      "media": {
+        "image": "media/images/carbon_cycle.png"
+      }
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Nitrogen fixation is important because it converts atmospheric nitrogen into forms that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Plants can use"
+        },
+        {
+          "id": "b",
+          "text": "Animals can breathe only"
+        },
+        {
+          "id": "c",
+          "text": "Always become glucose"
+        },
+        {
+          "id": "d",
+          "text": "Stop decomposition"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Most organisms cannot use N₂ directly and rely on fixed nitrogen.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "nitrogen-cycle"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Ecological succession after a disturbance refers to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The instant return of the original community"
+        },
+        {
+          "id": "b",
+          "text": "Gradual change in community composition over time"
+        },
+        {
+          "id": "c",
+          "text": "Only population growth"
+        },
+        {
+          "id": "d",
+          "text": "Only species extinction"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Succession describes how communities change and reorganize.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "succession"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A niche describes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only where an organism lives"
+        },
+        {
+          "id": "b",
+          "text": "Its role and interactions in the ecosystem"
+        },
+        {
+          "id": "c",
+          "text": "Its DNA sequence"
+        },
+        {
+          "id": "d",
+          "text": "Its trophic level only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A niche includes resource use, conditions tolerated, and interactions.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "niche"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Excess nutrient runoff into aquatic systems can cause eutrophication, often leading to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Higher dissolved oxygen"
+        },
+        {
+          "id": "b",
+          "text": "Algal blooms and low oxygen"
+        },
+        {
+          "id": "c",
+          "text": "Immediate speciation"
+        },
+        {
+          "id": "d",
+          "text": "Reduced decomposition"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Algal blooms increase decomposition and reduce dissolved oxygen.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "human-impact"
+      ],
+      "media": null
+    }
+  ]
+}

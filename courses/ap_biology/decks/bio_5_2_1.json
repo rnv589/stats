@@ -1,0 +1,317 @@
+{
+  "deck_id": "bio_5_2_1",
+  "subject": "ap_biology",
+  "title": "Pedigrees and Inheritance Patterns",
+  "skill_band_id": "bio_band_5",
+  "skill_id": "bio_5_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "pedigrees"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "In the pedigree shown, a filled symbol indicates an individual who is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A carrier only"
+        },
+        {
+          "id": "b",
+          "text": "Affected"
+        },
+        {
+          "id": "c",
+          "text": "Male only"
+        },
+        {
+          "id": "d",
+          "text": "In generation I"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Filled symbols represent affected individuals.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "pedigree"
+      ],
+      "media": {
+        "image": "media/images/pedigree_basic.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A trait that appears in every generation is most likely:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Recessive"
+        },
+        {
+          "id": "b",
+          "text": "Dominant"
+        },
+        {
+          "id": "c",
+          "text": "Mitochondrial only"
+        },
+        {
+          "id": "d",
+          "text": "Polyploid"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Dominant traits often show vertical inheritance across generations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "pedigree"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A recessive trait can appear in offspring of two unaffected parents if both parents are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Homozygous dominant"
+        },
+        {
+          "id": "b",
+          "text": "Carriers"
+        },
+        {
+          "id": "c",
+          "text": "Affected"
+        },
+        {
+          "id": "d",
+          "text": "Polygenic"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Two heterozygous carriers can produce a recessive homozygote.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "recessive"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A trait passed from an affected father to all daughters but no sons is most consistent with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Y-linked inheritance"
+        },
+        {
+          "id": "b",
+          "text": "X-linked dominant inheritance"
+        },
+        {
+          "id": "c",
+          "text": "Autosomal recessive inheritance"
+        },
+        {
+          "id": "d",
+          "text": "Mitochondrial inheritance"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Fathers pass their X chromosome to daughters, not sons.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "sex-linked"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Mitochondrial traits are usually inherited from the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Father only"
+        },
+        {
+          "id": "b",
+          "text": "Mother only"
+        },
+        {
+          "id": "c",
+          "text": "Any grandparent equally"
+        },
+        {
+          "id": "d",
+          "text": "Older sibling"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Mitochondria are typically inherited through the egg.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mitochondrial"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which pattern is most characteristic of a Y-linked trait?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Passed from fathers to all sons"
+        },
+        {
+          "id": "b",
+          "text": "Passed from mothers to sons only"
+        },
+        {
+          "id": "c",
+          "text": "Appears only in females"
+        },
+        {
+          "id": "d",
+          "text": "Skips every other generation"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Y-linked genes pass directly along the paternal line.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "sex-linked"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Why are males more likely to express X-linked recessive traits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They have two X chromosomes"
+        },
+        {
+          "id": "b",
+          "text": "They have only one X chromosome"
+        },
+        {
+          "id": "c",
+          "text": "They never inherit X alleles from mothers"
+        },
+        {
+          "id": "d",
+          "text": "Their Y chromosome masks the X"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A single recessive allele on the X can be expressed in males.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "sex-linked"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A pedigree is most useful for showing:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The DNA sequence of an individual"
+        },
+        {
+          "id": "b",
+          "text": "How a trait appears through generations"
+        },
+        {
+          "id": "c",
+          "text": "The exact chromosome number of every cell"
+        },
+        {
+          "id": "d",
+          "text": "Population size over time"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Pedigrees track inheritance patterns in families.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "pedigree"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A trait equally common in males and females and sometimes skipping generations is most likely:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Autosomal recessive"
+        },
+        {
+          "id": "b",
+          "text": "Y-linked"
+        },
+        {
+          "id": "c",
+          "text": "X-linked dominant"
+        },
+        {
+          "id": "d",
+          "text": "Mitochondrial only"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Autosomal recessive traits often affect both sexes similarly and can skip generations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "pedigree"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "In a pedigree, a circle usually represents a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Male"
+        },
+        {
+          "id": "b",
+          "text": "Female"
+        },
+        {
+          "id": "c",
+          "text": "Carrier only"
+        },
+        {
+          "id": "d",
+          "text": "Mutation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Standard pedigree notation uses circles for females and squares for males.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "pedigree"
+      ],
+      "media": null
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "deck_id": "bio_7_1_1",
+  "subject": "ap_biology",
+  "title": "Natural Selection and Adaptation",
+  "skill_band_id": "bio_band_7",
+  "skill_id": "bio_7_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "natural-selection"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "Which mode of selection favors individuals near the average phenotype?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Directional"
+        },
+        {
+          "id": "b",
+          "text": "Stabilizing"
+        },
+        {
+          "id": "c",
+          "text": "Disruptive"
+        },
+        {
+          "id": "d",
+          "text": "Sexual"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Stabilizing selection favors intermediate phenotypes.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "selection"
+      ],
+      "media": {
+        "image": "media/images/selection_modes.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "Which mode of selection favors phenotypes at both extremes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Directional"
+        },
+        {
+          "id": "b",
+          "text": "Stabilizing"
+        },
+        {
+          "id": "c",
+          "text": "Disruptive"
+        },
+        {
+          "id": "d",
+          "text": "Artificial"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Disruptive selection can favor both extremes over the intermediate.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "selection"
+      ],
+      "media": {
+        "image": "media/images/selection_modes.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Natural selection can occur only if there is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Genetic variation in a population"
+        },
+        {
+          "id": "b",
+          "text": "A sudden mutation in every individual"
+        },
+        {
+          "id": "c",
+          "text": "No competition"
+        },
+        {
+          "id": "d",
+          "text": "Only one phenotype"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Selection requires heritable variation on which the environment can act.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "natural-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "An adaptation is best defined as a trait that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Always appears in one generation"
+        },
+        {
+          "id": "b",
+          "text": "Increases fitness in a given environment"
+        },
+        {
+          "id": "c",
+          "text": "Is caused by need"
+        },
+        {
+          "id": "d",
+          "text": "Occurs only in humans"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Adaptations are heritable traits that improve reproductive success.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "adaptation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Fitness in evolutionary biology refers to an organism's ability to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lift heavy mass"
+        },
+        {
+          "id": "b",
+          "text": "Survive and reproduce relative to others"
+        },
+        {
+          "id": "c",
+          "text": "Avoid all mutation"
+        },
+        {
+          "id": "d",
+          "text": "Remain unchanged"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Fitness is about reproductive success, not strength alone.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "fitness"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which statement about evolution is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Individuals evolve during their lifetimes"
+        },
+        {
+          "id": "b",
+          "text": "Populations evolve over generations"
+        },
+        {
+          "id": "c",
+          "text": "Genes choose beneficial traits"
+        },
+        {
+          "id": "d",
+          "text": "Natural selection creates needs"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Evolution is a change in allele frequencies within populations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "evolution"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Antibiotic resistance in bacteria often spreads because antibiotics:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Create beneficial mutations on demand"
+        },
+        {
+          "id": "b",
+          "text": "Select for resistant variants already present or newly arisen"
+        },
+        {
+          "id": "c",
+          "text": "Stop DNA replication in all cells equally"
+        },
+        {
+          "id": "d",
+          "text": "Cause meiosis"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Selection increases the frequency of resistant bacteria.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Sexual selection often favors traits that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increase mating success even if they are costly"
+        },
+        {
+          "id": "b",
+          "text": "Always improve survival"
+        },
+        {
+          "id": "c",
+          "text": "Reduce variation"
+        },
+        {
+          "id": "d",
+          "text": "Prevent inheritance"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Traits can spread if they improve mating success.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "sexual-selection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Gene flow is the movement of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Proteins within a cell"
+        },
+        {
+          "id": "b",
+          "text": "Alleles between populations"
+        },
+        {
+          "id": "c",
+          "text": "Water across membranes"
+        },
+        {
+          "id": "d",
+          "text": "Ribosomes in the cytoskeleton"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Migration can introduce alleles into new populations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "gene-flow"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Genetic drift has the strongest effect in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Very large populations"
+        },
+        {
+          "id": "b",
+          "text": "Small populations"
+        },
+        {
+          "id": "c",
+          "text": "Only plant populations"
+        },
+        {
+          "id": "d",
+          "text": "Only diploid cells"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Random allele changes are more pronounced in smaller populations.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "genetic-drift"
+      ],
+      "media": null
+    }
+  ]
+}

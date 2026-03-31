@@ -1,0 +1,321 @@
+{
+  "deck_id": "bio_2_1_1",
+  "subject": "ap_biology",
+  "title": "Cell Organelles and Compartments",
+  "skill_band_id": "bio_band_2",
+  "skill_id": "bio_2_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "cells",
+    "organelles"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "Which labeled structure in the cell image is the main site of ATP production in eukaryotic cells?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Golgi apparatus"
+        },
+        {
+          "id": "b",
+          "text": "Mitochondrion"
+        },
+        {
+          "id": "c",
+          "text": "Nucleus"
+        },
+        {
+          "id": "d",
+          "text": "Ribosome"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Mitochondria generate most ATP through aerobic respiration.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "organelles"
+      ],
+      "media": {
+        "image": "media/images/eukaryotic_cell.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "Which organelle houses most of the cell's DNA in a eukaryote?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nucleus"
+        },
+        {
+          "id": "b",
+          "text": "Mitochondrion"
+        },
+        {
+          "id": "c",
+          "text": "Golgi apparatus"
+        },
+        {
+          "id": "d",
+          "text": "Lysosome"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Most genetic material in eukaryotic cells is enclosed in the nucleus.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "organelles"
+      ],
+      "media": {
+        "image": "media/images/eukaryotic_cell.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Which organelle modifies, sorts, and ships proteins?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Smooth ER"
+        },
+        {
+          "id": "b",
+          "text": "Golgi apparatus"
+        },
+        {
+          "id": "c",
+          "text": "Vacuole"
+        },
+        {
+          "id": "d",
+          "text": "Chloroplast"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The Golgi apparatus processes and packages proteins for transport.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "organelles"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Ribosomes are directly responsible for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DNA replication"
+        },
+        {
+          "id": "b",
+          "text": "Protein synthesis"
+        },
+        {
+          "id": "c",
+          "text": "Lipid digestion"
+        },
+        {
+          "id": "d",
+          "text": "ATP hydrolysis"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Ribosomes translate mRNA into polypeptides.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "ribosomes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which structure is found in both prokaryotic and eukaryotic cells?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nucleus"
+        },
+        {
+          "id": "b",
+          "text": "Mitochondrion"
+        },
+        {
+          "id": "c",
+          "text": "Ribosome"
+        },
+        {
+          "id": "d",
+          "text": "Golgi apparatus"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Both cell types contain ribosomes for protein synthesis.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "prokaryotes",
+        "eukaryotes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "The endomembrane system includes the ER, Golgi, and:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mitochondria"
+        },
+        {
+          "id": "b",
+          "text": "Plasma membrane"
+        },
+        {
+          "id": "c",
+          "text": "Cytoskeleton only"
+        },
+        {
+          "id": "d",
+          "text": "Centrioles only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The plasma membrane is part of the connected endomembrane system.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "endomembrane"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which structure gives plant cells rigid support?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cell wall"
+        },
+        {
+          "id": "b",
+          "text": "Lysosome"
+        },
+        {
+          "id": "c",
+          "text": "Centrosome"
+        },
+        {
+          "id": "d",
+          "text": "Flagellum"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The cellulose cell wall provides support and protection.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "plant-cells"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which organelle contains digestive enzymes and is especially involved in intracellular breakdown?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lysosome"
+        },
+        {
+          "id": "b",
+          "text": "Nucleolus"
+        },
+        {
+          "id": "c",
+          "text": "Ribosome"
+        },
+        {
+          "id": "d",
+          "text": "Chloroplast"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Lysosomes digest macromolecules and recycle cellular components.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "organelles"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Chloroplasts and mitochondria are similar because both:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Contain ribosomes and their own DNA"
+        },
+        {
+          "id": "b",
+          "text": "Are part of the Golgi system"
+        },
+        {
+          "id": "c",
+          "text": "Exist only in prokaryotes"
+        },
+        {
+          "id": "d",
+          "text": "Use peptide bonds as membranes"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Both organelles have bacterial-like features including DNA and ribosomes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "endosymbiosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Cells maintain internal organization partly through the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cytoskeleton"
+        },
+        {
+          "id": "b",
+          "text": "ATP synthase only"
+        },
+        {
+          "id": "c",
+          "text": "Cell wall only"
+        },
+        {
+          "id": "d",
+          "text": "Genome only"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The cytoskeleton supports structure, transport, and movement.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cytoskeleton"
+      ],
+      "media": null
+    }
+  ]
+}

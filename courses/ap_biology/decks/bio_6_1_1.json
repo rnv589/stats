@@ -1,0 +1,318 @@
+{
+  "deck_id": "bio_6_1_1",
+  "subject": "ap_biology",
+  "title": "DNA Structure and Replication",
+  "skill_band_id": "bio_band_6",
+  "skill_id": "bio_6_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "dna",
+    "replication"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "In the DNA image, the strands are held together across the center mainly by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peptide bonds"
+        },
+        {
+          "id": "b",
+          "text": "Hydrogen bonds between bases"
+        },
+        {
+          "id": "c",
+          "text": "Ionic bonds between phosphates"
+        },
+        {
+          "id": "d",
+          "text": "Disulfide bridges"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Complementary bases pair through hydrogen bonds.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "DNA"
+      ],
+      "media": {
+        "image": "media/images/dna_double_helix.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "The two DNA strands are described as antiparallel because they:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Contain different sugars"
+        },
+        {
+          "id": "b",
+          "text": "Run in opposite 5' to 3' directions"
+        },
+        {
+          "id": "c",
+          "text": "Replicate in different cells"
+        },
+        {
+          "id": "d",
+          "text": "Have different genes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "One strand runs 5'→3' while the other runs 3'→5'.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "DNA"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "During replication, DNA polymerase adds nucleotides to the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3' end of the new strand"
+        },
+        {
+          "id": "b",
+          "text": "5' end of the new strand"
+        },
+        {
+          "id": "c",
+          "text": "Middle of the strand only"
+        },
+        {
+          "id": "d",
+          "text": "Template strand directly"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "DNA polymerase extends a new strand by adding to its 3' end.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "replication"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "The lagging strand is synthesized in short pieces called:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Operons"
+        },
+        {
+          "id": "b",
+          "text": "Okazaki fragments"
+        },
+        {
+          "id": "c",
+          "text": "Ribosomes"
+        },
+        {
+          "id": "d",
+          "text": "Exons"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Okazaki fragments are later joined to complete the lagging strand.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "replication"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Helicase functions during DNA replication by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Adding nucleotides"
+        },
+        {
+          "id": "b",
+          "text": "Unwinding the double helix"
+        },
+        {
+          "id": "c",
+          "text": "Translating mRNA"
+        },
+        {
+          "id": "d",
+          "text": "Breaking peptide bonds"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Helicase separates the DNA strands at the replication fork.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "replication"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Semiconservative replication means each new DNA molecule contains:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two new strands"
+        },
+        {
+          "id": "b",
+          "text": "One old strand and one new strand"
+        },
+        {
+          "id": "c",
+          "text": "Only RNA"
+        },
+        {
+          "id": "d",
+          "text": "No template"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Each daughter double helix keeps one parental strand.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "replication"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "A mutation is best defined as a change in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Protein shape only"
+        },
+        {
+          "id": "b",
+          "text": "The nucleotide sequence"
+        },
+        {
+          "id": "c",
+          "text": "Chromosome number only"
+        },
+        {
+          "id": "d",
+          "text": "Cell size"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Mutations alter genetic information at the DNA level.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mutations"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which mutation is most likely to have the smallest effect on a protein sequence?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Frameshift mutation"
+        },
+        {
+          "id": "b",
+          "text": "Nonsense mutation"
+        },
+        {
+          "id": "c",
+          "text": "Silent mutation"
+        },
+        {
+          "id": "d",
+          "text": "Deletion of a gene"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "A silent mutation does not change the amino acid sequence.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mutations"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A frameshift mutation usually results from:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Substitution of one base"
+        },
+        {
+          "id": "b",
+          "text": "Insertion or deletion not in multiples of three"
+        },
+        {
+          "id": "c",
+          "text": "Crossing over"
+        },
+        {
+          "id": "d",
+          "text": "Independent assortment"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Frameshifts alter the reading frame for downstream codons.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "mutations"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Why is complementary base pairing important?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It lets lipids dissolve in water"
+        },
+        {
+          "id": "b",
+          "text": "It helps DNA be copied accurately"
+        },
+        {
+          "id": "c",
+          "text": "It prevents all mutation"
+        },
+        {
+          "id": "d",
+          "text": "It makes ATP"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Complementary pairing guides accurate replication and transcription.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "DNA"
+      ],
+      "media": null
+    }
+  ]
+}

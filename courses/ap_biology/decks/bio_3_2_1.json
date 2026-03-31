@@ -1,0 +1,316 @@
+{
+  "deck_id": "bio_3_2_1",
+  "subject": "ap_biology",
+  "title": "Energy Flow and Metabolism",
+  "skill_band_id": "bio_band_3",
+  "skill_id": "bio_3_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "energy",
+    "metabolism"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "An exergonic reaction is one that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Requires energy input overall"
+        },
+        {
+          "id": "b",
+          "text": "Releases free energy overall"
+        },
+        {
+          "id": "c",
+          "text": "Always uses ATP"
+        },
+        {
+          "id": "d",
+          "text": "Occurs only in plants"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Exergonic reactions have a negative ΔG and release usable energy.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "metabolism"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "ATP couples energy-releasing reactions to energy-requiring reactions mainly through:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its nitrogen bases"
+        },
+        {
+          "id": "b",
+          "text": "Phosphate transfer"
+        },
+        {
+          "id": "c",
+          "text": "Its water solubility"
+        },
+        {
+          "id": "d",
+          "text": "Hydrogen bonding"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Transfer of a phosphate group can drive cellular work.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "ATP"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Which best defines metabolism?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only catabolic reactions"
+        },
+        {
+          "id": "b",
+          "text": "Only anabolic reactions"
+        },
+        {
+          "id": "c",
+          "text": "All chemical reactions in an organism"
+        },
+        {
+          "id": "d",
+          "text": "Only enzyme activity"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Metabolism includes both energy-releasing and energy-requiring pathways.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "metabolism"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Catabolic pathways generally:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Build larger molecules"
+        },
+        {
+          "id": "b",
+          "text": "Break down molecules and release energy"
+        },
+        {
+          "id": "c",
+          "text": "Use only light energy"
+        },
+        {
+          "id": "d",
+          "text": "Occur only in chloroplasts"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Catabolism breaks complex molecules into simpler ones.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "catabolism"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Anabolic pathways generally:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Build complex molecules and require energy"
+        },
+        {
+          "id": "b",
+          "text": "Break glucose into CO₂"
+        },
+        {
+          "id": "c",
+          "text": "Lower ATP use to zero"
+        },
+        {
+          "id": "d",
+          "text": "Destroy enzymes"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Anabolism uses energy to construct larger molecules.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "anabolism"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "NADPH is used most directly in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Calvin cycle"
+        },
+        {
+          "id": "b",
+          "text": "The citric acid cycle"
+        },
+        {
+          "id": "c",
+          "text": "Glycolysis"
+        },
+        {
+          "id": "d",
+          "text": "The sodium-potassium pump"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "NADPH supplies reducing power for carbon fixation.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which process is common to both mitochondria and chloroplasts?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DNA transcription only"
+        },
+        {
+          "id": "b",
+          "text": "Chemiosmosis across a membrane"
+        },
+        {
+          "id": "c",
+          "text": "Peptide digestion"
+        },
+        {
+          "id": "d",
+          "text": "Lactic acid fermentation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Both organelles use electron transport chains and proton gradients to make ATP.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "chemiosmosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "If a poison blocks ATP synthase, the most direct effect is a decrease in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Protein sequence"
+        },
+        {
+          "id": "b",
+          "text": "ATP production by chemiosmosis"
+        },
+        {
+          "id": "c",
+          "text": "DNA base pairing"
+        },
+        {
+          "id": "d",
+          "text": "Cell membrane fluidity"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "ATP synthase is the enzyme that converts proton-gradient energy into ATP.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "ATP"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Redox reactions are important in energetics because they involve transfer of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water only"
+        },
+        {
+          "id": "b",
+          "text": "Electrons"
+        },
+        {
+          "id": "c",
+          "text": "Cell walls"
+        },
+        {
+          "id": "d",
+          "text": "Organelles"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Energy is often transferred through electron movement in oxidation-reduction reactions.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "redox"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which is the best source of carbon atoms used to build glucose in photosynthesis?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "O₂"
+        },
+        {
+          "id": "b",
+          "text": "CO₂"
+        },
+        {
+          "id": "c",
+          "text": "ATP"
+        },
+        {
+          "id": "d",
+          "text": "NADPH"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Carbon dioxide provides the carbon incorporated into sugars.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "photosynthesis"
+      ],
+      "media": null
+    }
+  ]
+}

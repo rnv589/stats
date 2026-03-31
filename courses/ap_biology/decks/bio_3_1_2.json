@@ -1,0 +1,318 @@
+{
+  "deck_id": "bio_3_1_2",
+  "subject": "ap_biology",
+  "title": "Cellular Respiration",
+  "skill_band_id": "bio_band_3",
+  "skill_id": "bio_3_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "respiration"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "The graph shows oxygen use increasing over time. Which process most directly depends on oxygen in aerobic respiration?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glycolysis"
+        },
+        {
+          "id": "b",
+          "text": "Pyruvate oxidation"
+        },
+        {
+          "id": "c",
+          "text": "The electron transport chain"
+        },
+        {
+          "id": "d",
+          "text": "Fermentation"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Oxygen acts as the final electron acceptor in the electron transport chain.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "respiration",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/oxygen_use_graph.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Glycolysis occurs in the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mitochondrial matrix"
+        },
+        {
+          "id": "b",
+          "text": "Cytosol"
+        },
+        {
+          "id": "c",
+          "text": "Inner mitochondrial membrane"
+        },
+        {
+          "id": "d",
+          "text": "Nucleus"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Glycolysis takes place in the cytosol of the cell.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "respiration"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Most ATP from aerobic respiration is produced during:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glycolysis"
+        },
+        {
+          "id": "b",
+          "text": "The citric acid cycle"
+        },
+        {
+          "id": "c",
+          "text": "Oxidative phosphorylation"
+        },
+        {
+          "id": "d",
+          "text": "Fermentation"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The electron transport chain and chemiosmosis generate the most ATP.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "respiration"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If oxygen is unavailable, many cells regenerate NAD⁺ through:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Photosynthesis"
+        },
+        {
+          "id": "b",
+          "text": "Fermentation"
+        },
+        {
+          "id": "c",
+          "text": "Mitosis"
+        },
+        {
+          "id": "d",
+          "text": "DNA replication"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Fermentation helps glycolysis continue by regenerating NAD⁺.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "fermentation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "The purpose of the electron transport chain is to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Build glucose directly"
+        },
+        {
+          "id": "b",
+          "text": "Transfer electrons to create a proton gradient"
+        },
+        {
+          "id": "c",
+          "text": "Break DNA into nucleotides"
+        },
+        {
+          "id": "d",
+          "text": "Convert ATP into ADP"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "As electrons move through the chain, energy pumps protons across the membrane.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "ETC"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "The citric acid cycle occurs in the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mitochondrial matrix"
+        },
+        {
+          "id": "b",
+          "text": "Golgi apparatus"
+        },
+        {
+          "id": "c",
+          "text": "Ribosome"
+        },
+        {
+          "id": "d",
+          "text": "Lysosome"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "In eukaryotes, the citric acid cycle occurs inside the mitochondrial matrix.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "respiration"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which molecule carries high-energy electrons from glycolysis and the citric acid cycle to the ETC?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ATP"
+        },
+        {
+          "id": "b",
+          "text": "NADH"
+        },
+        {
+          "id": "c",
+          "text": "CO₂"
+        },
+        {
+          "id": "d",
+          "text": "Glucose"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "NADH donates electrons to the electron transport chain.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "electron-carriers"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Compared with fermentation, aerobic respiration produces:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Less ATP per glucose"
+        },
+        {
+          "id": "b",
+          "text": "More ATP per glucose"
+        },
+        {
+          "id": "c",
+          "text": "Exactly the same ATP"
+        },
+        {
+          "id": "d",
+          "text": "No ATP at all"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Aerobic respiration extracts much more energy from each glucose molecule.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "respiration"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Chemiosmosis refers to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Random diffusion of proteins"
+        },
+        {
+          "id": "b",
+          "text": "Using a proton gradient to make ATP"
+        },
+        {
+          "id": "c",
+          "text": "CO₂ fixation"
+        },
+        {
+          "id": "d",
+          "text": "Water splitting"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "ATP synthase uses the stored energy of a proton gradient.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "chemiosmosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "When muscles lack oxygen during intense exercise, they may switch temporarily to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Calvin cycle"
+        },
+        {
+          "id": "b",
+          "text": "Lactic acid fermentation"
+        },
+        {
+          "id": "c",
+          "text": "DNA replication"
+        },
+        {
+          "id": "d",
+          "text": "Light reactions"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Lactic acid fermentation allows glycolysis to continue without oxygen.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "fermentation"
+      ],
+      "media": null
+    }
+  ]
+}

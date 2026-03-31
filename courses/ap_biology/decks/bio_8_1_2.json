@@ -1,0 +1,319 @@
+{
+  "deck_id": "bio_8_1_2",
+  "subject": "ap_biology",
+  "title": "Population Ecology",
+  "skill_band_id": "bio_band_8",
+  "skill_id": "bio_8_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "population-ecology"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "Which curve in the figure levels off near carrying capacity?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Exponential growth"
+        },
+        {
+          "id": "b",
+          "text": "Logistic growth"
+        },
+        {
+          "id": "c",
+          "text": "Type II survivorship"
+        },
+        {
+          "id": "d",
+          "text": "Predator-prey cycling"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Logistic growth slows as resources become limiting and levels off near carrying capacity.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "population-growth"
+      ],
+      "media": {
+        "image": "media/images/population_growth.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "Which survivorship curve is typical of many large mammals with high parental care?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Type I"
+        },
+        {
+          "id": "b",
+          "text": "Type II"
+        },
+        {
+          "id": "c",
+          "text": "Type III"
+        },
+        {
+          "id": "d",
+          "text": "Exponential"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Type I survivorship shows high survival until late life.",
+      "difficulty": "easy",
+      "subskill_tags": [
+        "survivorship"
+      ],
+      "media": {
+        "image": "media/images/survivorship_curves.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Carrying capacity is the maximum population size that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can ever exist on Earth"
+        },
+        {
+          "id": "b",
+          "text": "An environment can sustain over time"
+        },
+        {
+          "id": "c",
+          "text": "A species reaches in one day"
+        },
+        {
+          "id": "d",
+          "text": "Occurs only with predators"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Carrying capacity reflects resource limits and environmental conditions.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "population-growth"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Density-dependent factors include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hurricanes"
+        },
+        {
+          "id": "b",
+          "text": "Competition for resources"
+        },
+        {
+          "id": "c",
+          "text": "Wildfires"
+        },
+        {
+          "id": "d",
+          "text": "Drought"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Competition intensifies as population density rises.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "population-ecology"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A density-independent factor is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Predation"
+        },
+        {
+          "id": "b",
+          "text": "Competition"
+        },
+        {
+          "id": "c",
+          "text": "A freeze"
+        },
+        {
+          "id": "d",
+          "text": "Disease"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Weather extremes often affect populations regardless of density.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "population-ecology"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A population growing exponentially is most likely experiencing:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strong resource limitation"
+        },
+        {
+          "id": "b",
+          "text": "Few limiting factors"
+        },
+        {
+          "id": "c",
+          "text": "Stable carrying capacity"
+        },
+        {
+          "id": "d",
+          "text": "No reproduction"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Exponential growth occurs when resources are abundant and constraints are low.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "population-growth"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which survivorship curve is typical of organisms that produce many offspring with little parental care?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Type I"
+        },
+        {
+          "id": "b",
+          "text": "Type II"
+        },
+        {
+          "id": "c",
+          "text": "Type III"
+        },
+        {
+          "id": "d",
+          "text": "Type IV"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Type III shows high early mortality but better survival of the few that reach adulthood.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "survivorship"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Population size is most directly changed by births, deaths, immigration, and:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mutation"
+        },
+        {
+          "id": "b",
+          "text": "Emigration"
+        },
+        {
+          "id": "c",
+          "text": "Selection"
+        },
+        {
+          "id": "d",
+          "text": "Speciation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Emigration is the movement of individuals out of a population.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "population-ecology"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "As a population nears carrying capacity, logistic growth predicts the growth rate will:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increase indefinitely"
+        },
+        {
+          "id": "b",
+          "text": "Slow down"
+        },
+        {
+          "id": "c",
+          "text": "Become negative immediately"
+        },
+        {
+          "id": "d",
+          "text": "Equal zero at all times"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Growth slows because limiting factors become stronger.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "population-growth"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "A population boom after an invasive species arrives is most likely if the invader initially has:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Many predators and little food"
+        },
+        {
+          "id": "b",
+          "text": "Few natural enemies and available resources"
+        },
+        {
+          "id": "c",
+          "text": "No reproductive ability"
+        },
+        {
+          "id": "d",
+          "text": "No genetic variation"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Release from predators and competition can allow rapid growth.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "invasive-species"
+      ],
+      "media": null
+    }
+  ]
+}

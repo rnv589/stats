@@ -1,0 +1,316 @@
+{
+  "deck_id": "bio_2_boss",
+  "subject": "ap_biology",
+  "title": "Unit 2 Boss: Cells",
+  "skill_band_id": "bio_band_2",
+  "skill_id": "bio_2_boss",
+  "difficulty": "hard",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "unit2"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which structure directly separates the cell's internal environment from the external environment?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cytoplasm"
+        },
+        {
+          "id": "b",
+          "text": "Plasma membrane"
+        },
+        {
+          "id": "c",
+          "text": "Nucleolus"
+        },
+        {
+          "id": "d",
+          "text": "Chromatin"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The plasma membrane forms the selective boundary around the cell.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "membrane"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A secreted protein is most likely to move through which sequence?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ribosome → rough ER → Golgi → vesicle"
+        },
+        {
+          "id": "b",
+          "text": "Nucleus → lysosome → ribosome"
+        },
+        {
+          "id": "c",
+          "text": "Golgi → rough ER → nucleus"
+        },
+        {
+          "id": "d",
+          "text": "Mitochondrion → ribosome → vacuole"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Secreted proteins follow the rough ER to Golgi to vesicle pathway.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "endomembrane"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Which transport process requires ATP directly?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Simple diffusion of O₂"
+        },
+        {
+          "id": "b",
+          "text": "Facilitated diffusion of glucose"
+        },
+        {
+          "id": "c",
+          "text": "Sodium-potassium pumping"
+        },
+        {
+          "id": "d",
+          "text": "Osmosis"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The sodium-potassium pump uses ATP to move ions against gradients.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "active-transport"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Endosymbiotic theory is supported by the fact that mitochondria and chloroplasts:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Have no membranes"
+        },
+        {
+          "id": "b",
+          "text": "Contain circular DNA and divide independently"
+        },
+        {
+          "id": "c",
+          "text": "Exist only in animals"
+        },
+        {
+          "id": "d",
+          "text": "Are made of cellulose"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "These organelles share several traits with free-living bacteria.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "endosymbiosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A red blood cell's shape is advantageous mainly because it:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Contains a nucleus"
+        },
+        {
+          "id": "b",
+          "text": "Increases surface area for gas exchange"
+        },
+        {
+          "id": "c",
+          "text": "Carries out mitosis rapidly"
+        },
+        {
+          "id": "d",
+          "text": "Has a cell wall"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Its biconcave form supports efficient oxygen exchange.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "surface-area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A hypertonic environment would most likely cause an animal cell to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gain water"
+        },
+        {
+          "id": "b",
+          "text": "Become turgid"
+        },
+        {
+          "id": "c",
+          "text": "Lose water and shrink"
+        },
+        {
+          "id": "d",
+          "text": "Build a wall"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Water moves out of the cell in a hypertonic solution.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "osmosis"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which is shared by all cells?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A nucleus and mitochondria"
+        },
+        {
+          "id": "b",
+          "text": "DNA, a membrane, and ribosomes"
+        },
+        {
+          "id": "c",
+          "text": "A cell wall and chloroplasts"
+        },
+        {
+          "id": "d",
+          "text": "A Golgi apparatus and lysosomes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "All known cells have genetic material, a membrane, and ribosomes.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "cell-basics"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Why are phospholipids well suited for membranes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are amphipathic"
+        },
+        {
+          "id": "b",
+          "text": "They are enzymes"
+        },
+        {
+          "id": "c",
+          "text": "They are made from amino acids"
+        },
+        {
+          "id": "d",
+          "text": "They are entirely hydrophilic"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Their dual nature makes bilayers stable in watery environments.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "membrane"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Which organelle would be especially abundant in a cell producing many ATP molecules aerobically?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lysosome"
+        },
+        {
+          "id": "b",
+          "text": "Mitochondrion"
+        },
+        {
+          "id": "c",
+          "text": "Nucleolus"
+        },
+        {
+          "id": "d",
+          "text": "Golgi"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Mitochondria carry out aerobic respiration and ATP production.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "organelles"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Why does increasing cell size eventually create a problem?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Surface area cannot keep up with volume"
+        },
+        {
+          "id": "b",
+          "text": "DNA disappears"
+        },
+        {
+          "id": "c",
+          "text": "Water becomes nonpolar"
+        },
+        {
+          "id": "d",
+          "text": "Ribosomes stop working"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "As cells enlarge, exchange across the membrane becomes less efficient.",
+      "difficulty": "medium",
+      "subskill_tags": [
+        "surface-area"
+      ],
+      "media": null
+    }
+  ]
+}
