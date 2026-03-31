@@ -1,0 +1,274 @@
+{
+  "deck_id": "calc_5_boss_1",
+  "subject": "ap_calculus_bc",
+  "title": "Integrals Boss",
+  "skill_band_id": "calc_band_5",
+  "skill_id": "calc_5_boss",
+  "difficulty": "boss",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "integrals"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "prompt": "∫ from 0 to 3 (2x+1) dx =",
+      "correct_numeric": 12,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "Antiderivative is x²+x, so evaluate at 3 and 0.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "integrals"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If F′=f and ∫ from 2 to 5 f(x)dx = 7, then ∫ from 5 to 2 f(x)dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "-7"
+        },
+        {
+          "id": "c",
+          "text": "0"
+        },
+        {
+          "id": "d",
+          "text": "14"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Reversing bounds changes the sign.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "prompt": "If g(x)=∫ from 1 to x t³dt, then g′(2) =",
+      "correct_numeric": 8,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "g′(x)=x³ by FTC Part 1.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "FTC"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If the graph of f lies below the x-axis on [a,b], then ∫ from a to b f(x)dx is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Positive"
+        },
+        {
+          "id": "b",
+          "text": "Negative"
+        },
+        {
+          "id": "c",
+          "text": "Always zero"
+        },
+        {
+          "id": "d",
+          "text": "Undefined"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Below-axis area contributes negatively.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "prompt": "Average value of f(x)=x on [0,4] is:",
+      "correct_numeric": 2,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "Area under x from 0 to 4 is 8, then divide by interval length 4.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "average-value"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "Which expression gives the area between y=f(x) and the x-axis on [a,b] when f changes sign?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "∫f"
+        },
+        {
+          "id": "b",
+          "text": "∫|f|"
+        },
+        {
+          "id": "c",
+          "text": "f(b)-f(a)"
+        },
+        {
+          "id": "d",
+          "text": "∫f²"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Absolute value turns all pieces positive.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "prompt": "∫ from -1 to 1 x³ dx =",
+      "correct_numeric": 0,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "Odd symmetry over a symmetric interval gives 0.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "symmetry"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "prompt": "∫ from -2 to 2 x² dx =",
+      "correct_numeric": 5.333333333333333,
+      "tolerance": 0.02,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "Even symmetry gives 2∫ from 0 to 2 x² dx = 16/3.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "symmetry"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "If g(x)=∫ from 0 to x² cos t dt, then g′(x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "cos(x²)"
+        },
+        {
+          "id": "b",
+          "text": "2x cos(x²)"
+        },
+        {
+          "id": "c",
+          "text": "-2x cos(x²)"
+        },
+        {
+          "id": "d",
+          "text": "2x sin(x²)"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "FTC plus chain rule.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "chain-rule",
+        "FTC"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Distance traveled equals displacement when velocity is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Always negative"
+        },
+        {
+          "id": "b",
+          "text": "Always nonnegative"
+        },
+        {
+          "id": "c",
+          "text": "Changing sign"
+        },
+        {
+          "id": "d",
+          "text": "Zero at one point"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "If velocity never goes negative, net change and total distance match.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "motion"
+      ],
+      "media": null
+    }
+  ]
+}

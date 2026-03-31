@@ -1,0 +1,314 @@
+{
+  "deck_id": "calc_5_1_1",
+  "subject": "ap_calculus_bc",
+  "title": "Antiderivatives",
+  "skill_band_id": "calc_band_5",
+  "skill_id": "calc_5_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "antiderivatives"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "∫ x² dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x³/3 + C"
+        },
+        {
+          "id": "b",
+          "text": "2x + C"
+        },
+        {
+          "id": "c",
+          "text": "x³ + C"
+        },
+        {
+          "id": "d",
+          "text": "3x² + C"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Reverse the power rule.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "antiderivatives"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "∫ 4x³ dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x⁴ + C"
+        },
+        {
+          "id": "b",
+          "text": "4x⁴ + C"
+        },
+        {
+          "id": "c",
+          "text": "x⁴/4 + C"
+        },
+        {
+          "id": "d",
+          "text": "12x² + C"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The antiderivative of 4x³ is x⁴ + C.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "antiderivatives"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If F′(x)=f(x), then F is an:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Asymptote"
+        },
+        {
+          "id": "b",
+          "text": "Antiderivative of f"
+        },
+        {
+          "id": "c",
+          "text": "Inverse of f"
+        },
+        {
+          "id": "d",
+          "text": "Average value"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That is the definition.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "antiderivatives"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "∫ eˣ dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "e + C"
+        },
+        {
+          "id": "b",
+          "text": "xeˣ + C"
+        },
+        {
+          "id": "c",
+          "text": "eˣ + C"
+        },
+        {
+          "id": "d",
+          "text": "1/eˣ + C"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "eˣ is its own antiderivative.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "antiderivatives"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "∫ cos x dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "sin x + C"
+        },
+        {
+          "id": "b",
+          "text": "-sin x + C"
+        },
+        {
+          "id": "c",
+          "text": "cos x + C"
+        },
+        {
+          "id": "d",
+          "text": "tan x + C"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Derivative of sin x is cos x.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "antiderivatives"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "∫ 1/x dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ln x + C"
+        },
+        {
+          "id": "b",
+          "text": "1/x² + C"
+        },
+        {
+          "id": "c",
+          "text": "x ln x + C"
+        },
+        {
+          "id": "d",
+          "text": "eˣ + C"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "For AP style quick rounds, use ln x for x>0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "antiderivatives",
+        "logs"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "prompt": "If F′(x)=2x and F(1)=3, then F(2) =",
+      "correct_numeric": 6,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "F(x)=x²+C. Since F(1)=3, C=2, so F(2)=6.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "initial-condition"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A particular antiderivative differs from the general antiderivative by a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Slope"
+        },
+        {
+          "id": "b",
+          "text": "Constant"
+        },
+        {
+          "id": "c",
+          "text": "Variable"
+        },
+        {
+          "id": "d",
+          "text": "Limit"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The +C becomes a specific constant.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "initial-condition"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "∫ 3 dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3x + C"
+        },
+        {
+          "id": "b",
+          "text": "x³ + C"
+        },
+        {
+          "id": "c",
+          "text": "0"
+        },
+        {
+          "id": "d",
+          "text": "3 + C"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Antiderivative of a constant c is cx + C.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "antiderivatives"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "∫ sin x dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "cos x + C"
+        },
+        {
+          "id": "b",
+          "text": "-cos x + C"
+        },
+        {
+          "id": "c",
+          "text": "tan x + C"
+        },
+        {
+          "id": "d",
+          "text": "-sin x + C"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Derivative of -cos x is sin x.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "antiderivatives"
+      ],
+      "media": null
+    }
+  ]
+}

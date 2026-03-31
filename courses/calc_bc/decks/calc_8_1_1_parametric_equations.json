@@ -1,0 +1,316 @@
+{
+  "deck_id": "calc_8_1_1",
+  "subject": "ap_calculus_bc",
+  "title": "Parametric Equations",
+  "skill_band_id": "calc_band_8",
+  "skill_id": "calc_8_1",
+  "difficulty": "hard",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "parametric"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "For parametric equations x(t), y(t), the slope dy/dx is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "(dy/dt)/(dx/dt)"
+        },
+        {
+          "id": "b",
+          "text": "dy/dt · dx/dt"
+        },
+        {
+          "id": "c",
+          "text": "dx/dt ÷ dy/dt"
+        },
+        {
+          "id": "d",
+          "text": "y/x"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "This is the chain rule for parametric curves.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "parametric"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If x=t² and y=t³, then dy/dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3t²/2t"
+        },
+        {
+          "id": "b",
+          "text": "2t/3t²"
+        },
+        {
+          "id": "c",
+          "text": "t"
+        },
+        {
+          "id": "d",
+          "text": "3/2"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Compute dy/dt and dx/dt first.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "parametric"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "prompt": "If x=t² and y=t³, find dy/dx at t=1.",
+      "correct_numeric": 1.5,
+      "tolerance": 0.02,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "dy/dx = (3t²)/(2t)=3t/2, so at t=1 it is 3/2.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "parametric"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A parametric curve can be traced more than once because:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Different t-values can give the same point"
+        },
+        {
+          "id": "b",
+          "text": "It always forms circles"
+        },
+        {
+          "id": "c",
+          "text": "dy/dx is undefined"
+        },
+        {
+          "id": "d",
+          "text": "x must be linear"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Parametric motion depends on time, not just position.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "parametric"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If dx/dt = 0 and dy/dt ≠ 0, then the tangent line is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Horizontal"
+        },
+        {
+          "id": "b",
+          "text": "Vertical"
+        },
+        {
+          "id": "c",
+          "text": "Slope 1"
+        },
+        {
+          "id": "d",
+          "text": "Undefined curve"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Division by zero in dy/dx gives a vertical tangent.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "parametric"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If dy/dt = 0 and dx/dt ≠ 0, then the tangent line is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Horizontal"
+        },
+        {
+          "id": "b",
+          "text": "Vertical"
+        },
+        {
+          "id": "c",
+          "text": "Normal"
+        },
+        {
+          "id": "d",
+          "text": "Impossible"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Zero numerator gives slope 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "parametric"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "The second derivative d²y/dx² for parametric equations requires:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A quotient of x and y only"
+        },
+        {
+          "id": "b",
+          "text": "Differentiating dy/dx with respect to t, then dividing by dx/dt"
+        },
+        {
+          "id": "c",
+          "text": "Only a graph"
+        },
+        {
+          "id": "d",
+          "text": "An integral"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That is the BC parametric second derivative formula.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "parametric"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A particle moves left when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "dx/dt > 0"
+        },
+        {
+          "id": "b",
+          "text": "dx/dt < 0"
+        },
+        {
+          "id": "c",
+          "text": "dy/dt > 0"
+        },
+        {
+          "id": "d",
+          "text": "x(t) > 0"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Left-right motion depends on the sign of dx/dt.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "parametric-motion"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "graph_multiple_choice",
+      "prompt": "The parametric path shown is traced:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Clockwise"
+        },
+        {
+          "id": "b",
+          "text": "Counterclockwise"
+        },
+        {
+          "id": "c",
+          "text": "Left then right only"
+        },
+        {
+          "id": "d",
+          "text": "Not enough information"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The arrow shows the motion moving upward from (1,0), which is counterclockwise.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "parametric",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/parametric_circle.png"
+      }
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Parametric equations are especially useful for describing:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Motion over time"
+        },
+        {
+          "id": "b",
+          "text": "Only polynomial roots"
+        },
+        {
+          "id": "c",
+          "text": "Only areas"
+        },
+        {
+          "id": "d",
+          "text": "Only limits"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "They naturally track position as time changes.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "parametric-motion"
+      ],
+      "media": null
+    }
+  ]
+}

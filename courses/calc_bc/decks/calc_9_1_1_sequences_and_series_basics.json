@@ -1,0 +1,326 @@
+{
+  "deck_id": "calc_9_1_1",
+  "subject": "ap_calculus_bc",
+  "title": "Sequences and Series Basics",
+  "skill_band_id": "calc_band_9",
+  "skill_id": "calc_9_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "sequences",
+    "series"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "The sequence 1, 1/2, 1/4, 1/8, ...",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Diverges"
+        },
+        {
+          "id": "b",
+          "text": "Converges to 0"
+        },
+        {
+          "id": "c",
+          "text": "Converges to 1"
+        },
+        {
+          "id": "d",
+          "text": "Oscillates"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Terms get smaller and approach 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sequences"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A geometric series has a constant:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Difference"
+        },
+        {
+          "id": "b",
+          "text": "Ratio"
+        },
+        {
+          "id": "c",
+          "text": "Derivative"
+        },
+        {
+          "id": "d",
+          "text": "Integral"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Each term is multiplied by the same ratio.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "geometric-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "The infinite geometric series ∑ from n=0 to ∞ (1/2)^n sums to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "1/2"
+        },
+        {
+          "id": "d",
+          "text": "Diverges"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "For |r|<1, sum is 1/(1-r)=2.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "geometric-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If the terms of a series do not approach 0, then the series:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Converges"
+        },
+        {
+          "id": "b",
+          "text": "Diverges"
+        },
+        {
+          "id": "c",
+          "text": "Is geometric"
+        },
+        {
+          "id": "d",
+          "text": "Must telescope"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "This is the nth-term divergence test.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "The harmonic series ∑ 1/n:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Converges"
+        },
+        {
+          "id": "b",
+          "text": "Diverges"
+        },
+        {
+          "id": "c",
+          "text": "Equals 1"
+        },
+        {
+          "id": "d",
+          "text": "Telescopes"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "It is a classic divergent series.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "p-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A p-series ∑1/n^p converges when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "p>1"
+        },
+        {
+          "id": "b",
+          "text": "p≥1"
+        },
+        {
+          "id": "c",
+          "text": "p<1"
+        },
+        {
+          "id": "d",
+          "text": "Always"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "That is the p-series rule.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "p-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "A telescoping series is useful because many terms:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Square themselves"
+        },
+        {
+          "id": "b",
+          "text": "Cancel"
+        },
+        {
+          "id": "c",
+          "text": "Become negative"
+        },
+        {
+          "id": "d",
+          "text": "Repeat in a cycle"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Most interior terms cancel out.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "telescoping"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "The nth partial sum of a series is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The nth term only"
+        },
+        {
+          "id": "b",
+          "text": "The sum of the first n terms"
+        },
+        {
+          "id": "c",
+          "text": "The derivative of the series"
+        },
+        {
+          "id": "d",
+          "text": "Its limit at infinity"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Partial sums determine convergence.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "partial-sums"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "If the sequence of partial sums converges, then the series:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Diverges"
+        },
+        {
+          "id": "b",
+          "text": "Converges"
+        },
+        {
+          "id": "c",
+          "text": "Must be geometric"
+        },
+        {
+          "id": "d",
+          "text": "Must be positive"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A series converges exactly when its partial sums do.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "The sequence (-1)^n:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Converges to 0"
+        },
+        {
+          "id": "b",
+          "text": "Converges to 1"
+        },
+        {
+          "id": "c",
+          "text": "Diverges"
+        },
+        {
+          "id": "d",
+          "text": "Is geometric with sum 1"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "It alternates between 1 and -1, so it has no limit.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sequences"
+      ],
+      "media": null
+    }
+  ]
+}

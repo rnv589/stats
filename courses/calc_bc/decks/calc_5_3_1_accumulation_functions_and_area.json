@@ -1,0 +1,323 @@
+{
+  "deck_id": "calc_5_3_1",
+  "subject": "ap_calculus_bc",
+  "title": "Accumulation Functions and Area",
+  "skill_band_id": "calc_band_5",
+  "skill_id": "calc_5_3",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "accumulation",
+    "graphs"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "Using the graph y=4−x on [0,4], the total area under the graph is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "16"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "It forms a triangle with base 4 and height 4.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/graph_area_line.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "For the same graph, ∫ from 0 to 2 (4−x) dx equals:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "This region is a trapezoid with area 6.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "definite-integrals",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/graph_area_line.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "graph_multiple_choice",
+      "prompt": "For the same graph, the average value of 4−x on [0,4] is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Average value = area/width = 8/4 = 2.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "average-value",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/graph_area_line.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If g(x)=∫ from 0 to x f(t)dt, then g′(x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f(x)"
+        },
+        {
+          "id": "b",
+          "text": "∫f(x)dx"
+        },
+        {
+          "id": "c",
+          "text": "f′(x)"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "FTC Part 1 gives g′(x)=f(x).",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "accumulation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If g(x)=∫ from 1 to x (t²+1)dt, then g′(x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x²+1"
+        },
+        {
+          "id": "b",
+          "text": "2x"
+        },
+        {
+          "id": "c",
+          "text": "x²"
+        },
+        {
+          "id": "d",
+          "text": "1"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Derivative of an accumulation function is the integrand.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "accumulation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If g(x)=∫ from x to 3 f(t)dt, then g′(x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f(x)"
+        },
+        {
+          "id": "b",
+          "text": "-f(x)"
+        },
+        {
+          "id": "c",
+          "text": "f(3)"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Variable lower bound adds a negative sign.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "accumulation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "prompt": "If g(x)=∫ from 0 to x 5 dt, then g(3) =",
+      "correct_numeric": 15,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "This is a rectangle of area 5·3.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "accumulation"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Net change in a quantity from t=a to t=b is found by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Derivative"
+        },
+        {
+          "id": "b",
+          "text": "Definite integral of the rate"
+        },
+        {
+          "id": "c",
+          "text": "Second derivative"
+        },
+        {
+          "id": "d",
+          "text": "Slope field"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Integrating the rate gives total change.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "net-change"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Average value of f on [a,b] is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "(b−a)∫f"
+        },
+        {
+          "id": "b",
+          "text": "(1/(b−a))∫ from a to b f(x)dx"
+        },
+        {
+          "id": "c",
+          "text": "f(a)+f(b)"
+        },
+        {
+          "id": "d",
+          "text": "f′(c)"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That is the average value formula.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "average-value"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "An accumulation function is increasing where its integrand is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Negative"
+        },
+        {
+          "id": "b",
+          "text": "Positive"
+        },
+        {
+          "id": "c",
+          "text": "Zero only"
+        },
+        {
+          "id": "d",
+          "text": "Undefined"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Its derivative equals the integrand.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "accumulation"
+      ],
+      "media": null
+    }
+  ]
+}

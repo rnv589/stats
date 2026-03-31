@@ -1,0 +1,308 @@
+{
+  "deck_id": "calc_6_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Euler's Method and Slope Fields",
+  "skill_band_id": "calc_band_6",
+  "skill_id": "calc_6_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "euler",
+    "slope-fields"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "Which slope field corresponds to dy/dx = y?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Slope Field A"
+        },
+        {
+          "id": "b",
+          "text": "Slope Field B"
+        },
+        {
+          "id": "c",
+          "text": "Both"
+        },
+        {
+          "id": "d",
+          "text": "Neither"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "In dy/dx = y, slopes depend only on y and match horizontal bands.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "slope-fields"
+      ],
+      "media": {
+        "image": "media/images/slope_field_b.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "In Slope Field B, slopes along the x-axis are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Positive"
+        },
+        {
+          "id": "b",
+          "text": "Negative"
+        },
+        {
+          "id": "c",
+          "text": "Zero"
+        },
+        {
+          "id": "d",
+          "text": "Undefined"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "When y=0, dy/dx=0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "slope-fields"
+      ],
+      "media": {
+        "image": "media/images/slope_field_b.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "graph_multiple_choice",
+      "prompt": "In Slope Field A, slopes are zero along the line:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "y = x"
+        },
+        {
+          "id": "b",
+          "text": "y = -x"
+        },
+        {
+          "id": "c",
+          "text": "x = 0"
+        },
+        {
+          "id": "d",
+          "text": "y = 0"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "For dy/dx = x−y, slope is zero when x=y.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "slope-fields"
+      ],
+      "media": {
+        "image": "media/images/slope_field_a.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Euler’s method uses:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tangent-line step"
+        },
+        {
+          "id": "b",
+          "text": "Exact antiderivatives"
+        },
+        {
+          "id": "c",
+          "text": "Series only"
+        },
+        {
+          "id": "d",
+          "text": "L'Hôpital's Rule"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "It repeatedly uses local linear approximation.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "euler"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "prompt": "Use Euler’s method with step 1 for y′=x+y, y(0)=1. Estimate y(1).",
+      "correct_numeric": 2,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "At (0,1), slope is 1, so y(1)≈1+1·1=2.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "euler"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "prompt": "Continue Euler’s method for y′=x+y, y(0)=1 with step 1. Estimate y(2).",
+      "correct_numeric": 5,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "First y(1)≈2, then slope at (1,2) is 3, so y(2)≈2+3=5.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "euler"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Smaller step sizes in Euler’s method usually make estimates:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Less accurate"
+        },
+        {
+          "id": "b",
+          "text": "More accurate"
+        },
+        {
+          "id": "c",
+          "text": "Exactly correct"
+        },
+        {
+          "id": "d",
+          "text": "Always lower"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Shorter tangent-line steps usually improve accuracy.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "euler"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A solution curve in a slope field must:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cross the tiny segments sharply"
+        },
+        {
+          "id": "b",
+          "text": "Be tangent to the displayed slopes"
+        },
+        {
+          "id": "c",
+          "text": "Be horizontal everywhere"
+        },
+        {
+          "id": "d",
+          "text": "Pass through the origin"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "It follows the indicated direction field.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "slope-fields"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Euler’s method is an approximation because it replaces a curve with many short:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Areas"
+        },
+        {
+          "id": "b",
+          "text": "Secants"
+        },
+        {
+          "id": "c",
+          "text": "Tangents"
+        },
+        {
+          "id": "d",
+          "text": "Asymptotes"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Each step uses the tangent slope at the current point.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "euler"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "If dy/dx is positive throughout a region, solution curves there are generally:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Falling"
+        },
+        {
+          "id": "b",
+          "text": "Rising"
+        },
+        {
+          "id": "c",
+          "text": "Horizontal"
+        },
+        {
+          "id": "d",
+          "text": "Periodic"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Positive slope means rising solutions.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "slope-fields"
+      ],
+      "media": null
+    }
+  ]
+}

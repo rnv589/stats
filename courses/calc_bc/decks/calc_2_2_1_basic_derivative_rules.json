@@ -1,0 +1,325 @@
+{
+  "deck_id": "calc_2_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Basic Derivative Rules",
+  "skill_band_id": "calc_band_2",
+  "skill_id": "calc_2_2",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "derivative-rules"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "d/dx (x⁵) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5x⁴"
+        },
+        {
+          "id": "b",
+          "text": "x⁴"
+        },
+        {
+          "id": "c",
+          "text": "5x"
+        },
+        {
+          "id": "d",
+          "text": "x⁶"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Use the power rule.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "power-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "d/dx (7) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "x"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A constant's derivative is 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "constants"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "d/dx (3x⁴) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "12x³"
+        },
+        {
+          "id": "b",
+          "text": "7x³"
+        },
+        {
+          "id": "c",
+          "text": "3x³"
+        },
+        {
+          "id": "d",
+          "text": "4x³"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Keep the constant multiple and apply the power rule.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "power-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "d/dx (eˣ) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "xeˣ"
+        },
+        {
+          "id": "c",
+          "text": "eˣ"
+        },
+        {
+          "id": "d",
+          "text": "1"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The derivative of eˣ is itself.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "exponential"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "d/dx (sin x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "cos x"
+        },
+        {
+          "id": "b",
+          "text": "-cos x"
+        },
+        {
+          "id": "c",
+          "text": "sin x"
+        },
+        {
+          "id": "d",
+          "text": "-sin x"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "This is a standard derivative.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "trig"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "d/dx (cos x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "sin x"
+        },
+        {
+          "id": "b",
+          "text": "-sin x"
+        },
+        {
+          "id": "c",
+          "text": "tan x"
+        },
+        {
+          "id": "d",
+          "text": "-cos x"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "This is a standard derivative.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "trig"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "d/dx (x³ + 2x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3x² + 2"
+        },
+        {
+          "id": "b",
+          "text": "3x² + 1"
+        },
+        {
+          "id": "c",
+          "text": "x² + 2"
+        },
+        {
+          "id": "d",
+          "text": "3x + 2"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Differentiate term by term.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "sum-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "d/dx (1/x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/x²"
+        },
+        {
+          "id": "b",
+          "text": "-1/x²"
+        },
+        {
+          "id": "c",
+          "text": "x"
+        },
+        {
+          "id": "d",
+          "text": "-x"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Rewrite as x⁻¹ and use the power rule.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "power-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "d/dx (√x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/(2√x)"
+        },
+        {
+          "id": "b",
+          "text": "2√x"
+        },
+        {
+          "id": "c",
+          "text": "√x/2"
+        },
+        {
+          "id": "d",
+          "text": "1/√x"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Rewrite as x^(1/2).",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "power-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which derivative is correct for d/dx (4x³ - 5x + 2)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "12x² - 5"
+        },
+        {
+          "id": "b",
+          "text": "12x² - 5x"
+        },
+        {
+          "id": "c",
+          "text": "4x² - 5"
+        },
+        {
+          "id": "d",
+          "text": "12x - 5"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Differentiate each term correctly.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "mixed-derivatives"
+      ],
+      "media": null
+    }
+  ]
+}

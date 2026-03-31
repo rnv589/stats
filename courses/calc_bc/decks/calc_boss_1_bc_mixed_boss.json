@@ -1,0 +1,312 @@
+{
+  "deck_id": "calc_boss_1",
+  "subject": "ap_calculus_bc",
+  "title": "BC Mixed Boss",
+  "skill_band_id": "calc_band_10",
+  "skill_id": "calc_10_1",
+  "difficulty": "boss",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "mixed-review"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "If f′ changes from positive to negative at x=a, then f has a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Relative minimum"
+        },
+        {
+          "id": "b",
+          "text": "Relative maximum"
+        },
+        {
+          "id": "c",
+          "text": "Point of inflection"
+        },
+        {
+          "id": "d",
+          "text": "Vertical tangent"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That sign change indicates a local maximum.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "extrema"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "prompt": "∫ from 0 to 1 2x dx =",
+      "correct_numeric": 1,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "Antiderivative x² from 0 to 1 gives 1.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "integrals"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If dy/dx = (dy/dt)/(dx/dt), then a vertical tangent occurs when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "dy/dt=0 and dx/dt≠0"
+        },
+        {
+          "id": "b",
+          "text": "dx/dt=0 and dy/dt≠0"
+        },
+        {
+          "id": "c",
+          "text": "Both are zero"
+        },
+        {
+          "id": "d",
+          "text": "Neither is zero"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A zero denominator with nonzero numerator gives vertical tangent.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "parametric"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "The series ∑ 1/n³:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Converges"
+        },
+        {
+          "id": "b",
+          "text": "Diverges"
+        },
+        {
+          "id": "c",
+          "text": "Oscillates"
+        },
+        {
+          "id": "d",
+          "text": "Needs ratio test only"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "It is a p-series with p=3>1.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "For y = (x²+1)³, y′ =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3(x²+1)²"
+        },
+        {
+          "id": "b",
+          "text": "6x(x²+1)²"
+        },
+        {
+          "id": "c",
+          "text": "2x(x²+1)²"
+        },
+        {
+          "id": "d",
+          "text": "6x(x²+1)³"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Use chain rule.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "chain-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If g(x)=∫ from 2 to x f(t)dt, then g′(x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f(x)"
+        },
+        {
+          "id": "b",
+          "text": "-f(x)"
+        },
+        {
+          "id": "c",
+          "text": "f(2)"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "FTC Part 1.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "FTC"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "A slope field gives information about:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Exact y-values only"
+        },
+        {
+          "id": "b",
+          "text": "Local slopes only"
+        },
+        {
+          "id": "c",
+          "text": "Series convergence only"
+        },
+        {
+          "id": "d",
+          "text": "Polar area"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "It shows local tangent slopes.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "slope-fields"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "The area of a polar region is based on integrating:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "r"
+        },
+        {
+          "id": "b",
+          "text": "r²"
+        },
+        {
+          "id": "c",
+          "text": "θ²"
+        },
+        {
+          "id": "d",
+          "text": "dr/dθ"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Polar area formula uses (1/2)∫r² dθ.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "polar"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "numeric",
+      "prompt": "If f(x)=x³, then the tangent slope at x=2 is:",
+      "correct_numeric": 12,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "f′(x)=3x², so f′(2)=12.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "derivatives"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Absolute convergence of ∑a_n means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "∑a_n diverges"
+        },
+        {
+          "id": "b",
+          "text": "∑|a_n| converges"
+        },
+        {
+          "id": "c",
+          "text": "a_n>0 always"
+        },
+        {
+          "id": "d",
+          "text": "a_n→1"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That is the definition.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "series"
+      ],
+      "media": null
+    }
+  ]
+}

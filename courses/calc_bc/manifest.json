@@ -3,651 +3,373 @@
   "decks": [
     {
       "id": "calc_1_1_1",
-      "file": "decks/calc_1_1_1.json",
+      "file": "decks/calc_1_1_1_limits_from_graphs.json",
       "skill_id": "calc_1_1",
       "skill_band_id": "calc_band_1",
-      "title": "Function Notation and Features",
+      "title": "Limits from Graphs",
       "difficulty": "easy",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_1_1_2",
-      "file": "decks/calc_1_1_2.json",
-      "skill_id": "calc_1_1",
-      "skill_band_id": "calc_band_1",
-      "title": "Average Rate of Change",
-      "difficulty": "easy",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "limits",
+        "graph"
+      ],
+      "media_count": 5
     },
     {
       "id": "calc_1_2_1",
-      "file": "decks/calc_1_2_1.json",
+      "file": "decks/calc_1_2_1_continuity_and_ivt.json",
       "skill_id": "calc_1_2",
       "skill_band_id": "calc_band_1",
-      "title": "Estimating Limits",
+      "title": "Continuity and IVT",
       "difficulty": "easy",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_1_2_2",
-      "file": "decks/calc_1_2_2.json",
-      "skill_id": "calc_1_2",
-      "skill_band_id": "calc_band_1",
-      "title": "One-Sided and Infinite Limits",
-      "difficulty": "medium",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_1_3_1",
-      "file": "decks/calc_1_3_1.json",
-      "skill_id": "calc_1_3",
-      "skill_band_id": "calc_band_1",
-      "title": "Continuous or Not",
-      "difficulty": "medium",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_1_3_2",
-      "file": "decks/calc_1_3_2.json",
-      "skill_id": "calc_1_3",
-      "skill_band_id": "calc_band_1",
-      "title": "IVT and Discontinuities",
-      "difficulty": "medium",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "continuity",
+        "IVT"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_2_1_1",
-      "file": "decks/calc_2_1_1.json",
+      "file": "decks/calc_2_1_1_derivative_meaning.json",
       "skill_id": "calc_2_1",
       "skill_band_id": "calc_band_2",
-      "title": "Derivative as Slope",
+      "title": "Derivative Meaning",
       "difficulty": "easy",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_2_1_2",
-      "file": "decks/calc_2_1_2.json",
-      "skill_id": "calc_2_1",
-      "skill_band_id": "calc_band_2",
-      "title": "Derivative from a Graph",
-      "difficulty": "medium",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "derivatives",
+        "rates"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_2_2_1",
-      "file": "decks/calc_2_2_1.json",
+      "file": "decks/calc_2_2_1_basic_derivative_rules.json",
       "skill_id": "calc_2_2",
       "skill_band_id": "calc_band_2",
-      "title": "Power Rule",
+      "title": "Basic Derivative Rules",
       "difficulty": "easy",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_2_2_2",
-      "file": "decks/calc_2_2_2.json",
-      "skill_id": "calc_2_2",
-      "skill_band_id": "calc_band_2",
-      "title": "Trig and Exponential Derivatives",
-      "difficulty": "medium",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "derivative-rules"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_2_3_1",
-      "file": "decks/calc_2_3_1.json",
+      "file": "decks/calc_2_3_1_product_quotient_and_chain_rule.json",
       "skill_id": "calc_2_3",
       "skill_band_id": "calc_band_2",
-      "title": "Rule Recognition",
+      "title": "Product, Quotient, and Chain Rule",
       "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "product-rule",
+        "quotient-rule",
+        "chain-rule"
+      ],
+      "media_count": 0
     },
     {
-      "id": "calc_2_3_2",
-      "file": "decks/calc_2_3_2.json",
-      "skill_id": "calc_2_3",
+      "id": "calc_2_boss_1",
+      "file": "decks/calc_2_boss_1_derivative_rules_boss.json",
+      "skill_id": "calc_2_boss",
       "skill_band_id": "calc_band_2",
-      "title": "Mixed Differentiation",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
+      "title": "Derivative Rules Boss",
+      "difficulty": "boss",
+      "estimated_seconds_per_question": 15,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "boss",
+        "derivatives"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_3_1_1",
-      "file": "decks/calc_3_1_1.json",
+      "file": "decks/calc_3_1_1_increasing_decreasing_and_extrema.json",
       "skill_id": "calc_3_1",
       "skill_band_id": "calc_band_3",
-      "title": "Increasing and Decreasing",
+      "title": "Increasing, Decreasing, and Extrema",
       "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_3_1_2",
-      "file": "decks/calc_3_1_2.json",
-      "skill_id": "calc_3_1",
-      "skill_band_id": "calc_band_3",
-      "title": "Relative Extrema",
-      "difficulty": "medium",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
+      "tags": [
+        "f-prime",
+        "extrema"
+      ],
       "media_count": 4
     },
     {
       "id": "calc_3_2_1",
-      "file": "decks/calc_3_2_1.json",
+      "file": "decks/calc_3_2_1_concavity_and_inflection.json",
       "skill_id": "calc_3_2",
       "skill_band_id": "calc_band_3",
-      "title": "Concavity",
+      "title": "Concavity and Inflection",
       "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_3_2_2",
-      "file": "decks/calc_3_2_2.json",
-      "skill_id": "calc_3_2",
-      "skill_band_id": "calc_band_3",
-      "title": "Inflection Points",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "concavity",
+        "inflection"
+      ],
+      "media_count": 3
     },
     {
       "id": "calc_3_3_1",
-      "file": "decks/calc_3_3_1.json",
+      "file": "decks/calc_3_3_1_tangent_lines_and_linearization.json",
       "skill_id": "calc_3_3",
       "skill_band_id": "calc_band_3",
-      "title": "Tangent Line Equation",
+      "title": "Tangent Lines and Linearization",
       "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_3_3_2",
-      "file": "decks/calc_3_3_2.json",
-      "skill_id": "calc_3_3",
-      "skill_band_id": "calc_band_3",
-      "title": "Linearization",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "tangent-line",
+        "linearization"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_4_1_1",
-      "file": "decks/calc_4_1_1.json",
+      "file": "decks/calc_4_1_1_motion_along_a_line.json",
       "skill_id": "calc_4_1",
       "skill_band_id": "calc_band_4",
-      "title": "Position Velocity Acceleration",
+      "title": "Motion Along a Line",
       "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_4_1_2",
-      "file": "decks/calc_4_1_2.json",
-      "skill_id": "calc_4_1",
-      "skill_band_id": "calc_band_4",
-      "title": "Direction and Speed",
-      "difficulty": "medium",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_4_2_1",
-      "file": "decks/calc_4_2_1.json",
-      "skill_id": "calc_4_2",
-      "skill_band_id": "calc_band_4",
-      "title": "Setup Recognition",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_4_2_2",
-      "file": "decks/calc_4_2_2.json",
-      "skill_id": "calc_4_2",
-      "skill_band_id": "calc_band_4",
-      "title": "Quick Related Rates",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_4_3_1",
-      "file": "decks/calc_4_3_1.json",
-      "skill_id": "calc_4_3",
-      "skill_band_id": "calc_band_4",
-      "title": "Maximum or Minimum",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_4_3_2",
-      "file": "decks/calc_4_3_2.json",
-      "skill_id": "calc_4_3",
-      "skill_band_id": "calc_band_4",
-      "title": "Optimization Setup",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "motion",
+        "velocity",
+        "acceleration"
+      ],
+      "media_count": 2
     },
     {
       "id": "calc_5_1_1",
-      "file": "decks/calc_5_1_1.json",
+      "file": "decks/calc_5_1_1_antiderivatives.json",
       "skill_id": "calc_5_1",
       "skill_band_id": "calc_band_5",
-      "title": "Reverse Power Rule",
+      "title": "Antiderivatives",
       "difficulty": "easy",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_5_1_2",
-      "file": "decks/calc_5_1_2.json",
-      "skill_id": "calc_5_1",
-      "skill_band_id": "calc_band_5",
-      "title": "Initial Value Problems",
-      "difficulty": "medium",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "antiderivatives"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_5_2_1",
-      "file": "decks/calc_5_2_1.json",
+      "file": "decks/calc_5_2_1_definite_integrals_and_ftc.json",
       "skill_id": "calc_5_2",
       "skill_band_id": "calc_band_5",
-      "title": "Area and Signed Area",
+      "title": "Definite Integrals and FTC",
       "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_5_2_2",
-      "file": "decks/calc_5_2_2.json",
-      "skill_id": "calc_5_2",
-      "skill_band_id": "calc_band_5",
-      "title": "FTC Basics",
-      "difficulty": "medium",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "integrals",
+        "FTC"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_5_3_1",
-      "file": "decks/calc_5_3_1.json",
+      "file": "decks/calc_5_3_1_accumulation_functions_and_area.json",
       "skill_id": "calc_5_3",
       "skill_band_id": "calc_band_5",
-      "title": "Derivative of an Integral",
-      "difficulty": "hard",
+      "title": "Accumulation Functions and Area",
+      "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "accumulation",
+        "graphs"
+      ],
+      "media_count": 3
     },
     {
-      "id": "calc_5_3_2",
-      "file": "decks/calc_5_3_2.json",
-      "skill_id": "calc_5_3",
+      "id": "calc_5_boss_1",
+      "file": "decks/calc_5_boss_1_integrals_boss.json",
+      "skill_id": "calc_5_boss",
       "skill_band_id": "calc_band_5",
-      "title": "Total Change from a Rate",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
+      "title": "Integrals Boss",
+      "difficulty": "boss",
+      "estimated_seconds_per_question": 15,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "boss",
+        "integrals"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_6_1_1",
-      "file": "decks/calc_6_1_1.json",
+      "file": "decks/calc_6_1_1_differential_equations_basics.json",
       "skill_id": "calc_6_1",
       "skill_band_id": "calc_band_6",
-      "title": "Reading Slope Fields",
-      "difficulty": "hard",
+      "title": "Differential Equations Basics",
+      "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_6_1_2",
-      "file": "decks/calc_6_1_2.json",
-      "skill_id": "calc_6_1",
-      "skill_band_id": "calc_band_6",
-      "title": "Matching Differential Equations",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "differential-equations",
+        "separable"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_6_2_1",
-      "file": "decks/calc_6_2_1.json",
+      "file": "decks/calc_6_2_1_eulers_method_and_slope_fields.json",
       "skill_id": "calc_6_2",
       "skill_band_id": "calc_band_6",
-      "title": "Separable Form",
-      "difficulty": "hard",
+      "title": "Euler's Method and Slope Fields",
+      "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_6_2_2",
-      "file": "decks/calc_6_2_2.json",
-      "skill_id": "calc_6_2",
-      "skill_band_id": "calc_band_6",
-      "title": "Growth and Decay",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_6_3_1",
-      "file": "decks/calc_6_3_1.json",
-      "skill_id": "calc_6_3",
-      "skill_band_id": "calc_band_6",
-      "title": "One-Step Euler",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_6_3_2",
-      "file": "decks/calc_6_3_2.json",
-      "skill_id": "calc_6_3",
-      "skill_band_id": "calc_band_6",
-      "title": "Multiple-Step Euler",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "euler",
+        "slope-fields"
+      ],
+      "media_count": 3
     },
     {
       "id": "calc_7_1_1",
-      "file": "decks/calc_7_1_1.json",
+      "file": "decks/calc_7_1_1_area_between_curves.json",
       "skill_id": "calc_7_1",
       "skill_band_id": "calc_band_7",
-      "title": "Top Minus Bottom",
-      "difficulty": "hard",
+      "title": "Area Between Curves",
+      "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_7_1_2",
-      "file": "decks/calc_7_1_2.json",
-      "skill_id": "calc_7_1",
-      "skill_band_id": "calc_band_7",
-      "title": "Setup Recognition",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "area-between-curves"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_7_2_1",
-      "file": "decks/calc_7_2_1.json",
+      "file": "decks/calc_7_2_1_volumes_of_solids.json",
       "skill_id": "calc_7_2",
       "skill_band_id": "calc_band_7",
-      "title": "Disk and Washer",
+      "title": "Volumes of Solids",
       "difficulty": "hard",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_7_2_2",
-      "file": "decks/calc_7_2_2.json",
-      "skill_id": "calc_7_2",
-      "skill_band_id": "calc_band_7",
-      "title": "Shell Method",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_7_3_1",
-      "file": "decks/calc_7_3_1.json",
-      "skill_id": "calc_7_3",
-      "skill_band_id": "calc_band_7",
-      "title": "Average Value of a Function",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_7_3_2",
-      "file": "decks/calc_7_3_2.json",
-      "skill_id": "calc_7_3",
-      "skill_band_id": "calc_band_7",
-      "title": "Distance vs Displacement",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "volume"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_8_1_1",
-      "file": "decks/calc_8_1_1.json",
+      "file": "decks/calc_8_1_1_parametric_equations.json",
       "skill_id": "calc_8_1",
       "skill_band_id": "calc_band_8",
-      "title": "dy/dx from Parametric Equations",
+      "title": "Parametric Equations",
       "difficulty": "hard",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_8_1_2",
-      "file": "decks/calc_8_1_2.json",
-      "skill_id": "calc_8_1",
-      "skill_band_id": "calc_band_8",
-      "title": "Motion in the Plane",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "parametric"
+      ],
+      "media_count": 1
     },
     {
       "id": "calc_8_2_1",
-      "file": "decks/calc_8_2_1.json",
+      "file": "decks/calc_8_2_1_polar_functions.json",
       "skill_id": "calc_8_2",
       "skill_band_id": "calc_band_8",
-      "title": "Polar Graph Recognition",
+      "title": "Polar Functions",
       "difficulty": "hard",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_8_2_2",
-      "file": "decks/calc_8_2_2.json",
-      "skill_id": "calc_8_2",
-      "skill_band_id": "calc_band_8",
-      "title": "Area in Polar Coordinates",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "polar"
+      ],
+      "media_count": 2
     },
     {
       "id": "calc_9_1_1",
-      "file": "decks/calc_9_1_1.json",
+      "file": "decks/calc_9_1_1_sequences_and_series_basics.json",
       "skill_id": "calc_9_1",
       "skill_band_id": "calc_band_9",
-      "title": "Convergence of Sequences",
-      "difficulty": "hard",
+      "title": "Sequences and Series Basics",
+      "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_9_1_2",
-      "file": "decks/calc_9_1_2.json",
-      "skill_id": "calc_9_1",
-      "skill_band_id": "calc_band_9",
-      "title": "Recursive vs Explicit",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "sequences",
+        "series"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_9_2_1",
-      "file": "decks/calc_9_2_1.json",
+      "file": "decks/calc_9_2_1_convergence_tests.json",
       "skill_id": "calc_9_2",
       "skill_band_id": "calc_band_9",
-      "title": "Geometric and Telescoping",
+      "title": "Convergence Tests",
       "difficulty": "hard",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_9_2_2",
-      "file": "decks/calc_9_2_2.json",
-      "skill_id": "calc_9_2",
-      "skill_band_id": "calc_band_9",
-      "title": "p-Series and Harmonic",
-      "difficulty": "hard",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "convergence-tests"
+      ],
+      "media_count": 0
     },
     {
       "id": "calc_9_3_1",
-      "file": "decks/calc_9_3_1.json",
+      "file": "decks/calc_9_3_1_taylor_and_maclaurin_series.json",
       "skill_id": "calc_9_3",
       "skill_band_id": "calc_band_9",
-      "title": "Picking the Right Test",
-      "difficulty": "boss",
+      "title": "Taylor and Maclaurin Series",
+      "difficulty": "hard",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "taylor-series",
+        "maclaurin"
+      ],
+      "media_count": 0
     },
     {
-      "id": "calc_9_3_2",
-      "file": "decks/calc_9_3_2.json",
-      "skill_id": "calc_9_3",
-      "skill_band_id": "calc_band_9",
-      "title": "Alternating and Ratio Tests",
+      "id": "calc_boss_1",
+      "file": "decks/calc_boss_1_bc_mixed_boss.json",
+      "skill_id": "calc_10_1",
+      "skill_band_id": "calc_band_10",
+      "title": "BC Mixed Boss",
       "difficulty": "boss",
-      "estimated_seconds_per_question": 20,
+      "estimated_seconds_per_question": 15,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "boss",
+        "mixed-review"
+      ],
+      "media_count": 0
     },
     {
-      "id": "calc_9_4_1",
-      "file": "decks/calc_9_4_1.json",
-      "skill_id": "calc_9_4",
-      "skill_band_id": "calc_band_9",
-      "title": "Common Series Recognition",
-      "difficulty": "boss",
+      "id": "calc_4_2_1",
+      "file": "decks/calc_4_2_1_related_rates_and_optimization.json",
+      "skill_id": "calc_4_2",
+      "skill_band_id": "calc_band_4",
+      "title": "Related Rates and Optimization",
+      "difficulty": "medium",
       "estimated_seconds_per_question": 20,
       "question_count": 10,
-      "tags": [],
-      "media_count": 4
-    },
-    {
-      "id": "calc_9_4_2",
-      "file": "decks/calc_9_4_2.json",
-      "skill_id": "calc_9_4",
-      "skill_band_id": "calc_band_9",
-      "title": "Intervals of Convergence",
-      "difficulty": "boss",
-      "estimated_seconds_per_question": 20,
-      "question_count": 10,
-      "tags": [],
-      "media_count": 4
+      "tags": [
+        "related-rates",
+        "optimization"
+      ],
+      "media_count": 0
     }
   ]
 }

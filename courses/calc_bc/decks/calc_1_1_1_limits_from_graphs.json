@@ -1,0 +1,339 @@
+{
+  "deck_id": "calc_1_1_1",
+  "subject": "ap_calculus_bc",
+  "title": "Limits from Graphs",
+  "skill_band_id": "calc_band_1",
+  "skill_id": "calc_1_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "limits",
+    "graph"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "For Graph A, lim x→1 f(x) equals:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "Does not exist"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The graph approaches y = 0 from both sides even though f(1) is defined elsewhere.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "limits",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/graph_limit_removable.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "For Graph A, f(1) equals:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "Does not exist"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The filled dot is at y = 2, so that is the function value.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "limits",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/graph_limit_removable.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "graph_multiple_choice",
+      "prompt": "Graph B has which type of discontinuity at x = 0?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Removable"
+        },
+        {
+          "id": "b",
+          "text": "Jump"
+        },
+        {
+          "id": "c",
+          "text": "Infinite"
+        },
+        {
+          "id": "d",
+          "text": "None"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The left- and right-hand limits are finite but unequal.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "continuity",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/graph_jump.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "graph_multiple_choice",
+      "prompt": "For Graph B, lim x→0⁻ f(x) equals:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "-1"
+        },
+        {
+          "id": "b",
+          "text": "0"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "Does not exist"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Approaching from the left follows the upper branch toward y = 1.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "one-sided-limits"
+      ],
+      "media": {
+        "image": "media/images/graph_jump.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "graph_multiple_choice",
+      "prompt": "For Graph B, lim x→0⁺ f(x) equals:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "-1"
+        },
+        {
+          "id": "b",
+          "text": "0"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "Does not exist"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Approaching from the right follows the lower branch toward y = -1.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "one-sided-limits"
+      ],
+      "media": {
+        "image": "media/images/graph_jump.png"
+      }
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If lim x→a f(x) = 5 and lim x→a g(x) = -2, then lim x→a [f(x)+g(x)] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "-10"
+        },
+        {
+          "id": "b",
+          "text": "-7"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Limit laws let you add the two limits directly.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "limit-laws"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If lim x→2 h(x) = 4, then lim x→2 [3h(x)] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "16"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Multiply the limit by 3.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "limit-laws"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "If lim x→a f(x) exists, then the left-hand and right-hand limits at a are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Always equal"
+        },
+        {
+          "id": "b",
+          "text": "Always opposite"
+        },
+        {
+          "id": "c",
+          "text": "Always zero"
+        },
+        {
+          "id": "d",
+          "text": "Always undefined"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A two-sided limit exists only when both one-sided limits match.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "one-sided-limits"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A function is continuous at x = a when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The limit exists only"
+        },
+        {
+          "id": "b",
+          "text": "f(a) exists only"
+        },
+        {
+          "id": "c",
+          "text": "The limit exists and equals f(a)"
+        },
+        {
+          "id": "d",
+          "text": "There is a hole"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Continuity requires both existence and equality with the function value.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "continuity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "As x→∞, the function 1/x approaches:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "∞"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "0"
+        },
+        {
+          "id": "d",
+          "text": "Does not exist"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The reciprocal gets smaller and approaches 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "limits-at-infinity"
+      ],
+      "media": null
+    }
+  ]
+}

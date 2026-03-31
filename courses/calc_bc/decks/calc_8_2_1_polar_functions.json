@@ -1,0 +1,319 @@
+{
+  "deck_id": "calc_8_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Polar Functions",
+  "skill_band_id": "calc_band_8",
+  "skill_id": "calc_8_2",
+  "difficulty": "hard",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "polar"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "Which polar graph looks like a cardioid?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Polar Graph A"
+        },
+        {
+          "id": "b",
+          "text": "Polar Graph B"
+        },
+        {
+          "id": "c",
+          "text": "Both"
+        },
+        {
+          "id": "d",
+          "text": "Neither"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "r = 1 + cos θ is a cardioid.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "polar",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/polar_cardioid.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "Which polar graph has four petals?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Polar Graph A"
+        },
+        {
+          "id": "b",
+          "text": "Polar Graph B"
+        },
+        {
+          "id": "c",
+          "text": "Both"
+        },
+        {
+          "id": "d",
+          "text": "Neither"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "r = cos(2θ) makes a four-petal rose.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "polar",
+        "graph"
+      ],
+      "media": {
+        "image": "media/images/polar_rose.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "The area of a polar region from α to β is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "(1/2)∫ r² dθ"
+        },
+        {
+          "id": "b",
+          "text": "∫ r dθ"
+        },
+        {
+          "id": "c",
+          "text": "πr²"
+        },
+        {
+          "id": "d",
+          "text": "∫ x dy"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "This is the polar area formula.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "polar-area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If r = 2 for all θ, the graph is a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Line"
+        },
+        {
+          "id": "b",
+          "text": "Circle"
+        },
+        {
+          "id": "c",
+          "text": "Rose"
+        },
+        {
+          "id": "d",
+          "text": "Spiral"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Constant radius gives a circle.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "polar"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Polar equations are graphed in terms of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x and y only"
+        },
+        {
+          "id": "b",
+          "text": "Radius and angle"
+        },
+        {
+          "id": "c",
+          "text": "Slope and intercept"
+        },
+        {
+          "id": "d",
+          "text": "Area and volume"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Each point uses distance from origin and angle.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "polar"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "The point (r,θ) can also be written as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "(-r,θ+π)"
+        },
+        {
+          "id": "b",
+          "text": "(r,θ+π/2) only"
+        },
+        {
+          "id": "c",
+          "text": "(-r,θ) only"
+        },
+        {
+          "id": "d",
+          "text": "(r,-θ) only"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Those coordinates represent the same location.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "polar"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If r = 1 + cos θ, the graph is symmetric about the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x-axis"
+        },
+        {
+          "id": "b",
+          "text": "y-axis"
+        },
+        {
+          "id": "c",
+          "text": "line y=x"
+        },
+        {
+          "id": "d",
+          "text": "origin only"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Cosine-based cardioids are symmetric about the polar axis.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "polar-symmetry"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "If a polar graph crosses the origin, then r is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Positive"
+        },
+        {
+          "id": "b",
+          "text": "Negative"
+        },
+        {
+          "id": "c",
+          "text": "Zero"
+        },
+        {
+          "id": "d",
+          "text": "Undefined"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The origin occurs when r = 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "polar"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "To find slope of a polar curve, AP Calc BC uses:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "dy/dx = y/x"
+        },
+        {
+          "id": "b",
+          "text": "Parametric derivatives with x=r cosθ and y=r sinθ"
+        },
+        {
+          "id": "c",
+          "text": "Only a graph"
+        },
+        {
+          "id": "d",
+          "text": "The average value formula"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Convert to parametric form in θ.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "polar-slope"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "numeric",
+      "prompt": "Using A = (1/2)∫ from 0 to π of 1 dθ, the area is:",
+      "correct_numeric": 1.5707963267948966,
+      "tolerance": 0.03,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "This is a semicircle of radius 1 in polar area form.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "polar-area"
+      ],
+      "media": null
+    }
+  ]
+}

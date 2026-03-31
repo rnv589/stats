@@ -1,0 +1,328 @@
+{
+  "deck_id": "calc_2_3_1",
+  "subject": "ap_calculus_bc",
+  "title": "Product, Quotient, and Chain Rule",
+  "skill_band_id": "calc_band_2",
+  "skill_id": "calc_2_3",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "product-rule",
+    "quotient-rule",
+    "chain-rule"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(x²)(sin x)] uses the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Power rule"
+        },
+        {
+          "id": "b",
+          "text": "Product rule"
+        },
+        {
+          "id": "c",
+          "text": "Quotient rule"
+        },
+        {
+          "id": "d",
+          "text": "FTC"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "It is a product of two functions.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "product-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(x²)(sin x)] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2x sin x + x² cos x"
+        },
+        {
+          "id": "b",
+          "text": "2x cos x + x² sin x"
+        },
+        {
+          "id": "c",
+          "text": "x² cos x"
+        },
+        {
+          "id": "d",
+          "text": "2x sin x"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Apply product rule: u'v + uv'.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "product-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(x²+1)⁵] uses the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Quotient rule"
+        },
+        {
+          "id": "b",
+          "text": "Chain rule"
+        },
+        {
+          "id": "c",
+          "text": "IVT"
+        },
+        {
+          "id": "d",
+          "text": "Mean Value Theorem"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A composition requires the chain rule.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "chain-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(x²+1)⁵] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5(x²+1)⁴"
+        },
+        {
+          "id": "b",
+          "text": "10x(x²+1)⁴"
+        },
+        {
+          "id": "c",
+          "text": "10x(x²+1)⁵"
+        },
+        {
+          "id": "d",
+          "text": "5x(x²+1)⁴"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Outer derivative times inner derivative.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "chain-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(x+1)/(x-1)] uses the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Product rule"
+        },
+        {
+          "id": "b",
+          "text": "Quotient rule"
+        },
+        {
+          "id": "c",
+          "text": "Power rule"
+        },
+        {
+          "id": "d",
+          "text": "No rule"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A quotient requires the quotient rule.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "quotient-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If y = ln(3x), then y′ =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/x"
+        },
+        {
+          "id": "b",
+          "text": "3/x"
+        },
+        {
+          "id": "c",
+          "text": "1/(3x)"
+        },
+        {
+          "id": "d",
+          "text": "ln 3"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Derivative of ln(u) is u'/u, so 3/(3x)=1/x.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "log-derivatives"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "d/dx[cos(2x)] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "-sin(2x)"
+        },
+        {
+          "id": "b",
+          "text": "-2sin(2x)"
+        },
+        {
+          "id": "c",
+          "text": "2cos(2x)"
+        },
+        {
+          "id": "d",
+          "text": "sin(2x)"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Use chain rule on cos(u).",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "chain-rule",
+        "trig"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(eˣ)/(x)] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "eˣ/x"
+        },
+        {
+          "id": "b",
+          "text": "(xeˣ-eˣ)/x²"
+        },
+        {
+          "id": "c",
+          "text": "(eˣ-x)/x²"
+        },
+        {
+          "id": "d",
+          "text": "eˣ/x²"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Quotient rule gives (v u' - u v')/v².",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "quotient-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(3x-1)⁴] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "12(3x-1)³"
+        },
+        {
+          "id": "b",
+          "text": "4(3x-1)³"
+        },
+        {
+          "id": "c",
+          "text": "12x(3x-1)³"
+        },
+        {
+          "id": "d",
+          "text": "(3x-1)³"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Outer derivative 4(3x-1)³ times inner derivative 3.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "chain-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which derivative is correct for y = x²eˣ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2xeˣ"
+        },
+        {
+          "id": "b",
+          "text": "x²eˣ"
+        },
+        {
+          "id": "c",
+          "text": "2xeˣ + x²eˣ"
+        },
+        {
+          "id": "d",
+          "text": "x²eˣ + eˣ"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Product rule on x² and eˣ.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "product-rule"
+      ],
+      "media": null
+    }
+  ]
+}

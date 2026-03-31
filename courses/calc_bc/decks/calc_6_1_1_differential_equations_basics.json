@@ -1,0 +1,326 @@
+{
+  "deck_id": "calc_6_1_1",
+  "subject": "ap_calculus_bc",
+  "title": "Differential Equations Basics",
+  "skill_band_id": "calc_band_6",
+  "skill_id": "calc_6_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "differential-equations",
+    "separable"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which equation is separable?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "dy/dx = x+y"
+        },
+        {
+          "id": "b",
+          "text": "dy/dx = xy"
+        },
+        {
+          "id": "c",
+          "text": "dy/dx + y = x"
+        },
+        {
+          "id": "d",
+          "text": "dy/dx = x + y²"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "dy/dx = xy can be written as (1/y)dy = x dx.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "separable"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A slope field shows:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Exact function values"
+        },
+        {
+          "id": "b",
+          "text": "Possible tangent slopes at many points"
+        },
+        {
+          "id": "c",
+          "text": "Only intercepts"
+        },
+        {
+          "id": "d",
+          "text": "Area under a curve"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Each tiny segment indicates local slope.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "slope-fields"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If dy/dx = 3y, then y = 0 is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A solution"
+        },
+        {
+          "id": "b",
+          "text": "Never a solution"
+        },
+        {
+          "id": "c",
+          "text": "A vertical asymptote"
+        },
+        {
+          "id": "d",
+          "text": "The only solution"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Substituting y=0 gives dy/dx=0, so it works.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "differential-equations"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "The family of solutions to dy/dx = ky often involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Polynomials only"
+        },
+        {
+          "id": "b",
+          "text": "Exponential functions"
+        },
+        {
+          "id": "c",
+          "text": "Trig only"
+        },
+        {
+          "id": "d",
+          "text": "Logarithms only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Growth and decay models are exponential.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "growth-decay"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Separating variables means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Taking a derivative twice"
+        },
+        {
+          "id": "b",
+          "text": "Putting y terms with dy and x terms with dx"
+        },
+        {
+          "id": "c",
+          "text": "Factoring a polynomial"
+        },
+        {
+          "id": "d",
+          "text": "Finding an inverse"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That is the key setup step.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "separable"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If dy/dx = 2x and y(0)=1, then y =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x²+1"
+        },
+        {
+          "id": "b",
+          "text": "2x+1"
+        },
+        {
+          "id": "c",
+          "text": "x²"
+        },
+        {
+          "id": "d",
+          "text": "2x²+1"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Integrate 2x to get x²+C, then use the initial condition.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "initial-condition"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "A particular solution is chosen by using:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A limit at infinity"
+        },
+        {
+          "id": "b",
+          "text": "An initial condition"
+        },
+        {
+          "id": "c",
+          "text": "Only a graph"
+        },
+        {
+          "id": "d",
+          "text": "No extra information"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The initial condition determines the constant.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "initial-condition"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "If dy/dx = y and y(0)=2, then y is best modeled by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2eˣ"
+        },
+        {
+          "id": "b",
+          "text": "e²ˣ"
+        },
+        {
+          "id": "c",
+          "text": "2x"
+        },
+        {
+          "id": "d",
+          "text": "x²+2"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Exponential growth with initial value 2.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "growth-decay"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "In a logistic model, growth eventually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Explodes forever linearly"
+        },
+        {
+          "id": "b",
+          "text": "Levels off near a carrying capacity"
+        },
+        {
+          "id": "c",
+          "text": "Stops immediately"
+        },
+        {
+          "id": "d",
+          "text": "Alternates sign"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Logistic growth approaches a limit.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "logistic"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "A differential equation relates a function to its:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inverse only"
+        },
+        {
+          "id": "b",
+          "text": "Derivatives"
+        },
+        {
+          "id": "c",
+          "text": "Integrals only"
+        },
+        {
+          "id": "d",
+          "text": "Zeros only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That is what makes it differential.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "differential-equations"
+      ],
+      "media": null
+    }
+  ]
+}

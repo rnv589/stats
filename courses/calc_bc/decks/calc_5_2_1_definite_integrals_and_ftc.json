@@ -1,0 +1,278 @@
+{
+  "deck_id": "calc_5_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Definite Integrals and FTC",
+  "skill_band_id": "calc_band_5",
+  "skill_id": "calc_5_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "integrals",
+    "FTC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "prompt": "∫ from 0 to 2 of 3x² dx =",
+      "correct_numeric": 8,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "An antiderivative is x³, so evaluate 2³−0³.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "definite-integrals"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "prompt": "∫ from 1 to 3 of 2 dx =",
+      "correct_numeric": 4,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "Constant area is width times height: 2·(3−1).",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "definite-integrals"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "The Fundamental Theorem of Calculus says if F′=f, then ∫ from a to b of f(x) dx =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f(b)-f(a)"
+        },
+        {
+          "id": "b",
+          "text": "F(b)-F(a)"
+        },
+        {
+          "id": "c",
+          "text": "F′(b)-F′(a)"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Use an antiderivative and evaluate endpoints.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "FTC"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A definite integral represents:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only positive area"
+        },
+        {
+          "id": "b",
+          "text": "Net signed area"
+        },
+        {
+          "id": "c",
+          "text": "Always slope"
+        },
+        {
+          "id": "d",
+          "text": "A second derivative"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Below-axis parts count negative.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "prompt": "If F(x)=x², then ∫ from 1 to 4 of 2x dx =",
+      "correct_numeric": 15,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "Use F(4)-F(1)=16-1.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "FTC"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If ∫ from a to b f(x)dx is negative, then:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f is always negative"
+        },
+        {
+          "id": "b",
+          "text": "More signed area is below the axis than above"
+        },
+        {
+          "id": "c",
+          "text": "No area exists"
+        },
+        {
+          "id": "d",
+          "text": "f must be linear"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Net signed area is negative.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Reversing the limits of integration changes the value by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Doubling it"
+        },
+        {
+          "id": "b",
+          "text": "Making it zero"
+        },
+        {
+          "id": "c",
+          "text": "Changing the sign"
+        },
+        {
+          "id": "d",
+          "text": "Keeping it the same"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "∫ from b to a f = -∫ from a to b f.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "definite-integrals"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "prompt": "∫ from 0 to 1 of x dx =",
+      "correct_numeric": 0.5,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "This is the area of a right triangle with base 1 and height 1.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "If f(x)≥0 on [a,b], then ∫ from a to b f(x)dx is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "≤0"
+        },
+        {
+          "id": "b",
+          "text": "≥0"
+        },
+        {
+          "id": "c",
+          "text": "undefined"
+        },
+        {
+          "id": "d",
+          "text": "equal to 1"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Nonnegative area gives a nonnegative integral.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "The derivative of an accumulation function is often found using:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "IVT"
+        },
+        {
+          "id": "b",
+          "text": "Chain rule only"
+        },
+        {
+          "id": "c",
+          "text": "FTC Part 1"
+        },
+        {
+          "id": "d",
+          "text": "L'Hôpital's Rule"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "FTC Part 1 links accumulation to derivatives.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "FTC"
+      ],
+      "media": null
+    }
+  ]
+}

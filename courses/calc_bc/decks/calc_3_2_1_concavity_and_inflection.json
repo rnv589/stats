@@ -1,0 +1,332 @@
+{
+  "deck_id": "calc_3_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Concavity and Inflection",
+  "skill_band_id": "calc_band_3",
+  "skill_id": "calc_3_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "concavity",
+    "inflection"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "From the graph of f″(x), f is concave up when x is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Less than 0"
+        },
+        {
+          "id": "b",
+          "text": "Greater than 0"
+        },
+        {
+          "id": "c",
+          "text": "Equal to 0"
+        },
+        {
+          "id": "d",
+          "text": "Never"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "f is concave up where f″ > 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "concavity"
+      ],
+      "media": {
+        "image": "media/images/graph_fdoubleprime_line.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "From the graph of f″(x), f is concave down when x is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Less than 0"
+        },
+        {
+          "id": "b",
+          "text": "Greater than 0"
+        },
+        {
+          "id": "c",
+          "text": "Equal to 0"
+        },
+        {
+          "id": "d",
+          "text": "Always"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "f is concave down where f″ < 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "concavity"
+      ],
+      "media": {
+        "image": "media/images/graph_fdoubleprime_line.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "graph_multiple_choice",
+      "prompt": "From the graph of f″(x), f has a possible inflection point at x =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "-1"
+        },
+        {
+          "id": "b",
+          "text": "0"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "2"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "f″ changes sign at x = 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "inflection"
+      ],
+      "media": {
+        "image": "media/images/graph_fdoubleprime_line.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A point of inflection occurs where:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f′ = 0"
+        },
+        {
+          "id": "b",
+          "text": "f″ changes sign"
+        },
+        {
+          "id": "c",
+          "text": "f is undefined"
+        },
+        {
+          "id": "d",
+          "text": "f′ is positive"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Concavity must actually change.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "inflection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If f″ > 0 on an interval, then f′ is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Decreasing"
+        },
+        {
+          "id": "b",
+          "text": "Increasing"
+        },
+        {
+          "id": "c",
+          "text": "Constant"
+        },
+        {
+          "id": "d",
+          "text": "Negative"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A positive second derivative means slopes are increasing.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "second-derivative"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If f″ < 0 on an interval, then f′ is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increasing"
+        },
+        {
+          "id": "b",
+          "text": "Decreasing"
+        },
+        {
+          "id": "c",
+          "text": "Always zero"
+        },
+        {
+          "id": "d",
+          "text": "Undefined"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A negative second derivative means slopes are decreasing.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "second-derivative"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "Which statement is always true if f has an inflection point at x = a?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f′(a)=0"
+        },
+        {
+          "id": "b",
+          "text": "f″(a)=0"
+        },
+        {
+          "id": "c",
+          "text": "Concavity changes at a"
+        },
+        {
+          "id": "d",
+          "text": "f has a local extremum at a"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "That is the definition.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "inflection"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Concavity describes whether tangent slopes are getting:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bigger or smaller"
+        },
+        {
+          "id": "b",
+          "text": "Positive or negative"
+        },
+        {
+          "id": "c",
+          "text": "Rational or irrational"
+        },
+        {
+          "id": "d",
+          "text": "Defined or undefined"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Concavity tracks how the slopes change.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "concavity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "A graph that bends like a cup is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Concave up"
+        },
+        {
+          "id": "b",
+          "text": "Concave down"
+        },
+        {
+          "id": "c",
+          "text": "Linear"
+        },
+        {
+          "id": "d",
+          "text": "Oscillating"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Cup-shaped means concave up.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "concavity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "A graph that bends like an upside-down cup is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Concave up"
+        },
+        {
+          "id": "b",
+          "text": "Concave down"
+        },
+        {
+          "id": "c",
+          "text": "Constant"
+        },
+        {
+          "id": "d",
+          "text": "Exponential"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That is concave down.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "concavity"
+      ],
+      "media": null
+    }
+  ]
+}

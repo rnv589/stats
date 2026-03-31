@@ -1,0 +1,301 @@
+{
+  "deck_id": "calc_7_1_1",
+  "subject": "ap_calculus_bc",
+  "title": "Area Between Curves",
+  "skill_band_id": "calc_band_7",
+  "skill_id": "calc_7_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "area-between-curves"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Area between y=top and y=bottom on [a,b] is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "∫(top−bottom) dx"
+        },
+        {
+          "id": "b",
+          "text": "∫(bottom−top) dx"
+        },
+        {
+          "id": "c",
+          "text": "top−bottom only"
+        },
+        {
+          "id": "d",
+          "text": "∫top·bottom dx"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Subtract lower from upper.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area-between-curves"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "prompt": "Area between y=x and y=x² on [0,1] =",
+      "correct_numeric": 0.16666666666666666,
+      "tolerance": 0.02,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "Integrate x−x² from 0 to 1.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area-between-curves"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "When integrating with respect to y, area is usually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Top minus bottom"
+        },
+        {
+          "id": "b",
+          "text": "Right minus left"
+        },
+        {
+          "id": "c",
+          "text": "Outer minus inner"
+        },
+        {
+          "id": "d",
+          "text": "Always impossible"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Horizontal slices use right minus left.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area-between-curves"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "To find area between curves, you first need:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A derivative"
+        },
+        {
+          "id": "b",
+          "text": "Intersection points or bounds"
+        },
+        {
+          "id": "c",
+          "text": "A slope field"
+        },
+        {
+          "id": "d",
+          "text": "A Taylor series"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "You need the interval where one curve stays on top/left.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area-between-curves"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If two curves cross on the interval, the area problem may require:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Splitting into multiple integrals"
+        },
+        {
+          "id": "b",
+          "text": "No work"
+        },
+        {
+          "id": "c",
+          "text": "Only a derivative"
+        },
+        {
+          "id": "d",
+          "text": "A quotient rule"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "You must keep the integrand positive by splitting at intersections.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area-between-curves"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "prompt": "Area between y=2 and y=x on [0,2] =",
+      "correct_numeric": 2,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "Integrate 2−x from 0 to 2.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area-between-curves"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If a problem asks for area enclosed by curves, the answer should be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can be negative"
+        },
+        {
+          "id": "b",
+          "text": "Always nonnegative"
+        },
+        {
+          "id": "c",
+          "text": "Always zero"
+        },
+        {
+          "id": "d",
+          "text": "Undefined"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Area is a positive quantity.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area-between-curves"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "For area between y=f(x) and the x-axis where f≥0, the formula is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "∫f dx"
+        },
+        {
+          "id": "b",
+          "text": "∫|f| dx only"
+        },
+        {
+          "id": "c",
+          "text": "f(b)-f(a)"
+        },
+        {
+          "id": "d",
+          "text": "f′(x)"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "No absolute value is needed if the function stays above the axis.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area-between-curves"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "For x = y² and x = y + 2, the natural variable is often:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x"
+        },
+        {
+          "id": "b",
+          "text": "y"
+        },
+        {
+          "id": "c",
+          "text": "t"
+        },
+        {
+          "id": "d",
+          "text": "No variable"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The curves are already written as x in terms of y.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area-between-curves"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "The phrase 'enclosed region' usually means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Just one point"
+        },
+        {
+          "id": "b",
+          "text": "A finite closed area"
+        },
+        {
+          "id": "c",
+          "text": "A derivative value"
+        },
+        {
+          "id": "d",
+          "text": "An asymptote"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "You are looking for a bounded region.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "area-between-curves"
+      ],
+      "media": null
+    }
+  ]
+}

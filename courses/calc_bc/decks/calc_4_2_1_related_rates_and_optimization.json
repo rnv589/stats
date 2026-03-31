@@ -1,0 +1,326 @@
+{
+  "deck_id": "calc_4_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Related Rates and Optimization",
+  "skill_band_id": "calc_band_4",
+  "skill_id": "calc_4_2",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "related-rates",
+    "optimization"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "In related rates, the first step is usually to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Differentiate immediately without variables"
+        },
+        {
+          "id": "b",
+          "text": "Write an equation relating the changing quantities"
+        },
+        {
+          "id": "c",
+          "text": "Solve for a final number guess"
+        },
+        {
+          "id": "d",
+          "text": "Draw a polar graph"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "You need a relationship before differentiating with respect to time.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "related-rates"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If a circle's radius r changes with time, then A = πr² differentiated with respect to t gives:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "dA/dt = 2πr"
+        },
+        {
+          "id": "b",
+          "text": "dA/dt = 2πr dr/dt"
+        },
+        {
+          "id": "c",
+          "text": "dA/dt = π dr/dt"
+        },
+        {
+          "id": "d",
+          "text": "dA/dt = r²"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Use chain rule with respect to time.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "related-rates"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Optimization problems usually require finding:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An accumulation function"
+        },
+        {
+          "id": "b",
+          "text": "A maximum or minimum value under a constraint"
+        },
+        {
+          "id": "c",
+          "text": "A slope field"
+        },
+        {
+          "id": "d",
+          "text": "A Taylor series"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Optimization is about extrema with conditions.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "optimization"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A candidate for an absolute maximum on a closed interval can occur at:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only critical points"
+        },
+        {
+          "id": "b",
+          "text": "Only endpoints"
+        },
+        {
+          "id": "c",
+          "text": "Critical points or endpoints"
+        },
+        {
+          "id": "d",
+          "text": "Anywhere with positive derivative"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Check both critical points and endpoints.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "optimization"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If a rectangle has fixed perimeter, its maximum area occurs when it is a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Very long strip"
+        },
+        {
+          "id": "b",
+          "text": "Square"
+        },
+        {
+          "id": "c",
+          "text": "Triangle"
+        },
+        {
+          "id": "d",
+          "text": "Circle"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Among rectangles with fixed perimeter, the square maximizes area.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "optimization"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "In a related rates problem, units on the final answer help verify:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only whether it is positive"
+        },
+        {
+          "id": "b",
+          "text": "Whether the rate asked for matches the result"
+        },
+        {
+          "id": "c",
+          "text": "That the derivative is zero"
+        },
+        {
+          "id": "d",
+          "text": "That the graph is continuous"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Units are a fast logic check.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "related-rates"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If f′ changes from negative to positive, then that critical point is a local:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Maximum"
+        },
+        {
+          "id": "b",
+          "text": "Minimum"
+        },
+        {
+          "id": "c",
+          "text": "Inflection point"
+        },
+        {
+          "id": "d",
+          "text": "Endpoint"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "First derivative test.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "optimization"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "A constraint equation in optimization is used to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eliminate one variable"
+        },
+        {
+          "id": "b",
+          "text": "Make the derivative zero"
+        },
+        {
+          "id": "c",
+          "text": "Avoid endpoints"
+        },
+        {
+          "id": "d",
+          "text": "Find a slope field"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "It lets you rewrite the target quantity in one variable.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "optimization"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Related rates problems almost always involve derivatives with respect to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x"
+        },
+        {
+          "id": "b",
+          "text": "y"
+        },
+        {
+          "id": "c",
+          "text": "t"
+        },
+        {
+          "id": "d",
+          "text": "θ only"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Quantities change over time.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "related-rates"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "A local maximum can occur where:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f′=0 or undefined and sign changes + to -"
+        },
+        {
+          "id": "b",
+          "text": "f″=0 only"
+        },
+        {
+          "id": "c",
+          "text": "The function crosses the y-axis"
+        },
+        {
+          "id": "d",
+          "text": "The derivative is positive on both sides"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "That sign change indicates a max.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "optimization"
+      ],
+      "media": null
+    }
+  ]
+}

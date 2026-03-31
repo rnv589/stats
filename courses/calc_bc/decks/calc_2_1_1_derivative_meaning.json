@@ -1,0 +1,291 @@
+{
+  "deck_id": "calc_2_1_1",
+  "subject": "ap_calculus_bc",
+  "title": "Derivative Meaning",
+  "skill_band_id": "calc_band_2",
+  "skill_id": "calc_2_1",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "derivatives",
+    "rates"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "The derivative f′(a) represents the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Average value of f"
+        },
+        {
+          "id": "b",
+          "text": "Slope of the tangent line at x = a"
+        },
+        {
+          "id": "c",
+          "text": "Area under f"
+        },
+        {
+          "id": "d",
+          "text": "Maximum value of f"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The derivative is the instantaneous rate of change.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "derivative-meaning"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If f′(2) = -3, then the tangent line at x = 2 has slope:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "-3"
+        },
+        {
+          "id": "b",
+          "text": "-2"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "3"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "The derivative equals the tangent slope.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "derivative-meaning"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If position s(t) is measured in meters, then s′(t) is measured in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "meters"
+        },
+        {
+          "id": "b",
+          "text": "seconds"
+        },
+        {
+          "id": "c",
+          "text": "meters per second"
+        },
+        {
+          "id": "d",
+          "text": "meters per second squared"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Derivative units are output units per input unit.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "units",
+        "motion"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A positive derivative means the function is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Decreasing"
+        },
+        {
+          "id": "b",
+          "text": "Increasing"
+        },
+        {
+          "id": "c",
+          "text": "Concave down"
+        },
+        {
+          "id": "d",
+          "text": "Undefined"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Positive slope means the graph rises as x increases.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "increasing-decreasing"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "If f′(a)=0, then x=a is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Always a maximum"
+        },
+        {
+          "id": "b",
+          "text": "Always a minimum"
+        },
+        {
+          "id": "c",
+          "text": "A critical point"
+        },
+        {
+          "id": "d",
+          "text": "Not on the graph"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Zero derivative is one way to get a critical point.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "critical-points"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "prompt": "For f(x)=x², what is f′(3)?",
+      "correct_numeric": 6,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "Since f′(x)=2x, substitute x=3.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "power-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "prompt": "For f(x)=5x, what is f′(x)? Enter the constant value.",
+      "correct_numeric": 5,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "The derivative of a linear function ax is a.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "basic-derivatives"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "The average rate of change of f on [a,b] is based on the slope of the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tangent line"
+        },
+        {
+          "id": "b",
+          "text": "Secant line"
+        },
+        {
+          "id": "c",
+          "text": "Normal line"
+        },
+        {
+          "id": "d",
+          "text": "Asymptote"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Average change uses two points, so it is a secant slope.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "rate-of-change"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "numeric",
+      "prompt": "For f(x)=x³, what is the slope of the tangent at x=1?",
+      "correct_numeric": 3,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "f′(x)=3x², so f′(1)=3.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "power-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "If the tangent line to f at x = 4 is horizontal, then f′(4) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "-1"
+        },
+        {
+          "id": "b",
+          "text": "0"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "Does not exist"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "A horizontal tangent has slope 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "derivative-meaning"
+      ],
+      "media": null
+    }
+  ]
+}

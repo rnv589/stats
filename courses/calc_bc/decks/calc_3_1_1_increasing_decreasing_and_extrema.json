@@ -1,0 +1,335 @@
+{
+  "deck_id": "calc_3_1_1",
+  "subject": "ap_calculus_bc",
+  "title": "Increasing, Decreasing, and Extrema",
+  "skill_band_id": "calc_band_3",
+  "skill_id": "calc_3_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "f-prime",
+    "extrema"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "graph_multiple_choice",
+      "prompt": "From the graph of f′(x), on which interval is f increasing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "(-3,-1) only"
+        },
+        {
+          "id": "b",
+          "text": "(-1,2) only"
+        },
+        {
+          "id": "c",
+          "text": "(2,3) only"
+        },
+        {
+          "id": "d",
+          "text": "(-3,-1) and (2,3)"
+        }
+      ],
+      "correct_choice_id": "d",
+      "explanation": "f increases where f′(x) is above the x-axis.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "f-prime",
+        "increasing"
+      ],
+      "media": {
+        "image": "media/images/graph_fprime_quadratic.png"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "graph_multiple_choice",
+      "prompt": "From the graph of f′(x), f has a relative maximum at x =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "-1"
+        },
+        {
+          "id": "b",
+          "text": "0"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "3"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "f′ changes from positive to negative at x = 2.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "extrema"
+      ],
+      "media": {
+        "image": "media/images/graph_fprime_quadratic.png"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "graph_multiple_choice",
+      "prompt": "From the graph of f′(x), f has a relative minimum at x =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "-1"
+        },
+        {
+          "id": "b",
+          "text": "0"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "No relative minimum"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "f′ changes from negative to positive at x = -1.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "extrema"
+      ],
+      "media": {
+        "image": "media/images/graph_fprime_quadratic.png"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "graph_multiple_choice",
+      "prompt": "Where is f decreasing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "(-3,-1)"
+        },
+        {
+          "id": "b",
+          "text": "(-1,2)"
+        },
+        {
+          "id": "c",
+          "text": "(2,3)"
+        },
+        {
+          "id": "d",
+          "text": "Nowhere"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "f decreases where f′ is below 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "decreasing"
+      ],
+      "media": {
+        "image": "media/images/graph_fprime_quadratic.png"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A critical point occurs where:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f′ = 0 or f′ is undefined"
+        },
+        {
+          "id": "b",
+          "text": "f = 0 only"
+        },
+        {
+          "id": "c",
+          "text": "f″ = 0 only"
+        },
+        {
+          "id": "d",
+          "text": "The graph crosses the y-axis"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Those are the two ways critical points arise.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "critical-points"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If f′ changes from negative to positive at x = a, then f has a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Relative maximum"
+        },
+        {
+          "id": "b",
+          "text": "Relative minimum"
+        },
+        {
+          "id": "c",
+          "text": "Point of inflection"
+        },
+        {
+          "id": "d",
+          "text": "Vertical tangent"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That sign change means the graph switches from decreasing to increasing.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "first-derivative-test"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "If f′ is positive on an interval, f is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increasing there"
+        },
+        {
+          "id": "b",
+          "text": "Decreasing there"
+        },
+        {
+          "id": "c",
+          "text": "Concave up there"
+        },
+        {
+          "id": "d",
+          "text": "Constant there"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Positive derivative means positive slope.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "increasing-decreasing"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "If f′ is negative on an interval, f is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increasing"
+        },
+        {
+          "id": "b",
+          "text": "Decreasing"
+        },
+        {
+          "id": "c",
+          "text": "Always concave down"
+        },
+        {
+          "id": "d",
+          "text": "Always linear"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Negative derivative means slope is negative.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "increasing-decreasing"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "If f′(a)=0 but the sign of f′ does not change at a, then a is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Definitely a max"
+        },
+        {
+          "id": "b",
+          "text": "Definitely a min"
+        },
+        {
+          "id": "c",
+          "text": "Not necessarily an extremum"
+        },
+        {
+          "id": "d",
+          "text": "Not a critical point"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "A sign change is needed for a local extremum test.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "first-derivative-test"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "The first derivative test uses the sign of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f"
+        },
+        {
+          "id": "b",
+          "text": "f′"
+        },
+        {
+          "id": "c",
+          "text": "f″"
+        },
+        {
+          "id": "d",
+          "text": "∫f"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "It checks how f′ behaves around a critical point.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "first-derivative-test"
+      ],
+      "media": null
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "deck_id": "calc_9_3_1",
+  "subject": "ap_calculus_bc",
+  "title": "Taylor and Maclaurin Series",
+  "skill_band_id": "calc_band_9",
+  "skill_id": "calc_9_3",
+  "difficulty": "hard",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "taylor-series",
+    "maclaurin"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "A Maclaurin series is a Taylor series centered at:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x=0"
+        },
+        {
+          "id": "b",
+          "text": "x=1"
+        },
+        {
+          "id": "c",
+          "text": "x=π"
+        },
+        {
+          "id": "d",
+          "text": "Any x"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Maclaurin means centered at 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "taylor-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "The Maclaurin series for eˣ begins:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1+x+x²/2!+x³/3!+..."
+        },
+        {
+          "id": "b",
+          "text": "x+x²+x³+..."
+        },
+        {
+          "id": "c",
+          "text": "1/(1-x)"
+        },
+        {
+          "id": "d",
+          "text": "1-x+x²-..."
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "This is a standard BC series.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "known-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "The geometric series 1+x+x²+... equals:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/(1+x)"
+        },
+        {
+          "id": "b",
+          "text": "1/(1-x)"
+        },
+        {
+          "id": "c",
+          "text": "eˣ"
+        },
+        {
+          "id": "d",
+          "text": "ln(1+x)"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "For |x|<1, this is the geometric expansion.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "known-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "The Maclaurin series for sin x contains only:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Even powers"
+        },
+        {
+          "id": "b",
+          "text": "Odd powers"
+        },
+        {
+          "id": "c",
+          "text": "Both even and odd powers with all positive signs"
+        },
+        {
+          "id": "d",
+          "text": "No x term"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "sin x = x - x³/3! + x⁵/5! - ...",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "known-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "The Maclaurin series for cos x begins:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1 - x²/2! + x⁴/4! - ..."
+        },
+        {
+          "id": "b",
+          "text": "x - x³/3! + ..."
+        },
+        {
+          "id": "c",
+          "text": "1 + x + x² + ..."
+        },
+        {
+          "id": "d",
+          "text": "ln(1+x)"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "cos x uses even powers with alternating signs.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "known-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "A Taylor polynomial is used to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Approximate a function near its center"
+        },
+        {
+          "id": "b",
+          "text": "Find exact roots only"
+        },
+        {
+          "id": "c",
+          "text": "Draw slope fields"
+        },
+        {
+          "id": "d",
+          "text": "Solve all differential equations"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "It is a local polynomial approximation.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "taylor-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "The interval of convergence tells where a power series:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Has a derivative"
+        },
+        {
+          "id": "b",
+          "text": "Represents a convergent sum"
+        },
+        {
+          "id": "c",
+          "text": "Has positive coefficients"
+        },
+        {
+          "id": "d",
+          "text": "Matches its first term"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That interval is where the series converges.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "interval-of-convergence"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "The radius of convergence is half the interval length when the interval is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Symmetric about its center"
+        },
+        {
+          "id": "b",
+          "text": "Always open"
+        },
+        {
+          "id": "c",
+          "text": "Always closed"
+        },
+        {
+          "id": "d",
+          "text": "Geometric"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Power series converge symmetrically around the center in standard cases.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "radius-of-convergence"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "The nth-degree Taylor polynomial uses derivatives through order:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "n"
+        },
+        {
+          "id": "b",
+          "text": "n+1"
+        },
+        {
+          "id": "c",
+          "text": "2n"
+        },
+        {
+          "id": "d",
+          "text": "1 only"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "It uses derivative information up to degree n.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "taylor-polynomial"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which series is alternating for positive x near 0?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "eˣ"
+        },
+        {
+          "id": "b",
+          "text": "sin x"
+        },
+        {
+          "id": "c",
+          "text": "1/(1-x)"
+        },
+        {
+          "id": "d",
+          "text": "1+x+x²+..."
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The sine series alternates signs.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "known-series"
+      ],
+      "media": null
+    }
+  ]
+}

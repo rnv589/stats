@@ -1,0 +1,313 @@
+{
+  "deck_id": "calc_7_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Volumes of Solids",
+  "skill_band_id": "calc_band_7",
+  "skill_id": "calc_7_2",
+  "difficulty": "hard",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "volume"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Rotating a region around the x-axis with perpendicular slices usually suggests the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Disk/washer method"
+        },
+        {
+          "id": "b",
+          "text": "Shell method only"
+        },
+        {
+          "id": "c",
+          "text": "Slope field method"
+        },
+        {
+          "id": "d",
+          "text": "Euler method"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Perpendicular slices to the axis fit disks or washers.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "volume"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A washer is used when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "There is a hole in the solid"
+        },
+        {
+          "id": "b",
+          "text": "The radius is zero"
+        },
+        {
+          "id": "c",
+          "text": "The axis is vertical"
+        },
+        {
+          "id": "d",
+          "text": "The function is constant"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A washer has an outer radius and inner radius.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "volume"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Rotating around the y-axis using vertical slices often suggests the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Disk method"
+        },
+        {
+          "id": "b",
+          "text": "Washer method"
+        },
+        {
+          "id": "c",
+          "text": "Shell method"
+        },
+        {
+          "id": "d",
+          "text": "No method"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Parallel slices give cylindrical shells.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "volume"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Volume has units of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "square units"
+        },
+        {
+          "id": "b",
+          "text": "cubic units"
+        },
+        {
+          "id": "c",
+          "text": "units per second"
+        },
+        {
+          "id": "d",
+          "text": "unitless"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Volume is three-dimensional.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "volume"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "prompt": "Rotating y=x on [0,1] about the x-axis using disks gives volume =",
+      "correct_numeric": 1.0471975511965976,
+      "tolerance": 0.03,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "V=π∫ from 0 to 1 x² dx = π/3.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "volume"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "For the disk method, volume formula is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "π∫r² dx"
+        },
+        {
+          "id": "b",
+          "text": "2π∫rh dx"
+        },
+        {
+          "id": "c",
+          "text": "∫area dx only without π"
+        },
+        {
+          "id": "d",
+          "text": "π∫(R−r) dx"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Each cross-section is a circle of area πr².",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "volume"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "For the shell method, the shell volume piece includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "πr²"
+        },
+        {
+          "id": "b",
+          "text": "2π(radius)(height)"
+        },
+        {
+          "id": "c",
+          "text": "radius/height"
+        },
+        {
+          "id": "d",
+          "text": "Only height²"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Circumference times height times thickness.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "volume"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "The hardest part of many volume problems is usually:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Choosing the correct radius or height expression"
+        },
+        {
+          "id": "b",
+          "text": "Taking a derivative"
+        },
+        {
+          "id": "c",
+          "text": "Finding an inverse trig value"
+        },
+        {
+          "id": "d",
+          "text": "Using IVT"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Setup matters more than the final integration.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "volume"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Cross-section problems give the area of each slice as a function of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its position along the axis"
+        },
+        {
+          "id": "b",
+          "text": "Time only"
+        },
+        {
+          "id": "c",
+          "text": "Derivative only"
+        },
+        {
+          "id": "d",
+          "text": "Angle only"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Then volume is ∫A(x)dx or ∫A(y)dy.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "volume"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "If cross-sections perpendicular to the x-axis are squares, each slice area is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "side²"
+        },
+        {
+          "id": "b",
+          "text": "πr²"
+        },
+        {
+          "id": "c",
+          "text": "2πrh"
+        },
+        {
+          "id": "d",
+          "text": "(1/2)bh"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A square’s area is side squared.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "volume"
+      ],
+      "media": null
+    }
+  ]
+}

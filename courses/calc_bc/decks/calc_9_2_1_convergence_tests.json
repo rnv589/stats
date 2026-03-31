@@ -1,0 +1,325 @@
+{
+  "deck_id": "calc_9_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Convergence Tests",
+  "skill_band_id": "calc_band_9",
+  "skill_id": "calc_9_2",
+  "difficulty": "hard",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "convergence-tests"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "If lim n→∞ a_n ≠ 0, then ∑a_n:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Converges"
+        },
+        {
+          "id": "b",
+          "text": "Diverges"
+        },
+        {
+          "id": "c",
+          "text": "Must be geometric"
+        },
+        {
+          "id": "d",
+          "text": "Must alternate"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "This is the nth-term divergence test.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "convergence-tests"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "The ratio test is especially useful for series with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Factorials or powers"
+        },
+        {
+          "id": "b",
+          "text": "Only constants"
+        },
+        {
+          "id": "c",
+          "text": "Only p-series"
+        },
+        {
+          "id": "d",
+          "text": "Only telescoping forms"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Factorials and powers simplify nicely in a ratio.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "ratio-test"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "The alternating series test requires terms that are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increasing and nonnegative"
+        },
+        {
+          "id": "b",
+          "text": "Decreasing to 0"
+        },
+        {
+          "id": "c",
+          "text": "Geometric only"
+        },
+        {
+          "id": "d",
+          "text": "Negative only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Terms must decrease in magnitude to 0.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "alternating-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "Comparison tests are useful when a series resembles a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Known benchmark series"
+        },
+        {
+          "id": "b",
+          "text": "Derivative formula"
+        },
+        {
+          "id": "c",
+          "text": "Slope field"
+        },
+        {
+          "id": "d",
+          "text": "Polar graph"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "You compare to a series with known behavior.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "comparison-test"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "∑ 1/n² converges by the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "p-series test"
+        },
+        {
+          "id": "b",
+          "text": "Alternating series test"
+        },
+        {
+          "id": "c",
+          "text": "Divergence test"
+        },
+        {
+          "id": "d",
+          "text": "Ratio test"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "It is a p-series with p=2>1.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "p-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "∑ 1/n diverges by the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "p-series test"
+        },
+        {
+          "id": "b",
+          "text": "Ratio test"
+        },
+        {
+          "id": "c",
+          "text": "Taylor test"
+        },
+        {
+          "id": "d",
+          "text": "FTC"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "It is the harmonic series with p=1.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "p-series"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "The ratio test gives convergence when the limit L satisfies:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "L>1"
+        },
+        {
+          "id": "b",
+          "text": "L<1"
+        },
+        {
+          "id": "c",
+          "text": "L=1"
+        },
+        {
+          "id": "d",
+          "text": "L=0 only"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Less than 1 means the terms shrink fast enough.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "ratio-test"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "The integral test requires a function that is positive, continuous, and:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increasing"
+        },
+        {
+          "id": "b",
+          "text": "Decreasing"
+        },
+        {
+          "id": "c",
+          "text": "Periodic"
+        },
+        {
+          "id": "d",
+          "text": "Polynomial"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "It also must decrease on the interval used.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "integral-test"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Absolute convergence means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The original series converges but the absolute value series diverges"
+        },
+        {
+          "id": "b",
+          "text": "The series of absolute values converges"
+        },
+        {
+          "id": "c",
+          "text": "The terms are all positive"
+        },
+        {
+          "id": "d",
+          "text": "The ratio is less than 0"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That is the definition.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "absolute-convergence"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Conditional convergence means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both the series and absolute value series converge"
+        },
+        {
+          "id": "b",
+          "text": "The series converges but the absolute value series diverges"
+        },
+        {
+          "id": "c",
+          "text": "The series diverges"
+        },
+        {
+          "id": "d",
+          "text": "Only finite sums exist"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "This happens for some alternating series.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "conditional-convergence"
+      ],
+      "media": null
+    }
+  ]
+}

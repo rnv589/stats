@@ -1,0 +1,322 @@
+{
+  "deck_id": "calc_4_1_1",
+  "subject": "ap_calculus_bc",
+  "title": "Motion Along a Line",
+  "skill_band_id": "calc_band_4",
+  "skill_id": "calc_4_1",
+  "difficulty": "medium",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "motion",
+    "velocity",
+    "acceleration"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "If s(t) is position, then s′(t) is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Acceleration"
+        },
+        {
+          "id": "b",
+          "text": "Velocity"
+        },
+        {
+          "id": "c",
+          "text": "Speed only"
+        },
+        {
+          "id": "d",
+          "text": "Distance"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Derivative of position is velocity.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "motion"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If v(t) is velocity, then v′(t) is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Position"
+        },
+        {
+          "id": "b",
+          "text": "Acceleration"
+        },
+        {
+          "id": "c",
+          "text": "Jerk-free motion"
+        },
+        {
+          "id": "d",
+          "text": "Distance"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Derivative of velocity is acceleration.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "motion"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A particle moves right when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "v(t) > 0"
+        },
+        {
+          "id": "b",
+          "text": "v(t) < 0"
+        },
+        {
+          "id": "c",
+          "text": "a(t) > 0"
+        },
+        {
+          "id": "d",
+          "text": "s(t) > 0"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Positive velocity means motion to the right.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "motion"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "A particle speeds up when velocity and acceleration have:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Opposite signs"
+        },
+        {
+          "id": "b",
+          "text": "The same sign"
+        },
+        {
+          "id": "c",
+          "text": "Different units"
+        },
+        {
+          "id": "d",
+          "text": "Value 0"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Same sign means the magnitude of velocity is increasing.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "motion"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "A particle changes direction when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a(t)=0"
+        },
+        {
+          "id": "b",
+          "text": "v(t)=0 and changes sign"
+        },
+        {
+          "id": "c",
+          "text": "s(t)=0"
+        },
+        {
+          "id": "d",
+          "text": "v(t)=a(t)"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Direction changes only if velocity crosses zero.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "motion"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "graph_multiple_choice",
+      "prompt": "From the rate graph, on which interval is the velocity constant?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0<t<1"
+        },
+        {
+          "id": "b",
+          "text": "1<t<3"
+        },
+        {
+          "id": "c",
+          "text": "3<t<4"
+        },
+        {
+          "id": "d",
+          "text": "Never"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "The graph is horizontal from t=1 to t=3.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "motion",
+        "graphs"
+      ],
+      "media": {
+        "image": "media/images/rate_graph_piecewise.png"
+      }
+    },
+    {
+      "id": "q7",
+      "type": "graph_multiple_choice",
+      "prompt": "From the rate graph, velocity is increasing on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0<t<1 only"
+        },
+        {
+          "id": "b",
+          "text": "1<t<3 only"
+        },
+        {
+          "id": "c",
+          "text": "3<t<4 only"
+        },
+        {
+          "id": "d",
+          "text": "0<t<1 and 3<t<4"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Velocity rises only on the first segment.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "motion",
+        "graphs"
+      ],
+      "media": {
+        "image": "media/images/rate_graph_piecewise.png"
+      }
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Displacement over [a,b] is found by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "∫ from a to b of v(t) dt"
+        },
+        {
+          "id": "b",
+          "text": "∫ from a to b of |v(t)| dt"
+        },
+        {
+          "id": "c",
+          "text": "v(b)-v(a) only"
+        },
+        {
+          "id": "d",
+          "text": "a(b)-a(a)"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Integral of velocity gives net change in position.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "motion",
+        "integrals"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "Distance traveled over [a,b] is found by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "∫ v(t) dt"
+        },
+        {
+          "id": "b",
+          "text": "∫ |v(t)| dt"
+        },
+        {
+          "id": "c",
+          "text": "s(b)-s(a) always"
+        },
+        {
+          "id": "d",
+          "text": "v(b)-v(a)"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Distance uses absolute value so all motion counts positively.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "distance-vs-displacement"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "numeric",
+      "prompt": "If v(t)=3t², then acceleration at t=2 is:",
+      "correct_numeric": 12,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "a(t)=v′(t)=6t, so a(2)=12.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "motion"
+      ],
+      "media": null
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "deck_id": "calc_1_2_1",
+  "subject": "ap_calculus_bc",
+  "title": "Continuity and IVT",
+  "skill_band_id": "calc_band_1",
+  "skill_id": "calc_1_2",
+  "difficulty": "easy",
+  "recommended_timer": 20,
+  "question_count": 10,
+  "tags": [
+    "continuity",
+    "IVT"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which statement best describes a removable discontinuity?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The limit exists but f(a) is missing or mismatched"
+        },
+        {
+          "id": "b",
+          "text": "The function has a vertical asymptote"
+        },
+        {
+          "id": "c",
+          "text": "The one-sided limits are unequal"
+        },
+        {
+          "id": "d",
+          "text": "The function oscillates wildly"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "A removable discontinuity is a hole that could be fixed by redefining one point.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "continuity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "If a function is continuous on [2,5], then the Intermediate Value Theorem guarantees it takes every y-value between:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f(2) and f(5)"
+        },
+        {
+          "id": "b",
+          "text": "2 and 5"
+        },
+        {
+          "id": "c",
+          "text": "0 and 1"
+        },
+        {
+          "id": "d",
+          "text": "Its minimum and maximum x-values"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "IVT is about output values between the endpoint outputs.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "IVT"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A function with a jump discontinuity at x = 3 is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Continuous at x = 3"
+        },
+        {
+          "id": "b",
+          "text": "Not continuous at x = 3"
+        },
+        {
+          "id": "c",
+          "text": "Differentiable at x = 3"
+        },
+        {
+          "id": "d",
+          "text": "Guaranteed to have a derivative there"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Any jump breaks continuity.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "continuity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If lim x→a f(x) does not exist, then f is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Definitely continuous at a"
+        },
+        {
+          "id": "b",
+          "text": "Definitely differentiable at a"
+        },
+        {
+          "id": "c",
+          "text": "Not continuous at a"
+        },
+        {
+          "id": "d",
+          "text": "Linear near a"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Continuity requires the limit to exist.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "continuity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "prompt": "Which is continuous for all real x?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/(x-2)"
+        },
+        {
+          "id": "b",
+          "text": "√x"
+        },
+        {
+          "id": "c",
+          "text": "|x|"
+        },
+        {
+          "id": "d",
+          "text": "A step function"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Absolute value is continuous for every real input.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "continuity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "If f is differentiable at x = 1, then f is also:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Continuous at x = 1"
+        },
+        {
+          "id": "b",
+          "text": "Constant near x = 1"
+        },
+        {
+          "id": "c",
+          "text": "Undefined at x = 1"
+        },
+        {
+          "id": "d",
+          "text": "Guaranteed to have f′(1)=0"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Differentiability implies continuity.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "differentiability",
+        "continuity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "The graph of y = 1/(x-4) has an infinite discontinuity at:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x = -4"
+        },
+        {
+          "id": "b",
+          "text": "x = 0"
+        },
+        {
+          "id": "c",
+          "text": "x = 4"
+        },
+        {
+          "id": "d",
+          "text": "x = 1"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "The denominator is zero at x = 4, creating a vertical asymptote.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "asymptotes"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "Which condition is enough to use IVT on [a,b]?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Differentiable on (a,b) only"
+        },
+        {
+          "id": "b",
+          "text": "Continuous on [a,b]"
+        },
+        {
+          "id": "c",
+          "text": "Increasing on [a,b]"
+        },
+        {
+          "id": "d",
+          "text": "Having equal endpoint values"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "IVT only needs continuity on the closed interval.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "IVT"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "If f(1) = 3 and lim x→1 f(x) = 3, then f is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Continuous at x = 1"
+        },
+        {
+          "id": "b",
+          "text": "Discontinuous at x = 1"
+        },
+        {
+          "id": "c",
+          "text": "Not defined at x = 1"
+        },
+        {
+          "id": "d",
+          "text": "Not differentiable everywhere"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Matching function value and limit gives continuity at that point.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "continuity"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which graph feature always prevents differentiability?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A smooth curve"
+        },
+        {
+          "id": "b",
+          "text": "A corner or cusp"
+        },
+        {
+          "id": "c",
+          "text": "A horizontal tangent"
+        },
+        {
+          "id": "d",
+          "text": "A positive slope"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Corners and cusps break differentiability.",
+      "hint": null,
+      "difficulty": "easy",
+      "subskill_tags": [
+        "differentiability"
+      ],
+      "media": null
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "deck_id": "calc_2_boss_1",
+  "subject": "ap_calculus_bc",
+  "title": "Derivative Rules Boss",
+  "skill_band_id": "calc_band_2",
+  "skill_id": "calc_2_boss",
+  "difficulty": "boss",
+  "recommended_timer": 15,
+  "question_count": 10,
+  "tags": [
+    "boss",
+    "derivatives"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(x³)(eˣ)] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3x²eˣ"
+        },
+        {
+          "id": "b",
+          "text": "x³eˣ"
+        },
+        {
+          "id": "c",
+          "text": "3x²eˣ + x³eˣ"
+        },
+        {
+          "id": "d",
+          "text": "eˣ(3x²+1)"
+        }
+      ],
+      "correct_choice_id": "c",
+      "explanation": "Use the product rule.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "product-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(sin x)/(x²)] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "(x² cos x - 2x sin x)/x⁴"
+        },
+        {
+          "id": "b",
+          "text": "cos x / x²"
+        },
+        {
+          "id": "c",
+          "text": "(x² cos x - sin x)/x⁴"
+        },
+        {
+          "id": "d",
+          "text": "(cos x - 2x sin x)/x²"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Use quotient rule with u=sin x and v=x².",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "quotient-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(5x²-1)³] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6x(5x²-1)²"
+        },
+        {
+          "id": "b",
+          "text": "30x(5x²-1)²"
+        },
+        {
+          "id": "c",
+          "text": "15x(5x²-1)²"
+        },
+        {
+          "id": "d",
+          "text": "3(5x²-1)²"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Outer derivative 3( )² times inner derivative 10x.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "chain-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "prompt": "If f(x)=x⁴-2x², then f′(x) =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4x³-4x"
+        },
+        {
+          "id": "b",
+          "text": "4x³-2x"
+        },
+        {
+          "id": "c",
+          "text": "x³-4x"
+        },
+        {
+          "id": "d",
+          "text": "4x²-4"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Differentiate term by term.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss"
+      ],
+      "media": null
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "prompt": "For f(x)=x³−3x, find f′(2).",
+      "correct_numeric": 9,
+      "tolerance": 0.01,
+      "accepted_formats": [
+        "integer",
+        "decimal",
+        "fraction"
+      ],
+      "explanation": "f′(x)=3x²−3, so f′(2)=12−3.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss"
+      ],
+      "media": null
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "prompt": "d/dx[(ln x)²] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2ln x"
+        },
+        {
+          "id": "b",
+          "text": "2ln x / x"
+        },
+        {
+          "id": "c",
+          "text": "1/x²"
+        },
+        {
+          "id": "d",
+          "text": "(ln x)/x²"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Chain rule on (ln x)².",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "log-derivatives"
+      ],
+      "media": null
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "prompt": "d/dx[√(x²+4)] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "x/√(x²+4)"
+        },
+        {
+          "id": "b",
+          "text": "1/(2√(x²+4))"
+        },
+        {
+          "id": "c",
+          "text": "2x/√(x²+4)"
+        },
+        {
+          "id": "d",
+          "text": "√(x²+4)"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Treat it as (x²+4)^(1/2) and use chain rule.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss"
+      ],
+      "media": null
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "prompt": "d/dx[tan x] =",
+      "choices": [
+        {
+          "id": "a",
+          "text": "sec x"
+        },
+        {
+          "id": "b",
+          "text": "sec²x"
+        },
+        {
+          "id": "c",
+          "text": "tan²x"
+        },
+        {
+          "id": "d",
+          "text": "1/tan²x"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "Standard derivative.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "trig"
+      ],
+      "media": null
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "prompt": "The derivative of a composite function f(g(x)) is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "f′(x)g′(x)"
+        },
+        {
+          "id": "b",
+          "text": "f′(g(x))g′(x)"
+        },
+        {
+          "id": "c",
+          "text": "f(g′(x))"
+        },
+        {
+          "id": "d",
+          "text": "g(f′(x))"
+        }
+      ],
+      "correct_choice_id": "b",
+      "explanation": "That is the chain rule.",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss",
+        "chain-rule"
+      ],
+      "media": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "prompt": "Which derivative matches y=(x²+1)e^(2x)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2xe^(2x) + 2(x²+1)e^(2x)"
+        },
+        {
+          "id": "b",
+          "text": "2xe^(2x) + (x²+1)e^(2x)"
+        },
+        {
+          "id": "c",
+          "text": "(2x+1)e^(2x)"
+        },
+        {
+          "id": "d",
+          "text": "(x²+1)2e^x"
+        }
+      ],
+      "correct_choice_id": "a",
+      "explanation": "Use product rule and derivative of e^(2x)=2e^(2x).",
+      "hint": null,
+      "difficulty": "hard",
+      "subskill_tags": [
+        "boss"
+      ],
+      "media": null
+    }
+  ]
+}
