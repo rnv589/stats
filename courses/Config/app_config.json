@@ -3,13 +3,6 @@
   "mastery_rule": {
     "correct_in_a_row_required": 3
   },
-  "timers": {
-    "training": [
-      30,
-      20,
-      15
-    ]
-  },
   "courses": [
     {
       "id": "ap_stats",
@@ -30,6 +23,16 @@
       "iconName": "function",
       "colorHex": "A020F0",
       "matchmakingGroup": 2
+    },
+    {
+      "id": "ap_biology",
+      "title": "AP BIOLOGY",
+      "subtitle": "SURVIVAL",
+      "remoteURL": "https://rnv589.github.io/stats/courses/",
+      "dataPath": "ap_biology",
+      "iconName": "leaf.fill",
+      "colorHex": "00FF00",
+      "matchmakingGroup": 3
     }
   ]
 }
