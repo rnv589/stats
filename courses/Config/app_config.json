@@ -9,5 +9,27 @@
       20,
       15
     ]
-  }
+  },
+  "courses": [
+    {
+      "id": "ap_stats",
+      "title": "AP STATS",
+      "subtitle": "ROYALE",
+      "remoteURL": "https://rnv589.github.io/stats/courses/",
+      "dataPath": "ap_stats",
+      "iconName": "chart.bar.fill",
+      "colorHex": "00FFFF",
+      "matchmakingGroup": 1
+    },
+    {
+      "id": "ap_calc_bc",
+      "title": "AP CALC BC",
+      "subtitle": "BATTLE",
+      "remoteURL": "https://rnv589.github.io/stats/courses/",
+      "dataPath": "calc_bc",
+      "iconName": "function",
+      "colorHex": "A020F0",
+      "matchmakingGroup": 2
+    }
+  ]
 }
